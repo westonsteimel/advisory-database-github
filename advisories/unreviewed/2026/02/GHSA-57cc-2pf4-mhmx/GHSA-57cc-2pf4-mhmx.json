@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-57cc-2pf4-mhmx",
+  "modified": "2026-02-16T15:32:47Z",
+  "published": "2026-02-16T15:32:47Z",
+  "aliases": [
+    "CVE-2025-14350"
+  ],
+  "details": "Mattermost versions 11.1.x <= 11.1.2, 10.11.x <= 10.11.9, 11.2.x <= 11.2.1 fail to properly validate team membership when processing channel mentions which allows authenticated users to determine the existence of teams and their URL names via posting channel shortlinks and observing the channel_mentions property in the API response. Mattermost Advisory ID: MMSA-2025-00563",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14350"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-16T13:15:59Z"
+  }
+}

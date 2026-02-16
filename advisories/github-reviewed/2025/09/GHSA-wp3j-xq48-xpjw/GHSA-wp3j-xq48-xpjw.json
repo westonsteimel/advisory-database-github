@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp3j-xq48-xpjw",
-  "modified": "2026-02-16T09:30:30Z",
+  "modified": "2026-02-16T15:32:47Z",
   "published": "2025-09-04T20:01:54Z",
   "aliases": [
     "CVE-2025-9566"
@@ -165,6 +165,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHEA-2025:4782"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:16163"
     },
     {
       "type": "WEB",
