@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76h8-9q54-37cc",
-  "modified": "2025-04-08T18:34:45Z",
+  "modified": "2026-02-17T00:30:18Z",
   "published": "2025-04-08T18:34:45Z",
   "aliases": [
     "CVE-2025-26637"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-26637"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Feb/15"
     }
   ],
   "database_specific": {
