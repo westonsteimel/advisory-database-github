@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h58h-8g45-v677",
-  "modified": "2022-05-01T23:27:17Z",
+  "modified": "2026-02-17T21:31:12Z",
   "published": "2022-05-01T23:27:17Z",
   "aliases": [
     "CVE-2008-0015"
   ],
   "details": "Stack-based buffer overflow in the CComVariant::ReadFromStream function in the Active Template Library (ATL), as used in the MPEG2TuneRequest ActiveX control in msvidctl.dll in DirectShow, in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 Gold and SP2 allows remote attackers to execute arbitrary code via a crafted web page, as exploited in the wild in July 2009, aka \"Microsoft Video ActiveX Control Vulnerability.\"",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7436"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2008-0015"
     },
     {
       "type": "WEB",
@@ -97,7 +106,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-121"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

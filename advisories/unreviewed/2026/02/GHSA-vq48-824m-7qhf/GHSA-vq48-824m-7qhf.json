@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq48-824m-7qhf",
-  "modified": "2026-02-17T15:31:35Z",
+  "modified": "2026-02-17T21:31:13Z",
   "published": "2026-02-17T15:31:35Z",
   "aliases": [
     "CVE-2026-22208"
   ],
   "details": "OpenS100 (the reference implementation S-100 viewer) prior to commit 753cf29 contain a remote code execution vulnerability via an unrestricted Lua interpreter. The Portrayal Engine initializes Lua using luaL_openlibs() without sandboxing or capability restrictions, exposing standard libraries such as 'os' and 'io' to untrusted portrayal catalogues. An attacker can provide a malicious S-100 portrayal catalogue containing Lua scripts that execute arbitrary commands with the privileges of the OpenS100 process when a user imports the catalogue and loads a chart.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

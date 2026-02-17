@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g989-fg9h-96pr",
-  "modified": "2026-02-17T15:31:34Z",
+  "modified": "2026-02-17T21:31:13Z",
   "published": "2026-02-14T00:32:42Z",
   "aliases": [
     "CVE-2025-70954"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://mp.weixin.qq.com/s/IbRKrCKdMyIi-azkuqOOvg"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tonbit.xyz/blog/post/TonBit-Discovers-Critical-Vulnerability-on-TON-Virtual-Machine-for-the-Third-Time-Once-Again-Receiving-Official-Recognition-from-the-TON-Team.html"
     }
   ],
   "database_specific": {

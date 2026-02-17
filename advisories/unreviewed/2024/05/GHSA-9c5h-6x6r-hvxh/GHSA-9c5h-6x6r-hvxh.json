@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c5h-6x6r-hvxh",
-  "modified": "2024-05-02T15:30:33Z",
+  "modified": "2026-02-17T21:31:12Z",
   "published": "2024-05-02T15:30:33Z",
   "aliases": [
     "CVE-2024-23462"
   ],
-  "details": "An Improper Validation of Integrity Check Value vulnerability in Zscaler Client Connector on MacOS allows a denial of service of the Client Connector binary and thus removing client functionality.This issue affects Client Connector on MacOS: before 3.4.\n\n",
+  "details": "An Improper Validation of Integrity Check Value vulnerability in Zscaler Client Connector on MacOS allows a denial of service of the Client Connector binary and thus removing client functionality.This issue affects Client Connector on MacOS: before 3.4.",
   "severity": [
     {
       "type": "CVSS_V3",

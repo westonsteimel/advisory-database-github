@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpp8-qpcr-c3rg",
-  "modified": "2026-02-13T21:31:39Z",
+  "modified": "2026-02-17T21:31:13Z",
   "published": "2026-02-13T21:31:39Z",
   "aliases": [
     "CVE-2026-2441"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/483569511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-2441"
     }
   ],
   "database_specific": {
