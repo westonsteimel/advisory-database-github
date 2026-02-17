@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-276f-6jm7-647m",
-  "modified": "2024-05-02T15:30:33Z",
+  "modified": "2026-02-17T18:32:54Z",
   "published": "2024-05-02T15:30:33Z",
   "aliases": [
     "CVE-2024-23461"
   ],
-  "details": "An Improper Validation of Integrity Check Value vulnerability in Zscaler Client Connector on MacOS during the upgrade process may allow a Local Execution of Code.This issue affects Client Connector on MacOS: before 3.4.\n\n",
+  "details": "An Improper Validation of Integrity Check Value vulnerability in Zscaler Client Connector on MacOS during the upgrade process may allow a Local Execution of Code.This issue affects Client Connector on MacOS: before 3.4.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -42,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-362"
+      "CWE-362",
+      "CWE-367"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
