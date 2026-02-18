@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfhp-qgm8-5p5c",
-  "modified": "2026-02-18T15:31:27Z",
+  "modified": "2026-02-18T18:30:38Z",
   "published": "2026-02-18T15:31:27Z",
   "aliases": [
     "CVE-2026-27100"
   ],
   "details": "Jenkins 2.550 and earlier, LTS 2.541.1 and earlier accepts Run Parameter values that refer to builds the user submitting the build does not have access to, allowing attackers with Item/Build and Item/Configure permission to obtain information about the existence of jobs, the existence of builds, and if a specified build exists, its display name.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-18T15:18:43Z"

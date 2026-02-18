@@ -70,6 +70,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1188",
       "CWE-843",
       "CWE-863"
     ],

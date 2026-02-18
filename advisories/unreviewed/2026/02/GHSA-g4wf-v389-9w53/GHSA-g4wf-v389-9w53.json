@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4wf-v389-9w53",
-  "modified": "2026-02-03T09:30:28Z",
+  "modified": "2026-02-18T18:30:22Z",
   "published": "2026-02-03T09:30:28Z",
   "aliases": [
     "CVE-2026-1591"

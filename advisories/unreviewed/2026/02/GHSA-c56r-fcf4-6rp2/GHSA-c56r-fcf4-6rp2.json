@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c56r-fcf4-6rp2",
-  "modified": "2026-02-17T21:31:14Z",
+  "modified": "2026-02-18T18:30:35Z",
   "published": "2026-02-17T21:31:14Z",
   "aliases": [
     "CVE-2026-22769"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22769"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc6201-exploiting-dell-recoverpoint-zero-day"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-22769"
     },
     {
       "type": "WEB",

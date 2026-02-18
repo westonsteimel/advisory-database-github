@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4gm2-v7j4-74p8",
-  "modified": "2022-05-24T19:05:05Z",
+  "modified": "2026-02-18T18:30:19Z",
   "published": "2022-05-24T19:05:05Z",
   "aliases": [
     "CVE-2021-22175"
   ],
   "details": "When requests to the internal network for webhooks are enabled, a server-side request forgery vulnerability in GitLab affecting all versions starting from 10.5 was possible to exploit for an unauthenticated attacker even on a GitLab instance where registration is disabled",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/gitlab-org/gitlab/-/issues/294178"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-22175"
     }
   ],
   "database_specific": {
