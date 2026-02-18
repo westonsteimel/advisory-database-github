@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfhx-r7ww-5995",
-  "modified": "2026-01-15T20:11:51Z",
+  "modified": "2026-02-18T16:08:35Z",
   "published": "2026-01-15T15:31:19Z",
   "aliases": [
     "CVE-2026-0897"
   ],
   "summary": "Google Keras Allocates Resources Without Limits or Throttling in the HDF5 weight loading component",
-  "details": "Allocation of Resources Without Limits or Throttling in the HDF5 weight loading component in Google Keras 3.0.0 through 3.13.0 on all platforms allows a remote attacker to cause a Denial of Service (DoS) through memory exhaustion and a crash of the Python interpreter via a crafted .keras archive containing a valid model.weights.h5 file whose dataset declares an extremely large shape.",
+  "details": "Allocation of Resources Without Limits or Throttling in the HDF5 weight loading component in Google Keras 3.0.0 through 3.12.0 and 3.13.0 on all platforms allows a remote attacker to cause a Denial of Service (DoS) through memory exhaustion and a crash of the Python interpreter via a crafted .keras archive containing a valid model.weights.h5 file whose dataset declares an extremely large shape.",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -28,14 +28,11 @@
               "introduced": "3.0.0"
             },
             {
-              "fixed": "3.13.1"
+              "fixed": "3.12.1"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 3.13.0"
-      }
+      ]
     },
     {
       "package": {
@@ -47,17 +44,17 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "3.0.0"
+              "introduced": "3.13.0"
             },
             {
-              "fixed": "3.12.1"
+              "fixed": "3.13.1"
             }
           ]
         }
       ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 3.12.0"
-      }
+      "versions": [
+        "3.13.0"
+      ]
     }
   ],
   "references": [
@@ -76,6 +73,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keras-team/keras/commit/7360d4f0d764fbb1fa9c6408fe53da41974dd4f6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keras-team/keras/commit/f704c887bf459b42769bfc8a9182f838009afddb"
     },
     {
       "type": "PACKAGE",
