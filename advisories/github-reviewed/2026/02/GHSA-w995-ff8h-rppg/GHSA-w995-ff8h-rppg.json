@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w995-ff8h-rppg",
-  "modified": "2026-02-03T18:44:17Z",
+  "modified": "2026-02-18T23:41:04Z",
   "published": "2026-02-03T18:44:17Z",
   "aliases": [
     "CVE-2025-69213"
@@ -41,6 +41,10 @@
       "url": "https://github.com/devcode-it/openstamanager/security/advisories/GHSA-w995-ff8h-rppg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69213"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/devcode-it/openstamanager"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-03T18:44:17Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T18:16:07Z"
   }
 }
