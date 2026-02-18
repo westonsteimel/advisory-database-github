@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfmx-qqqh-f38q",
-  "modified": "2026-02-12T22:09:52Z",
+  "modified": "2026-02-18T22:38:48Z",
   "published": "2026-02-12T00:31:03Z",
-  "aliases": [
-    "CVE-2026-1669"
-  ],
-  "summary": "Keras vulnerable to arbitrary file read in the model loading mechanism (HDF5 integration)",
-  "details": "Arbitrary file read in the model loading mechanism (HDF5 integration) in Keras versions 3.0.0 through 3.13.1 on all supported platforms allows a remote attacker to read local files and disclose sensitive information via a crafted .keras model file utilizing HDF5 external dataset references.",
+  "withdrawn": "2026-02-18T22:38:48Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Keras vulnerable to arbitrary file read in the model loading mechanism (HDF5 integration)",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-3m4q-jmj6-r34q. This link is maintained to preserve external references.\n\n## Original Description\nArbitrary file read in the model loading mechanism (HDF5 integration) in Keras versions 3.0.0 through 3.13.1 on all supported platforms allows a remote attacker to read local files and disclose sensitive information via a crafted .keras model file utilizing HDF5 external dataset references.",
   "severity": [
     {
       "type": "CVSS_V4",
