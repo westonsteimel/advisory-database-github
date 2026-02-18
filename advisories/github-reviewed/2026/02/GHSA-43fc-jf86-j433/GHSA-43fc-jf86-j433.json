@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43fc-jf86-j433",
-  "modified": "2026-02-09T22:39:32Z",
+  "modified": "2026-02-18T17:15:11Z",
   "published": "2026-02-09T17:46:14Z",
   "aliases": [
     "CVE-2026-25639"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.0.0"
             },
             {
               "fixed": "1.13.5"
@@ -35,6 +35,28 @@
       ],
       "database_specific": {
         "last_known_affected_version_range": "<= 1.13.4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "axios"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.30.3"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 0.30.2"
       }
     }
   ],
@@ -53,11 +75,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/axios/axios/pull/7388"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/axios/axios/commit/28c721588c7a77e7503d0a434e016f852c597b57"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/axios/axios/commit/d7ff1409c68168d3057fc3891f911b2b92616f9e"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/axios/axios"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/axios/axios/releases/tag/v0.30.0"
     },
     {
       "type": "WEB",
