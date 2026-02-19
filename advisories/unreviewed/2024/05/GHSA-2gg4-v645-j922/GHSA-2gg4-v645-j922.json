@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gg4-v645-j922",
-  "modified": "2024-05-02T15:30:33Z",
+  "modified": "2026-02-19T21:30:41Z",
   "published": "2024-05-02T15:30:33Z",
   "aliases": [
     "CVE-2023-41970"
   ],
-  "details": "An Improper Validation of Integrity Check Value vulnerability in Zscaler Client Connector on Windows during the Repair App functionality may allow Local Execution of Code.This issue affects Client Connector on Windows: before 4.1.0.62.\n\n",
+  "details": "An Improper Validation of Integrity Check Value vulnerability in Zscaler Client Connector on Windows during the Repair App functionality may allow Local Execution of Code.This issue affects Client Connector on Windows: before 4.1.0.62.",
   "severity": [
     {
       "type": "CVSS_V3",

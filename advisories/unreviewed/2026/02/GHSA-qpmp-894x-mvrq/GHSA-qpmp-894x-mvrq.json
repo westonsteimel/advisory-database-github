@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpmp-894x-mvrq",
-  "modified": "2026-02-19T18:31:53Z",
+  "modified": "2026-02-19T21:30:46Z",
   "published": "2026-02-19T18:31:53Z",
   "aliases": [
     "CVE-2026-25418"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in bitpressadmin Bit Form bit-form allows SQL Injection.This issue affects Bit Form: from n/a through <= 2.21.10.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-19T09:16:23Z"

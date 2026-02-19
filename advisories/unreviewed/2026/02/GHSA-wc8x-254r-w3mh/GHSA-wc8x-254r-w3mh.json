@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc8x-254r-w3mh",
-  "modified": "2026-02-19T18:31:53Z",
+  "modified": "2026-02-19T21:30:46Z",
   "published": "2026-02-19T18:31:53Z",
   "aliases": [
     "CVE-2026-27052"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in villatheme Sales Countdown Timer for WooCommerce and WordPress sctv-sales-countdown-timer allows PHP Local File Inclusion.This issue affects Sales Countdown Timer for WooCommerce and WordPress: from n/a through <= 1.1.8.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-19T09:16:26Z"
