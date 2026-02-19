@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85h6-5m3v-gx37",
-  "modified": "2026-02-18T18:30:38Z",
+  "modified": "2026-02-19T20:26:28Z",
   "published": "2026-02-18T15:31:27Z",
   "aliases": [
     "CVE-2026-27099"
   ],
+  "summary": "Jenkins has a stored XSS vulnerability in node offline cause description",
   "details": "Jenkins 2.483 through 2.550 (both inclusive), LTS 2.492.1 through 2.541.1 (both inclusive) does not escape the user-provided description of the \"Mark temporarily offline\" offline cause, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Agent/Configure or Agent/Disconnect permission.",
   "severity": [
     {
@@ -13,11 +14,43 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jenkins-ci.main:jenkins-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.483"
+            },
+            {
+              "fixed": "2.551"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27099"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jenkinsci/jenkins/commit/578c028e2cdfdc9e124d0ca389a80bb2bd231ab2"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/jenkinsci/jenkins"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.551"
     },
     {
       "type": "WEB",
@@ -29,8 +62,8 @@
       "CWE-79"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-02-19T20:26:28Z",
     "nvd_published_at": "2026-02-18T15:18:43Z"
   }
 }
