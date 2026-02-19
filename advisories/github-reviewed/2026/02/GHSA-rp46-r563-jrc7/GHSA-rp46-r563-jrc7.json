@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp46-r563-jrc7",
-  "modified": "2026-02-13T20:56:03Z",
+  "modified": "2026-02-19T22:08:31Z",
   "published": "2026-02-13T12:31:21Z",
   "aliases": [
     "CVE-2025-33042"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.avro:avro"
+        "name": "org.apache.avro:avro-compiler"
       },
       "ranges": [
         {
@@ -40,7 +40,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.avro:avro"
+        "name": "org.apache.avro:avro-compiler"
       },
       "ranges": [
         {
@@ -81,6 +81,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/fy88wmgf1lj9479vrpt12cv8x73lroj1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEAVRO-15282783"
     },
     {
       "type": "WEB",
