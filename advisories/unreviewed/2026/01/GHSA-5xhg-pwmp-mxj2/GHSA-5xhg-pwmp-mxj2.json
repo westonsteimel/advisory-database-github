@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xhg-pwmp-mxj2",
-  "modified": "2026-01-14T15:33:02Z",
+  "modified": "2026-02-19T18:31:43Z",
   "published": "2026-01-14T15:33:02Z",
   "aliases": [
     "CVE-2025-71144"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1c7c3a9314d8a7fc0e9a508606466a967c8e774a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/226fff52e7ed9fc8cd63327133739b3d92537ffd"
     },
     {
       "type": "WEB",

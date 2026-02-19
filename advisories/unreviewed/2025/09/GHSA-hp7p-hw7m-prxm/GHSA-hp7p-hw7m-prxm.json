@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp7p-hw7m-prxm",
-  "modified": "2025-12-11T15:30:30Z",
+  "modified": "2026-02-19T18:31:42Z",
   "published": "2025-09-18T18:30:27Z",
   "aliases": [
     "CVE-2023-53424"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/47234e19b00816a8a7b278c7173f6d4e928c43c7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/847d5dd788ce05f0aaaa36ea174f7f0b9cf86f7d"
     }
   ],
   "database_specific": {

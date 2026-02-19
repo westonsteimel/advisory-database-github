@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v45v-r9m7-cwxg",
+  "modified": "2026-02-19T18:31:52Z",
+  "published": "2026-02-19T18:31:52Z",
+  "aliases": [
+    "CVE-2026-25372"
+  ],
+  "details": "Missing Authorization vulnerability in Kodezen LLC Academy LMS academy allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Academy LMS: from n/a through <= 3.5.3.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25372"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/academy/vulnerability/wordpress-academy-lms-plugin-3-5-3-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-19T09:16:19Z"
+  }
+}

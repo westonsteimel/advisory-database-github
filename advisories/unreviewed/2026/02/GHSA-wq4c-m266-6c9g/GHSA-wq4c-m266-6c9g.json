@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wq4c-m266-6c9g",
+  "modified": "2026-02-19T18:31:53Z",
+  "published": "2026-02-19T18:31:53Z",
+  "aliases": [
+    "CVE-2026-25453"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in mdempfle Advanced iFrame advanced-iframe allows DOM-Based XSS.This issue affects Advanced iFrame: from n/a through <= 2025.10.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25453"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/advanced-iframe/vulnerability/wordpress-advanced-iframe-plugin-2025-10-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-19T09:16:24Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4x2-878r-xjgp",
-  "modified": "2025-11-24T12:30:27Z",
+  "modified": "2026-02-19T18:31:42Z",
   "published": "2025-05-01T15:31:41Z",
   "aliases": [
     "CVE-2025-23155"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23155"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2fbf67ddb8a0d0efc00d2df496a9843ec318d48b"
     },
     {
       "type": "WEB",

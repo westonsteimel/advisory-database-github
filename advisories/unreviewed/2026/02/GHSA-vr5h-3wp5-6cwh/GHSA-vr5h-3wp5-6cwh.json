@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vr5h-3wp5-6cwh",
+  "modified": "2026-02-19T18:31:51Z",
+  "published": "2026-02-19T18:31:51Z",
+  "aliases": [
+    "CVE-2026-23541"
+  ],
+  "details": "Missing Authorization vulnerability in WPFunnels Mail Mint mail-mint allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Mail Mint: from n/a through <= 1.19.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23541"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/mail-mint/vulnerability/wordpress-mail-mint-plugin-1-19-4-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-19T09:16:11Z"
+  }
+}

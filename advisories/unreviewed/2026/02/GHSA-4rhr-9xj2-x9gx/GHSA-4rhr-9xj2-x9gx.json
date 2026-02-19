@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rhr-9xj2-x9gx",
-  "modified": "2026-02-04T18:30:44Z",
+  "modified": "2026-02-19T18:31:43Z",
   "published": "2026-02-04T18:30:44Z",
   "aliases": [
     "CVE-2026-23100"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23100"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3a18b452dd5f7f1652c2e92f8ae769aa17a66c9e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/51dcf459845fd28f5a0d83d408a379b274ec5cc5"
     },
     {
       "type": "WEB",
