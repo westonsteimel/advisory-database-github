@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c88-49p5-5ggf",
-  "modified": "2026-02-18T21:51:26Z",
+  "modified": "2026-02-19T21:57:02Z",
   "published": "2026-02-18T21:51:26Z",
   "aliases": [
     "CVE-2026-26280"
@@ -41,6 +41,10 @@
       "url": "https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-9c88-49p5-5ggf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26280"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/sebhildebrandt/systeminformation/commit/22242aa56188f2bffcbd7d265a11e1ebb808b460"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-18T21:51:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-19T20:25:43Z"
   }
 }
