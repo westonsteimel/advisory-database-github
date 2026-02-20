@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j8w-wwqc-x596",
-  "modified": "2025-12-22T18:41:25Z",
+  "modified": "2026-02-20T21:48:11Z",
   "published": "2025-06-02T06:30:32Z",
   "aliases": [
     "CVE-2025-49113"
@@ -98,6 +98,10 @@
     {
       "type": "WEB",
       "url": "https://roundcube.net/news/2025/06/01/security-updates-1.6.11-and-1.5.10"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-49113"
     },
     {
       "type": "WEB",
