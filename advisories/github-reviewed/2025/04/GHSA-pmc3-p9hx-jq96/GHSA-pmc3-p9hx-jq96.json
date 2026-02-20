@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmc3-p9hx-jq96",
-  "modified": "2026-02-18T23:34:53Z",
+  "modified": "2026-02-20T16:51:12Z",
   "published": "2025-04-23T14:43:44Z",
   "aliases": [
     "CVE-2026-26994"
@@ -41,6 +41,10 @@
       "url": "https://github.com/refraction-networking/utls/security/advisories/GHSA-pmc3-p9hx-jq96"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26994"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/refraction-networking/utls/issues/181"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-23T14:43:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-20T03:16:01Z"
   }
 }
