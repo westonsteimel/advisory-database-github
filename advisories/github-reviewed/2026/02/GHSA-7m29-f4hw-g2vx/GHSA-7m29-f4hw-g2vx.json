@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7m29-f4hw-g2vx",
-  "modified": "2026-02-18T22:33:18Z",
+  "modified": "2026-02-20T16:52:07Z",
   "published": "2026-02-18T22:33:18Z",
   "aliases": [
     "CVE-2026-27017"
@@ -41,6 +41,10 @@
       "url": "https://github.com/refraction-networking/utls/security/advisories/GHSA-7m29-f4hw-g2vx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27017"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/refraction-networking/utls/commit/24bd1e05a788c1add7f3037f4532ea552b2cee07"
     },
@@ -60,6 +64,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-18T22:33:18Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-20T03:16:01Z"
   }
 }

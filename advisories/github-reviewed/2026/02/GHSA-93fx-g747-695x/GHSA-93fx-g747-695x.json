@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93fx-g747-695x",
-  "modified": "2026-02-18T22:07:42Z",
+  "modified": "2026-02-20T16:51:59Z",
   "published": "2026-02-18T22:07:42Z",
   "aliases": [
     "CVE-2026-26992"
@@ -41,6 +41,10 @@
       "url": "https://github.com/librenms/librenms/security/advisories/GHSA-93fx-g747-695x"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26992"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/librenms/librenms/pull/19042"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-18T22:07:42Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-20T03:16:00Z"
   }
 }
