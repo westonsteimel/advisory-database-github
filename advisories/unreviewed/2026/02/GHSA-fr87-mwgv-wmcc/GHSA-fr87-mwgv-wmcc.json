@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr87-mwgv-wmcc",
-  "modified": "2026-02-19T18:31:54Z",
+  "modified": "2026-02-20T21:31:21Z",
   "published": "2026-02-19T18:31:54Z",
   "aliases": [
     "CVE-2025-15563"
   ],
   "details": "Any unauthenticated user can reset the WorkTime on-prem database configuration by sending a specific HTTP request to the WorkTime server. No authorization check is applied here.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-19T11:15:56Z"

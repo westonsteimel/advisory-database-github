@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7j76-3f62-vcf8",
-  "modified": "2022-05-24T16:53:27Z",
+  "modified": "2026-02-20T21:31:08Z",
   "published": "2022-05-24T16:53:27Z",
   "aliases": [
     "CVE-2019-0716"
   ],
   "details": "A denial of service vulnerability exists when Windows improperly handles objects in memory, aka 'Windows Denial of Service Vulnerability'.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

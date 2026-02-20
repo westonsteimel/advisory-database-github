@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78hr-8953-5gh6",
-  "modified": "2022-05-24T16:53:31Z",
+  "modified": "2026-02-20T21:31:10Z",
   "published": "2022-05-24T16:53:31Z",
   "aliases": [
     "CVE-2019-1183"
   ],
   "details": "A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka 'Windows VBScript Engine Remote Code Execution Vulnerability'.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

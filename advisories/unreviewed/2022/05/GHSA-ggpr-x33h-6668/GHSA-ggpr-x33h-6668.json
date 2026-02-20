@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggpr-x33h-6668",
-  "modified": "2022-05-24T16:53:34Z",
+  "modified": "2026-02-20T21:31:11Z",
   "published": "2022-05-24T16:53:34Z",
   "aliases": [
     "CVE-2019-1212"
   ],
   "details": "A memory corruption vulnerability exists in the Windows Server DHCP service when processing specially crafted packets, aka 'Windows DHCP Server Denial of Service Vulnerability'. This CVE ID is unique from CVE-2019-1206.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-787"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

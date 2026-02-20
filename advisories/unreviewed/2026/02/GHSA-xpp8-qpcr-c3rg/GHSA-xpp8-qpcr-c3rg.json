@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpp8-qpcr-c3rg",
-  "modified": "2026-02-17T21:31:13Z",
+  "modified": "2026-02-20T21:31:20Z",
   "published": "2026-02-13T21:31:39Z",
   "aliases": [
     "CVE-2026-2441"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/huseyinstif/CVE-2026-2441-PoC/blob/main/poc.html"
     },
     {
       "type": "WEB",

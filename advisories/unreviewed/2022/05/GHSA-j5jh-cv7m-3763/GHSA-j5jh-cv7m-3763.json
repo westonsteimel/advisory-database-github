@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5jh-cv7m-3763",
-  "modified": "2022-05-24T16:53:31Z",
+  "modified": "2026-02-20T21:31:09Z",
   "published": "2022-05-24T16:53:31Z",
   "aliases": [
     "CVE-2019-1176"
   ],
   "details": "An elevation of privilege vulnerability exists when DirectX improperly handles objects in memory, aka 'DirectX Elevation of Privilege Vulnerability'.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

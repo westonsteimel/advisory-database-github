@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqw7-2chg-rhcv",
-  "modified": "2022-05-24T16:53:28Z",
+  "modified": "2026-02-20T21:31:09Z",
   "published": "2022-05-24T16:53:28Z",
   "aliases": [
     "CVE-2019-1146"
   ],
   "details": "A remote code execution vulnerability exists when the Windows Jet Database Engine improperly handles objects in memory, aka 'Jet Database Engine Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1147, CVE-2019-1155, CVE-2019-1156, CVE-2019-1157.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

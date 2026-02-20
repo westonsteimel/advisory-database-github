@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-974f-9h45-g4v4",
-  "modified": "2022-05-24T19:09:53Z",
+  "modified": "2026-02-20T21:31:13Z",
   "published": "2022-05-24T19:09:53Z",
   "aliases": [
     "CVE-2021-21553"
   ],
   "details": "Dell PowerScale OneFS versions 8.1.0-9.1.0 contain an Incorrect User Management vulnerability.under some specific conditions, this can allow the CompAdmin user to elevate privileges and break out of Compliance mode. This is a critical vulnerability and Dell recommends upgrading at the earliest.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-286"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
