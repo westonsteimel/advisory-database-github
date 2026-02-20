@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m5w7-8p57-p7r3",
-  "modified": "2026-02-19T18:31:52Z",
+  "modified": "2026-02-20T00:31:52Z",
   "published": "2026-02-19T18:31:52Z",
   "aliases": [
     "CVE-2026-25325"
   ],
   "details": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in rtCamp rtMedia for WordPress, BuddyPress and bbPress buddypress-media allows Retrieve Embedded Sensitive Data.This issue affects rtMedia for WordPress, BuddyPress and bbPress: from n/a through <= 4.7.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-497"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-19T09:16:17Z"
