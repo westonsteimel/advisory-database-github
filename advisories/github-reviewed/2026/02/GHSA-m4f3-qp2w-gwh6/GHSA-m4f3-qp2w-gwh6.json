@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4f3-qp2w-gwh6",
-  "modified": "2026-02-19T20:27:55Z",
+  "modified": "2026-02-21T06:30:15Z",
   "published": "2026-02-18T18:30:40Z",
   "aliases": [
     "CVE-2026-24708"
@@ -89,6 +89,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/openstack/nova"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/02/msg00025.html"
     },
     {
       "type": "WEB",
