@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j87r-wgfm-7fjj",
-  "modified": "2026-02-19T18:31:44Z",
+  "modified": "2026-02-23T06:30:18Z",
   "published": "2026-02-18T18:30:40Z",
   "aliases": [
     "CVE-2026-23229"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8ee8ccfd60bf17cbdab91069d324b5302f4f3a30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b505047ffc8057555900d2d3a005d033e6967382"
     },
     {
       "type": "WEB",

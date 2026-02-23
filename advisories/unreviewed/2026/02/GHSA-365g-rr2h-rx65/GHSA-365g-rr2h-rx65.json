@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-365g-rr2h-rx65",
-  "modified": "2026-02-18T18:30:40Z",
+  "modified": "2026-02-23T06:30:17Z",
   "published": "2026-02-18T18:30:40Z",
   "aliases": [
     "CVE-2025-71234"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/5d810ba377eddee95d30766d360a14efbb3d1872"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/86c946bcc00f6390ef65e9614ae60a9377e454f8"
     },
     {
       "type": "WEB",
