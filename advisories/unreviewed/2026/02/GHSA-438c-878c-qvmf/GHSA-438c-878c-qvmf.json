@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-438c-878c-qvmf",
+  "modified": "2026-02-23T15:31:15Z",
+  "published": "2026-02-23T15:31:15Z",
+  "aliases": [
+    "CVE-2025-69700"
+  ],
+  "details": "Tenda FH1203 V2.0.1.6 contains a stack-based buffer overflow vulnerability in the modify_add_client_prio function, which is reachable via the formSetClientPrio CGI handler.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69700"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/xhh0124/SemVulLLM"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-23T14:16:21Z"
+  }
+}

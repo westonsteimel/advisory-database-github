@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxwm-5mrm-6h8j",
-  "modified": "2026-02-19T21:30:47Z",
+  "modified": "2026-02-23T15:31:14Z",
   "published": "2026-02-19T21:30:47Z",
   "aliases": [
     "CVE-2025-67304"
   ],
   "details": "In Ruckus Network Director (RND) < 4.5.0.54, the OVA appliance contains hardcoded credentials for the ruckus PostgreSQL database user. In the default configuration, the PostgreSQL service is accessible over the network on TCP port 5432. An attacker can use the hardcoded credentials to authenticate remotely, gaining superuser access to the database. This allows creation of administrative users for the web interface, extraction of password hashes, and execution of arbitrary OS commands.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-798"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-19T20:25:24Z"

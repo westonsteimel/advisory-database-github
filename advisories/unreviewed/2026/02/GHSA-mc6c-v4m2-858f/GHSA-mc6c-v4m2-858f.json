@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mc6c-v4m2-858f",
-  "modified": "2026-02-19T21:30:48Z",
+  "modified": "2026-02-23T15:31:14Z",
   "published": "2026-02-19T21:30:48Z",
   "aliases": [
     "CVE-2025-67305"
   ],
   "details": "In RUCKUS Network Director (RND) < 4.5.0.56, the OVA appliance contains hardcoded SSH keys for the postgres user. These keys are identical across all deployments, allowing an attacker with network access to authenticate via SSH without a password. Once authenticated, the attacker can access the PostgreSQL database with superuser privileges, create administrative users for the web interface, and potentially escalate privileges further.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-321"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-19T21:18:28Z"
