@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh94-p5m6-mr7j",
-  "modified": "2026-02-20T21:02:32Z",
+  "modified": "2026-02-23T22:29:14Z",
   "published": "2026-02-20T21:02:31Z",
   "aliases": [
     "CVE-2026-27484"
@@ -41,6 +41,10 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-wh94-p5m6-mr7j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27484"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/775816035ecc6bb243843f8000c9a58ff609e32d"
     },
@@ -60,6 +64,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-20T21:02:31Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-21T10:16:12Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxpw-2g23-2vgw",
-  "modified": "2026-02-20T21:52:44Z",
+  "modified": "2026-02-23T22:30:08Z",
   "published": "2026-02-20T21:52:44Z",
   "aliases": [
     "CVE-2026-27576"
@@ -44,6 +44,10 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-cxpw-2g23-2vgw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27576"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/63e39d7f57ac4ad4a5e38d17e7394ae7c4dd0b9c"
     },
@@ -71,6 +75,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-20T21:52:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-21T10:16:13Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhp6-635j-x7r2",
-  "modified": "2026-02-20T18:25:27Z",
+  "modified": "2026-02-23T22:28:57Z",
   "published": "2026-02-20T18:25:27Z",
   "aliases": [
     "CVE-2026-27480"
@@ -41,6 +41,10 @@
       "url": "https://github.com/static-web-server/static-web-server/security/advisories/GHSA-qhp6-635j-x7r2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27480"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/static-web-server/static-web-server/commit/7bf0fd425eb10dac9bf9ef5febce12c4dd039ce1"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-20T18:25:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-21T10:16:12Z"
   }
 }
