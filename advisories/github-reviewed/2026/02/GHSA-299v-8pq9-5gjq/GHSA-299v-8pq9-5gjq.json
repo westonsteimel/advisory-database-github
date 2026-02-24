@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-299v-8pq9-5gjq",
-  "modified": "2026-02-23T22:10:25Z",
+  "modified": "2026-02-24T16:08:19Z",
   "published": "2026-02-23T22:10:25Z",
   "aliases": [
     "CVE-2026-25802"
@@ -41,6 +41,10 @@
       "url": "https://github.com/QuantumNous/new-api/security/advisories/GHSA-299v-8pq9-5gjq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25802"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/QuantumNous/new-api/commit/ab5456eb1049aa8a0f3e51f359907ec7fff38b4b"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-23T22:10:25Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-24T01:16:14Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3wr-m6xh-64hg",
-  "modified": "2025-03-21T17:40:52Z",
+  "modified": "2026-02-24T16:08:07Z",
   "published": "2025-03-20T12:32:43Z",
   "aliases": [
     "CVE-2024-12704"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "PyPI",
-        "name": "llama_index"
+        "name": "llama-index-core"
       },
       "ranges": [
         {
