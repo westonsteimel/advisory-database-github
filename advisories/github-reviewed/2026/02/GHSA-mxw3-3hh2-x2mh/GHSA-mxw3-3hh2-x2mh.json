@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxw3-3hh2-x2mh",
-  "modified": "2026-02-18T23:48:59Z",
+  "modified": "2026-02-24T16:06:28Z",
   "published": "2026-02-17T16:14:11Z",
   "aliases": [
     "CVE-2026-22860"
@@ -89,6 +89,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2026-22860.yml"
     }
   ],
   "database_specific": {
