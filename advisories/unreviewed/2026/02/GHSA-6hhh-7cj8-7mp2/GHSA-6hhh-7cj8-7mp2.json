@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hhh-7cj8-7mp2",
-  "modified": "2026-02-24T00:31:34Z",
+  "modified": "2026-02-24T18:31:01Z",
   "published": "2026-02-24T00:31:34Z",
   "aliases": [
     "CVE-2024-58041"
   ],
   "details": "Smolder versions through 1.51 for Perl uses insecure rand() function for cryptographic functions.\n\nSmolder 1.51 and earlier for Perl uses the rand() function as the default source of entropy, which is not cryptographically secure, for cryptographic functions.\n\nSpecifically Smolder::DB::Developer uses the Data::Random library which specifically states that it is \"Useful mostly for test programs\". Data::Random uses the rand() function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -39,7 +44,7 @@
     "cwe_ids": [
       "CWE-338"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-24T00:16:17Z"

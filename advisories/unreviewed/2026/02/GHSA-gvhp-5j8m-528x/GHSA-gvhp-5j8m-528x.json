@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvhp-5j8m-528x",
-  "modified": "2026-02-24T15:30:32Z",
+  "modified": "2026-02-24T18:31:02Z",
   "published": "2026-02-24T15:30:32Z",
   "aliases": [
     "CVE-2026-2799"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-16"
     }
   ],
   "database_specific": {

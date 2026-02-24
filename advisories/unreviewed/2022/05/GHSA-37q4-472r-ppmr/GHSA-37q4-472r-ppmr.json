@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37q4-472r-ppmr",
-  "modified": "2023-12-28T21:30:29Z",
+  "modified": "2026-02-24T18:30:55Z",
   "published": "2022-05-24T19:10:50Z",
   "aliases": [
     "CVE-2021-36958"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36958"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/131152"
     }
   ],
   "database_specific": {

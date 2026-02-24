@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r77x-pqm4-6252",
-  "modified": "2026-02-18T15:31:26Z",
+  "modified": "2026-02-24T18:30:59Z",
   "published": "2026-02-18T15:31:26Z",
   "aliases": [
     "CVE-2025-60037"
