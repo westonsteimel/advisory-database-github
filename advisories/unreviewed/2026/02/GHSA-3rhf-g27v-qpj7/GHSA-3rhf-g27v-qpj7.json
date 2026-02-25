@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rhf-g27v-qpj7",
-  "modified": "2026-02-20T18:31:38Z",
+  "modified": "2026-02-25T15:31:36Z",
   "published": "2026-02-20T18:31:38Z",
   "aliases": [
     "CVE-2025-69403"
   ],
   "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Bravis-Themes Bravis Addons bravis-addons allows Using Malicious Files.This issue affects Bravis Addons: from n/a through <= 1.1.9.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-434"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-20T16:22:26Z"
