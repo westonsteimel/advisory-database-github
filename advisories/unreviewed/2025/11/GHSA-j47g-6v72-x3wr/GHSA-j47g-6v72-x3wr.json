@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j47g-6v72-x3wr",
-  "modified": "2025-11-12T18:31:26Z",
+  "modified": "2026-02-25T06:31:14Z",
   "published": "2025-11-12T18:31:26Z",
   "aliases": [
     "CVE-2025-65001"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.ts.fujitsu.com/ProductSecurity/content/FsasTech-PSIRT-FTI-FCCL-2025-072319-Security-Notice.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days"
     }
   ],
   "database_specific": {
