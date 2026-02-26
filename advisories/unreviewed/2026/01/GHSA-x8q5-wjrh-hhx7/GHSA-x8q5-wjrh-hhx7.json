@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8q5-wjrh-hhx7",
-  "modified": "2026-01-23T15:31:35Z",
+  "modified": "2026-02-26T21:31:27Z",
   "published": "2026-01-23T15:31:35Z",
   "aliases": [
     "CVE-2025-71157"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/core: always drop device refcount in ib_del_sub_device_and_put()\n\nSince nldev_deldev() (introduced by commit 060c642b2ab8 (\"RDMA/nldev: Add\nsupport to add/delete a sub IB device through netlink\") grabs a reference\nusing ib_device_get_by_index() before calling ib_del_sub_device_and_put(),\nwe need to drop that reference before returning -EOPNOTSUPP error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:06Z"

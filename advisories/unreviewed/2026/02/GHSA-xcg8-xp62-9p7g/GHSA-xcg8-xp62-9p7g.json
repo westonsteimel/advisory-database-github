@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcg8-xp62-9p7g",
-  "modified": "2026-02-26T18:31:41Z",
+  "modified": "2026-02-26T21:31:30Z",
   "published": "2026-02-26T18:31:41Z",
   "aliases": [
     "CVE-2026-23750"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/golioth/golioth-firmware-sdk/releases/tag/v0.22.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://secmate.dev/disclosures/SECMATE-2025-0018"
     },
     {
       "type": "WEB",

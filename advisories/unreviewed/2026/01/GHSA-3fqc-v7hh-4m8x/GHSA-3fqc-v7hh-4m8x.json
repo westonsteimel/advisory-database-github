@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fqc-v7hh-4m8x",
-  "modified": "2026-01-23T18:31:29Z",
+  "modified": "2026-02-26T21:31:27Z",
   "published": "2026-01-23T18:31:29Z",
   "aliases": [
     "CVE-2026-22992"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlibceph: return the handler error from mon_handle_auth_done()\n\nCurrently any error from ceph_auth_handle_reply_done() is propagated\nvia finish_auth() but isn't returned from mon_handle_auth_done().  This\nresults in higher layers learning that (despite the monitor considering\nus to be successfully authenticated) something went wrong in the\nauthentication phase and reacting accordingly, but msgr2 still trying\nto proceed with establishing the session in the background.  In the\ncase of secure mode this can trigger a WARN in setup_crypto() and later\nlead to a NULL pointer dereference inside of prepare_auth_signature().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T16:15:55Z"

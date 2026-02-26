@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv77-3ff9-m96q",
-  "modified": "2026-02-26T18:31:41Z",
+  "modified": "2026-02-26T21:31:30Z",
   "published": "2026-02-26T18:31:41Z",
   "aliases": [
     "CVE-2025-71057"
   ],
   "details": "Improper session management in D-Link Wireless N 300 ADSL2+ Modem Router DSL-124 ME_1.00 allows attackers to execute a session hijacking attack via spoofing the IP address of an authenticated user.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-287"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-26T16:23:28Z"

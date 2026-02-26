@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-39xq-39v8-2g6g",
-  "modified": "2026-01-23T18:31:29Z",
+  "modified": "2026-02-26T21:31:27Z",
   "published": "2026-01-23T18:31:29Z",
   "aliases": [
     "CVE-2026-22987"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: act_api: avoid dereferencing ERR_PTR in tcf_idrinfo_destroy\n\nsyzbot reported a crash in tc_act_in_hw() during netns teardown where\ntcf_idrinfo_destroy() passed an ERR_PTR(-EBUSY) value as a tc_action\npointer, leading to an invalid dereference.\n\nGuard against ERR_PTR entries when iterating the action IDR so teardown\ndoes not call tc_act_in_hw() on an error pointer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T16:15:54Z"

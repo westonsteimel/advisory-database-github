@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx2g-p975-mwgc",
-  "modified": "2026-01-23T18:31:28Z",
+  "modified": "2026-02-26T21:31:27Z",
   "published": "2026-01-23T18:31:28Z",
   "aliases": [
     "CVE-2025-71158"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngpio: mpsse: ensure worker is torn down\n\nWhen an IRQ worker is running, unplugging the device would cause a\ncrash. The sealevel hardware this driver was written for was not\nhotpluggable, so I never realized it.\n\nThis change uses a spinlock to protect a list of workers, which\nit tears down on disconnect.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T16:15:52Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-953j-p37p-r755",
-  "modified": "2026-01-23T18:31:29Z",
+  "modified": "2026-02-26T21:31:27Z",
   "published": "2026-01-23T18:31:29Z",
   "aliases": [
     "CVE-2026-22991"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlibceph: make free_choose_arg_map() resilient to partial allocation\n\nfree_choose_arg_map() may dereference a NULL pointer if its caller fails\nafter a partial allocation.\n\nFor example, in decode_choose_args(), if allocation of arg_map->args\nfails, execution jumps to the fail label and free_choose_arg_map() is\ncalled. Since arg_map->size is updated to a non-zero value before memory\nallocation, free_choose_arg_map() will iterate over arg_map->args and\ndereference a NULL pointer.\n\nTo prevent this potential NULL pointer dereference and make\nfree_choose_arg_map() more resilient, add checks for pointers before\niterating.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T16:15:55Z"

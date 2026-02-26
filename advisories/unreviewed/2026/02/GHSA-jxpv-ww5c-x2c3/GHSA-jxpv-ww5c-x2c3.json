@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxpv-ww5c-x2c3",
-  "modified": "2026-02-26T09:30:27Z",
+  "modified": "2026-02-26T21:31:30Z",
   "published": "2026-02-26T09:30:27Z",
   "aliases": [
     "CVE-2026-28136"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in VeronaLabs WP SMS wp-sms allows SQL Injection.This issue affects WP SMS: from n/a through <= 6.9.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-26T09:16:15Z"

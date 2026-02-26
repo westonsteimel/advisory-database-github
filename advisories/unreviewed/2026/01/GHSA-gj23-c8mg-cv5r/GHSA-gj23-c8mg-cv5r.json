@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gj23-c8mg-cv5r",
-  "modified": "2026-01-23T18:31:28Z",
+  "modified": "2026-02-26T21:31:27Z",
   "published": "2026-01-23T18:31:28Z",
   "aliases": [
     "CVE-2026-22978"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: avoid kernel-infoleak from struct iw_point\n\nstruct iw_point has a 32bit hole on 64bit arches.\n\nstruct iw_point {\n  void __user   *pointer;       /* Pointer to the data  (in user space) */\n  __u16         length;         /* number of fields or size in bytes */\n  __u16         flags;          /* Optional params */\n};\n\nMake sure to zero the structure to avoid disclosing 32bits of kernel data\nto user space.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T16:15:53Z"
