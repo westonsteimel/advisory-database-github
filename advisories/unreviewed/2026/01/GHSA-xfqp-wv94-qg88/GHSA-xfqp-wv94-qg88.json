@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfqp-wv94-qg88",
-  "modified": "2026-01-22T18:30:31Z",
+  "modified": "2026-02-26T15:30:29Z",
   "published": "2026-01-22T18:30:31Z",
   "aliases": [
     "CVE-2025-36588"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.dell.com/support/kbdoc/en-us/000402262/dsa-2025-425-dell-powermaxos-dell-powermax-eem-dell-unisphere-for-powermax-dell-unisphere-for-powermax-virtual-appliance-dell-unisphere-360-dell-solutions-enabler-virtual-appliance-security-update-for-multiple-vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.dell.com/support/kbdoc/en-us/000429268/dsa-2026-102-dell-unisphere-for-powermax-and-powermax-eem-security-update-for-multiple-vulnerabilities"
     }
   ],
   "database_specific": {
