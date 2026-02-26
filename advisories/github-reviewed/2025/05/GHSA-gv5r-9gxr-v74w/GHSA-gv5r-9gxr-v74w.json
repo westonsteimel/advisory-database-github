@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv5r-9gxr-v74w",
-  "modified": "2025-05-15T14:51:25Z",
+  "modified": "2026-02-26T21:59:01Z",
   "published": "2025-05-13T18:30:53Z",
   "aliases": [
     "CVE-2025-47204"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.1.2"
+              "fixed": "2.0.0"
             }
           ]
         }
@@ -39,6 +39,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/davidstutz/bootstrap-multiselect/issues/1286"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/davidstutz/bootstrap-multiselect/pull/1287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/davidstutz/bootstrap-multiselect/commit/7da45ded9c82837a8eae9cb9dd3bd32a3dd1dc45"
     },
     {
       "type": "WEB",
