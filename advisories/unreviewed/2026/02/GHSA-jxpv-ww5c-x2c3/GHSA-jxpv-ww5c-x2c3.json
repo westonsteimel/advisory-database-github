@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jxpv-ww5c-x2c3",
+  "modified": "2026-02-26T09:30:27Z",
+  "published": "2026-02-26T09:30:27Z",
+  "aliases": [
+    "CVE-2026-28136"
+  ],
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in VeronaLabs WP SMS wp-sms allows SQL Injection.This issue affects WP SMS: from n/a through <= 6.9.12.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28136"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-sms/vulnerability/wordpress-wp-sms-plugin-6-9-12-sql-injection-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-26T09:16:15Z"
+  }
+}
