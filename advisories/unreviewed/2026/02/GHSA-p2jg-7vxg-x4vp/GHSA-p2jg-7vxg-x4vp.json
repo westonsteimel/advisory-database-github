@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2jg-7vxg-x4vp",
-  "modified": "2026-02-25T21:31:18Z",
+  "modified": "2026-02-26T18:31:39Z",
   "published": "2026-02-25T21:31:18Z",
   "aliases": [
     "CVE-2026-3221"
   ],
   "details": "Sensitive\n user account information is not encrypted in the database in Devolutions Server 2025.3.14 and earlier, which allows an attacker with \naccess to the database to obtain sensitive user \ninformation via direct database access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-312"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-25T19:43:26Z"
