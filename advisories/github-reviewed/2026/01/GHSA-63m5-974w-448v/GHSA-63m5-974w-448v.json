@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-63m5-974w-448v",
-  "modified": "2026-01-22T15:39:04Z",
+  "modified": "2026-02-27T22:02:58Z",
   "published": "2026-01-20T20:55:17Z",
   "aliases": [
     "CVE-2026-23518"
@@ -127,6 +127,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/fleetdm/fleet"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4335"
     }
   ],
   "database_specific": {
