@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9vc-2p9g-63gp",
-  "modified": "2024-01-26T00:35:40Z",
+  "modified": "2026-02-27T20:14:49Z",
   "published": "2022-02-15T00:02:47Z",
   "aliases": [
     "CVE-2022-0565"
   ],
-  "summary": "Exposure of Sensitive Information to an Unauthorized Actor in pimcore",
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor in Packagist pimcore/pimcore prior to 10.3.1.",
+  "summary": "Cross-site Scripting in pimcore",
+  "details": "Cross-site Scripting in Packagist pimcore/pimcore prior to 10.3.1.",
   "severity": [
     {
       "type": "CVSS_V3",
