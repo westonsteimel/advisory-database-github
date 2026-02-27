@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6j8-rg6r-7mv8",
-  "modified": "2026-02-20T16:46:34Z",
+  "modified": "2026-02-27T20:44:58Z",
   "published": "2026-02-18T22:36:06Z",
   "aliases": [
     "CVE-2026-26315"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.16.9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4511"
     }
   ],
   "database_specific": {
