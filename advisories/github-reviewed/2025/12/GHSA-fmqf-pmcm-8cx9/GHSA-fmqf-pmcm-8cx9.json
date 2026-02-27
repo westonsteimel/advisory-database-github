@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmqf-pmcm-8cx9",
-  "modified": "2025-12-26T18:40:17Z",
+  "modified": "2026-02-27T22:04:19Z",
   "published": "2025-12-24T09:30:22Z",
   "aliases": [
     "CVE-2025-13767"
@@ -131,6 +131,10 @@
     {
       "type": "WEB",
       "url": "https://mattermost.com/security-updates"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4259"
     }
   ],
   "database_specific": {
