@@ -62,7 +62,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-404"
+      "CWE-404",
+      "CWE-674"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
