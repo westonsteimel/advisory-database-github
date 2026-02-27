@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-299v-8pq9-5gjq",
-  "modified": "2026-02-24T16:08:19Z",
+  "modified": "2026-02-27T21:41:05Z",
   "published": "2026-02-23T22:10:25Z",
   "aliases": [
     "CVE-2026-25802"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/QuantumNous/new-api"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4532"
     }
   ],
   "database_specific": {

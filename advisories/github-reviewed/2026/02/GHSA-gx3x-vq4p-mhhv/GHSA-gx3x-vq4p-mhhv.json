@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gx3x-vq4p-mhhv",
-  "modified": "2026-02-27T21:40:29Z",
+  "modified": "2026-02-27T21:41:50Z",
   "published": "2026-02-02T22:11:06Z",
   "aliases": [
     "CVE-2026-25518"
@@ -93,7 +93,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://pkg.go.dev/vuln/GO-2026-4300"
+      "url": "https://pkg.go.dev/vuln/GO-2026-4399"
     }
   ],
   "database_specific": {
