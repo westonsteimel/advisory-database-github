@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xrr-hq4w-6vf4",
-  "modified": "2026-02-24T20:16:56Z",
+  "modified": "2026-02-27T19:51:57Z",
   "published": "2026-02-24T20:16:55Z",
   "aliases": [
     "CVE-2026-27585"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/caddyserver/caddy/v2/modules/caddyhttp/fileserver"
+        "name": "github.com/caddyserver/caddy/v2"
       },
       "ranges": [
         {
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/caddyserver/caddy/releases/tag/v2.11.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4535"
     }
   ],
   "database_specific": {
