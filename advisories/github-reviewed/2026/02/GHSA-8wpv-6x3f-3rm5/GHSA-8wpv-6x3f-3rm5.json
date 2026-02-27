@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8wpv-6x3f-3rm5",
-  "modified": "2026-02-25T19:41:58Z",
+  "modified": "2026-02-27T21:50:24Z",
   "published": "2026-02-25T19:29:37Z",
   "aliases": [
     "CVE-2026-25735"
@@ -79,6 +79,10 @@
       "url": "https://github.com/rucio/rucio/security/advisories/GHSA-8wpv-6x3f-3rm5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25735"
+    },
+    {
       "type": "WEB",
       "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
     },
@@ -107,6 +111,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-25T19:29:37Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-25T20:23:48Z"
   }
 }
