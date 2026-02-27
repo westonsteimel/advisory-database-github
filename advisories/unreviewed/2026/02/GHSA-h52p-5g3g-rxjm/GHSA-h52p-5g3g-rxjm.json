@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h52p-5g3g-rxjm",
-  "modified": "2026-02-26T21:31:30Z",
+  "modified": "2026-02-27T15:34:17Z",
   "published": "2026-02-26T18:31:41Z",
   "aliases": [
     "CVE-2026-23748"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/golioth/golioth-firmware-sdk/commit/d7f55b380d8be8b29bd101ce06e421af2e88c12b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.secmate.dev/posts/golioth-vulnerabilities-disclosure"
     },
     {
       "type": "WEB",

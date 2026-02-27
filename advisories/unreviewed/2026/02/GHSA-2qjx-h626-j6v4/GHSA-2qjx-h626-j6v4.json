@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qjx-h626-j6v4",
-  "modified": "2026-02-26T21:31:30Z",
+  "modified": "2026-02-27T15:34:17Z",
   "published": "2026-02-26T18:31:41Z",
   "aliases": [
     "CVE-2026-23749"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/golioth/golioth-firmware-sdk/commit/0e788217ab4b61a7c1d9fadd1b4a40f5f538a26d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.secmate.dev/posts/golioth-vulnerabilities-disclosure"
     },
     {
       "type": "WEB",
