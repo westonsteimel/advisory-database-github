@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-254q-rqmw-vx45",
-  "modified": "2022-02-24T13:05:38Z",
+  "modified": "2026-02-27T20:21:10Z",
   "published": "2022-02-16T00:01:52Z",
   "aliases": [
     "CVE-2022-0588"
   ],
-  "summary": "Exposure of Sensitive Information to an Unauthorized Actor in librenms",
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor in Packagist librenms/librenms prior to 22.2.0.",
+  "summary": "Missing Authorization in librenms/librenms",
+  "details": "Missing Authorization in Packagist librenms/librenms prior to 22.2.0.",
   "severity": [
     {
       "type": "CVSS_V3",

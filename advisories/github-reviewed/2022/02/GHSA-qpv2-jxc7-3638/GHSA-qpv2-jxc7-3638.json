@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpv2-jxc7-3638",
-  "modified": "2022-02-24T13:13:01Z",
+  "modified": "2026-02-27T20:20:07Z",
   "published": "2022-02-15T00:02:47Z",
   "aliases": [
     "CVE-2022-0569"
   ],
   "summary": "Exposure of Sensitive Information in snipe/snipe-it",
-  "details": "Snipe-IT prior to v5.3.10 is vulnerable to Exposure of Sensitive Information to an Unauthorized Actor.",
+  "details": "Observable Discrepancy in Packagist snipe/snipe-it prior to v5.3.10.",
   "severity": [
     {
       "type": "CVSS_V3",
