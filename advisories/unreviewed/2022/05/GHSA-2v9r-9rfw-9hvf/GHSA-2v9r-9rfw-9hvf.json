@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2v9r-9rfw-9hvf",
-  "modified": "2022-05-14T01:42:07Z",
+  "modified": "2026-03-02T18:31:38Z",
   "published": "2022-05-14T01:42:07Z",
   "aliases": [
     "CVE-2018-12651"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.knowcybersec.com/2018/12/CVE-2018-12651-reflected-XSS.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.securethy.com/2018/12/CVE-2018-12651-reflected-XSS.html"
     }
   ],
   "database_specific": {

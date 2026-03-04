@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g4f-4pwh-qvx6",
-  "modified": "2026-02-23T22:40:29Z",
+  "modified": "2026-03-02T21:58:39Z",
   "published": "2026-02-11T21:30:39Z",
   "aliases": [
     "CVE-2025-69873"
@@ -66,6 +66,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/ajv-validator/ajv/pull/2588"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ajv-validator/ajv/pull/2590"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/github/advisory-database/pull/6991"
     },
     {
       "type": "WEB",

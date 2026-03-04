@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w57-gjvc-whwc",
-  "modified": "2026-02-25T18:31:38Z",
+  "modified": "2026-03-03T15:31:36Z",
   "published": "2026-02-25T18:31:38Z",
   "aliases": [
     "CVE-2026-21902"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21902"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/watchtowrlabs/watchTowr-vs-JunosEvolved-CVE-2026-21902/blob/main/watchTowr-vs-JunosEvolved-CVE-2026-21902.py"
     },
     {
       "type": "WEB",

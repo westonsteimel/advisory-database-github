@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-975v-vmhm-3frh",
+  "modified": "2026-03-03T15:31:41Z",
+  "published": "2026-03-03T15:31:41Z",
+  "aliases": [
+    "CVE-2026-24103"
+  ],
+  "details": "A buffer overflow vulnerability was discovered in goform/formSetMacFilterCfg in Tenda AC15V1.0 V15.03.05.18_multi.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24103"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/akuma-QAQ/CVEreport/tree/main/D-link/CVE-2026-24103"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tenda.com.cn/material/show/2710"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-03T15:16:18Z"
+  }
+}

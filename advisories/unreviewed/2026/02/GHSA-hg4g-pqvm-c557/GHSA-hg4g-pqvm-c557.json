@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg4g-pqvm-c557",
-  "modified": "2026-02-28T03:31:33Z",
+  "modified": "2026-03-03T21:31:11Z",
   "published": "2026-02-27T21:31:22Z",
   "aliases": [
     "CVE-2018-25160"
   ],
   "details": "HTTP::Session2 versions through 1.09 for Perl does not validate the format of user provided session ids, enabling code injection or other impact depending on session backend.\n\nFor example, if an application uses memcached for session storage, then it may be possible for a remote attacker to inject memcached commands in the session id value.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -35,7 +40,7 @@
     "cwe_ids": [
       "CWE-20"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-27T21:16:03Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxhj-49mh-5mjj",
-  "modified": "2022-05-14T01:09:51Z",
+  "modified": "2026-03-02T18:31:38Z",
   "published": "2022-05-14T01:09:51Z",
   "aliases": [
     "CVE-2018-12653"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.knowcybersec.com/2019/02/CVE-2018-12653-reflected-XSS.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.securethy.com/2019/02/CVE-2018-12653-reflected-XSS.html"
     },
     {
       "type": "WEB",

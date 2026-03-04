@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3whr-wp9q-7v74",
+  "modified": "2026-03-02T21:31:32Z",
+  "published": "2026-03-02T21:31:32Z",
+  "aliases": [
+    "CVE-2026-26709"
+  ],
+  "details": "code-projects Simple Gym Management System v1.0 is vulnerable to SQL Injection in /gym/trainer_search.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26709"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Thirtypenny77/bug_report/blob/main/code-projects/simple-gym-management-system/SQL-1.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-02T19:16:33Z"
+  }
+}

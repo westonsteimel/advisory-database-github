@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hp7-6cr6-jvxh",
-  "modified": "2026-02-26T18:31:39Z",
+  "modified": "2026-03-03T21:31:09Z",
   "published": "2026-02-25T21:31:19Z",
   "aliases": [
     "CVE-2026-22719"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://techdocs.broadcom.com/us/en/vmware-cis/aria/aria-operations/8-18/vmware-aria-operations-8186-release-notes.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-22719"
     }
   ],
   "database_specific": {

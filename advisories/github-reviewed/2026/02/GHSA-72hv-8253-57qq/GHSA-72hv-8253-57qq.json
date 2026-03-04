@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-72hv-8253-57qq",
-  "modified": "2026-02-28T02:01:06Z",
+  "modified": "2026-03-03T16:59:14Z",
   "published": "2026-02-28T02:01:05Z",
   "aliases": [],
   "summary": "jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition",
@@ -141,11 +141,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/FasterXML/jackson-core/issues/1538"
+      "url": "https://github.com/FasterXML/jackson-core/pull/1555"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/FasterXML/jackson-core/commit/a004e9789c2cc6b41b379d02d229d58474d9a738"
+      "url": "https://github.com/FasterXML/jackson-core/commit/b0c428e6f993e1b5ece5c1c3cb2523e887cd52cf"
     },
     {
       "type": "PACKAGE",

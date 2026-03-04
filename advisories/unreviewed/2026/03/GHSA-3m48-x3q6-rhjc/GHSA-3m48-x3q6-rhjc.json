@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3m48-x3q6-rhjc",
+  "modified": "2026-03-03T15:31:40Z",
+  "published": "2026-03-03T15:31:40Z",
+  "aliases": [
+    "CVE-2025-57622"
+  ],
+  "details": "An issue in Step-Video-T2V allows a remote attacker to execute arbitrary code via the /vae-api , /caption-api , feature = pickle.loads(request.get_data()) component",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57622"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/stepfun-ai/Step-Video-T2V/issues/65"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/stepfun-ai/Step-Video-T2V/blob/main/api/call_remote_server.py"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-03T15:16:15Z"
+  }
+}

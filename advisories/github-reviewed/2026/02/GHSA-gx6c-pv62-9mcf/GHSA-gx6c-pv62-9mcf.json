@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gx6c-pv62-9mcf",
-  "modified": "2026-02-28T02:26:37Z",
+  "modified": "2026-03-02T21:39:59Z",
   "published": "2026-02-27T06:31:28Z",
   "aliases": [
     "CVE-2026-3293"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/snowflakedb/snowflake-jdbc/issues/2505"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/snowflakedb/snowflake-jdbc/issues/2505#issue-3951994646"
     },
     {
       "type": "WEB",

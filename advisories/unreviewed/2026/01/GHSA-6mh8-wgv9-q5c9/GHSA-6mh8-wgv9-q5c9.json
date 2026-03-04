@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mh8-wgv9-q5c9",
-  "modified": "2026-01-06T18:31:35Z",
+  "modified": "2026-03-03T18:31:26Z",
   "published": "2026-01-06T18:31:35Z",
   "aliases": [
     "CVE-2025-14979"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14979"
+    },
+    {
+      "type": "WEB",
+      "url": "https://airvpn.org/forums/topic/79305-eddie-desktop-edition-225-beta-released"
     },
     {
       "type": "WEB",

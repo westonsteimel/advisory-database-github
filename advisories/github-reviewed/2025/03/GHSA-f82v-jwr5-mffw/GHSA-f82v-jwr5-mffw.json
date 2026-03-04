@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f82v-jwr5-mffw",
-  "modified": "2025-10-13T15:32:07Z",
+  "modified": "2026-03-02T16:59:03Z",
   "published": "2025-03-21T15:20:12Z",
   "aliases": [
     "CVE-2025-29927"
@@ -82,7 +82,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "11.1.4"
+              "introduced": "12.0.0"
             },
             {
               "fixed": "12.3.5"

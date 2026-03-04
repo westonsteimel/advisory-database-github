@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pqr-cq7g-8mqw",
-  "modified": "2026-02-06T18:30:29Z",
+  "modified": "2026-03-02T18:31:38Z",
   "published": "2026-02-02T18:31:33Z",
   "aliases": [
     "CVE-2026-22229"
@@ -29,11 +29,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/deco-be25/#Firmware"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.tp-link.com/sg/support/download/archer-be230/v1.20/#Firmware"
     },
     {
       "type": "WEB",
+      "url": "https://www.tp-link.com/sg/support/download/deco-be25/#Firmware"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.tp-link.com/us/support/download/archer-be230/v1.20/#Firmware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/download/deco-be25/v1/#Firmware"
     },
     {
       "type": "WEB",

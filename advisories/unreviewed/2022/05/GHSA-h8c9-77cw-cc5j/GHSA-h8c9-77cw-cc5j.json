@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8c9-77cw-cc5j",
-  "modified": "2022-05-13T01:30:38Z",
+  "modified": "2026-03-02T18:31:38Z",
   "published": "2022-05-13T01:30:38Z",
   "aliases": [
     "CVE-2018-12650"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.knowcybersec.com/2018/10/CVE-2018-12650-reflected-XSS.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.securethy.com/2018/10/CVE-2018-12650-reflected-XSS.html"
     },
     {
       "type": "WEB",

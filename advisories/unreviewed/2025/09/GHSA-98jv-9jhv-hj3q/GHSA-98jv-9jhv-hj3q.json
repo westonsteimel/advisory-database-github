@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98jv-9jhv-hj3q",
-  "modified": "2025-09-05T18:31:19Z",
+  "modified": "2026-03-02T21:31:20Z",
   "published": "2025-09-04T21:31:38Z",
   "aliases": [
     "CVE-2025-48544"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2025-09-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2026-03-01"
     }
   ],
   "database_specific": {

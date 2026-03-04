@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jgq-pv8m-5cx7",
-  "modified": "2026-02-23T06:30:18Z",
+  "modified": "2026-03-02T21:31:20Z",
   "published": "2026-02-18T18:30:40Z",
   "aliases": [
     "CVE-2026-23226"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: add chann_lock to protect ksmbd_chann_list xarray\n\nksmbd_chann_list xarray lacks synchronization, allowing use-after-free in\nmulti-channel sessions (between lookup_chann_list() and ksmbd_chann_del).\n\nAdds rw_semaphore chann_lock to struct ksmbd_session and protects\nall xa_load/xa_store/xa_erase accesses.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-18T16:22:32Z"

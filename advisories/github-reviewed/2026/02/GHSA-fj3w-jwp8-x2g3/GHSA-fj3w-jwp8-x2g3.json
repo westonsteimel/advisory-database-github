@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj3w-jwp8-x2g3",
-  "modified": "2026-02-26T22:33:10Z",
+  "modified": "2026-03-02T15:10:03Z",
   "published": "2026-02-26T22:33:10Z",
   "aliases": [
     "CVE-2026-27942"
   ],
   "summary": "fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
-  "details": "### Impact\nApplication crashes with stack overflow when user use XML builder with `prserveOrder:true` for following or similar input:\n\n```\n[{\n    'foo': [\n        { 'bar': [{ '@_V': 'baz' }] }\n    ]\n}]\n```\n\nCause: `arrToStr` was not validating if the input is an array or a string and treating all non-array values as text content.\n_What kind of vulnerability is it? Who is impacted?_\n\n### Patches\nYes, in 5.3.8.\n\n### Workarounds\nUse XML builder with `preserveOrder:false` or check the input data before passing to builder.\n\n### References\n[_Are there any links users can visit to find out more?_](https://github.com/NaturalIntelligence/fast-xml-parser/pull/791)",
+  "details": "### Impact\nApplication crashes with stack overflow when user use XML builder with `prserveOrder:true` for following or similar input:\n\n```\n[{\n    'foo': [\n        { 'bar': [{ '@_V': 'baz' }] }\n    ]\n}]\n```\n\nCause: `arrToStr` was not validating if the input is an array or a string and treating all non-array values as text content.\n_What kind of vulnerability is it? Who is impacted?_\n\n### Patches\nYes, in 5.3.8 and 4.5.4.\n\n### Workarounds\nUse XML builder with `preserveOrder:false` or check the input data before passing to builder.",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.0.0"
             },
             {
               "fixed": "5.3.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "fast-xml-parser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.4"
             }
           ]
         }

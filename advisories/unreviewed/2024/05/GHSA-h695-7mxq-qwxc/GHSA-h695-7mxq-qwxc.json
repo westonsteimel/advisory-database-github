@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h695-7mxq-qwxc",
-  "modified": "2024-05-02T15:30:33Z",
+  "modified": "2026-03-02T21:31:19Z",
   "published": "2024-05-02T15:30:33Z",
   "aliases": [
     "CVE-2023-41971"
   ],
-  "details": "An Improper Link Resolution Before File Access ('Link Following') vulnerability in Zscaler Client Connector on Windows allows a system file to be overwritten.This issue affects Client Connector on Windows: before 3.7.\n\n",
+  "details": "An Improper Link Resolution Before File Access ('Link Following') vulnerability in Zscaler Client Connector on Windows allows a system file to be overwritten.This issue affects Client Connector on Windows: before 3.7.",
   "severity": [
     {
       "type": "CVSS_V3",
