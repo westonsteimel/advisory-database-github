@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv3v-2cpp-3pmq",
-  "modified": "2026-02-11T19:08:55Z",
+  "modified": "2026-03-04T15:47:16Z",
   "published": "2026-02-10T12:30:28Z",
   "aliases": [
     "CVE-2025-11537"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/keycloak/keycloak"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.keycloak.org/server/logging#_change_log_formatpattern"
     }
   ],
   "database_specific": {
