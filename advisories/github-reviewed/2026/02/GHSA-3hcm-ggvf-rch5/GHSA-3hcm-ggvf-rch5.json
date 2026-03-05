@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hcm-ggvf-rch5",
-  "modified": "2026-02-17T16:46:12Z",
+  "modified": "2026-03-05T21:50:40Z",
   "published": "2026-02-17T16:46:12Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-28470"
+  ],
   "summary": "OpenClaw has an exec allowlist bypass via command substitution/backticks inside double quotes",
   "details": "### Summary\n\nExec approvals allowlist bypass via command substitution/backticks inside double quotes.\n\n### Affected Packages / Versions\n\n- Package: `openclaw` (npm)\n- Affected: `<= 2026.2.1`\n- Fixed: `>= 2026.2.2`\n\n### Impact\n\nOnly affects setups that explicitly enable the optional exec approvals allowlist feature. Default installs are unaffected.\n\n### Fix\n\nReject unescaped `$()` and backticks inside double quotes during allowlist analysis.\n\n### Fix Commit(s)\n\n- d1ecb46076145deb188abcba8f0699709ea17198\n\nThanks @simecek for reporting.",
   "severity": [
