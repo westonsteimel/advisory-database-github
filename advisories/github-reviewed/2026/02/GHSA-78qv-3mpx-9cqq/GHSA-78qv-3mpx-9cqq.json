@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78qv-3mpx-9cqq",
-  "modified": "2026-02-24T19:56:18Z",
+  "modified": "2026-03-06T19:51:35Z",
   "published": "2026-02-24T19:56:18Z",
   "aliases": [
     "CVE-2026-27156"
@@ -12,10 +12,6 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
-    },
-    {
-      "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -64,7 +60,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-24T19:56:18Z",
     "nvd_published_at": "2026-02-24T18:29:33Z"
