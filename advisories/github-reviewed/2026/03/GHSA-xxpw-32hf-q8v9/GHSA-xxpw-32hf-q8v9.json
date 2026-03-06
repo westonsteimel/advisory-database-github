@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxpw-32hf-q8v9",
-  "modified": "2026-03-05T01:22:21Z",
+  "modified": "2026-03-06T14:24:08Z",
   "published": "2026-03-05T01:22:21Z",
   "aliases": [
     "CVE-2026-29093"
@@ -41,8 +41,16 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-xxpw-32hf-q8v9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29093"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/WWBN/AVideo"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/releases/tag/24.0"
     }
   ],
   "database_specific": {
@@ -53,6 +61,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-05T01:22:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-06T04:16:08Z"
   }
 }

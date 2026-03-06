@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8jw-8w5p-23g3",
-  "modified": "2026-03-03T16:45:55Z",
+  "modified": "2026-03-06T14:24:02Z",
   "published": "2026-03-02T20:56:52Z",
   "aliases": [
     "CVE-2026-28502"
@@ -41,12 +41,20 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-v8jw-8w5p-23g3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28502"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/WWBN/AVideo/commit/b739aeeb9ce34aed9961d2c155d597810f8229db"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/WWBN/AVideo"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/releases/tag/24.0"
     }
   ],
   "database_specific": {
@@ -56,6 +64,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-02T20:56:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-06T04:16:08Z"
   }
 }
