@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h89v-j3x9-8wqj",
-  "modified": "2026-03-05T21:45:06Z",
+  "modified": "2026-03-06T00:58:53Z",
   "published": "2026-02-18T00:52:54Z",
   "aliases": [
     "CVE-2026-28452"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
   "affected": [
@@ -60,6 +64,10 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-h89v-j3x9-8wqj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28452"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/5f4b29145c236d124524c2c9af0f8acd048fbdea"
     },
@@ -74,15 +82,20 @@
     {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.14"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/openclaw-denial-of-service-via-unguarded-archive-extraction-in-extractarchive"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-770"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-18T00:52:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-05T22:16:17Z"
   }
 }
