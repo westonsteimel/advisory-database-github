@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcv7-3vfh-47x6",
-  "modified": "2026-03-05T21:30:48Z",
+  "modified": "2026-03-06T12:30:30Z",
   "published": "2026-03-05T21:30:48Z",
   "aliases": [
     "CVE-2025-29165"
   ],
   "details": "An issue in D-Link DIR-1253 MESH V1.6.1684 allows an attacker to escalate privileges via the etc/shadow.sample component",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-269"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T20:16:10Z"
