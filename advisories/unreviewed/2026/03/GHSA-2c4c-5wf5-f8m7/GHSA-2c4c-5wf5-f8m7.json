@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c4c-5wf5-f8m7",
-  "modified": "2026-03-05T06:30:25Z",
+  "modified": "2026-03-06T21:30:34Z",
   "published": "2026-03-05T06:30:25Z",
   "aliases": [
     "CVE-2026-27352"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in ThemeGoods Starto starto allows Reflected XSS.This issue affects Starto: from n/a through <= 2.1.9.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:25Z"

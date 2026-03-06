@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p55-r473-gcgm",
-  "modified": "2022-08-16T00:00:25Z",
+  "modified": "2026-03-06T21:30:30Z",
   "published": "2022-08-11T00:00:19Z",
   "aliases": [
     "CVE-2022-37007"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2h2-ggjv-73xv",
-  "modified": "2026-03-05T06:30:26Z",
+  "modified": "2026-03-06T21:30:35Z",
   "published": "2026-03-05T06:30:26Z",
   "aliases": [
     "CVE-2026-27374"
   ],
   "details": "Missing Authorization vulnerability in vanquish WooCommerce Order Details woocommerce-order-details allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WooCommerce Order Details: from n/a through <= 3.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:26Z"

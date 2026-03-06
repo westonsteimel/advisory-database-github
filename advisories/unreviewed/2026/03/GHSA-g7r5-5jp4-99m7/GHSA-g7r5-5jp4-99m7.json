@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7r5-5jp4-99m7",
-  "modified": "2026-03-05T06:30:25Z",
+  "modified": "2026-03-06T21:30:34Z",
   "published": "2026-03-05T06:30:25Z",
   "aliases": [
     "CVE-2026-27359"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in fox-themes Awa Plugins awa-plugins allows Reflected XSS.This issue affects Awa Plugins: from n/a through <= 1.4.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:25Z"

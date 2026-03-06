@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84qf-j5p4-2cph",
-  "modified": "2022-05-24T19:10:15Z",
+  "modified": "2026-03-06T21:30:29Z",
   "published": "2022-05-24T19:10:15Z",
   "aliases": [
     "CVE-2021-31869"
   ],
   "details": "Pimcore AdminBundle version 6.8.0 and earlier suffers from a SQL injection issue in the specificID variable used by the application. This issue was fixed in version 6.9.4 of the product.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

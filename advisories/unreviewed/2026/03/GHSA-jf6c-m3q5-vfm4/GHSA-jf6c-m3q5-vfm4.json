@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf6c-m3q5-vfm4",
-  "modified": "2026-03-05T18:31:37Z",
+  "modified": "2026-03-06T21:30:37Z",
   "published": "2026-03-05T18:31:37Z",
   "aliases": [
     "CVE-2026-26377"
   ],
   "details": "Cross Site Scripting vulnerability in Koha 25.11 and before allows a remote attacker to execute arbitrary code via the News function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T16:16:16Z"
