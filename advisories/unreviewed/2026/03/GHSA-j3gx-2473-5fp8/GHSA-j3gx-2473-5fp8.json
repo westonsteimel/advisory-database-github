@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j3gx-2473-5fp8",
+  "modified": "2026-03-07T00:30:28Z",
+  "published": "2026-03-07T00:30:28Z",
+  "aliases": [
+    "CVE-2026-25679"
+  ],
+  "details": "url.Parse insufficiently validated the host/authority component and accepted some invalid URLs.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25679"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/752180"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/77578"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/g/golang-announce/c/EdhZqrQ98hk"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4601"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-06T22:16:00Z"
+  }
+}
