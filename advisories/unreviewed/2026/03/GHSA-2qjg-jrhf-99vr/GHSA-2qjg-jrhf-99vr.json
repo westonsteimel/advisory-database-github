@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qjg-jrhf-99vr",
-  "modified": "2026-03-08T03:30:28Z",
+  "modified": "2026-03-08T06:31:09Z",
   "published": "2026-03-08T03:30:28Z",
   "aliases": [
     "CVE-2026-30910"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/IAMB/Crypt-Sodium-XS-0.001001/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/08/2"
     }
   ],
   "database_specific": {
