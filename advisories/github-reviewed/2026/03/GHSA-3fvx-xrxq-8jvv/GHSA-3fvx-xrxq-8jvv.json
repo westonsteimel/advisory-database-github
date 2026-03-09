@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fvx-xrxq-8jvv",
-  "modified": "2026-03-06T22:16:00Z",
+  "modified": "2026-03-09T15:50:39Z",
   "published": "2026-03-06T22:16:00Z",
   "aliases": [
     "CVE-2026-30832"
@@ -41,6 +41,10 @@
       "url": "https://github.com/charmbracelet/soft-serve/security/advisories/GHSA-3fvx-xrxq-8jvv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30832"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/charmbracelet/soft-serve/commit/3ef660098ab37a7950457da8ecc25b516e37ce4e"
     },
@@ -60,6 +64,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-06T22:16:00Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-07T16:15:55Z"
   }
 }

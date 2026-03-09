@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2w3-8f23-hxxf",
-  "modified": "2026-03-06T23:40:19Z",
+  "modified": "2026-03-09T15:51:04Z",
   "published": "2026-03-06T23:40:19Z",
   "aliases": [
     "CVE-2026-30852"
@@ -44,6 +44,10 @@
       "url": "https://github.com/caddyserver/caddy/security/advisories/GHSA-m2w3-8f23-hxxf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30852"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/caddyserver/caddy/pull/5408"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-06T23:40:19Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-07T17:15:52Z"
   }
 }
