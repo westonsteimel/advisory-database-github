@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33w3-c4pr-78vc",
-  "modified": "2026-03-05T06:30:26Z",
+  "modified": "2026-03-09T18:31:38Z",
   "published": "2026-03-05T06:30:26Z",
   "aliases": [
     "CVE-2026-27373"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Essekia Tablesome tablesome allows Blind SQL Injection.This issue affects Tablesome: from n/a through <= 1.2.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:26Z"

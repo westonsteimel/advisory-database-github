@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-28m7-2rmv-hwqr",
-  "modified": "2026-03-05T06:30:26Z",
+  "modified": "2026-03-09T18:31:38Z",
   "published": "2026-03-05T06:30:26Z",
   "aliases": [
     "CVE-2026-27411"
   ],
   "details": "Guessable CAPTCHA vulnerability in jp-secure SiteGuard WP Plugin siteguard allows Functionality Bypass.This issue affects SiteGuard WP Plugin: from n/a through <= 1.7.9.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-804"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:29Z"

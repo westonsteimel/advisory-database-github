@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5mj-rxf6-hc9h",
-  "modified": "2026-03-05T06:30:26Z",
+  "modified": "2026-03-09T18:31:38Z",
   "published": "2026-03-05T06:30:26Z",
   "aliases": [
     "CVE-2026-27389"
   ],
   "details": "Authentication Bypass Using an Alternate Path or Channel vulnerability in designthemes WeDesignTech Ultimate Booking Addon wedesigntech-ultimate-booking-addon allows Authentication Abuse.This issue affects WeDesignTech Ultimate Booking Addon: from n/a through <= 1.0.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-288"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:28Z"

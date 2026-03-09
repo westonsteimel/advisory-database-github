@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w6x-7r98-7q22",
-  "modified": "2026-03-05T06:30:24Z",
+  "modified": "2026-03-09T18:31:37Z",
   "published": "2026-03-05T06:30:24Z",
   "aliases": [
     "CVE-2026-22460"
   ],
   "details": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in wpWax FormGent formgent allows Path Traversal.This issue affects FormGent: from n/a through <= 1.4.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-22"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:20Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r5j-7r2x-rv4g",
-  "modified": "2026-03-09T12:31:39Z",
+  "modified": "2026-03-09T18:31:43Z",
   "published": "2026-03-09T12:31:38Z",
   "aliases": [
     "CVE-2025-69219"
   ],
   "details": "A user with access to the DB could craft a database entry that would result in executing code on Triggerer - which gives anyone who have access to DB the same permissions as Dag Author. Since direct DB access is not usual and recommended for Airflow, the likelihood of it making any damage is low.\n\nYou should upgrade to version 6.0.0 of the provider to avoid even that risk.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -31,7 +36,7 @@
     "cwe_ids": [
       "CWE-913"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-09T11:16:05Z"

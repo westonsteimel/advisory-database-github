@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv5f-ccpm-xjj4",
-  "modified": "2026-03-09T15:30:47Z",
+  "modified": "2026-03-09T18:31:43Z",
   "published": "2026-03-09T12:31:38Z",
   "aliases": [
     "CVE-2026-25604"
   ],
   "details": "In AWS Auth manager, the origin of the SAML authentication has been used as provided by the client and not verified against the actual instance URL. \nThis allowed to gain access to different instances with potentially different access controls by reusing SAML response from other instances.\n\nYou should upgrade to 9.22.0 version of provider if you use AWS Auth Manager.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -31,7 +36,7 @@
     "cwe_ids": [
       "CWE-346"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-09T11:16:06Z"

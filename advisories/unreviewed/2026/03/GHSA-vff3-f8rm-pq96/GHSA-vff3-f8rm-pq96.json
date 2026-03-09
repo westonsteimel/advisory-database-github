@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vff3-f8rm-pq96",
-  "modified": "2026-03-05T06:30:23Z",
+  "modified": "2026-03-09T18:31:37Z",
   "published": "2026-03-05T06:30:23Z",
   "aliases": [
     "CVE-2026-22417"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in ThemeGoods Grand Wedding grandwedding allows Object Injection.This issue affects Grand Wedding: from n/a through <= 3.1.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:15Z"
