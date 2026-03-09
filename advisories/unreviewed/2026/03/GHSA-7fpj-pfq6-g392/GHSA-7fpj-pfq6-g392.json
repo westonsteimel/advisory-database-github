@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fpj-pfq6-g392",
-  "modified": "2026-03-05T06:30:25Z",
+  "modified": "2026-03-09T15:30:32Z",
   "published": "2026-03-05T06:30:25Z",
   "aliases": [
     "CVE-2026-27098"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in axiomthemes Au Pair Agency - Babysitting & Nanny Theme au-pair-agency allows Object Injection.This issue affects Au Pair Agency - Babysitting & Nanny Theme: from n/a through <= 1.2.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:23Z"

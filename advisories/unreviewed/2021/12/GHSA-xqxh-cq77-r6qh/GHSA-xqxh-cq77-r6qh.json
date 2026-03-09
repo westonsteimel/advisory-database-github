@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqxh-cq77-r6qh",
-  "modified": "2021-12-23T00:01:42Z",
+  "modified": "2026-03-09T15:30:31Z",
   "published": "2021-12-18T00:00:51Z",
   "aliases": [
     "CVE-2021-22054"
   ],
   "details": "VMware Workspace ONE UEM console 20.0.8 prior to 20.0.8.37, 20.11.0 prior to 20.11.0.40, 21.2.0 prior to 21.2.0.27, and 21.5.0 prior to 21.5.0.37 contain an SSRF vulnerability. This issue may allow a malicious actor with network access to UEM to send their requests without authentication and to gain access to sensitive information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22054"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.greynoise.io/blog/new-ssrf-exploitation-surge"
     },
     {
       "type": "WEB",

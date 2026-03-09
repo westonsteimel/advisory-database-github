@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27g6-6w79-qh7m",
-  "modified": "2026-03-05T06:30:26Z",
+  "modified": "2026-03-09T15:30:32Z",
   "published": "2026-03-05T06:30:26Z",
   "aliases": [
     "CVE-2026-27406"
   ],
   "details": "Insertion of Sensitive Information Into Sent Data vulnerability in Joe Dolson My Tickets my-tickets allows Retrieve Embedded Sensitive Data.This issue affects My Tickets: from n/a through <= 2.1.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-201"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:28Z"

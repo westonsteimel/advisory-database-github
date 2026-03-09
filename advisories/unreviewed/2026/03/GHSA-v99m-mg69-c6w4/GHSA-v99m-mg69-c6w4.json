@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v99m-mg69-c6w4",
+  "modified": "2026-03-09T15:30:48Z",
+  "published": "2026-03-09T15:30:48Z",
+  "aliases": [
+    "CVE-2025-70059"
+  ],
+  "details": "An issue pertaining to CWE-400: Uncontrolled Resource Consumption was discovered in YMFE yapi v1.12.0 and allows attackers to cause a denial of service.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70059"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/zcxlighthouse/e6090e95643c1b1cd4ecc2088c4e77ef"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/YMFE"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/YMFE/yapi"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-09T15:15:52Z"
+  }
+}
