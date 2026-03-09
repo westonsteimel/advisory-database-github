@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qp7-fhr9-fw53",
-  "modified": "2026-03-05T00:23:51Z",
+  "modified": "2026-03-09T15:46:58Z",
   "published": "2026-03-05T00:23:51Z",
   "aliases": [
     "CVE-2026-29184"
@@ -44,6 +44,10 @@
       "url": "https://github.com/backstage/backstage/security/advisories/GHSA-8qp7-fhr9-fw53"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29184"
+    },
+    {
       "type": "WEB",
       "url": "https://backstage.io/docs/overview/threat-model"
     },
@@ -63,6 +67,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-05T00:23:51Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-07T15:15:55Z"
   }
 }

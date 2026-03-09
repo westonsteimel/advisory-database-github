@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-928r-fm4v-mvrw",
-  "modified": "2026-03-05T00:12:07Z",
+  "modified": "2026-03-09T15:46:44Z",
   "published": "2026-03-05T00:12:07Z",
   "aliases": [
     "CVE-2026-29186"
@@ -44,6 +44,10 @@
       "url": "https://github.com/backstage/backstage/security/advisories/GHSA-928r-fm4v-mvrw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29186"
+    },
+    {
       "type": "WEB",
       "url": "https://backstage.io/docs/features/techdocs/architecture"
     },
@@ -68,6 +72,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-05T00:12:07Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-07T15:15:55Z"
   }
 }
