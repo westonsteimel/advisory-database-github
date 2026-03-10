@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h2p-mvfx-868w",
-  "modified": "2026-03-09T13:13:10Z",
+  "modified": "2026-03-10T18:43:18Z",
   "published": "2026-03-07T02:19:45Z",
   "aliases": [
     "CVE-2026-30869"
@@ -44,6 +44,10 @@
       "url": "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-2h2p-mvfx-868w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30869"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/siyuan-note/siyuan"
     }
@@ -57,6 +61,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-07T02:19:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-10T17:40:14Z"
   }
 }
