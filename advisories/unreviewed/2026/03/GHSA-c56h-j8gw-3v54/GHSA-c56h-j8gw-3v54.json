@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c56h-j8gw-3v54",
-  "modified": "2026-03-09T21:31:39Z",
+  "modified": "2026-03-10T09:31:45Z",
   "published": "2026-03-09T21:31:39Z",
   "aliases": [
     "CVE-2026-3288"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/kubernetes/kubernetes/issues/137560"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/09/8"
     }
   ],
   "database_specific": {
