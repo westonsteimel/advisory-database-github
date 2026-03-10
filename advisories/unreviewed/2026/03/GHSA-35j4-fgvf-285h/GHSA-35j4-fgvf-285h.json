@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35j4-fgvf-285h",
-  "modified": "2026-03-05T06:30:22Z",
+  "modified": "2026-03-10T18:31:13Z",
   "published": "2026-03-05T06:30:22Z",
   "aliases": [
     "CVE-2025-69339"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in don-themes Molla molla allows PHP Local File Inclusion.This issue affects Molla: from n/a through <= 1.5.16.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-05T06:16:12Z"

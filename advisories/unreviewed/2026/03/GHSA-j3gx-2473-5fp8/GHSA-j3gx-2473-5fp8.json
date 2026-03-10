@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3gx-2473-5fp8",
-  "modified": "2026-03-07T00:30:28Z",
+  "modified": "2026-03-10T18:31:14Z",
   "published": "2026-03-07T00:30:28Z",
   "aliases": [
     "CVE-2026-25679"
   ],
   "details": "url.Parse insufficiently validated the host/authority component and accepted some invalid URLs.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-06T22:16:00Z"
