@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp52-r2fp-4vmr",
-  "modified": "2026-03-10T21:32:15Z",
+  "modified": "2026-03-11T21:12:09Z",
   "published": "2026-03-10T21:32:15Z",
   "aliases": [
     "CVE-2026-26801"
   ],
+  "summary": "pdfmake is vulnerable to server-side request forgery (SSRF)",
   "details": "Server-Side Request Forgery (SSRF) vulnerability in pdfmake versions 0.3.0-beta.2 through 0.3.5 allows a remote attacker to obtain sensitive information via the src/URLResolver.js component. The fix was released in version 0.3.6 which introduces the setUrlAccessPolicy() method allowing server operators to define URL access rules. A warning is now logged when pdfmake is used server-side without a policy configured.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "pdfmake"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.3.0-beta.2"
+            },
+            {
+              "fixed": "0.3.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,7 +45,7 @@
       "url": "https://github.com/bpampuch/pdfmake/pull/2920"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/bpampuch/pdfmake"
     },
     {
@@ -41,8 +62,8 @@
       "CWE-918"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-11T21:12:09Z",
     "nvd_published_at": "2026-03-10T19:17:17Z"
   }
 }
