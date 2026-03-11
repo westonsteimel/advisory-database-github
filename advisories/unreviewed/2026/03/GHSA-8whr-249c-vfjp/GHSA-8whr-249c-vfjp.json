@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8whr-249c-vfjp",
-  "modified": "2026-03-11T12:31:22Z",
+  "modified": "2026-03-11T15:31:52Z",
   "published": "2026-03-11T12:31:22Z",
   "aliases": [
     "CVE-2026-3783"
   ],
   "details": "When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer\nperforms a redirect to a second URL, curl could leak that token to the second\nhostname under some circumstances.\n\nIf the hostname that the first request is redirected to has information in the\nused .netrc file, with either of the `machine` or `default` keywords, curl\nwould pass on the bearer token set for the first host also to the second one.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-522"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-11T11:16:00Z"
