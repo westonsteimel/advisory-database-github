@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffv6-jj46-x367",
-  "modified": "2026-03-11T00:11:08Z",
+  "modified": "2026-03-11T05:45:51Z",
   "published": "2026-03-11T00:11:08Z",
   "aliases": [
     "CVE-2026-31815"
@@ -41,6 +41,10 @@
       "url": "https://github.com/django-commons/django-unicorn/security/advisories/GHSA-ffv6-jj46-x367"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31815"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/django-commons/django-unicorn"
     }
@@ -53,6 +57,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-11T00:11:08Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-10T22:16:19Z"
   }
 }
