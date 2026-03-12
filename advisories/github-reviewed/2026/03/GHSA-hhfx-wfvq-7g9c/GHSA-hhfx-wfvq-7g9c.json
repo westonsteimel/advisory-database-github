@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhfx-wfvq-7g9c",
-  "modified": "2026-03-11T19:59:54Z",
+  "modified": "2026-03-12T19:53:06Z",
   "published": "2026-03-10T18:31:21Z",
   "aliases": [
     "CVE-2026-26118"
@@ -38,6 +38,63 @@
       "package": {
         "ecosystem": "NuGet",
         "name": "Azure.Mcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.0"
+            },
+            {
+              "fixed": "1.0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@azure/mcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0-beta.1"
+            },
+            {
+              "fixed": "2.0.0-beta.17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "msmcp-azure"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0b14"
+            },
+            {
+              "fixed": "2.0.0b17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@azure/mcp"
       },
       "ranges": [
         {
