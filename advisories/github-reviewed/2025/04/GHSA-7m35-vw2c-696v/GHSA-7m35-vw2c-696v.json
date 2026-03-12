@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7m35-vw2c-696v",
-  "modified": "2025-04-21T21:55:26Z",
+  "modified": "2026-03-12T17:22:08Z",
   "published": "2025-04-21T03:30:18Z",
   "aliases": [
     "CVE-2025-43971"
   ],
   "summary": "GoBGP panics due to a zero value for softwareVersionLen",
-  "details": "An issue was discovered in GoBGP before 3.35.0. pkg/packet/bgp/bgp.go allows attackers to cause a panic via a zero value for softwareVersionLen.",
+  "details": "An issue was discovered in GoBGP before 3.35.0 (introduced in v3.11.0). pkg/packet/bgp/bgp.go allows attackers to cause a panic via a zero value for softwareVersionLen.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,25 +18,6 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/osrg/gobgp"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            }
-          ]
-        }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 3.35.0"
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
         "name": "github.com/osrg/gobgp/v3"
       },
       "ranges": [
@@ -44,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.11.0"
             },
             {
               "fixed": "3.35.0"
@@ -70,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/osrg/gobgp/compare/v3.34.0...v3.35.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security-tracker.debian.org/tracker/CVE-2025-43971"
     }
   ],
   "database_specific": {
