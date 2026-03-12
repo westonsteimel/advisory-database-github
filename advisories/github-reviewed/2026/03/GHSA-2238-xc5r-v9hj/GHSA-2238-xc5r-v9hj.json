@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2238-xc5r-v9hj",
-  "modified": "2026-03-12T17:50:28Z",
+  "modified": "2026-03-12T19:13:56Z",
   "published": "2026-03-12T17:50:28Z",
   "aliases": [
     "CVE-2026-24125"
@@ -44,6 +44,10 @@
       "url": "https://github.com/tinacms/tinacms/security/advisories/GHSA-2238-xc5r-v9hj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24125"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/tinacms/tinacms"
     }
@@ -55,6 +59,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-12T17:50:28Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-12T17:16:39Z"
   }
 }
