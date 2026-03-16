@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xxp-2vrj-x855",
-  "modified": "2026-03-13T16:10:12Z",
+  "modified": "2026-03-16T16:37:09Z",
   "published": "2026-03-13T16:10:12Z",
   "aliases": [
     "CVE-2026-32614"
@@ -45,21 +45,30 @@
       "url": "https://github.com/emmansun/gmsm/security/advisories/GHSA-5xxp-2vrj-x855"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32614"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/emmansun/gmsm"
     },
     {
       "type": "WEB",
       "url": "https://github.com/emmansun/gmsm/releases/tag/v0.41.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4694"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-347"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-13T16:10:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-16T14:19:39Z"
   }
 }
