@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8mff-gcgj-hhfr",
+  "modified": "2026-03-16T21:34:32Z",
+  "published": "2026-03-16T21:34:32Z",
+  "aliases": [
+    "CVE-2025-68971"
+  ],
+  "details": "In Forgejo through 13.0.3, the attachment component allows a denial of service by uploading a multi-gigabyte file attachment (e.g., to be associated with an issue or a release).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68971"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=291973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://codeberg.org/forgejo/forgejo"
+    },
+    {
+      "type": "WEB",
+      "url": "https://zenodo.org/records/18945481"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-16T20:16:14Z"
+  }
+}

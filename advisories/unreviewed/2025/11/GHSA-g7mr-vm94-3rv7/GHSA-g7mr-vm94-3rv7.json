@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7mr-vm94-3rv7",
-  "modified": "2026-03-12T12:30:29Z",
+  "modified": "2026-03-16T21:34:29Z",
   "published": "2025-11-18T21:32:31Z",
   "aliases": [
     "CVE-2025-61662"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61662"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:4649"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:4652"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:4654"
     },
     {
       "type": "WEB",
