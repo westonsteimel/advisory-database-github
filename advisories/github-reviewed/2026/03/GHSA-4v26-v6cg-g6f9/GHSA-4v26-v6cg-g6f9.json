@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v26-v6cg-g6f9",
-  "modified": "2026-03-13T20:04:21Z",
+  "modified": "2026-03-16T22:01:02Z",
   "published": "2026-03-13T20:04:21Z",
   "aliases": [
     "CVE-2026-32313"
@@ -41,6 +41,10 @@
       "url": "https://github.com/robrichards/xmlseclibs/security/advisories/GHSA-4v26-v6cg-g6f9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32313"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/robrichards/xmlseclibs/commit/03062be78178cbb5e8f605cd255dc32a14981f92"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-13T20:04:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-16T14:19:33Z"
   }
 }
