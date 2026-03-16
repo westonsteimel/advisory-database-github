@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc7p-2j3x-x7xf",
-  "modified": "2026-03-16T18:44:20Z",
+  "modified": "2026-03-16T21:57:43Z",
   "published": "2026-03-16T18:44:20Z",
   "aliases": [
     "CVE-2026-32267"
@@ -66,6 +66,10 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-cc7p-2j3x-x7xf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32267"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/commit/6301e217c5f15617d939c432cb770db50af14b33"
     },
@@ -81,6 +85,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-16T18:44:20Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-16T20:16:19Z"
   }
 }

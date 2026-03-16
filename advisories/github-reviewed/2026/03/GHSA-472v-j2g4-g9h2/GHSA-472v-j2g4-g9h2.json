@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-472v-j2g4-g9h2",
-  "modified": "2026-03-16T18:11:49Z",
+  "modified": "2026-03-16T21:57:24Z",
   "published": "2026-03-16T18:11:49Z",
   "aliases": [
     "CVE-2026-32262"
@@ -66,6 +66,10 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-472v-j2g4-g9h2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32262"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/commit/c997efbe4c66c14092714233aeebff15cdbfcf11"
     },
@@ -81,6 +85,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-16T18:11:49Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-16T20:16:19Z"
   }
 }
