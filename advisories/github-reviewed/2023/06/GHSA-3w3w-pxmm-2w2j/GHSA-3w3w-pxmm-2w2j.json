@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w3w-pxmm-2w2j",
-  "modified": "2025-01-06T18:35:21Z",
+  "modified": "2026-03-16T21:31:59Z",
   "published": "2023-06-12T03:30:17Z",
   "aliases": [
     "CVE-2020-36732"
   ],
   "summary": "crypto-js uses insecure random numbers",
-  "details": "The crypto-js package before 3.2.1 for Node.js generates random numbers by concatenating the string \"0.\" with an integer, which makes the output more predictable than necessary.",
+  "details": "The crypto-js package 3.2.0 for Node.js generates random numbers by concatenating the string \"0.\" with an integer, which makes the output more predictable than necessary.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,13 +25,16 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.2.0"
             },
             {
               "fixed": "3.2.1"
             }
           ]
         }
+      ],
+      "versions": [
+        "3.2.0"
       ]
     }
   ],
@@ -51,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/brix/crypto-js/pull/257/commits/e4ac157d8b75b962d6538fc0b996e5d4d5a9466b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/brix/crypto-js/commit/b405ff597fb3ac76a7bdfbc72dca10ba1079b1d5"
     },
     {
       "type": "WEB",
