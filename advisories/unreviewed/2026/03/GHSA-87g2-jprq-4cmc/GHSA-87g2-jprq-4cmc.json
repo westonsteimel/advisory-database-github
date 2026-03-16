@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87g2-jprq-4cmc",
-  "modified": "2026-03-08T06:31:10Z",
+  "modified": "2026-03-16T15:30:33Z",
   "published": "2026-03-08T06:31:10Z",
   "aliases": [
     "CVE-2026-3706"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3706"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mkj/dropbear/issues/406"
     },
     {
       "type": "WEB",

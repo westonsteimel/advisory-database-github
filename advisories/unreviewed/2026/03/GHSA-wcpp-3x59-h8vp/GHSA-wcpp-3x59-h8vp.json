@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcpp-3x59-h8vp",
-  "modified": "2026-03-12T21:34:51Z",
+  "modified": "2026-03-16T15:30:34Z",
   "published": "2026-03-12T21:34:50Z",
   "aliases": [
     "CVE-2026-3497"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/03/12/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/14/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/14/4"
     }
   ],
   "database_specific": {

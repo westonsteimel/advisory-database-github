@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmx3-j49q-67ww",
-  "modified": "2026-03-13T21:31:48Z",
+  "modified": "2026-03-16T15:30:34Z",
   "published": "2026-03-13T21:31:48Z",
   "aliases": [
     "CVE-2026-32353"
   ],
   "details": "Server-Side Request Forgery (SSRF) vulnerability in MailerPress Team MailerPress mailerpress allows Server Side Request Forgery.This issue affects MailerPress: from n/a through <= 1.4.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-918"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-13T19:54:47Z"

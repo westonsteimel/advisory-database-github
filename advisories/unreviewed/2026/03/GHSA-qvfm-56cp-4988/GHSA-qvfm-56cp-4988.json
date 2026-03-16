@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qvfm-56cp-4988",
-  "modified": "2026-03-13T21:31:51Z",
+  "modified": "2026-03-16T15:30:40Z",
   "published": "2026-03-13T21:31:51Z",
   "aliases": [
     "CVE-2026-32746"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2026/03/12/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/14/1"
     }
   ],
   "database_specific": {
