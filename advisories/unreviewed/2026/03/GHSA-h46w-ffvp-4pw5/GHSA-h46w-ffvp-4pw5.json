@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h46w-ffvp-4pw5",
-  "modified": "2026-03-16T18:32:04Z",
+  "modified": "2026-03-17T00:31:34Z",
   "published": "2026-03-16T18:32:04Z",
   "aliases": [
     "CVE-2026-4224"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ6R"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/16/4"
     }
   ],
   "database_specific": {
