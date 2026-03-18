@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4wh-cr8m-gm6c",
-  "modified": "2026-03-18T01:32:40Z",
+  "modified": "2026-03-18T21:50:28Z",
   "published": "2026-03-03T21:36:16Z",
   "aliases": [
     "CVE-2026-22217"
@@ -41,8 +41,20 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-p4wh-cr8m-gm6c"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22217"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openclaw/openclaw/commit/ff10fe8b91670044a6bb0cd85deb736a0ec8fb55"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/openclaw-arbitrary-binary-execution-via-shell-environment-variable-trusted-prefix-fallback"
     }
   ],
   "database_specific": {
@@ -53,6 +65,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-03T21:36:16Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-18T02:16:23Z"
   }
 }
