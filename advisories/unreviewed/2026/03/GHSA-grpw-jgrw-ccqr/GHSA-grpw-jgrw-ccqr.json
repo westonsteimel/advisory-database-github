@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grpw-jgrw-ccqr",
-  "modified": "2026-03-18T00:30:54Z",
+  "modified": "2026-03-18T06:31:19Z",
   "published": "2026-03-17T15:36:23Z",
   "aliases": [
     "CVE-2026-3888"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://ubuntu.com/security/notices/USN-8102-1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/18/1"
     }
   ],
   "database_specific": {

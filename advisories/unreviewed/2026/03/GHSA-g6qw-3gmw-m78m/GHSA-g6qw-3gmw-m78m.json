@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6qw-3gmw-m78m",
-  "modified": "2026-03-18T00:30:54Z",
+  "modified": "2026-03-18T06:31:19Z",
   "published": "2026-03-18T00:30:54Z",
   "aliases": [
     "CVE-2026-21994"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21994"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.oracle.com/security-alerts/all-oracle-cves-outside-other-oracle-public-documents.html"
     },
     {
       "type": "WEB",
