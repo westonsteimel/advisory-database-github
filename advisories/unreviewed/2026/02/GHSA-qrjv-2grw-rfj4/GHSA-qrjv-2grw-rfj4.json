@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrjv-2grw-rfj4",
-  "modified": "2026-02-14T18:30:15Z",
+  "modified": "2026-03-18T15:30:40Z",
   "published": "2026-02-14T18:30:15Z",
   "aliases": [
     "CVE-2026-23155"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncan: gs_usb: gs_usb_receive_bulk_callback(): fix error message\n\nSinc commit 79a6d1bfe114 (\"can: gs_usb: gs_usb_receive_bulk_callback():\nunanchor URL on usb_submit_urb() error\") a failing resubmit URB will print\nan info message.\n\nIn the case of a short read where netdev has not yet been assigned,\ninitialize as NULL to avoid dereferencing an undefined value. Also report\nthe error value of the failed resubmit.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-14T16:15:55Z"

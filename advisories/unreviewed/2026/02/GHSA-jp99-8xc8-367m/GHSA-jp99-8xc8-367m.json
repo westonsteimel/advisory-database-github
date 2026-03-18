@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp99-8xc8-367m",
-  "modified": "2026-02-23T06:30:18Z",
+  "modified": "2026-03-18T15:30:41Z",
   "published": "2026-02-18T18:30:40Z",
   "aliases": [
     "CVE-2026-23221"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbus: fsl-mc: fix use-after-free in driver_override_show()\n\nThe driver_override_show() function reads the driver_override string\nwithout holding the device_lock. However, driver_override_store() uses\ndriver_set_override(), which modifies and frees the string while holding\nthe device_lock.\n\nThis can result in a concurrent use-after-free if the string is freed\nby the store function while being read by the show function.\n\nFix this by holding the device_lock around the read operation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-18T16:22:31Z"

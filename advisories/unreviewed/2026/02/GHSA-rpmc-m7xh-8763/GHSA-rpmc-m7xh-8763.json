@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpmc-m7xh-8763",
-  "modified": "2026-02-04T18:30:43Z",
+  "modified": "2026-03-18T15:30:39Z",
   "published": "2026-02-04T18:30:43Z",
   "aliases": [
     "CVE-2026-23079"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngpio: cdev: Fix resource leaks on errors in lineinfo_changed_notify()\n\nOn error handling paths, lineinfo_changed_notify() doesn't free the\nallocated resources which results leaks.  Fix it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-04T17:16:18Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5p5-6q7q-gj33",
-  "modified": "2026-02-14T15:32:18Z",
+  "modified": "2026-03-18T15:30:40Z",
   "published": "2026-02-14T15:32:18Z",
   "aliases": [
     "CVE-2026-23123"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ninterconnect: debugfs: initialize src_node and dst_node to empty strings\n\nThe debugfs_create_str() API assumes that the string pointer is either NULL\nor points to valid kmalloc() memory. Leaving the pointer uninitialized can\ncause problems.\n\nInitialize src_node and dst_node to empty strings before creating the\ndebugfs entries to guarantee that reads and writes are safe.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-14T15:16:07Z"
