@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfq5-qg8x-7rmp",
-  "modified": "2026-02-18T15:31:27Z",
+  "modified": "2026-03-18T21:32:57Z",
   "published": "2026-02-18T15:31:27Z",
   "aliases": [
     "CVE-2026-23216"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: target: iscsi: Fix use-after-free in iscsit_dec_conn_usage_count()\n\nIn iscsit_dec_conn_usage_count(), the function calls complete() while\nholding the conn->conn_usage_lock. As soon as complete() is invoked, the\nwaiter (such as iscsit_close_connection()) may wake up and proceed to free\nthe iscsit_conn structure.\n\nIf the waiter frees the memory before the current thread reaches\nspin_unlock_bh(), it results in a KASAN slab-use-after-free as the function\nattempts to release a lock within the already-freed connection structure.\n\nFix this by releasing the spinlock before calling complete().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-18T15:18:42Z"
