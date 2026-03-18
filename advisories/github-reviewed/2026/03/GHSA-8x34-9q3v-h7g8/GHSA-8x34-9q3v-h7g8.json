@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x34-9q3v-h7g8",
-  "modified": "2026-03-17T15:36:23Z",
+  "modified": "2026-03-18T16:33:18Z",
   "published": "2026-03-17T12:30:20Z",
   "aliases": [
     "CVE-2026-30911"
   ],
+  "summary": "Apache Airflow: Execution API HITL Endpoints Missing Per-Task Authorization",
   "details": "Apache Airflow versions 3.1.0 through 3.1.7 missing authorization vulnerability in the Execution API's Human-in-the-Loop (HITL) endpoints that allows any authenticated task instance to read, approve, or reject HITL workflows belonging to any other task instance.\n\n\nUsers are recommended to upgrade to Apache Airflow 3.1.8 or later, which resolves this issue.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "apache-airflow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0"
+            },
+            {
+              "fixed": "3.1.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/airflow/pull/62886"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/airflow"
     },
     {
       "type": "WEB",
@@ -37,8 +62,8 @@
       "CWE-862"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-18T16:33:18Z",
     "nvd_published_at": "2026-03-17T11:16:11Z"
   }
 }
