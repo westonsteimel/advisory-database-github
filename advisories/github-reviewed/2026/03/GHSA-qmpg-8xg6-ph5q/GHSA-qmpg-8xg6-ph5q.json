@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmpg-8xg6-ph5q",
-  "modified": "2026-03-12T17:29:30Z",
+  "modified": "2026-03-18T19:37:52Z",
   "published": "2026-03-12T17:29:30Z",
   "aliases": [],
   "summary": "Trix has a Stored XSS vulnerability through serialized attributes",
@@ -72,6 +72,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/basecamp/trix/releases/tag/v2.1.17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/action_text-trix/GHSA-qmpg-8xg6-ph5q.yml"
     }
   ],
   "database_specific": {
