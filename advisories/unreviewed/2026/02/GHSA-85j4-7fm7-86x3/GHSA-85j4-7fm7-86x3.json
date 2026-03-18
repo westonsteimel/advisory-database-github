@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85j4-7fm7-86x3",
-  "modified": "2026-02-06T18:30:30Z",
+  "modified": "2026-03-18T18:31:11Z",
   "published": "2026-02-04T18:30:43Z",
   "aliases": [
     "CVE-2026-23075"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncan: esd_usb: esd_usb_read_bulk_callback(): fix URB memory leak\n\nFix similar memory leak as in commit 7352e1d5932a (\"can: gs_usb:\ngs_usb_receive_bulk_callback(): fix URB memory leak\").\n\nIn esd_usb_open(), the URBs for USB-in transfers are allocated, added to\nthe dev->rx_submitted anchor and submitted. In the complete callback\nesd_usb_read_bulk_callback(), the URBs are processed and resubmitted. In\nesd_usb_close() the URBs are freed by calling\nusb_kill_anchored_urbs(&dev->rx_submitted).\n\nHowever, this does not take into account that the USB framework unanchors\nthe URB before the complete function is called. This means that once an\nin-URB has been completed, it is no longer anchored and is ultimately not\nreleased in esd_usb_close().\n\nFix the memory leak by anchoring the URB in the\nesd_usb_read_bulk_callback() to the dev->rx_submitted anchor.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-04T17:16:18Z"

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mjxw-242v-v9vm",
+  "modified": "2026-03-18T18:31:18Z",
+  "published": "2026-03-18T18:31:18Z",
+  "aliases": [
+    "CVE-2026-29856"
+  ],
+  "details": "An issue in the VirtualHost configuration handling/parser component of aaPanel v7.57.0 allows attackers to cause a Regular Expression Denial of Service (ReDoS) via a crafted input.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29856"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aapanel/aapanel"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mbiesiad/vulnerability-research/tree/main/CVE-2026-29856"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-18T18:16:27Z"
+  }
+}

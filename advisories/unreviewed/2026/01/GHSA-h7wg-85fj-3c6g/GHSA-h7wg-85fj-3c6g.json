@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7wg-85fj-3c6g",
-  "modified": "2026-01-05T15:32:15Z",
+  "modified": "2026-03-18T18:31:10Z",
   "published": "2026-01-05T15:32:15Z",
   "aliases": [
     "CVE-2025-66376"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-66376"
     }
   ],
   "database_specific": {

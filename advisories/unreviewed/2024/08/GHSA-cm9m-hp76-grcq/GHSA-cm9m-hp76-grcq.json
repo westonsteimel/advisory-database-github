@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm9m-hp76-grcq",
-  "modified": "2024-08-22T18:31:21Z",
+  "modified": "2026-03-18T18:31:09Z",
   "published": "2024-08-22T06:30:29Z",
   "aliases": [
     "CVE-2024-45163"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cypressthatkid.medium.com/remote-dos-exploit-found-in-mirai-botnet-source-code-27a1aad284f1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://flowtriq.com/blog/cve-2024-45163-mirai-botnet-kill-switch"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xph2-5pq4-m7jp",
-  "modified": "2026-02-14T18:30:15Z",
+  "modified": "2026-03-18T18:31:11Z",
   "published": "2026-02-14T18:30:15Z",
   "aliases": [
     "CVE-2025-71203"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nriscv: Sanitize syscall table indexing under speculation\n\nThe syscall number is a user-controlled value used to index into the\nsyscall table. Use array_index_nospec() to clamp this value after the\nbounds check to prevent speculative out-of-bounds access and subsequent\ndata leakage via cache side channels.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-14T17:15:54Z"

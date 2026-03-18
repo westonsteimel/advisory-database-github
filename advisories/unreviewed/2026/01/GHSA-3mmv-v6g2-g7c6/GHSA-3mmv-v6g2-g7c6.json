@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mmv-v6g2-g7c6",
-  "modified": "2026-01-13T03:32:09Z",
+  "modified": "2026-03-18T18:31:10Z",
   "published": "2026-01-13T03:32:09Z",
   "aliases": [
     "CVE-2025-66176"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.hikvision.com/en/support/cybersecurity/security-advisory/buffer-overflow-vulnerabilities-in-some-hikvision-products"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2281"
     }
   ],
   "database_specific": {

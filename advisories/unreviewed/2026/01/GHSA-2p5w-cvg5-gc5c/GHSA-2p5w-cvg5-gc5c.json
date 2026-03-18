@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p5w-cvg5-gc5c",
-  "modified": "2026-01-23T09:30:28Z",
+  "modified": "2026-03-18T18:31:10Z",
   "published": "2026-01-23T09:30:28Z",
   "aliases": [
     "CVE-2026-0603"
@@ -18,6 +18,22 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0603"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:4915"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:4916"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:4917"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:4924"
     },
     {
       "type": "WEB",
