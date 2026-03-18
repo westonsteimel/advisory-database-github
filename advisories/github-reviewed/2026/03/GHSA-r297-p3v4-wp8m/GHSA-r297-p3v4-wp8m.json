@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r297-p3v4-wp8m",
-  "modified": "2026-03-16T16:35:01Z",
+  "modified": "2026-03-18T21:48:47Z",
   "published": "2026-03-16T16:35:01Z",
   "aliases": [
     "CVE-2026-32633"
@@ -44,6 +44,10 @@
       "url": "https://github.com/nicolargo/glances/security/advisories/GHSA-r297-p3v4-wp8m"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32633"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nicolargo/glances/commit/879ef8688ffa1630839549751d3c7ef9961d361e"
     },
@@ -64,6 +68,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-16T16:35:01Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-18T18:16:28Z"
   }
 }

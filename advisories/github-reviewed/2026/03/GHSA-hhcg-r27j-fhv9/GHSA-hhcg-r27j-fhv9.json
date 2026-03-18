@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhcg-r27j-fhv9",
-  "modified": "2026-03-16T16:34:23Z",
+  "modified": "2026-03-18T21:48:39Z",
   "published": "2026-03-16T16:34:23Z",
   "aliases": [
     "CVE-2026-32632"
@@ -41,6 +41,10 @@
       "url": "https://github.com/nicolargo/glances/security/advisories/GHSA-hhcg-r27j-fhv9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32632"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nicolargo/glances/commit/5850c564ee10804fdf884823b9c210eb954dd1f9"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-16T16:34:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-18T18:16:28Z"
   }
 }
