@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c44j-rqvr-7mwv",
+  "modified": "2026-03-19T15:31:21Z",
+  "published": "2026-03-19T15:31:21Z",
+  "aliases": [
+    "CVE-2026-30711"
+  ],
+  "details": "Devome GRR v4.5.0 was discovered to contain multiple authenticated SQL injection vulnerabilities in the include/session.inc.php file via the referer and user-agent.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30711"
+    },
+    {
+      "type": "WEB",
+      "url": "https://breakpoint.purrfect.fr/article/grr_audit.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://breakpoint.purrfect.fr/article/grr_audit.html#v4-sql-injection-in-session-inc-php-1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-19T15:16:26Z"
+  }
+}

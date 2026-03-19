@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4pr-w75g-wfrf",
-  "modified": "2026-03-10T18:31:14Z",
+  "modified": "2026-03-19T15:31:10Z",
   "published": "2026-03-06T18:31:13Z",
   "aliases": [
     "CVE-2025-69651"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=33698"
+    },
+    {
+      "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=33700"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/?p=binutils-gdb.git;a=commitdiff;h=81e90cf63a10ad11772c2437c8f2a88f1a00c739"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/?p=binutils-gdb.git;a=commitdiff;h=ea4bc025abdba85a90e26e13f551c16a44bfa92"
     },
     {
       "type": "WEB",

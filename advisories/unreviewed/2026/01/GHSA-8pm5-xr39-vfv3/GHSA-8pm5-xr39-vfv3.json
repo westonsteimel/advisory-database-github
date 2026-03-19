@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pm5-xr39-vfv3",
-  "modified": "2026-01-27T12:31:17Z",
+  "modified": "2026-03-19T15:31:09Z",
   "published": "2026-01-27T12:31:17Z",
   "aliases": [
     "CVE-2026-1467"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2433174"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/issues/488"
     }
   ],
   "database_specific": {
