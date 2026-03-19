@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmrf-hv6w-mr66",
-  "modified": "2026-03-18T12:59:32Z",
+  "modified": "2026-03-19T23:13:50Z",
   "published": "2026-03-18T12:59:32Z",
   "aliases": [
     "CVE-2026-32763"
@@ -34,7 +34,7 @@
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "< 0.28.11"
+        "last_known_affected_version_range": "<= 0.28.11"
       }
     }
   ],
