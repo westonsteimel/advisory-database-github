@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh5w-g8gq-r3v9",
-  "modified": "2026-01-12T03:31:07Z",
+  "modified": "2026-03-19T21:23:17Z",
   "published": "2025-11-24T18:31:14Z",
   "aliases": [
     "CVE-2025-13609"
@@ -39,6 +39,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13609"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keylime/keylime/issues/1820"
     },
     {
       "type": "WEB",
