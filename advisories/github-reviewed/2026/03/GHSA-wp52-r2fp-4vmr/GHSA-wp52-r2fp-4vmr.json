@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp52-r2fp-4vmr",
-  "modified": "2026-03-11T21:12:09Z",
+  "modified": "2026-03-19T16:35:25Z",
   "published": "2026-03-10T21:32:15Z",
   "aliases": [
     "CVE-2026-26801"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/bpampuch/pdfmake/releases/tag/0.3.6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mariopepe.github.io/cve-2026-26801-pdfmake-ssrf"
     }
   ],
   "database_specific": {
