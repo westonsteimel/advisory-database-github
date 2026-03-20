@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcg3-c5p2-cqgg",
-  "modified": "2026-03-18T16:34:18Z",
+  "modified": "2026-03-20T21:33:25Z",
   "published": "2026-03-18T16:34:18Z",
   "aliases": [
     "CVE-2026-33142"
@@ -41,6 +41,10 @@
       "url": "https://github.com/OneUptime/oneuptime/security/advisories/GHSA-gcg3-c5p2-cqgg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33142"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/OneUptime/oneuptime"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-18T16:34:18Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-20T21:17:14Z"
   }
 }
