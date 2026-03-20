@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcv7-3vfh-47x6",
-  "modified": "2026-03-06T12:30:30Z",
+  "modified": "2026-03-20T21:31:28Z",
   "published": "2026-03-05T21:30:48Z",
   "aliases": [
     "CVE-2025-29165"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.dlink.com/en/security-bulletin"
+    },
+    {
+      "type": "WEB",
+      "url": "https://zuh.re/cve/2025-29165"
     }
   ],
   "database_specific": {

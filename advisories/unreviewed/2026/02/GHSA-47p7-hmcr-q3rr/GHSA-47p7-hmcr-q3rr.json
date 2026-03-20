@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47p7-hmcr-q3rr",
-  "modified": "2026-02-26T21:31:30Z",
+  "modified": "2026-03-20T21:31:27Z",
   "published": "2026-02-25T18:31:37Z",
   "aliases": [
     "CVE-2025-69771"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69771"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/killergerbah/asbplayer"
     },
     {
       "type": "WEB",

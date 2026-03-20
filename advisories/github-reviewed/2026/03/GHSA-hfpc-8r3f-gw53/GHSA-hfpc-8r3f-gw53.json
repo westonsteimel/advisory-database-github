@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfpc-8r3f-gw53",
-  "modified": "2026-03-03T20:25:39Z",
+  "modified": "2026-03-20T21:31:48Z",
   "published": "2026-03-03T20:25:39Z",
   "aliases": [],
   "summary": "AWS-LC has PKCS7_verify Signature Validation Bypass",
@@ -53,6 +53,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/aws/aws-lc-rs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0047.html"
     }
   ],
   "database_specific": {

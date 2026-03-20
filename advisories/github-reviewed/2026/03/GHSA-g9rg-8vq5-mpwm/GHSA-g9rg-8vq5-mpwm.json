@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9rg-8vq5-mpwm",
-  "modified": "2026-03-18T21:44:48Z",
+  "modified": "2026-03-20T21:32:22Z",
   "published": "2026-03-07T02:12:26Z",
   "aliases": [
     "CVE-2026-33010"
@@ -41,6 +41,10 @@
       "url": "https://github.com/doobidoo/mcp-memory-service/security/advisories/GHSA-g9rg-8vq5-mpwm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33010"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/doobidoo/mcp-memory-service"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-07T02:12:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-20T19:16:17Z"
   }
 }

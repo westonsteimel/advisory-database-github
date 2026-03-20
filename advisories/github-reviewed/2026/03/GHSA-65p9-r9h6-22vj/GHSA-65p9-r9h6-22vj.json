@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65p9-r9h6-22vj",
-  "modified": "2026-03-03T20:09:26Z",
+  "modified": "2026-03-20T21:31:32Z",
   "published": "2026-03-03T20:09:25Z",
   "aliases": [],
   "summary": "AWS-LC has Timing Side-Channel in AES-CCM Tag Verification",
@@ -76,6 +76,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/aws/aws-lc-rs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0043.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0045.html"
     }
   ],
   "database_specific": {
