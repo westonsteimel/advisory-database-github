@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3gw-9ww9-jmc3",
-  "modified": "2025-04-25T17:27:17Z",
+  "modified": "2026-03-20T21:28:37Z",
   "published": "2025-04-25T15:02:53Z",
   "aliases": [
     "CVE-2025-32432"
@@ -122,6 +122,10 @@
     {
       "type": "WEB",
       "url": "https://sensepost.com/blog/2025/investigating-an-in-the-wild-campaign-using-rce-in-craftcms"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-32432"
     }
   ],
   "database_specific": {

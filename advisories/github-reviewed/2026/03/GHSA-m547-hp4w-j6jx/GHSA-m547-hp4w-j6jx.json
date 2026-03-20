@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m547-hp4w-j6jx",
-  "modified": "2026-03-20T14:41:03Z",
+  "modified": "2026-03-20T21:28:21Z",
   "published": "2026-03-20T14:41:03Z",
   "aliases": [
     "CVE-2026-29794"
@@ -41,12 +41,20 @@
       "url": "https://github.com/go-vikunja/vikunja/security/advisories/GHSA-m547-hp4w-j6jx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29794"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/go-vikunja/vikunja/commit/a498dd69915a006c07e9d82660a2185d7e8136ee"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/go-vikunja/vikunja"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vikunja.io/changelog/vikunja-v2.2.0-was-released"
     }
   ],
   "database_specific": {
@@ -56,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-20T14:41:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-20T15:16:16Z"
   }
 }

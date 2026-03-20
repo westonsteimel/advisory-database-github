@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vj8-jmxq-cgj5",
-  "modified": "2026-03-18T16:18:12Z",
+  "modified": "2026-03-20T21:28:00Z",
   "published": "2026-03-18T16:18:12Z",
   "aliases": [
     "CVE-2026-33131"
@@ -41,6 +41,10 @@
       "url": "https://github.com/h3js/h3/security/advisories/GHSA-3vj8-jmxq-cgj5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33131"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/h3js/h3"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-18T16:18:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-20T11:18:02Z"
   }
 }
