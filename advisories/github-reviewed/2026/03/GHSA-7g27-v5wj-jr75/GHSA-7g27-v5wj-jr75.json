@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g27-v5wj-jr75",
-  "modified": "2026-03-18T20:06:36Z",
+  "modified": "2026-03-20T21:24:03Z",
   "published": "2026-03-18T20:06:36Z",
   "aliases": [
     "CVE-2026-33064"
@@ -41,6 +41,10 @@
       "url": "https://github.com/free5gc/free5gc/security/advisories/GHSA-7g27-v5wj-jr75"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33064"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/free5gc/free5gc/issues/781"
     },
@@ -59,11 +63,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-476"
+      "CWE-476",
+      "CWE-478"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-18T20:06:36Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-20T08:16:12Z"
   }
 }
