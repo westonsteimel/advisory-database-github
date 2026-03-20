@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fj38-hpf4-jxg7",
+  "modified": "2026-03-20T03:31:05Z",
+  "published": "2026-03-20T03:31:05Z",
+  "aliases": [
+    "CVE-2026-4458"
+  ],
+  "details": "Use after free in Extensions in Google Chrome prior to 146.0.7680.153 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted Chrome Extension. (Chromium security severity: High)",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4458"
+    },
+    {
+      "type": "WEB",
+      "url": "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_18.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/489619753"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-20T02:16:39Z"
+  }
+}
