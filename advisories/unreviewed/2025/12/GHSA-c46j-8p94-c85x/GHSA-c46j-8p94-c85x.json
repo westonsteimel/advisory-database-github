@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c46j-8p94-c85x",
-  "modified": "2026-03-19T18:31:14Z",
+  "modified": "2026-03-20T18:31:15Z",
   "published": "2025-12-12T21:31:39Z",
   "aliases": [
     "CVE-2025-43520"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125639"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-43520"
     }
   ],
   "database_specific": {

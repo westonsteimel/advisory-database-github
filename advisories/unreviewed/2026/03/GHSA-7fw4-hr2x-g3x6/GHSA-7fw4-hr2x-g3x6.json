@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7fw4-hr2x-g3x6",
+  "modified": "2026-03-20T18:31:18Z",
+  "published": "2026-03-20T18:31:18Z",
+  "aliases": [
+    "CVE-2025-46597"
+  ],
+  "details": "Bitcoin Core 0.13.0 through 29.x has an integer overflow.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46597"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bitcoincore.org/en/2025/10/24/disclose-cve-2025-46597"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/bitcoin/bitcoin/releases"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-20T16:16:16Z"
+  }
+}
