@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7cq-gvh6-qr25",
-  "modified": "2026-03-16T21:55:37Z",
+  "modified": "2026-03-20T21:18:29Z",
   "published": "2026-03-16T20:46:48Z",
   "aliases": [
     "CVE-2026-32771"
@@ -41,12 +41,20 @@
       "url": "https://github.com/ctfer-io/monitoring/security/advisories/GHSA-f7cq-gvh6-qr25"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32771"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ctfer-io/monitoring/commit/269dba165aa42210352628c0db6756f3b8fd3c8a"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/ctfer-io/monitoring"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.snyk.io/research/zip-slip-vulnerability#expandable-socPI9fFAJ-title"
     }
   ],
   "database_specific": {
@@ -56,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-16T20:46:48Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-20T01:15:55Z"
   }
 }
