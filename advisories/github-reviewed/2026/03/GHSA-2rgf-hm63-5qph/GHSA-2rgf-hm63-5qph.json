@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rgf-hm63-5qph",
-  "modified": "2026-03-19T22:26:44Z",
+  "modified": "2026-03-20T21:13:36Z",
   "published": "2026-03-03T22:17:12Z",
   "aliases": [
     "CVE-2026-32029"
@@ -9,6 +9,10 @@
   "summary": "OpenClaw improperly parses X-Forwarded-For behind trusted proxies allows client IP spoofing in security decisions",
   "details": "### Summary\n\nOpenClaw used left-most `X-Forwarded-For` values when requests came from configured trusted proxies. In proxy chains that append/preserve header values, this could let attacker-controlled header content influence security decisions tied to client IP.\n\n### Affected Packages / Versions\n\n- Package: `openclaw` (npm)\n- Affected: `<= 2026.2.19-2`\n- Patched: `2026.2.21` (planned next release)\n\n### Impact\n\nPossible client-IP spoofing in security-sensitive paths (for example auth rate-limit identity and local/private classification) for deployments behind trusted proxies with non-recommended forwarding behavior.\n\n### Scope Note\n\nOpenClaw docs recommend reverse proxies overwrite (not append/preserve) inbound forwarding headers. This condition reduces severity.\n\n### Fix Commit(s)\n\n- `07039dc089e51589a213ec0d16f8d6f2cd871fa1`\n- `8877bfd11ec7760b115b2d0d7500a45da2749747`\n\n### Release Process Note\n\n`patched_versions` is pre-set to the planned next release (`2026.2.21`). After npm release is out, publish this advisory.\n\nOpenClaw thanks @AnthonyDiSanti for reporting.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
@@ -44,6 +48,10 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-2rgf-hm63-5qph"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32029"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/07039dc089e51589a213ec0d16f8d6f2cd871fa1"
     },
@@ -54,6 +62,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/openclaw-client-ip-spoofing-via-x-forwarded-for-header-parsing"
     }
   ],
   "database_specific": {
@@ -64,6 +76,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-03T22:17:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-19T22:16:38Z"
   }
 }
