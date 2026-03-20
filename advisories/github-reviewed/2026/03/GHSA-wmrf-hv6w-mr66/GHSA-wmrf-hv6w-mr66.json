@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmrf-hv6w-mr66",
-  "modified": "2026-03-19T23:13:50Z",
+  "modified": "2026-03-20T21:16:22Z",
   "published": "2026-03-18T12:59:32Z",
   "aliases": [
     "CVE-2026-32763"
@@ -44,6 +44,10 @@
       "url": "https://github.com/kysely-org/kysely/security/advisories/GHSA-wmrf-hv6w-mr66"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32763"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/kysely-org/kysely/commit/0a602bff2f442f6c26d5e047ca8f8715179f6d24"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-18T12:59:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-20T00:16:17Z"
   }
 }

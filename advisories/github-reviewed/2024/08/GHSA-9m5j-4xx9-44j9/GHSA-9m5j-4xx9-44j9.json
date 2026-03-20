@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m5j-4xx9-44j9",
-  "modified": "2024-11-18T16:27:01Z",
+  "modified": "2026-03-20T21:18:09Z",
   "published": "2024-08-07T18:30:44Z",
   "aliases": [
     "CVE-2024-7143"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pulp/pulpcore/blob/93f241f34c503da0fbac94bdba739feda2636e12/pulpcore/tasking/_util.py#L108"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pulp/pulpcore/blob/main/CHANGES.md"
     }
   ],
   "database_specific": {

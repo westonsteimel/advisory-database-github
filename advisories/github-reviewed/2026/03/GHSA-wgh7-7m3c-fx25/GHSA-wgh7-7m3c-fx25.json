@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgh7-7m3c-fx25",
-  "modified": "2026-03-19T21:30:54Z",
+  "modified": "2026-03-20T21:16:46Z",
   "published": "2026-03-19T21:30:54Z",
   "aliases": [],
   "summary": "Scriban has Uncontrolled Recursion in Parser Leads to Stack Overflow and Process Crash (Denial of Service)",
