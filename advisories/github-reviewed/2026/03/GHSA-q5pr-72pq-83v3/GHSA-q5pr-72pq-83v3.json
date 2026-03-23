@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q5pr-72pq-83v3",
-  "modified": "2026-03-23T21:44:55Z",
+  "modified": "2026-03-23T21:49:19Z",
   "published": "2026-03-23T21:44:55Z",
   "aliases": [],
   "summary": "H3: Unbounded Chunked Cookie Count in Session Cleanup Loop may Lead to Denial of Service",
@@ -39,8 +39,16 @@
       "url": "https://github.com/h3js/h3/security/advisories/GHSA-q5pr-72pq-83v3"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/h3js/h3/commit/399257cb406fbeda313d88c1e288a15124fc82af"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/h3js/h3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/h3js/h3/releases/tag/v2.0.1-rc.18"
     }
   ],
   "database_specific": {
