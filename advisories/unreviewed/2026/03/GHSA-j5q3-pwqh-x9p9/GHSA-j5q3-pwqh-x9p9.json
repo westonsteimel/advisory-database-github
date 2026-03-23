@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5q3-pwqh-x9p9",
-  "modified": "2026-03-17T18:30:33Z",
+  "modified": "2026-03-23T21:30:49Z",
   "published": "2026-03-17T18:30:33Z",
   "aliases": [
     "CVE-2026-32290"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32290"
+    },
+    {
+      "type": "WEB",
+      "url": "https://dl.gl-inet.com/release/kvm/release/RM1/1.8.2"
     },
     {
       "type": "WEB",

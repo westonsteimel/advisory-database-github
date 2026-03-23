@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fj6-q8x2-56g8",
-  "modified": "2026-01-16T21:30:36Z",
+  "modified": "2026-03-23T21:30:49Z",
   "published": "2026-01-16T18:31:33Z",
   "aliases": [
     "CVE-2025-51602"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://code.videolan.org/videolan/vlc/-/issues/29146"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/03/msg00011.html"
     },
     {
       "type": "WEB",
