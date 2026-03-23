@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r65g-h7vf-rvr5",
-  "modified": "2026-03-20T15:31:13Z",
+  "modified": "2026-03-23T12:30:29Z",
   "published": "2026-03-20T15:31:13Z",
   "aliases": [
     "CVE-2026-31381"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31381"
+    },
+    {
+      "type": "WEB",
+      "url": "https://communities.gainsight.com/community-news-2/recent-gainsight-assist-plugin-remediations-cve-2026-31381-and-cve-2026-31382-30587"
     },
     {
       "type": "WEB",
