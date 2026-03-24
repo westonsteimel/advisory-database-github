@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p68c-rmfh-j48h",
-  "modified": "2026-03-24T15:30:29Z",
+  "modified": "2026-03-24T21:31:23Z",
   "published": "2026-03-24T15:30:29Z",
   "aliases": [
     "CVE-2026-30662"
   ],
   "details": "ConcreteCMS v9.4.7 contains a Denial of Service (DoS) vulnerability in the File Manager component. The 'download' method in 'concrete/controllers/backend/file.php' improperly manages memory when creating zip archives. It uses 'ZipArchive::addFromString' combined with 'file_get_contents', which loads the entire content of every selected file into PHP memory. An authenticated attacker can exploit this by requesting a bulk download of large files, triggering an Out-Of-Memory (OOM) condition that causes the PHP-FPM process to terminate (SIGSEGV) and the web server to return a 500 error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-400"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-24T15:16:34Z"
