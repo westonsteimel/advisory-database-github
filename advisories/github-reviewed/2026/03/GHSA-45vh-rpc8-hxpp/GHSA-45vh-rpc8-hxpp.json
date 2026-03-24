@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45vh-rpc8-hxpp",
-  "modified": "2026-03-16T17:06:10Z",
+  "modified": "2026-03-24T21:02:48Z",
   "published": "2026-03-13T18:56:51Z",
   "aliases": [
     "CVE-2026-30961"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Forceu/Gokapi/releases/tag/v2.2.4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4695"
     }
   ],
   "database_specific": {
