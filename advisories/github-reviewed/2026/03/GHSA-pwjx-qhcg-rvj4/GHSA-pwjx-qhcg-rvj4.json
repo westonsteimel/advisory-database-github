@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwjx-qhcg-rvj4",
-  "modified": "2026-03-23T17:40:54Z",
+  "modified": "2026-03-25T19:56:38Z",
   "published": "2026-03-20T21:51:17Z",
   "aliases": [],
   "summary": "webpki: CRLs not considered authoritative by Distribution Point due to faulty matching logic",
