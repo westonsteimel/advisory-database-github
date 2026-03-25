@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vw5v-4f2q-w9xf",
-  "modified": "2026-03-20T21:31:15Z",
+  "modified": "2026-03-25T18:29:18Z",
   "published": "2026-03-03T20:08:24Z",
   "aliases": [],
   "summary": "AWS-LC has PKCS7_verify Certificate Chain Validation Bypass",
