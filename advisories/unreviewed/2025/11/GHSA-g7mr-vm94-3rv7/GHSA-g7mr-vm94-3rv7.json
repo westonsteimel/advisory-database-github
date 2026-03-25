@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7mr-vm94-3rv7",
-  "modified": "2026-03-23T06:30:27Z",
+  "modified": "2026-03-25T06:30:29Z",
   "published": "2025-11-18T21:32:31Z",
   "aliases": [
     "CVE-2025-61662"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:5233"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:5127"
     },
     {
       "type": "WEB",
