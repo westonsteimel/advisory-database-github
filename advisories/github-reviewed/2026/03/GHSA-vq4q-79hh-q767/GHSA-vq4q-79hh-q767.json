@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq4q-79hh-q767",
-  "modified": "2026-03-20T17:25:47Z",
+  "modified": "2026-03-25T20:53:32Z",
   "published": "2026-03-20T17:25:47Z",
   "aliases": [
     "CVE-2026-33316"
@@ -41,6 +41,10 @@
       "url": "https://github.com/go-vikunja/vikunja/security/advisories/GHSA-vq4q-79hh-q767"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33316"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/go-vikunja/vikunja/commit/049f4a6be46f9460bd516f489ef9f569574bc70d"
     },
@@ -51,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/go-vikunja/vikunja"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vikunja.io/changelog/vikunja-v2.2.0-was-released"
     }
   ],
   "database_specific": {
@@ -62,6 +70,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-20T17:25:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-24T15:16:35Z"
   }
 }
