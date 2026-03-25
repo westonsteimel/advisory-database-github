@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvv3-g6hj-g44x",
-  "modified": "2026-03-20T21:20:05Z",
+  "modified": "2026-03-25T18:53:07Z",
   "published": "2026-03-13T20:57:07Z",
   "aliases": [
     "CVE-2026-32933"
@@ -70,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/LuckyPennySoftware/AutoMapper"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/LuckyPennySoftware/AutoMapper/discussions/4624"
     },
     {
       "type": "WEB",
