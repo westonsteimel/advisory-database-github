@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rm92-fj5q-mpj5",
-  "modified": "2026-03-24T21:31:17Z",
+  "modified": "2026-03-25T18:31:37Z",
   "published": "2026-03-20T15:31:14Z",
   "aliases": [
     "CVE-2026-4519"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/ad4d5ba32af4d80b0dfa2ba9d8203bfb219e60a5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/cbba6119391112aba9c5aebf7b94aea447922c48"
     },
     {
       "type": "WEB",

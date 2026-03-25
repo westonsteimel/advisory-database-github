@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-544w-wmqh-vq4j",
+  "modified": "2026-03-25T18:31:50Z",
+  "published": "2026-03-25T18:31:50Z",
+  "aliases": [
+    "CVE-2026-24378"
+  ],
+  "details": "Deserialization of Untrusted Data vulnerability in Metagauss EventPrime eventprime-event-calendar-management allows Object Injection.This issue affects EventPrime: from n/a through <= 4.2.8.0.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24378"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/eventprime-event-calendar-management/vulnerability/wordpress-eventprime-plugin-4-2-8-0-php-object-injection-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-25T17:16:38Z"
+  }
+}

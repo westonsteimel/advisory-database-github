@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xcr-6f99-hm7w",
-  "modified": "2026-03-25T09:31:36Z",
+  "modified": "2026-03-25T18:31:43Z",
   "published": "2026-03-25T09:31:36Z",
   "aliases": [
     "CVE-2026-3608"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://kb.isc.org/docs/cve-2026-3608"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/25/6"
     }
   ],
   "database_specific": {

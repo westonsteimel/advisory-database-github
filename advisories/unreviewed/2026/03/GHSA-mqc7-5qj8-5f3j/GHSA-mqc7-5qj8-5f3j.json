@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mqc7-5qj8-5f3j",
+  "modified": "2026-03-25T18:31:53Z",
+  "published": "2026-03-25T18:31:53Z",
+  "aliases": [
+    "CVE-2026-31913"
+  ],
+  "details": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Whitebox-Studio Scape scape allows Path Traversal.This issue affects Scape: from n/a through < 1.5.16.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31913"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/scape/vulnerability/wordpress-scape-theme-1-5-16-arbitrary-file-deletion-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-25T17:16:58Z"
+  }
+}

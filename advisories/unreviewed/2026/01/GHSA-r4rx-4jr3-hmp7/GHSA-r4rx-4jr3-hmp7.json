@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4rx-4jr3-hmp7",
-  "modified": "2026-02-06T18:30:29Z",
+  "modified": "2026-03-25T18:31:35Z",
   "published": "2026-01-31T12:30:12Z",
   "aliases": [
     "CVE-2026-23026"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: qcom: gpi: Fix memory leak in gpi_peripheral_config()\n\nFix a memory leak in gpi_peripheral_config() where the original memory\npointed to by gchan->config could be lost if krealloc() fails.\n\nThe issue occurs when:\n1. gchan->config points to previously allocated memory\n2. krealloc() fails and returns NULL\n3. The function directly assigns NULL to gchan->config, losing the\n   reference to the original memory\n4. The original memory becomes unreachable and cannot be freed\n\nFix this by using a temporary variable to hold the krealloc() result\nand only updating gchan->config when the allocation succeeds.\n\nFound via static analysis and code review.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-31T12:16:05Z"

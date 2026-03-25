@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g7x-62w8-h6g3",
-  "modified": "2026-01-31T12:30:12Z",
+  "modified": "2026-03-25T18:31:35Z",
   "published": "2026-01-31T12:30:12Z",
   "aliases": [
     "CVE-2026-23020"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: 3com: 3c59x: fix possible null dereference in vortex_probe1()\n\npdev can be null and free_ring: can be called in 1297 with a null\npdev.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-31T12:16:05Z"

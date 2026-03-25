@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8c94-wrf9-4fvc",
+  "modified": "2026-03-25T18:31:50Z",
+  "published": "2026-03-25T18:31:50Z",
+  "aliases": [
+    "CVE-2026-24971"
+  ],
+  "details": "Incorrect Privilege Assignment vulnerability in Elated-Themes Search & Go searchgo allows Privilege Escalation.This issue affects Search & Go: from n/a through <= 2.8.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24971"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/searchgo/vulnerability/wordpress-search-go-theme-2-8-privilege-escalation-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-266"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-25T17:16:39Z"
+  }
+}

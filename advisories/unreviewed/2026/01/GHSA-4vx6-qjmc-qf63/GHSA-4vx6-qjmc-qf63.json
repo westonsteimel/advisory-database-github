@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vx6-qjmc-qf63",
-  "modified": "2026-01-19T15:30:36Z",
+  "modified": "2026-03-25T18:31:34Z",
   "published": "2026-01-14T15:33:02Z",
   "aliases": [
     "CVE-2025-71136"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: adv7842: Avoid possible out-of-bounds array accesses in adv7842_cp_log_status()\n\nIt's possible for cp_read() and hdmi_read() to return -EIO. Those\nvalues are further used as indexes for accessing arrays.\n\nFix that by checking return values where it's needed.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-14T15:16:03Z"

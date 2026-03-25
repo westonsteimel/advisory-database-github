@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-943g-5x48-w59q",
+  "modified": "2026-03-25T18:31:54Z",
+  "published": "2026-03-25T18:31:54Z",
+  "aliases": [
+    "CVE-2026-32501"
+  ],
+  "details": "Missing Authorization vulnerability in wp-configurator WP Configurator Pro wp-configurator-pro allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WP Configurator Pro: from n/a through <= 3.7.9.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32501"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-configurator-pro/vulnerability/wordpress-wp-configurator-pro-plugin-3-7-9-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-25T17:17:02Z"
+  }
+}

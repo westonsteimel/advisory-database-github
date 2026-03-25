@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc4v-g2h6-xh3h",
-  "modified": "2026-03-25T15:31:29Z",
+  "modified": "2026-03-25T18:31:46Z",
   "published": "2026-03-25T15:31:29Z",
   "aliases": [
     "CVE-2026-33268"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/IT/white/2026/va-26-084-01.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.nanoleaf.me/hc/en-us/articles/45269445987092-Products-Firmware-Release-Notes-2026"
     },
     {
       "type": "WEB",

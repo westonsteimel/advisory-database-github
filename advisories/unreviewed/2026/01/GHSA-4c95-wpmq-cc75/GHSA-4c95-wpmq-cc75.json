@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c95-wpmq-cc75",
-  "modified": "2026-02-06T18:30:29Z",
+  "modified": "2026-03-25T18:31:35Z",
   "published": "2026-01-31T12:30:11Z",
   "aliases": [
     "CVE-2025-71191"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: at_hdmac: fix device leak on of_dma_xlate()\n\nMake sure to drop the reference taken when looking up the DMA platform\ndevice during of_dma_xlate() when releasing channel resources.\n\nNote that commit 3832b78b3ec2 (\"dmaengine: at_hdmac: add missing\nput_device() call in at_dma_xlate()\") fixed the leak in a couple of\nerror paths but the reference is still leaking on successful allocation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-31T12:16:04Z"

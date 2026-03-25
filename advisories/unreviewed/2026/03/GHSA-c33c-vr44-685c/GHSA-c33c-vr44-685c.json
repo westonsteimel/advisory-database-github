@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c33c-vr44-685c",
+  "modified": "2026-03-25T18:31:51Z",
+  "published": "2026-03-25T18:31:51Z",
+  "aliases": [
+    "CVE-2026-25365"
+  ],
+  "details": "Missing Authorization vulnerability in Özgür KARALAR Kargo Takip kargo-takip-turkiye allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Kargo Takip: from n/a through < 0.2.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25365"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/kargo-takip-turkiye/vulnerability/wordpress-kargo-takip-plugin-0-2-4-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-25T17:16:47Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5fr9-7p7x-gc8w",
+  "modified": "2026-03-25T18:31:51Z",
+  "published": "2026-03-25T18:31:51Z",
+  "aliases": [
+    "CVE-2026-25353"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in skygroup Nooni nooni allows Reflected XSS.This issue affects Nooni: from n/a through < 1.5.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25353"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/nooni/vulnerability/wordpress-nooni-theme-1-5-1-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-25T17:16:46Z"
+  }
+}

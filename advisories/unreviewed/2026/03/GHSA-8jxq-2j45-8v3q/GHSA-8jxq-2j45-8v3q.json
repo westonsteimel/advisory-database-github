@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8jxq-2j45-8v3q",
+  "modified": "2026-03-25T18:31:48Z",
+  "published": "2026-03-25T18:31:48Z",
+  "aliases": [
+    "CVE-2025-69347"
+  ],
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Convers Lab WPSubscription subscription allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WPSubscription: from n/a through <= 1.8.10.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69347"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/subscription/vulnerability/wordpress-wpsubscription-plugin-1-8-10-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-639"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-25T17:16:27Z"
+  }
+}

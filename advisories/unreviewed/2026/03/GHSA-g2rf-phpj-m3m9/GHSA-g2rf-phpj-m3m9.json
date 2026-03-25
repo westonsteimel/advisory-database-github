@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-g2rf-phpj-m3m9",
+  "modified": "2026-03-25T18:31:54Z",
+  "published": "2026-03-25T18:31:54Z",
+  "aliases": [
+    "CVE-2026-32513"
+  ],
+  "details": "Deserialization of Untrusted Data vulnerability in Miguel Useche JS Archive List jquery-archive-list-widget allows Object Injection.This issue affects JS Archive List: from n/a through <= 6.1.7.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32513"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/jquery-archive-list-widget/vulnerability/wordpress-js-archive-list-plugin-6-1-7-php-object-injection-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-25T17:17:03Z"
+  }
+}

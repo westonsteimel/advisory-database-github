@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fg35-5rf6-qg3g",
+  "modified": "2026-03-25T18:31:53Z",
+  "published": "2026-03-25T18:31:53Z",
+  "aliases": [
+    "CVE-2026-27656"
+  ],
+  "details": "Mattermost versions 11.4.x <= 11.4.0, 11.3.x <= 11.3.1, 11.2.x <= 11.2.3, 10.11.x <= 10.11.11 fail to properly validate user identity in the OpenID {{IsSameUser()}} comparison logic, which allows an attacker to take over arbitrary user accounts via an overly permissive substring matching flaw in the user discovery flow.. Mattermost Advisory ID: MMSA-2026-00590",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27656"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-303"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-25T17:16:56Z"
+  }
+}
