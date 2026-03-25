@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-762r-27w2-q22j",
-  "modified": "2026-03-18T17:26:59Z",
+  "modified": "2026-03-25T18:23:10Z",
   "published": "2026-03-18T17:26:59Z",
   "aliases": [
     "CVE-2026-33209"
@@ -44,8 +44,28 @@
       "url": "https://github.com/avo-hq/avo/security/advisories/GHSA-762r-27w2-q22j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33209"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/avo-hq/avo/pull/4330"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/avo-hq/avo/commit/4453d39ddc6309f3bc8ada73ef21e1971112de7d"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/avo-hq/avo"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/avo-hq/avo/releases/tag/v3.30.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/avo/CVE-2026-33209.yml"
     }
   ],
   "database_specific": {
@@ -55,6 +75,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-18T17:26:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-20T23:16:45Z"
   }
 }
