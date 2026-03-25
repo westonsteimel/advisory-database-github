@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xm8-389p-x4rm",
-  "modified": "2025-11-24T12:30:27Z",
+  "modified": "2026-03-25T12:30:17Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49998"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ab5d3420a1120950703dbdc33698b28a6ebc3d23"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ab9e90619b6339becc5415647ae154a9a46a044d"
     },
     {
       "type": "WEB",

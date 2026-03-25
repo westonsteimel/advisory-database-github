@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cq3w-r62m-5jvq",
-  "modified": "2026-03-23T15:30:33Z",
+  "modified": "2026-03-25T12:30:20Z",
   "published": "2026-03-18T18:31:18Z",
   "aliases": [
     "CVE-2026-23269"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23269"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/07cf6320f40ea2ccfad63728cff34ecb309d03da"
     },
     {
       "type": "WEB",

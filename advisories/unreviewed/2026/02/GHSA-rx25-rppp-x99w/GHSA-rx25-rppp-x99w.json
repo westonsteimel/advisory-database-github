@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx25-rppp-x99w",
-  "modified": "2026-03-13T21:31:40Z",
+  "modified": "2026-03-25T12:30:19Z",
   "published": "2026-02-04T18:30:43Z",
   "aliases": [
     "CVE-2026-23066"
@@ -21,11 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0464bf75590da75b8413c3e758c04647b4cdb3c6"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2c28769a51deb6022d7fbd499987e237a01dd63a"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/930114425065f7ace6e0c0630fab4af75e059ea8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cf969bddd6e69c5777fa89dc88402204e72f312a"
     }
   ],
   "database_specific": {

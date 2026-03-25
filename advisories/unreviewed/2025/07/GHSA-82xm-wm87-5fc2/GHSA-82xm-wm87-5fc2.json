@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82xm-wm87-5fc2",
-  "modified": "2025-11-19T21:31:14Z",
+  "modified": "2026-03-25T12:30:18Z",
   "published": "2025-07-04T15:31:09Z",
   "aliases": [
     "CVE-2025-38192"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2a3ad42a57b43145839f2f233fb562247658a6d9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/98b1d8dc9a3170b2614f1e8c93854e75cdd83980"
     },
     {
       "type": "WEB",

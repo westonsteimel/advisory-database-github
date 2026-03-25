@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhm8-r99p-v4h8",
-  "modified": "2025-09-29T15:30:30Z",
+  "modified": "2026-03-25T12:30:17Z",
   "published": "2024-08-17T12:30:32Z",
   "aliases": [
     "CVE-2024-43826"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43826"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1562138b9cababf637eee485e98491f9206a990d"
     },
     {
       "type": "WEB",

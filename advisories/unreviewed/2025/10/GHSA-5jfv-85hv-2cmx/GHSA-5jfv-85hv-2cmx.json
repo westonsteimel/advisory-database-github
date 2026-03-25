@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jfv-85hv-2cmx",
-  "modified": "2026-01-26T21:30:30Z",
+  "modified": "2026-03-25T12:30:18Z",
   "published": "2025-10-01T12:30:30Z",
   "aliases": [
     "CVE-2023-53510"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/549e91a9bbaa0ee480f59357868421a61d369770"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b6d76d63c6d21d5d26c301a46853a2aee72397d5"
     },
     {
       "type": "WEB",

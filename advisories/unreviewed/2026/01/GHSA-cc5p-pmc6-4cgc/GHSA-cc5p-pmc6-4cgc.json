@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc5p-pmc6-4cgc",
-  "modified": "2026-02-26T21:31:26Z",
+  "modified": "2026-03-25T12:30:19Z",
   "published": "2026-01-23T15:31:35Z",
   "aliases": [
     "CVE-2025-71152"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0e766b77ba5093583dfe609fae0aa1545c46dbbd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b358fc6ff3b35a29f7f677da1c67af67d0d560cb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ec2b34acb1894cfc10ed22d8277ca4f11e9f4b23"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cvp-cxm8-hg6v",
-  "modified": "2025-02-04T15:31:35Z",
+  "modified": "2026-03-25T12:30:17Z",
   "published": "2025-01-31T12:33:03Z",
   "aliases": [
     "CVE-2025-21676"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8a0097db0544b658c159ac787319737712063a23"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/eacdcc14f3c8d4c1447565521e792ddb3a67e08d"
     }
   ],
   "database_specific": {
