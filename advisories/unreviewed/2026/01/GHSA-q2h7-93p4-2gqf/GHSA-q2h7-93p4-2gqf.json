@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2h7-93p4-2gqf",
-  "modified": "2026-01-13T18:31:05Z",
+  "modified": "2026-03-25T21:30:21Z",
   "published": "2026-01-13T18:31:05Z",
   "aliases": [
     "CVE-2025-71076"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/xe/oa: Limit num_syncs to prevent oversized allocations\n\nThe OA open parameters did not validate num_syncs, allowing\nuserspace to pass arbitrarily large values, potentially\nleading to excessive allocations.\n\nAdd check to ensure that num_syncs does not exceed DRM_XE_MAX_SYNCS,\nreturning -EINVAL when the limit is violated.\n\nv2: use XE_IOCTL_DBG() and drop duplicated check. (Ashutosh)\n\n(cherry picked from commit e057b2d2b8d815df3858a87dffafa2af37e5945b)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-13T16:16:07Z"

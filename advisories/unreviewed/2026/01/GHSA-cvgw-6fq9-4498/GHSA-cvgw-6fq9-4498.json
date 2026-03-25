@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvgw-6fq9-4498",
-  "modified": "2026-01-19T15:30:36Z",
+  "modified": "2026-03-25T21:30:22Z",
   "published": "2026-01-14T15:33:01Z",
   "aliases": [
     "CVE-2025-71121"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nparisc: Do not reprogram affinitiy on ASP chip\n\nThe ASP chip is a very old variant of the GSP chip and is used e.g. in\nHP 730 workstations. When trying to reprogram the affinity it will crash\nwith a HPMC as the relevant registers don't seem to be at the usual\nlocation.  Let's avoid the crash by checking the sversion. Also note,\nthat reprogramming isn't necessary either, as the HP730 is a just a\nsingle-CPU machine.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-14T15:16:01Z"

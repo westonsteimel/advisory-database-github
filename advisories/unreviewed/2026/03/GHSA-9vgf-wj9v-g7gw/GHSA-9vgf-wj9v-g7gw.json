@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9vgf-wj9v-g7gw",
-  "modified": "2026-03-25T18:31:54Z",
+  "modified": "2026-03-25T21:30:35Z",
   "published": "2026-03-25T18:31:54Z",
   "aliases": [
     "CVE-2026-32540"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Bookly Bookly bookly-responsive-appointment-booking-tool allows Reflected XSS.This issue affects Bookly: from n/a through <= 26.7.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:17:07Z"

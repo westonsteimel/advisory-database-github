@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp2p-phm2-w3jm",
-  "modified": "2026-03-25T18:31:50Z",
+  "modified": "2026-03-25T21:30:34Z",
   "published": "2026-03-25T18:31:50Z",
   "aliases": [
     "CVE-2026-25013"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WHMCSdes Phox Hosting phox-host allows Reflected XSS.This issue affects Phox Hosting: from n/a through <= 2.0.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:16:41Z"

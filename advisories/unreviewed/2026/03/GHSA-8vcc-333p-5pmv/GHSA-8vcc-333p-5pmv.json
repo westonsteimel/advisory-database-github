@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vcc-333p-5pmv",
-  "modified": "2026-03-25T18:31:54Z",
+  "modified": "2026-03-25T21:30:35Z",
   "published": "2026-03-25T18:31:54Z",
   "aliases": [
     "CVE-2026-32536"
   ],
   "details": "Unrestricted Upload of File with Dangerous Type vulnerability in halfdata Green Downloads halfdata-paypal-green-downloads allows Using Malicious Files.This issue affects Green Downloads: from n/a through <= 2.08.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-434"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:17:07Z"

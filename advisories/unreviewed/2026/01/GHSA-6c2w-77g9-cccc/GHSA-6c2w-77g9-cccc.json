@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c2w-77g9-cccc",
-  "modified": "2026-01-14T15:33:02Z",
+  "modified": "2026-03-25T21:30:22Z",
   "published": "2026-01-14T15:33:02Z",
   "aliases": [
     "CVE-2025-71129"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: BPF: Sign extend kfunc call arguments\n\nThe kfunc calls are native calls so they should follow LoongArch calling\nconventions. Sign extend its arguments properly to avoid kernel panic.\nThis is done by adding a new emit_abi_ext() helper. The emit_abi_ext()\nhelper performs extension in place meaning a value already store in the\ntarget register (Note: this is different from the existing sign_extend()\nhelper and thus we can't reuse it).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-14T15:16:02Z"

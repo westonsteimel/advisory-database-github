@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrxq-w74h-58w2",
-  "modified": "2026-03-25T18:31:54Z",
+  "modified": "2026-03-25T21:30:35Z",
   "published": "2026-03-25T18:31:54Z",
   "aliases": [
     "CVE-2026-32528"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in don-themes Riode riode allows Reflected XSS.This issue affects Riode: from n/a through < 1.6.29.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:17:06Z"

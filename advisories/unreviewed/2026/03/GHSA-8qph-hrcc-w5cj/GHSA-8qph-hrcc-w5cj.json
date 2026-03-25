@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qph-hrcc-w5cj",
-  "modified": "2026-03-25T18:31:55Z",
+  "modified": "2026-03-25T21:30:35Z",
   "published": "2026-03-25T18:31:55Z",
   "aliases": [
     "CVE-2026-32562"
   ],
   "details": "Missing Authorization vulnerability in WP Folio Team PPWP password-protect-page allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects PPWP: from n/a through <= 1.9.15.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:17:08Z"

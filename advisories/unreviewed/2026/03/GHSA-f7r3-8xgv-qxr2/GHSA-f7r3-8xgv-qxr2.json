@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7r3-8xgv-qxr2",
-  "modified": "2026-03-25T18:31:52Z",
+  "modified": "2026-03-25T21:30:34Z",
   "published": "2026-03-25T18:31:52Z",
   "aliases": [
     "CVE-2026-25447"
   ],
   "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Jonathan Daggerhart Widget Wrangler widget-wrangler allows Code Injection.This issue affects Widget Wrangler: from n/a through <= 2.3.9.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-94"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:16:50Z"

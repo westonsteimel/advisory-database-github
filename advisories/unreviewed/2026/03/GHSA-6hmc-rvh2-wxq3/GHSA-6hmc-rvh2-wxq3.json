@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hmc-rvh2-wxq3",
-  "modified": "2026-03-24T21:31:22Z",
+  "modified": "2026-03-25T21:30:27Z",
   "published": "2026-03-24T15:30:28Z",
   "aliases": [
     "CVE-2026-4709"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2016329"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2016342"
     },
     {
       "type": "WEB",

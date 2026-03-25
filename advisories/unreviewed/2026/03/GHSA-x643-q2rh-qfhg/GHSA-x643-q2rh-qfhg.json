@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x643-q2rh-qfhg",
-  "modified": "2026-03-25T18:31:55Z",
+  "modified": "2026-03-25T21:30:35Z",
   "published": "2026-03-25T18:31:55Z",
   "aliases": [
     "CVE-2026-32567"
   ],
   "details": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in icopydoc YML for Yandex Market yml-for-yandex-market allows Path Traversal.This issue affects YML for Yandex Market: from n/a through < 5.3.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-22"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:17:08Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jw9-cqx6-7g57",
-  "modified": "2026-01-19T15:30:36Z",
+  "modified": "2026-03-25T21:30:22Z",
   "published": "2026-01-14T15:33:00Z",
   "aliases": [
     "CVE-2025-71112"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: hns3: add VLAN id validation before using\n\nCurrently, the VLAN id may be used without validation when\nreceive a VLAN configuration mailbox from VF. The length of\nvlan_del_fail_bmap is BITS_TO_LONGS(VLAN_N_VID). It may cause\nout-of-bounds memory access once the VLAN id is bigger than\nor equal to VLAN_N_VID.\n\nTherefore, VLAN id needs to be checked to ensure it is within\nthe range of VLAN_N_VID.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-14T15:16:00Z"

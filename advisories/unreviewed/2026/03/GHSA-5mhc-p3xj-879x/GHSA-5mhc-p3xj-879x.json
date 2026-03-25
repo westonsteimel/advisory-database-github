@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mhc-p3xj-879x",
-  "modified": "2026-03-25T18:31:55Z",
+  "modified": "2026-03-25T21:30:35Z",
   "published": "2026-03-25T18:31:55Z",
   "aliases": [
     "CVE-2026-32544"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in OOPSpam Team OOPSpam Anti-Spam oopspam-anti-spam allows Stored XSS.This issue affects OOPSpam Anti-Spam: from n/a through <= 1.2.62.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:17:08Z"

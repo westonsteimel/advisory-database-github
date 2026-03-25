@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mqv-85g4-8qvj",
-  "modified": "2026-01-19T15:30:36Z",
+  "modified": "2026-03-25T21:30:22Z",
   "published": "2026-01-14T15:33:01Z",
   "aliases": [
     "CVE-2025-71116"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlibceph: make decode_pool() more resilient against corrupted osdmaps\n\nIf the osdmap is (maliciously) corrupted such that the encoded length\nof ceph_pg_pool envelope is less than what is expected for a particular\nencoding version, out-of-bounds reads may ensue because the only bounds\ncheck that is there is based on that length value.\n\nThis patch adds explicit bounds checks for each field that is decoded\nor skipped.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-14T15:16:01Z"

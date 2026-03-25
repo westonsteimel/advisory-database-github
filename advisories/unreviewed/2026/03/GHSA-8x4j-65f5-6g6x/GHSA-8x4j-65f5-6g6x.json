@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x4j-65f5-6g6x",
-  "modified": "2026-03-25T18:31:55Z",
+  "modified": "2026-03-25T21:30:35Z",
   "published": "2026-03-25T18:31:55Z",
   "aliases": [
     "CVE-2026-32573"
   ],
   "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Nelio Software Nelio AB Testing nelio-ab-testing allows Code Injection.This issue affects Nelio AB Testing: from n/a through <= 8.2.7.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-94"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:17:08Z"

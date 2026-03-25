@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgc7-m4r9-xw45",
-  "modified": "2026-02-06T18:30:28Z",
+  "modified": "2026-03-25T21:30:23Z",
   "published": "2026-01-25T15:30:27Z",
   "aliases": [
     "CVE-2026-23001"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmacvlan: fix possible UAF in macvlan_forward_source()\n\nAdd RCU protection on (struct macvlan_source_entry)->vlan.\n\nWhenever macvlan_hash_del_source() is called, we must clear\nentry->vlan pointer before RCU grace period starts.\n\nThis allows macvlan_forward_source() to skip over\nentries queued for freeing.\n\nNote that macvlan_dev are already RCU protected, as they\nare embedded in a standard netdev (netdev_priv(ndev)).\n\nhttps: //lore.kernel.org/netdev/695fb1e8.050a0220.1c677c.039f.GAE@google.com/T/#u",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-25T15:15:54Z"

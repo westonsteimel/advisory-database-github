@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8g6-pm49-2rcv",
-  "modified": "2026-01-19T15:30:36Z",
+  "modified": "2026-03-25T21:30:22Z",
   "published": "2026-01-14T15:33:01Z",
   "aliases": [
     "CVE-2025-71120"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nSUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf\n\nA zero length gss_token results in pages == 0 and in_token->pages[0]\nis NULL. The code unconditionally evaluates\npage_address(in_token->pages[0]) for the initial memcpy, which can\ndereference NULL even when the copy length is 0. Guard the first\nmemcpy so it only runs when length > 0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-14T15:16:01Z"

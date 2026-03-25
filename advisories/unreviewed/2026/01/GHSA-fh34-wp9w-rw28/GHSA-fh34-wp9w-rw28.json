@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh34-wp9w-rw28",
-  "modified": "2026-01-13T18:31:05Z",
+  "modified": "2026-03-25T21:30:21Z",
   "published": "2026-01-13T18:31:05Z",
   "aliases": [
     "CVE-2025-71073"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nInput: lkkbd - disable pending work before freeing device\n\nlkkbd_interrupt() schedules lk->tq via schedule_work(), and the work\nhandler lkkbd_reinit() dereferences the lkkbd structure and its\nserio/input_dev fields.\n\nlkkbd_disconnect() and error paths in lkkbd_connect() free the lkkbd\nstructure without preventing the reinit work from being queued again\nuntil serio_close() returns. This can allow the work handler to run\nafter the structure has been freed, leading to a potential use-after-free.\n\nUse disable_work_sync() instead of cancel_work_sync() to ensure the\nreinit work cannot be re-queued, and call it both in lkkbd_disconnect()\nand in lkkbd_connect() error paths after serio_open().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-13T16:16:06Z"
