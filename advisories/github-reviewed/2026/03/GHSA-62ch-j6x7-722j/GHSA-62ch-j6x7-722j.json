@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62ch-j6x7-722j",
-  "modified": "2026-03-23T20:38:16Z",
+  "modified": "2026-03-25T20:46:06Z",
   "published": "2026-03-23T20:38:16Z",
   "aliases": [
     "CVE-2026-32299"
@@ -66,8 +66,20 @@
       "url": "https://github.com/opensource-workshop/connect-cms/security/advisories/GHSA-62ch-j6x7-722j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32299"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/opensource-workshop/connect-cms"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/opensource-workshop/connect-cms/releases/tag/v1.41.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/opensource-workshop/connect-cms/releases/tag/v2.41.1"
     }
   ],
   "database_specific": {
@@ -77,6 +89,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-23T20:38:16Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-23T22:16:27Z"
   }
 }
