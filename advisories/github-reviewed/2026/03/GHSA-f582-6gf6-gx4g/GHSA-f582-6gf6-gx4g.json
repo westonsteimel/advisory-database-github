@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f582-6gf6-gx4g",
-  "modified": "2026-03-24T17:28:40Z",
+  "modified": "2026-03-25T21:00:30Z",
   "published": "2026-03-24T17:28:40Z",
   "aliases": [
     "CVE-2026-33162"
@@ -44,6 +44,10 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-f582-6gf6-gx4g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33162"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/commit/3c1ab1c4445dd9237855a66e6a06ecf3591a718e"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-24T17:28:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-24T18:16:10Z"
   }
 }

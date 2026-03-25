@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pgf-h923-m958",
-  "modified": "2026-03-24T16:59:58Z",
+  "modified": "2026-03-25T21:00:12Z",
   "published": "2026-03-24T16:59:58Z",
   "aliases": [
     "CVE-2026-33160"
@@ -66,6 +66,10 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-5pgf-h923-m958"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33160"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/commit/7290d91639e5e3a4f7e221dfbef95c9b77331860"
     },
@@ -90,6 +94,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-24T16:59:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-24T18:16:10Z"
   }
 }
