@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj75-vx8x-rmq9",
-  "modified": "2026-03-25T18:31:48Z",
+  "modified": "2026-03-26T18:31:30Z",
   "published": "2026-03-25T18:31:48Z",
   "aliases": [
     "CVE-2026-22485"
   ],
   "details": "Missing Authorization vulnerability in Ruhul Amin My Album Gallery my-album-gallery allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects My Album Gallery: from n/a through <= 1.0.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:16:30Z"

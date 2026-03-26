@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9244-j58g-p3v8",
-  "modified": "2026-03-25T18:31:50Z",
+  "modified": "2026-03-26T18:31:33Z",
   "published": "2026-03-25T18:31:50Z",
   "aliases": [
     "CVE-2026-24978"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in NooTheme Jobica Core jobica-core allows Object Injection.This issue affects Jobica Core: from n/a through <= 1.4.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:16:40Z"

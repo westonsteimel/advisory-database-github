@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-584j-3pf8-566f",
-  "modified": "2026-03-25T18:31:52Z",
+  "modified": "2026-03-26T18:31:34Z",
   "published": "2026-03-25T18:31:52Z",
   "aliases": [
     "CVE-2026-25414"
   ],
   "details": "Incorrect Privilege Assignment vulnerability in iqonicdesign WPBookit Pro wpbookit-pro allows Privilege Escalation.This issue affects WPBookit Pro: from n/a through <= 1.6.18.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-266"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:16:50Z"

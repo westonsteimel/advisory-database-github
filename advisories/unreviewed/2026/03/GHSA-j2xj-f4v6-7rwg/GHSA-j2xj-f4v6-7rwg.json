@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2xj-f4v6-7rwg",
-  "modified": "2026-03-25T18:31:53Z",
+  "modified": "2026-03-26T18:31:35Z",
   "published": "2026-03-25T18:31:53Z",
   "aliases": [
     "CVE-2026-32489"
   ],
   "details": "Missing Authorization vulnerability in bPlugins B Blocks b-blocks allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects B Blocks: from n/a through < 2.0.30.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:16:59Z"

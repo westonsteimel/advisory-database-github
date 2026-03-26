@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79wq-mgjf-5cc2",
-  "modified": "2026-03-24T18:31:28Z",
+  "modified": "2026-03-26T18:31:28Z",
   "published": "2026-03-23T21:30:51Z",
   "aliases": [
     "CVE-2025-52204"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/j0qq3r/CVE-2025-52204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.znuny.org/en/releases/znuny-7-3-1"
     },
     {
       "type": "WEB",

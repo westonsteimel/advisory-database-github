@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fj3-qvr8-q2c6",
-  "modified": "2026-03-25T18:31:52Z",
+  "modified": "2026-03-26T18:31:34Z",
   "published": "2026-03-25T18:31:52Z",
   "aliases": [
     "CVE-2026-25400"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in thememount Apicona apicona allows Object Injection.This issue affects Apicona: from n/a through <= 24.1.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:16:49Z"

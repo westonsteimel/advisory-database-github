@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q397-v647-xvh6",
-  "modified": "2026-03-25T12:30:24Z",
+  "modified": "2026-03-26T18:31:29Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-31788"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/03/24/5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/26/4"
     },
     {
       "type": "WEB",

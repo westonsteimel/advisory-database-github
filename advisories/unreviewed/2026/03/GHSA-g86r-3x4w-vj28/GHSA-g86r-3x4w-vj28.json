@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g86r-3x4w-vj28",
-  "modified": "2026-03-25T18:31:54Z",
+  "modified": "2026-03-26T18:31:36Z",
   "published": "2026-03-25T18:31:54Z",
   "aliases": [
     "CVE-2026-32510"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in Edge-Themes Kamperen kamperen allows Object Injection.This issue affects Kamperen: from n/a through < 1.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:17:03Z"
