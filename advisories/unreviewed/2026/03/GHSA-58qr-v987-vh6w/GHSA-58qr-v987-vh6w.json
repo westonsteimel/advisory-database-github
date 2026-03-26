@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58qr-v987-vh6w",
-  "modified": "2026-03-26T03:30:28Z",
+  "modified": "2026-03-26T06:30:19Z",
   "published": "2026-03-26T03:30:28Z",
   "aliases": [
     "CVE-2014-125112"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/MIYAGAWA/Plack-Middleware-Session-0.23-TRIAL/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/26/2"
     }
   ],
   "database_specific": {
