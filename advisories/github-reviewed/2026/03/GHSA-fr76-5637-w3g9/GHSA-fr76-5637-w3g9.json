@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr76-5637-w3g9",
-  "modified": "2026-03-25T20:00:24Z",
+  "modified": "2026-03-27T21:35:55Z",
   "published": "2026-03-25T20:00:24Z",
   "aliases": [
     "CVE-2026-33687"
@@ -41,6 +41,10 @@
       "url": "https://github.com/code16/sharp/security/advisories/GHSA-fr76-5637-w3g9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33687"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/code16/sharp/pull/714"
     },
@@ -64,6 +68,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-25T20:00:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-26T22:16:31Z"
   }
 }
