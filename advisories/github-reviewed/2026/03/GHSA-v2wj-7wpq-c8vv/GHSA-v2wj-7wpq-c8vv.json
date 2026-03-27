@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2wj-7wpq-c8vv",
-  "modified": "2026-03-05T20:25:12Z",
+  "modified": "2026-03-27T21:59:55Z",
   "published": "2026-03-03T18:31:33Z",
   "aliases": [
     "CVE-2026-0540"
@@ -71,11 +71,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/cure53/DOMPurify/commit/302b51de22535cc90235472c52e3401bedd46f80"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/cure53/DOMPurify/commit/fca0a938b4261ddc9c0293a289935a9029c049f5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fluidattacks.com/advisories/daft"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/cure53/DOMPurify"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cure53/DOMPurify/releases/tag/3.3.2"
     },
     {
       "type": "WEB",

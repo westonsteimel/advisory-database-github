@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7f6v-3gx7-27q8",
-  "modified": "2026-03-20T17:25:56Z",
+  "modified": "2026-03-27T21:58:58Z",
   "published": "2026-03-20T17:25:56Z",
   "aliases": [
     "CVE-2026-33331"
@@ -44,8 +44,20 @@
       "url": "https://github.com/middleapi/orpc/security/advisories/GHSA-7f6v-3gx7-27q8"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33331"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/middleapi/orpc/commit/4f0efa8a1d3fa8e8317a4b03cc3945a5dfd68add"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/middleapi/orpc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/middleapi/orpc/releases/tag/v1.13.9"
     }
   ],
   "database_specific": {
@@ -55,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-20T17:25:56Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-24T20:16:28Z"
   }
 }
