@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfx2-hv2g-xj5f",
-  "modified": "2026-03-19T21:22:52Z",
+  "modified": "2026-03-27T20:49:01Z",
   "published": "2026-03-19T21:22:52Z",
   "aliases": [
     "CVE-2026-33397"
@@ -79,6 +79,10 @@
       "url": "https://github.com/angular/angular-cli/security/advisories/GHSA-vfx2-hv2g-xj5f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33397"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/angular/angular-cli/pull/32771"
     },
@@ -98,6 +102,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-19T21:22:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-26T15:16:38Z"
   }
 }
