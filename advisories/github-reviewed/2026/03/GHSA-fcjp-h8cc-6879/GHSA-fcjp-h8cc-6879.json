@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcjp-h8cc-6879",
-  "modified": "2026-03-24T21:39:52Z",
+  "modified": "2026-03-27T20:55:01Z",
   "published": "2026-03-24T21:39:52Z",
   "aliases": [
     "CVE-2026-33215"
@@ -70,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/nats-io/nats-server"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4833"
     }
   ],
   "database_specific": {
