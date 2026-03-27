@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f886-m6hf-6m8v",
-  "modified": "2026-03-26T18:29:42Z",
+  "modified": "2026-03-27T13:44:31Z",
   "published": "2026-03-26T18:29:42Z",
   "aliases": [
     "CVE-2026-33750"
@@ -25,10 +25,67 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.0.0"
             },
             {
               "fixed": "5.0.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "brace-expansion"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0"
+            },
+            {
+              "fixed": "3.0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "brace-expansion"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0"
+            },
+            {
+              "fixed": "2.0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "brace-expansion"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.13"
             }
           ]
         }
@@ -39,6 +96,34 @@
     {
       "type": "WEB",
       "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-f886-m6hf-6m8v"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/juliangruber/brace-expansion/issues/98"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/juliangruber/brace-expansion/pull/95"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/juliangruber/brace-expansion/pull/96"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/juliangruber/brace-expansion/pull/97"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/juliangruber/brace-expansion/commit/311ac0d54994158c0a384e286a7d6cbb17ee8ed5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/juliangruber/brace-expansion/commit/7fd684f89fdde3549563d0a6522226a9189472a2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/juliangruber/brace-expansion/commit/b9cacd9e55e7a1fa588fe4b7bb1159d52f1d902a"
     },
     {
       "type": "PACKAGE",
