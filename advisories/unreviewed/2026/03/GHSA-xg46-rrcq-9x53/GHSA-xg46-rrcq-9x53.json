@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xg46-rrcq-9x53",
-  "modified": "2026-03-16T15:30:41Z",
+  "modified": "2026-03-27T09:31:17Z",
   "published": "2026-03-16T15:30:40Z",
   "aliases": [
     "CVE-2025-10461"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://https://industrial.softing.com/fileadmin/psirt/downloads/2025/CVE-2025-10461.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://industrial.softing.com/fileadmin/psirt/downloads/2025/CVE-2025-10461.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://industrial.softing.com/fileadmin/psirt/downloads/2025/CVE-2025-10461.json"
     }
   ],
   "database_specific": {

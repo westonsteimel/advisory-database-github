@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r22-hfr9-vvx7",
-  "modified": "2026-03-16T15:30:41Z",
+  "modified": "2026-03-27T09:31:17Z",
   "published": "2026-03-16T15:30:41Z",
   "aliases": [
     "CVE-2025-10685"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://https://industrial.softing.com/fileadmin/psirt/downloads/2025/CVE-2025-10685.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://industrial.softing.com/fileadmin/psirt/downloads/2025/CVE-2025-10685.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://industrial.softing.com/fileadmin/psirt/downloads/2025/CVE-2025-10685.json"
     }
   ],
   "database_specific": {
