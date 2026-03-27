@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q926-c743-49qj",
-  "modified": "2026-03-13T20:44:37Z",
+  "modified": "2026-03-27T21:17:00Z",
   "published": "2026-03-13T20:44:37Z",
   "aliases": [],
   "summary": "Centrifugo's InsecureSkipTokenSignatureVerify flag silently disables JWT verification with no warning",
@@ -34,6 +34,82 @@
       "database_specific": {
         "last_known_affected_version_range": "<= 6.6.2"
       }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/centrifugal/centrifugo"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.4.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/centrifugal/centrifugo/v3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "3.2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/centrifugal/centrifugo/v4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "4.1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/centrifugal/centrifugo/v5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "5.4.9"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -52,6 +128,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/centrifugal/centrifugo/releases/tag/v6.7.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4703"
     }
   ],
   "database_specific": {
