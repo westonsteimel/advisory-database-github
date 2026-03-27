@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7f67-crqm-jgh7",
-  "modified": "2026-01-23T15:46:34Z",
+  "modified": "2026-03-27T22:14:24Z",
   "published": "2026-01-22T20:26:10Z",
   "aliases": [
     "CVE-2026-23954"
@@ -25,33 +25,14 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "6.1.0"
-            },
-            {
-              "last_affected": "6.20.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
-        "name": "github.com/lxc/incus/v6/cmd/incusd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
               "introduced": "0"
-            },
-            {
-              "last_affected": "6.0.5"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 6.21.0"
+      }
     }
   ],
   "references": [
