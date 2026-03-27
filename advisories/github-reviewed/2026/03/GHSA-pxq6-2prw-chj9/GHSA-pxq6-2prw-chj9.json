@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxq6-2prw-chj9",
-  "modified": "2026-03-27T17:38:09Z",
+  "modified": "2026-03-27T17:41:22Z",
   "published": "2026-03-27T17:38:09Z",
   "aliases": [
     "CVE-2026-33997"
@@ -47,7 +47,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.0.0-beta.7.0.20260325113954-f4d6f25bf0c3"
+              "fixed": "2.0.0-beta.8"
             }
           ]
         }
