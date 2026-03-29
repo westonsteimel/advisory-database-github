@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7gw-mp9w-623w",
-  "modified": "2026-03-16T15:30:43Z",
+  "modified": "2026-03-29T15:30:19Z",
   "published": "2026-03-16T15:30:43Z",
   "aliases": [
     "CVE-2026-2921"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer/-/commit/e3a99c35266fc92dd6a18ac5fde028d0cda559e6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/03/msg00018.html"
     },
     {
       "type": "WEB",
