@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q5m-63h6-5x4v",
-  "modified": "2026-03-25T17:44:23Z",
+  "modified": "2026-03-30T13:53:32Z",
   "published": "2026-03-25T17:44:23Z",
   "aliases": [
     "CVE-2026-33287"
@@ -41,6 +41,10 @@
       "url": "https://github.com/harttle/liquidjs/security/advisories/GHSA-6q5m-63h6-5x4v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33287"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/harttle/liquidjs/commit/35d523026345d80458df24c72e653db78b5d061d"
     },
@@ -57,6 +61,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-25T17:44:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-26T01:16:27Z"
   }
 }
