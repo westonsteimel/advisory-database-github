@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q36-67vc-rrwg",
-  "modified": "2026-03-23T21:49:25Z",
+  "modified": "2026-03-30T13:31:02Z",
   "published": "2026-03-09T19:54:54Z",
   "aliases": [
     "CVE-2026-27646"
@@ -11,7 +11,11 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:N"
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -44,6 +48,10 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-9q36-67vc-rrwg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27646"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/61000b8e4ded919ca1a825d4700db4cb3fdc56e3"
     },
@@ -54,16 +62,21 @@
     {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vulncheck.com/advisories/openclaw-mar-sandbox-escape-via-acp-spawn-command"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-284",
-      "CWE-693"
+      "CWE-693",
+      "CWE-863"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-09T19:54:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-23T22:16:25Z"
   }
 }
