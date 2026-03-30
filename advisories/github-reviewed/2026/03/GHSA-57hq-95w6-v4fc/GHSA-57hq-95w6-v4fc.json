@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57hq-95w6-v4fc",
-  "modified": "2026-03-18T21:51:29Z",
+  "modified": "2026-03-30T13:49:02Z",
   "published": "2026-03-17T17:24:17Z",
   "aliases": [
     "CVE-2026-32700"
@@ -9,6 +9,10 @@
   "summary": "Devise has a confirmable \"change email\" race condition permits user to confirm email they have no access to",
   "details": "### Impact\n\nA race condition in Devise's Confirmable module allows an attacker to confirm an email address they do not own. This affects any Devise application using the `reconfirmable` option (the default when using Confirmable with email changes).\n\nBy sending two concurrent email change requests, an attacker can desynchronize the `confirmation_token` and `unconfirmed_email` fields. The confirmation token is sent to an email the attacker controls, but the `unconfirmed_email` in the database points to a victim's email address. When the attacker uses the token, the victim's email is confirmed on the attacker's account.\n\n### Patches\n\nThis is patched in Devise **v5.0.3**. Users should upgrade as soon as possible.\n\n### Workarounds\n\nApplications can override this specific method from Devise models to force `unconfirmed_email` to be persisted when unchanged: (assuming your model is `User`)\n\n```ruby\nclass User < ApplicationRecord\n  protected\n\n  def postpone_email_change_until_confirmation_and_regenerate_confirmation_token\n    unconfirmed_email_will_change!\n    super\n  end\nend\n```\n\nNote: Mongoid does not seem to respect that `will_change!` should force the attribute to be persisted, even if it did not really change, so you might have to implement a workaround similar to Devise by setting `changed_attributes[\"unconfirmed_email\"] = nil` as well.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
@@ -58,6 +62,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/heartcombo/devise"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/devise/CVE-2026-32700.yml"
     },
     {
       "type": "WEB",
