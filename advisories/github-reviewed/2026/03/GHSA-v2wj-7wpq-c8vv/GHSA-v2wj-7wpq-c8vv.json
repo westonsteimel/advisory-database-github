@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2wj-7wpq-c8vv",
-  "modified": "2026-03-27T21:59:55Z",
+  "modified": "2026-03-30T14:51:32Z",
   "published": "2026-03-03T18:31:33Z",
   "aliases": [
     "CVE-2026-0540"
@@ -92,10 +92,6 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/dompurify-xss-via-missing-rawtext-elements-in-safe-for-xml"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.vulncheck.com/advisories/dompurify-xss-via-missing-rawtext-elements-in-safeforxml"
     }
   ],
   "database_specific": {
