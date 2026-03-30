@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4jx-6526-vvhm",
-  "modified": "2021-05-12T20:38:22Z",
+  "modified": "2026-03-30T20:36:42Z",
   "published": "2022-02-15T01:57:18Z",
   "aliases": [
     "CVE-2020-28466"
@@ -69,6 +69,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2022-0855"
+    },
+    {
+      "type": "WEB",
       "url": "https://snyk.io/vuln/SNYK-GOLANG-GITHUBCOMNATSIONATSSERVERSERVER-1042967"
     },
     {
@@ -87,6 +91,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2021-05-12T20:38:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2021-03-07T10:15:12Z"
   }
 }
