@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp2m-98x8-rpj6",
-  "modified": "2026-03-20T21:14:56Z",
+  "modified": "2026-03-30T13:59:03Z",
   "published": "2026-03-16T18:46:34Z",
   "aliases": [
     "CVE-2026-32815"
