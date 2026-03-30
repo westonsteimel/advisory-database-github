@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-464q-cqxq-xhgr",
-  "modified": "2026-03-23T18:30:30Z",
+  "modified": "2026-03-30T19:30:16Z",
   "published": "2026-03-23T06:30:29Z",
   "aliases": [
     "CVE-2026-4603"
   ],
+  "summary": "jsrsasign: Division by Zero Allows Invalid JWK Modulus to Cause Deterministic Zero Output in RSA Operations",
   "details": "Versions of the package jsrsasign before 11.1.1 are vulnerable to Division by zero due to the RSASetPublic/KEYUTIL parsing path in ext/rsa.js and the BigInteger.modPowInt reduction logic in ext/jsbn.js. An attacker can force RSA public-key operations (e.g., verify and encryption) to collapse to deterministic zero outputs and hide “invalid key” errors by supplying a JWK whose modulus decodes to zero.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "jsrsasign"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.1.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,6 +57,10 @@
       "url": "https://gist.github.com/Kr0emer/5366b7364c4fbf7e754bc377f321e9f3"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/kjur/jsrsasign"
+    },
+    {
       "type": "WEB",
       "url": "https://security.snyk.io/vuln/SNYK-JS-JSRSASIGN-15371176"
     }
@@ -44,9 +69,9 @@
     "cwe_ids": [
       "CWE-369"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-30T19:30:16Z",
     "nvd_published_at": "2026-03-23T06:16:22Z"
   }
 }
