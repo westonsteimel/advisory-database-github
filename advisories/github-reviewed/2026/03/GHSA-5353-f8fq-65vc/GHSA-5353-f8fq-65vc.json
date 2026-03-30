@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5353-f8fq-65vc",
-  "modified": "2026-03-23T19:56:00Z",
+  "modified": "2026-03-30T14:06:18Z",
   "published": "2026-03-23T19:56:00Z",
   "aliases": [
     "CVE-2026-32879"
@@ -26,6 +26,9 @@
           "events": [
             {
               "introduced": "0.10.0"
+            },
+            {
+              "last_affected": "0.11.9-alpha.1"
             }
           ]
         }
@@ -49,6 +52,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-23T19:56:00Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-23T20:16:27Z"
   }
 }
