@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p436-gjf2-799p",
-  "modified": "2026-03-05T00:10:40Z",
+  "modified": "2026-03-31T14:21:14Z",
   "published": "2026-03-05T00:10:40Z",
   "aliases": [
     "CVE-2025-15558"
@@ -29,44 +29,6 @@
             },
             {
               "fixed": "29.2.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
-        "name": "github.com/docker/compose/v2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.31.0"
-            },
-            {
-              "last_affected": "2.40.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
-        "name": "github.com/docker/compose/v5"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "5.1.0"
             }
           ]
         }
