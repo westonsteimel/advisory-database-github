@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv5m-4fg8-r764",
-  "modified": "2026-03-28T12:30:29Z",
+  "modified": "2026-03-31T12:31:34Z",
   "published": "2026-03-28T12:30:29Z",
   "aliases": [
     "CVE-2025-9497"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gruppotim.it/en/footer/TIM-red-team.html"
     },
     {
       "type": "WEB",
