@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3cp-7wh4-9f6c",
-  "modified": "2026-03-27T21:31:32Z",
+  "modified": "2026-03-31T18:31:25Z",
   "published": "2025-10-15T15:30:28Z",
   "aliases": [
     "CVE-2025-53521"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-121",
       "CWE-770"
     ],
     "severity": "HIGH",
