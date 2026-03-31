@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh6h-p6c9-ff54",
-  "modified": "2026-03-27T19:45:01Z",
+  "modified": "2026-03-31T18:41:12Z",
   "published": "2026-03-27T19:45:00Z",
   "aliases": [
     "CVE-2026-34070"
@@ -41,6 +41,10 @@
       "url": "https://github.com/langchain-ai/langchain/security/advisories/GHSA-qh6h-p6c9-ff54"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34070"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/langchain-ai/langchain/commit/27add913474e01e33bededf4096151130ba0d47c"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-27T19:45:00Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-31T03:15:58Z"
   }
 }
