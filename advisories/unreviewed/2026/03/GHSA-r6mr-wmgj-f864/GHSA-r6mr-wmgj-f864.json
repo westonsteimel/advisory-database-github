@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6mr-wmgj-f864",
-  "modified": "2026-03-31T18:31:31Z",
+  "modified": "2026-03-31T21:31:18Z",
   "published": "2026-03-31T18:31:31Z",
   "aliases": [
     "CVE-2026-5087"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/JJNAPIORK/PAGI-Middleware-Session-Store-Cookie-0.001004/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/31/10"
     }
   ],
   "database_specific": {

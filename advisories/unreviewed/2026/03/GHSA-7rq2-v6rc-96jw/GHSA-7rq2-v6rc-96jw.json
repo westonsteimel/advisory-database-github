@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7rq2-v6rc-96jw",
-  "modified": "2026-03-31T15:31:55Z",
+  "modified": "2026-03-31T21:31:18Z",
   "published": "2026-03-31T12:31:34Z",
   "aliases": [
     "CVE-2025-15618"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.metacpan.org/patches/B/Business-OnlinePayment-StoredTransaction/0.01/CVE-2025-15618-r1.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/31/7"
     }
   ],
   "database_specific": {
