@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfjh-mfrq-8j64",
-  "modified": "2026-03-06T00:31:32Z",
+  "modified": "2026-04-01T15:30:56Z",
   "published": "2026-03-05T15:30:36Z",
   "aliases": [
     "CVE-2026-27750"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.avira.com/en/internet-security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gendigital.com/us/en/contact-us/security-advisories"
     },
     {
       "type": "WEB",

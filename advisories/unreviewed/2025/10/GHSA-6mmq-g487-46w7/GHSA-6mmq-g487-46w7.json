@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mmq-g487-46w7",
-  "modified": "2026-01-20T15:31:36Z",
+  "modified": "2026-04-01T15:30:47Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62951"
