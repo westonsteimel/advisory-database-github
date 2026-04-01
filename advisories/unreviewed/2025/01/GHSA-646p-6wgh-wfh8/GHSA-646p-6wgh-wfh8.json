@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-646p-6wgh-wfh8",
-  "modified": "2025-01-24T18:31:16Z",
+  "modified": "2026-04-01T18:33:29Z",
   "published": "2025-01-24T18:31:16Z",
   "aliases": [
     "CVE-2025-24736"

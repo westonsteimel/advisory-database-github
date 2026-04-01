@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23r3-hw65-m2x7",
-  "modified": "2025-01-24T18:31:13Z",
+  "modified": "2026-04-01T18:33:23Z",
   "published": "2025-01-24T18:31:13Z",
   "aliases": [
     "CVE-2025-24542"
