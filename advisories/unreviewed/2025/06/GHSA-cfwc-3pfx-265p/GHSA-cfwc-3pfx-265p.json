@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfwc-3pfx-265p",
-  "modified": "2025-06-06T15:30:49Z",
+  "modified": "2026-04-01T18:35:21Z",
   "published": "2025-06-06T15:30:49Z",
   "aliases": [
     "CVE-2025-49237"

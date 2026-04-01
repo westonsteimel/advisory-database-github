@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4wc-pvj9-rqm4",
-  "modified": "2025-05-16T18:31:07Z",
+  "modified": "2026-04-01T18:35:05Z",
   "published": "2025-05-16T18:31:07Z",
   "aliases": [
     "CVE-2025-32245"
@@ -21,11 +21,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/featured-posts-scroll/vulnerability/wordpress-featured-posts-scroll-plugin-1-25-csrf-to-stored-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/plugin/lbg-audio7_html5_full_width_sticky_pro/vulnerability/wordpress-apollo-3-6-3-sql-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-352",
       "CWE-89"
     ],
     "severity": "HIGH",

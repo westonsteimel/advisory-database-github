@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x76c-7p22-r2w3",
-  "modified": "2025-06-27T12:31:16Z",
+  "modified": "2026-04-01T18:35:35Z",
   "published": "2025-06-27T12:31:16Z",
   "aliases": [
     "CVE-2025-32281"
@@ -21,11 +21,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/darkmysite/vulnerability/wordpress-darkmysite-advanced-dark-mode-plugin-for-wordpress-plugin-1-2-8-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/plugin/wpkit-elementor/vulnerability/wordpress-wpkit-for-elementor-plugin-1-1-0-arbitrary-option-update-to-privilege-escalation-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-352",
       "CWE-862"
     ],
     "severity": "CRITICAL",

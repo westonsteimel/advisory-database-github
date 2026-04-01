@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q482-26g2-fxc6",
-  "modified": "2025-06-09T18:32:15Z",
+  "modified": "2026-04-01T18:35:25Z",
   "published": "2025-06-09T18:32:15Z",
   "aliases": [
     "CVE-2025-49275"

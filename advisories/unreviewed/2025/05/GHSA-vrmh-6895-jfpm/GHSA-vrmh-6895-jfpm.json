@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrmh-6895-jfpm",
-  "modified": "2025-05-19T21:30:32Z",
+  "modified": "2026-04-01T18:35:13Z",
   "published": "2025-05-19T21:30:32Z",
   "aliases": [
     "CVE-2025-39445"

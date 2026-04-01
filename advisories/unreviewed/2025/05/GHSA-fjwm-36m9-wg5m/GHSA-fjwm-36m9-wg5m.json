@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjwm-36m9-wg5m",
-  "modified": "2025-05-16T18:31:07Z",
+  "modified": "2026-04-01T18:35:05Z",
   "published": "2025-05-16T18:31:07Z",
   "aliases": [
     "CVE-2025-32180"
@@ -21,11 +21,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/woorousell/vulnerability/wordpress-product-carousel-for-woocommerce-woorousell-plugin-1-1-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/plugin/css3_tooltips/vulnerability/wordpress-css3-tooltips-for-wordpress-1-8-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-79",
       "CWE-862"
     ],
     "severity": "MODERATE",
