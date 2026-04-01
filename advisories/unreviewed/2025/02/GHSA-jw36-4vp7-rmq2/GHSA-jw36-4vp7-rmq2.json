@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jw36-4vp7-rmq2",
-  "modified": "2025-02-14T15:31:04Z",
+  "modified": "2026-04-01T18:33:39Z",
   "published": "2025-02-14T15:31:04Z",
   "aliases": [
     "CVE-2025-23771"

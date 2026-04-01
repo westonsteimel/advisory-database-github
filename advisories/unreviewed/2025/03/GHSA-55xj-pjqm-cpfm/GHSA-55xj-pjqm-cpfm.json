@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55xj-pjqm-cpfm",
-  "modified": "2025-03-03T15:31:29Z",
+  "modified": "2026-04-01T18:33:52Z",
   "published": "2025-03-03T15:31:29Z",
   "aliases": [
     "CVE-2025-23637"

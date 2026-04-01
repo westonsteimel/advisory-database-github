@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xf58-m74g-2gmf",
-  "modified": "2025-02-18T21:32:51Z",
+  "modified": "2026-04-01T18:33:41Z",
   "published": "2025-02-18T21:32:51Z",
   "aliases": [
     "CVE-2025-22656"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx56-ccjh-7r85",
-  "modified": "2025-03-03T15:31:31Z",
+  "modified": "2026-04-01T18:33:53Z",
   "published": "2025-03-03T15:31:31Z",
   "aliases": [
     "CVE-2025-24694"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24694"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/cm-pop-up-banners/vulnerability/wordpress-cm-pop-up-banners-plugin-1-7-6-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",
