@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v2j-rfvp-fcjg",
-  "modified": "2026-03-10T21:32:14Z",
+  "modified": "2026-04-01T18:36:32Z",
   "published": "2026-03-10T18:31:21Z",
   "aliases": [
     "CVE-2026-26738"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.gruppotim.it/it/footer/red-team.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gruppotim.it/it/footer/red-team/2026/CVE-2026-26738-Uderzo-Software1.html"
     },
     {
       "type": "WEB",

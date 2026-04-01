@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9fv-xmvq-pgf6",
-  "modified": "2026-01-20T15:31:39Z",
+  "modified": "2026-04-01T18:36:23Z",
   "published": "2025-10-29T06:31:13Z",
   "aliases": [
     "CVE-2025-64296"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64296"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/facebook-for-woocommerce/vulnerability/wordpress-facebook-for-woocommerce-plugin-3-5-7-broken-access-control-to-notice-dismissal-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

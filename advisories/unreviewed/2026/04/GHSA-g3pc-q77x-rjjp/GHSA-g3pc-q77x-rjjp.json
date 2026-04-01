@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-g3pc-q77x-rjjp",
+  "modified": "2026-04-01T18:36:38Z",
+  "published": "2026-04-01T18:36:38Z",
+  "aliases": [
+    "CVE-2026-34875"
+  ],
+  "details": "An issue was discovered in Mbed TLS through 3.6.5 and TF-PSA-Crypto 1.0.0. A buffer overflow can occur in public key export for FFDH keys.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34875"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mbed-tls.readthedocs.io/en/latest/security-advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-03-ffdh-buffer-overflow"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-01T18:16:31Z"
+  }
+}

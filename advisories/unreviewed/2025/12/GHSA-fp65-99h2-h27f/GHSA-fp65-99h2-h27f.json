@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp65-99h2-h27f",
-  "modified": "2026-01-20T15:32:42Z",
+  "modified": "2026-04-01T18:36:24Z",
   "published": "2025-12-29T18:30:55Z",
   "aliases": [
     "CVE-2025-68878"

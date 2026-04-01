@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgvv-46pr-527w",
-  "modified": "2026-04-01T15:31:16Z",
+  "modified": "2026-04-01T18:36:36Z",
   "published": "2026-04-01T15:31:16Z",
   "aliases": [
     "CVE-2026-30573"
   ],
   "details": "A Business Logic vulnerability exists in SourceCodester Pharmacy Product Management System 1.0. The vulnerability is located in the add-sales.php file. The application fails to validate the \"txtprice\" and \"txttotalcost\" parameters, allowing attackers to submit negative values for sales transactions. This leads to incorrect financial calculations, corruption of sales reports, and potential financial loss.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-1284"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-01T15:22:59Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3hp-24mv-wr6w",
-  "modified": "2026-01-20T15:32:42Z",
+  "modified": "2026-04-01T18:36:24Z",
   "published": "2025-12-30T00:32:58Z",
   "aliases": [
     "CVE-2025-68607"

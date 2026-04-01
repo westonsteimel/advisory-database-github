@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx87-w5c7-xwff",
-  "modified": "2026-01-20T15:33:06Z",
+  "modified": "2026-04-01T18:36:31Z",
   "published": "2026-01-05T18:30:22Z",
   "aliases": [
     "CVE-2024-53735"

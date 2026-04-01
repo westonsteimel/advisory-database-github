@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vc3q-w6jg-xcpj",
+  "modified": "2026-04-01T18:36:38Z",
+  "published": "2026-04-01T18:36:38Z",
+  "aliases": [
+    "CVE-2026-30643"
+  ],
+  "details": "An issue was discovered in DedeCMS 5.7.118 allowing attackers to execute code via crafted setup tag values in a module upload.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30643"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/0psPwn/10c43912adee9bfe2ff4fec947d4ee5a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.dedecms.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-01T17:28:39Z"
+  }
+}

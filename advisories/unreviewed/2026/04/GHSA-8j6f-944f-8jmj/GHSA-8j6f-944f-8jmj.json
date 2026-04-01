@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8j6f-944f-8jmj",
+  "modified": "2026-04-01T18:36:38Z",
+  "published": "2026-04-01T18:36:38Z",
+  "aliases": [
+    "CVE-2026-25834"
+  ],
+  "details": "Mbed TLS v3.3.0 up to 3.6.5 and 4.0.0 allows Algorithm Downgrade.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25834"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mbed-tls.readthedocs.io/en/latest/security-advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-03-sigalg-injection"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-01T18:16:28Z"
+  }
+}

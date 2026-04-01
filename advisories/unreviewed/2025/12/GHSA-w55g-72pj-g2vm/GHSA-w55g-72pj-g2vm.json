@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w55g-72pj-g2vm",
-  "modified": "2026-01-20T15:31:57Z",
+  "modified": "2026-04-01T18:36:23Z",
   "published": "2025-12-01T18:30:38Z",
   "aliases": [
     "CVE-2025-13835"
