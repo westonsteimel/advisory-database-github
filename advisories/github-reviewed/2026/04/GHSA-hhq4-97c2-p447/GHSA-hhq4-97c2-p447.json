@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hhq4-97c2-p447",
+  "modified": "2026-04-02T20:59:11Z",
+  "published": "2026-04-02T20:59:11Z",
+  "aliases": [],
+  "summary": "OpenClaw: Zalo webhook replay cache cross-target messageId scope bypass",
+  "details": "## Summary\nZalo webhook replay cache cross-target messageId scope bypass\n\n## Current Maintainer Triage\n- Status: narrow\n- Normalized severity: low\n- Assessment: v2026.3.28 replay dedupe is still keyed too broadly, but the issue should stay scoped to authenticated sibling-target delivery paths rather than arbitrary unauthenticated attackers.\n\n## Affected Packages / Versions\n- Package: `openclaw` (npm)\n- Latest published npm version: `2026.3.31`\n- Vulnerable version range: `<=2026.3.28`\n- Patched versions: `>= 2026.3.31`\n- First stable tag containing the fix: `v2026.3.31`\n\n## Fix Commit(s)\n- `4d038bb242c11f39e45f6a4bde400e5fd42e4ebf` — 2026-03-31T19:33:57+09:00\n\nOpenClaw thanks @smaeljaish771 for reporting.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "openclaw"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2026.3.31"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 2026.3.28"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-hhq4-97c2-p447"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openclaw/openclaw/commit/4d038bb242c11f39e45f6a4bde400e5fd42e4ebf"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-294"
+    ],
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-02T20:59:11Z",
+    "nvd_published_at": null
+  }
+}
