@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vw2r-ffc4-8xm3",
-  "modified": "2026-03-25T12:30:20Z",
+  "modified": "2026-04-02T15:31:36Z",
   "published": "2026-03-18T12:31:52Z",
   "aliases": [
     "CVE-2026-23245"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: act_gate: snapshot parameters with RCU on replace\n\nThe gate action can be replaced while the hrtimer callback or dump path is\nwalking the schedule list.\n\nConvert the parameters to an RCU-protected snapshot and swap updates under\ntcf_lock, freeing the previous snapshot via call_rcu(). When REPLACE omits\nthe entry list, preserve the existing schedule so the effective state is\nunchanged.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-18T11:16:16Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcvf-8537-hx8x",
-  "modified": "2026-03-25T12:30:21Z",
+  "modified": "2026-04-02T15:31:36Z",
   "published": "2026-03-25T12:30:21Z",
   "aliases": [
     "CVE-2026-23280"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\naccel/amdxdna: Prevent ubuf size overflow\n\nThe ubuf size calculation may overflow, resulting in an undersized\nallocation and possible memory corruption.\n\nUse check_add_overflow() helpers to validate the size calculation before\nallocation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:22Z"

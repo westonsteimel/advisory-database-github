@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vw6-5q2f-7w5r",
-  "modified": "2026-01-21T21:55:11Z",
+  "modified": "2026-04-02T15:31:34Z",
   "published": "2026-01-20T15:33:12Z",
   "aliases": [
     "CVE-2026-1180"
@@ -43,6 +43,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/issues/45645"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:6477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:6478"
     },
     {
       "type": "WEB",

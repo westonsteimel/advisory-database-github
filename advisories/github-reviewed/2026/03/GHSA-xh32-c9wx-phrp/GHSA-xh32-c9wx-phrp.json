@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh32-c9wx-phrp",
-  "modified": "2026-03-12T14:42:34Z",
+  "modified": "2026-04-02T15:31:35Z",
   "published": "2026-03-11T06:31:41Z",
   "aliases": [
     "CVE-2026-3911"
@@ -51,6 +51,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/commit/215bc1e27230f2a66670ed70262248b5f5254eb9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:6477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:6478"
     },
     {
       "type": "WEB",

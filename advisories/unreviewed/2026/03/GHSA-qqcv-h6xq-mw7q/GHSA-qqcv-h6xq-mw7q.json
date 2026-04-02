@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqcv-h6xq-mw7q",
-  "modified": "2026-03-25T12:30:24Z",
+  "modified": "2026-04-02T15:31:36Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-23391"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: xt_CT: drop pending enqueued packets on template removal\n\nTemplates refer to objects that can go away while packets are sitting in\nnfqueue refer to:\n\n- helper, this can be an issue on module removal.\n- timeout policy, nfnetlink_cttimeout might remove it.\n\nThe use of templates with zone and event cache filter are safe, since\nthis just copies values.\n\nFlush these enqueued packets in case the template rule gets removed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:39Z"

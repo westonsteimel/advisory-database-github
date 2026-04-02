@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h4wv-g838-66g3",
+  "modified": "2026-04-02T15:31:39Z",
+  "published": "2026-04-02T15:31:39Z",
+  "aliases": [
+    "CVE-2026-4634"
+  ],
+  "details": "A flaw was found in Keycloak. An unauthenticated attacker can exploit this vulnerability by sending a specially crafted POST request with an excessively long scope parameter to the OpenID Connect (OIDC) token endpoint. This leads to high resource consumption and prolonged processing times, ultimately resulting in a Denial of Service (DoS) for the Keycloak server.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4634"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:6477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:6478"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2026-4634"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2450250"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1050"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-02T13:16:27Z"
+  }
+}

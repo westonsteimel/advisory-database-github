@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cj5-g32w-86fv",
-  "modified": "2025-12-16T06:30:18Z",
+  "modified": "2026-04-02T15:31:34Z",
   "published": "2025-12-16T06:30:18Z",
   "aliases": [
     "CVE-2025-14777"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14777"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:6477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:6478"
     },
     {
       "type": "WEB",
