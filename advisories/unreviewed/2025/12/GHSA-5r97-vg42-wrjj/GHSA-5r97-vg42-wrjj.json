@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r97-vg42-wrjj",
-  "modified": "2026-01-08T21:30:28Z",
+  "modified": "2026-04-02T18:31:34Z",
   "published": "2025-12-20T03:31:35Z",
   "aliases": [
     "CVE-2025-8065"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/tapo-c520ws/#Firmware-Release-Notes"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.tp-link.com/us/support/download/tapo-c200/v3/#Firmware-Release-Notes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/download/tapo-c520ws/#Firmware-Release-Notes"
     },
     {
       "type": "WEB",
@@ -35,6 +43,7 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-120",
+      "CWE-121",
       "CWE-400"
     ],
     "severity": "HIGH",

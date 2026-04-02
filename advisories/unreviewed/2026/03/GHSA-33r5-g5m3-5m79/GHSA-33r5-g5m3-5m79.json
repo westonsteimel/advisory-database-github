@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33r5-g5m3-5m79",
-  "modified": "2026-03-31T21:31:18Z",
+  "modified": "2026-04-02T18:31:36Z",
   "published": "2026-03-30T21:31:04Z",
   "aliases": [
     "CVE-2026-3502"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://trueconf.com/blog/update/trueconf-8-5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-3502"
     }
   ],
   "database_specific": {
