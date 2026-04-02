@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42mq-7943-cj3h",
-  "modified": "2026-02-26T18:31:35Z",
+  "modified": "2026-04-02T12:31:04Z",
   "published": "2026-01-23T18:31:29Z",
   "aliases": [
     "CVE-2026-22993"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22993"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a09380354d2f14759b9dd45de1bc2f6bf49e651b"
     },
     {
       "type": "WEB",
