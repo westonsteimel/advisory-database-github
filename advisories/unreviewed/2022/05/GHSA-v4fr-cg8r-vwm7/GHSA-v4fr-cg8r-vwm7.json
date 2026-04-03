@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4fr-cg8r-vwm7",
-  "modified": "2022-05-17T04:51:45Z",
+  "modified": "2026-04-03T00:31:08Z",
   "published": "2022-05-17T04:51:45Z",
   "aliases": [
     "CVE-2011-1594"
   ],
   "details": "Open redirect vulnerability in Spacewalk 1.6, as used in Red Hat Network (RHN) Satellite, allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a URL in the url_bounce parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-1594"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2011-1594"
     },
     {
       "type": "WEB",
@@ -29,7 +38,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-601"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

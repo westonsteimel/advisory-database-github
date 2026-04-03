@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pqp9-2cmp-fx98",
-  "modified": "2022-05-17T04:51:45Z",
+  "modified": "2026-04-03T00:31:08Z",
   "published": "2022-05-17T04:51:45Z",
   "aliases": [
     "CVE-2011-2920"
   ],
   "details": "Multiple cross-site scripting (XSS) vulnerabilities in Spacewalk 1.6, as used in Red Hat Network (RHN) Satellite, allow remote attackers to inject arbitrary web script or HTML via the \"Filter by Synopsis\" field and other unspecified filter forms.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {

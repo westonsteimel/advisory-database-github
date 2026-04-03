@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxwc-xxjw-356x",
-  "modified": "2026-04-02T21:32:53Z",
+  "modified": "2026-04-03T00:31:09Z",
   "published": "2026-04-02T21:32:53Z",
   "aliases": [
     "CVE-2024-14033"
@@ -30,11 +30,16 @@
     {
       "type": "WEB",
       "url": "https://ssd-disclosure.com/ssd-advisory-lancom-lcos-heap-overflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.belden.com/security"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-122"
+      "CWE-122",
+      "CWE-400"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
