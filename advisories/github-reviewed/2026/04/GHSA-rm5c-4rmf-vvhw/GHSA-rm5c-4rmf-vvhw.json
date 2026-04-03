@@ -1,14 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rm5c-4rmf-vvhw",
-  "modified": "2026-04-03T03:01:57Z",
+  "modified": "2026-04-03T20:16:01Z",
   "published": "2026-04-03T03:01:57Z",
   "aliases": [],
   "summary": "OpenClaw: Sandbox file operations use check-then-act, bypassing fd-based TOCTOU defenses",
   "details": "## Summary\nSandbox file operations use check-then-act, bypassing fd-based TOCTOU defenses\n\n## Current Maintainer Triage\n- Status: narrow\n- Normalized severity: medium\n- Assessment: Released workspace-only apply_patch remove and mkdir operations were still check-then-act, but the draft overstates scope by bundling broader edit paths; keep it open but narrow it to the actual sandbox-workspace mutation boundary.\n\n## Affected Packages / Versions\n- Package: `openclaw` (npm)\n- Latest published npm version: `2026.3.31`\n- Vulnerable version range: `<=2026.3.28`\n- Patched versions: `>= 2026.3.31`\n- First stable tag containing the fix: `v2026.3.31`\n\n## Fix Commit(s)\n- `32a4a47d602e0618f87b3e59f94d8c142767f860` — 2026-03-30T16:49:49+01:00\n\nOpenClaw thanks @AntAISecurityLab for reporting.",
   "severity": [
     {
-      "type": "CVSS_V3",
+      "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
