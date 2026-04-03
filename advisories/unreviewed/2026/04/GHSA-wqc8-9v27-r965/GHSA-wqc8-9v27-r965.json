@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqc8-9v27-r965",
-  "modified": "2026-04-01T18:36:35Z",
+  "modified": "2026-04-03T06:31:31Z",
   "published": "2026-04-01T15:31:15Z",
   "aliases": [
     "CVE-2026-29014"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/metinfo-cms-unauthenticated-php-code-injection-rce"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Apr/1"
     }
   ],
   "database_specific": {
