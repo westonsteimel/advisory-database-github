@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqc8-9v27-r965",
-  "modified": "2026-04-03T06:31:31Z",
+  "modified": "2026-04-03T18:31:06Z",
   "published": "2026-04-01T15:31:15Z",
   "aliases": [
     "CVE-2026-29014"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://karmainsecurity.com/KIS-2026-06"
+    },
+    {
+      "type": "WEB",
+      "url": "https://websec.net/blog/cve-2026-29014-metinfo-cms-unauthenticated-php-code-injection-69cdc290c14a8a99e1f91b7a"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmvm-5r4j-5wx3",
-  "modified": "2026-04-03T12:31:10Z",
+  "modified": "2026-04-03T18:31:20Z",
   "published": "2026-04-03T12:31:10Z",
   "aliases": [
     "CVE-2026-4108"

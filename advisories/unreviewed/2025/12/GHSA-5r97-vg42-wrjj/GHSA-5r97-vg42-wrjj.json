@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r97-vg42-wrjj",
-  "modified": "2026-04-02T18:31:34Z",
+  "modified": "2026-04-03T18:31:03Z",
   "published": "2025-12-20T03:31:35Z",
   "aliases": [
     "CVE-2025-8065"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/tapo-c200/v3/#Firmware-Release-Notes"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5jg-472w-q92f",
-  "modified": "2025-12-04T15:30:33Z",
+  "modified": "2026-04-03T18:31:03Z",
   "published": "2025-12-04T15:30:33Z",
   "aliases": [
     "CVE-2025-40219"
@@ -16,27 +16,19 @@
     },
     {
       "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/05703271c3cdcc0f2a8cf6ebdc45892b8ca83520"
+      "url": "https://git.kernel.org/stable/c/f3015627b6e9ddf85cfeaf42405b3c194dde2c36"
     },
     {
       "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/1e8a80290f964bdbad225221c8a1594c7e01c8fd"
+      "url": "https://git.kernel.org/stable/c/ee40e5db052d7c6f406fdb95ad639c894c74674c"
     },
     {
       "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/36039348bca77828bf06eae41b8f76e38cd15847"
+      "url": "https://git.kernel.org/stable/c/d7673ac466eca37ec3e6b7cc9ccdb06de3304e9b"
     },
     {
       "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/53154cd40ccf285f1d1c24367824082061d155bd"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/5c1cd7d405e94dc6cb320cc0cc092b74895b6ddf"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/a24219172456f035d886857e265ca24c85b167c8"
+      "url": "https://git.kernel.org/stable/c/bea1d373098b22d7142da48750ce5526096425bc"
     },
     {
       "type": "WEB",
@@ -44,7 +36,47 @@
     },
     {
       "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/ee40e5db052d7c6f406fdb95ad639c894c74674c"
+      "url": "https://git.kernel.org/stable/c/a5338e365c4559d7b4d7356116b0eb95b12e08d5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a24219172456f035d886857e265ca24c85b167c8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/97c18f074ff1c12d016a0753072a3afdfa0b9611"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7c37920c96b85ef4255a7acc795e99e63dd38d59"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5c1cd7d405e94dc6cb320cc0cc092b74895b6ddf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/53154cd40ccf285f1d1c24367824082061d155bd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3cddde484471c602bea04e6f384819d336a1ff84"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/36039348bca77828bf06eae41b8f76e38cd15847"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1e8a80290f964bdbad225221c8a1594c7e01c8fd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1047ca2d816994f31e1475e63e0c0b7825599747"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/05703271c3cdcc0f2a8cf6ebdc45892b8ca83520"
     }
   ],
   "database_specific": {
