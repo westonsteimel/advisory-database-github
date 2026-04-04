@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5226-3rvg-hp4x",
-  "modified": "2026-04-02T12:31:05Z",
+  "modified": "2026-04-04T05:39:06Z",
   "published": "2026-04-02T12:31:05Z",
   "aliases": [
     "CVE-2026-5327"
   ],
+  "summary": "fast-filesystem-mcp is vulnerable to command injection through handleGetDiskUsage function",
   "details": "A security flaw has been discovered in efforthye fast-filesystem-mcp up to 3.5.1. The affected element is the function handleGetDiskUsage of the file src/index.ts. Performing a manipulation results in command injection. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "fast-filesystem-mcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "3.5.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,7 +49,7 @@
       "url": "https://github.com/efforthye/fast-filesystem-mcp/issues/15"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/efforthye/fast-filesystem-mcp"
     },
     {
@@ -52,9 +73,9 @@
     "cwe_ids": [
       "CWE-74"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-04T05:39:06Z",
     "nvd_published_at": "2026-04-02T12:16:21Z"
   }
 }
