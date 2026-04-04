@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2wr-f89p-cqwh",
-  "modified": "2026-03-19T18:31:17Z",
+  "modified": "2026-04-04T09:30:25Z",
   "published": "2026-03-19T12:30:32Z",
   "aliases": [
     "CVE-2006-10003"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/cpan-authors/XML-Parser/commit/3eb9cc95420fa0c3f76947c4708962546bf27cfd.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/04/msg00002.html"
     },
     {
       "type": "WEB",
