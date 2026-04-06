@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjv9-vp6w-3rc9",
-  "modified": "2025-02-05T16:42:43Z",
+  "modified": "2026-04-06T17:17:04Z",
   "published": "2023-04-26T16:01:10Z",
   "aliases": [
     "CVE-2023-30610"
@@ -534,6 +534,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/awslabs/aws-sdk-rust"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0125.html"
     }
   ],
   "database_specific": {
