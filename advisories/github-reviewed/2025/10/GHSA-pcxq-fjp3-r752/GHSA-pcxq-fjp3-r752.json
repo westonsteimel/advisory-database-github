@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcxq-fjp3-r752",
-  "modified": "2025-10-17T20:07:12Z",
+  "modified": "2026-04-06T23:15:11Z",
   "published": "2025-10-17T18:03:06Z",
   "aliases": [
     "CVE-2025-48044"
@@ -56,8 +56,16 @@
       "url": "https://github.com/ash-project/ash/commit/8b83efa225f657bfc3656ad8ee8485f9b2de923d"
     },
     {
+      "type": "WEB",
+      "url": "https://cna.erlef.org/cves/CVE-2025-48044.html"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/ash-project/ash"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/EEF-CVE-2025-48044"
     }
   ],
   "database_specific": {

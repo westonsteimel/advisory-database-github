@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7gq-h8jv-h3cq",
-  "modified": "2025-06-17T19:56:26Z",
+  "modified": "2026-04-06T23:14:59Z",
   "published": "2025-06-17T14:20:46Z",
   "aliases": [
     "CVE-2025-4754"
@@ -56,8 +56,16 @@
       "url": "https://github.com/team-alembic/ash_authentication_phoenix/commit/a3253fb4fc7145aeb403537af1c24d3a8d51ffb1"
     },
     {
+      "type": "WEB",
+      "url": "https://cna.erlef.org/cves/CVE-2025-4754.html"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/team-alembic/ash_authentication_phoenix"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/EEF-CVE-2025-4754"
     }
   ],
   "database_specific": {
