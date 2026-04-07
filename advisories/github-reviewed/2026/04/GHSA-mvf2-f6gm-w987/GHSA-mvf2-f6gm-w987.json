@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mvf2-f6gm-w987",
-  "modified": "2026-04-06T23:25:57Z",
+  "modified": "2026-04-07T17:06:17Z",
   "published": "2026-04-02T20:37:54Z",
   "aliases": [
     "CVE-2026-34950"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "6.1.0"
+              "fixed": "6.2.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 6.1.0"
+      }
     }
   ],
   "references": [
@@ -55,6 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-327"
     ],
     "severity": "CRITICAL",
