@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qw7-rqx6-9gqj",
-  "modified": "2026-04-02T03:31:32Z",
+  "modified": "2026-04-07T12:31:15Z",
   "published": "2026-04-02T03:31:32Z",
   "aliases": [
     "CVE-2026-5318"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/LibRaw/LibRaw"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/LibRaw/LibRaw/releases/tag/0.22.1"
     },
     {
       "type": "WEB",
