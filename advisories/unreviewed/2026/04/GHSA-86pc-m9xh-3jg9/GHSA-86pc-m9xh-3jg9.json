@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86pc-m9xh-3jg9",
-  "modified": "2026-04-07T09:31:22Z",
+  "modified": "2026-04-07T18:31:33Z",
   "published": "2026-04-07T09:31:22Z",
   "aliases": [
     "CVE-2025-15611"
   ],
   "details": "The Popup Box  WordPress plugin before 5.5.0 does not properly validate nonces in the add_or_edit_popupbox() function before saving popup data, allowing unauthenticated attackers to perform Cross-Site Request Forgery attacks. When an authenticated admin visits a malicious page, the attacker can create or modify popups with arbitrary JavaScript that executes in the admin panel and frontend.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-07T07:16:23Z"

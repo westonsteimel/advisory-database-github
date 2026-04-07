@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8h8h-mjfx-hghg",
-  "modified": "2022-07-16T00:00:21Z",
+  "modified": "2026-04-07T18:31:29Z",
   "published": "2022-07-13T00:01:53Z",
   "aliases": [
     "CVE-2021-38289"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/viperbluff/Novastar-VNNOX-iCare-Privilege-Escalation"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.novaicare.com/advisory-cve-2021-38289.html"
     },
     {
       "type": "WEB",

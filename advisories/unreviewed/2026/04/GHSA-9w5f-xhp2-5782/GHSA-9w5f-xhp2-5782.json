@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9w5f-xhp2-5782",
-  "modified": "2026-04-07T09:31:22Z",
+  "modified": "2026-04-07T18:31:34Z",
   "published": "2026-04-07T09:31:22Z",
   "aliases": [
     "CVE-2026-1900"
   ],
   "details": "The Link Whisper Free WordPress plugin before 0.9.1 has a publicly accessible REST endpoint that allows unauthenticated settings updates.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-07T07:16:23Z"

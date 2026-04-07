@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pq95-94c9-j987",
+  "modified": "2026-04-07T18:31:37Z",
+  "published": "2026-04-07T18:31:37Z",
+  "aliases": [
+    "CVE-2025-70844"
+  ],
+  "details": "yaffa v2.0.0 is vulnerable to Cross Site Scripting (XSS). An attacker can inject malicious JavaScript into the \"Add Account Group\" function on the account-group page, allowing execution of arbitrary script in the context of users who view the affected page.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70844"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/J4cky1028/vulnerability-research/tree/main/CVE-2025-70844"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kantorge/yaffa"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-07T17:16:26Z"
+  }
+}

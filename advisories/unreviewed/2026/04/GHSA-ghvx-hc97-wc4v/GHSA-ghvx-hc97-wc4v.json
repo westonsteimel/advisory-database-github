@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghvx-hc97-wc4v",
-  "modified": "2026-04-07T15:30:51Z",
+  "modified": "2026-04-07T18:31:34Z",
   "published": "2026-04-07T15:30:51Z",
   "aliases": [
     "CVE-2026-20884"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2026-2364"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2026-2364"
     }
   ],
   "database_specific": {

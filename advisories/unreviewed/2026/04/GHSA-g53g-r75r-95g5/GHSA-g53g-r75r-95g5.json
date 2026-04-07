@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g53g-r75r-95g5",
-  "modified": "2026-04-07T15:30:51Z",
+  "modified": "2026-04-07T18:31:35Z",
   "published": "2026-04-07T15:30:51Z",
   "aliases": [
     "CVE-2026-21413"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2026-2331"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2026-2331"
     }
   ],
   "database_specific": {

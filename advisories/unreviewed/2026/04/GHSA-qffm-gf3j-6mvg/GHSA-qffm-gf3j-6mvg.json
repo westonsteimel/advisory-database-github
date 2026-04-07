@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qffm-gf3j-6mvg",
+  "modified": "2026-04-07T18:31:37Z",
+  "published": "2026-04-07T18:31:37Z",
+  "aliases": [
+    "CVE-2026-32588"
+  ],
+  "details": "Authenticated DoS over CQL in Apache Cassandra 4.0, 4.1, 5.0 allows authenticated user to raise query latencies via repeated password changes.\nUsers are recommended to upgrade to version 4.0.20, 4.1.11, 5.0.7, which fixes this issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32588"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/2tnwjdnss378glxrsmnlzz3k53ftphrc"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/07/9"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-400"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-07T17:16:28Z"
+  }
+}

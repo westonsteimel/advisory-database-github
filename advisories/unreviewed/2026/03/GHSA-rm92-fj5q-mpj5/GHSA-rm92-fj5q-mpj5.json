@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rm92-fj5q-mpj5",
-  "modified": "2026-03-25T18:31:37Z",
+  "modified": "2026-04-07T18:31:30Z",
   "published": "2026-03-20T15:31:14Z",
   "aliases": [
     "CVE-2026-4519"
@@ -29,7 +29,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/3681d47a440865aead912a054d4599087b4270dd"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/python/cpython/commit/43fe06b96f6a6cf5cfd5bdab20b8649374956866"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/591ed890270c5697b013bf637029fb3e6cd2d73e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/594b5a05dc9913880ac92eded440defbf32a28d1"
     },
     {
       "type": "WEB",
@@ -37,7 +49,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/89bfb8e5ed3c7caa241028f1a4eac5f6275a46a4"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/python/cpython/commit/9669a912a0e329c094e992204d6bdb8787024d76"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/96fc5048605863c7b6fd6289643feb0e97edd96c"
     },
     {
       "type": "WEB",
@@ -46,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/cbba6119391112aba9c5aebf7b94aea447922c48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/cc023511238ad93ecc8796157c6f9139a2bb2932"
     },
     {
       "type": "WEB",

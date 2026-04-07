@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qcv-4rpc-jp93",
-  "modified": "2026-04-07T15:30:50Z",
+  "modified": "2026-04-07T18:31:34Z",
   "published": "2026-04-07T15:30:50Z",
   "aliases": [
     "CVE-2026-35554"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/f07x7j8ovyqhjd1to25jsnqbm6wj01d6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/07/6"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7679-g48g-fxpc",
-  "modified": "2026-02-04T21:30:32Z",
+  "modified": "2026-04-07T18:31:29Z",
   "published": "2026-02-04T21:30:32Z",
   "aliases": [
     "CVE-2025-15555"
@@ -50,6 +50,18 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.741901"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/741901"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/343795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/343795/cti"
     }
   ],
   "database_specific": {
