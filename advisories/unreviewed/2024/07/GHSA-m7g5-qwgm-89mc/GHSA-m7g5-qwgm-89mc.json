@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7g5-qwgm-89mc",
-  "modified": "2024-07-04T09:32:49Z",
+  "modified": "2026-04-08T15:31:42Z",
   "published": "2024-07-04T09:32:49Z",
   "aliases": [
     "CVE-2024-1574"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2024-004_en.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2024-004_en.pdf"
     }
   ],
   "database_specific": {
