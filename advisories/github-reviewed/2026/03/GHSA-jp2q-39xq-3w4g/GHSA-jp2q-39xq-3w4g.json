@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp2q-39xq-3w4g",
-  "modified": "2026-03-25T18:33:22Z",
+  "modified": "2026-04-08T22:27:44Z",
   "published": "2026-03-19T19:13:13Z",
   "aliases": [
     "CVE-2026-33349"
@@ -28,14 +28,30 @@
               "introduced": "4.0.0-beta.3"
             },
             {
+              "fixed": "4.5.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "fast-xml-parser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.0"
+            },
+            {
               "fixed": "5.5.7"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 5.5.6"
-      }
+      ]
     }
   ],
   "references": [
@@ -50,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/NaturalIntelligence/fast-xml-parser/commit/239b64aa1fc5c5455ddebbbb54a187eb68c9fdb7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NaturalIntelligence/fast-xml-parser/commit/88d0936a23dabe51bfbf42255e2ce912dfee2221"
     },
     {
       "type": "PACKAGE",
