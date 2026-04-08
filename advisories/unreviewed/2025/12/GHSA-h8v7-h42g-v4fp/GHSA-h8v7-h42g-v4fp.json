@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8v7-h42g-v4fp",
-  "modified": "2025-12-04T06:31:30Z",
+  "modified": "2026-04-08T21:33:08Z",
   "published": "2025-12-04T06:31:30Z",
   "aliases": [
     "CVE-2025-11379"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3425653%40webp-express&new=3425653%40webp-express&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf7h-pjm6-28hp",
-  "modified": "2025-10-03T12:33:15Z",
+  "modified": "2026-04-08T21:33:06Z",
   "published": "2025-10-03T12:33:15Z",
   "aliases": [
     "CVE-2025-8669"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8669"
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.cleantalk.org/cve-2025-8669"
     },
     {
       "type": "WEB",

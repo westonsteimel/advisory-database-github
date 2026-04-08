@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hppv-p84g-253f",
-  "modified": "2025-03-25T09:32:07Z",
+  "modified": "2026-04-08T21:33:03Z",
   "published": "2025-03-25T09:32:07Z",
   "aliases": [
     "CVE-2024-13731"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13731"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?old_path=/alert-box-block/tags/1.1.3&new_path=/alert-box-block/tags/1.1.4&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

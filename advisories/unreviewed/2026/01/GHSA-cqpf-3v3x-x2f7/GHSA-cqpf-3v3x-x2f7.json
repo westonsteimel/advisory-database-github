@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqpf-3v3x-x2f7",
-  "modified": "2026-01-28T12:30:28Z",
+  "modified": "2026-04-08T21:33:10Z",
   "published": "2026-01-28T12:30:28Z",
   "aliases": [
     "CVE-2025-14063"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/seo-links-interlinking/trunk/scdata.php#L512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3453347"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9xq-hm6r-jch8",
-  "modified": "2026-01-14T06:30:24Z",
+  "modified": "2026-04-08T21:33:10Z",
   "published": "2026-01-14T06:30:24Z",
   "aliases": [
     "CVE-2025-15021"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/gotham-block-extra-light/trunk/gothamblock.php?marks=463,470,495,500,504,519,564,578#L463"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3438393"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrgh-5p34-46f6",
-  "modified": "2025-07-16T09:31:04Z",
+  "modified": "2026-04-08T21:33:05Z",
   "published": "2025-07-16T09:31:04Z",
   "aliases": [
     "CVE-2025-5845"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/affiliate-reviews/trunk/templates/blocks/block-reviews-grid-style.php#L16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3345717"
     },
     {
       "type": "WEB",

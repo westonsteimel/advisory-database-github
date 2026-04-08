@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p3c-x238-grgc",
-  "modified": "2025-04-08T06:30:40Z",
+  "modified": "2026-04-08T21:33:04Z",
   "published": "2025-04-08T06:30:40Z",
   "aliases": [
     "CVE-2025-2004"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/simple-wp-events/trunk/admin/includes/wp-events-export-events.php#L399"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3280966/simple-wp-events/trunk/admin/includes/wp-events-export-events.php"
     },
     {
       "type": "WEB",

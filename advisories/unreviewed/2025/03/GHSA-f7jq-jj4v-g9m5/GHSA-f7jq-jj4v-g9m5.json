@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7jq-jj4v-g9m5",
-  "modified": "2025-03-25T09:32:05Z",
+  "modified": "2026-04-08T21:33:03Z",
   "published": "2025-03-25T09:32:05Z",
   "aliases": [
     "CVE-2025-1320"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1320"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3259464%40teachpress&new=3259464%40teachpress&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

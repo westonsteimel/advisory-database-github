@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p9m-8642-6w2j",
-  "modified": "2025-10-24T09:31:58Z",
+  "modified": "2026-04-08T21:33:07Z",
   "published": "2025-10-24T09:31:58Z",
   "aliases": [
     "CVE-2025-10749"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/windows-azure-storage/tags/4.5.1/includes/class-windows-azure-replace-media.php#L346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3386127%40windows-azure-storage&new=3386127%40windows-azure-storage&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

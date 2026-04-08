@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwpq-c4hc-7qhj",
-  "modified": "2026-04-03T18:31:20Z",
+  "modified": "2026-04-08T21:33:13Z",
   "published": "2026-04-03T15:30:31Z",
   "aliases": [
     "CVE-2026-26477"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Hebing123/cve/issues/94"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dokuwiki/dokuwiki/releases/tag/release-2025-05-14b"
     }
   ],
   "database_specific": {

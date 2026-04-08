@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rj6v-55cc-2v57",
-  "modified": "2025-01-11T09:30:30Z",
+  "modified": "2026-04-08T21:32:59Z",
   "published": "2025-01-11T09:30:30Z",
   "aliases": [
     "CVE-2024-11386"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11386"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3237894%40gatormail-smart-forms&new=3237894%40gatormail-smart-forms&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

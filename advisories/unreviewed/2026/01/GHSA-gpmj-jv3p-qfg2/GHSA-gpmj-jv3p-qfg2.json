@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpmj-jv3p-qfg2",
-  "modified": "2026-01-24T09:30:28Z",
+  "modified": "2026-04-08T21:33:10Z",
   "published": "2026-01-24T09:30:28Z",
   "aliases": [
     "CVE-2026-1302"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/meta-box-gallerymeta/tags/3.0.1/templates/single-mb_gallery.php#L33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3446962"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9prh-3fwj-8frx",
-  "modified": "2026-03-11T12:31:22Z",
+  "modified": "2026-04-08T21:33:11Z",
   "published": "2026-03-11T12:31:22Z",
   "aliases": [
     "CVE-2026-3231"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=3478914%40woo-checkout-field-editor-pro%2Ftrunk&old=3454287%40woo-checkout-field-editor-pro%2Ftrunk&sfp_email=&sfph_mail=#file1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.cleantalk.org/cve-2026-3231"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv3p-w5rj-f5p6",
-  "modified": "2026-01-30T00:31:22Z",
+  "modified": "2026-04-08T21:33:10Z",
   "published": "2026-01-30T00:31:22Z",
   "aliases": [
     "CVE-2026-1340"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-CVE-2026-1281-CVE-2026-1340"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-1340"
     }
   ],
   "database_specific": {

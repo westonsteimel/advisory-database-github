@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5j9-4c4g-m94f",
-  "modified": "2025-11-25T09:31:24Z",
+  "modified": "2026-04-08T21:33:08Z",
   "published": "2025-11-25T09:31:24Z",
   "aliases": [
     "CVE-2025-13405"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/ace-post-type-builder/trunk/includes/class-cptb-core.php#L400"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3412781"
     },
     {
       "type": "WEB",

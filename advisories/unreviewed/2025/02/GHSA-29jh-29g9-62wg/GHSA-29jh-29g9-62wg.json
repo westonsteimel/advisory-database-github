@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29jh-29g9-62wg",
-  "modified": "2025-02-12T12:30:47Z",
+  "modified": "2026-04-08T21:33:01Z",
   "published": "2025-02-12T12:30:47Z",
   "aliases": [
     "CVE-2024-13531"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/shipengine-shipping-quotes/trunk/admin/tab/shipping-rules/shipping-rules-save.php#L77"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3241894"
     },
     {
       "type": "WEB",

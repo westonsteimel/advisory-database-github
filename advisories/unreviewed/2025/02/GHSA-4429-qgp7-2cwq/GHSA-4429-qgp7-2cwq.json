@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4429-qgp7-2cwq",
-  "modified": "2025-02-22T15:30:51Z",
+  "modified": "2026-04-08T21:33:03Z",
   "published": "2025-02-22T15:30:51Z",
   "aliases": [
     "CVE-2025-0953"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/3234379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3270561"
     },
     {
       "type": "WEB",

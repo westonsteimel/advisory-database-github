@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vcr-g3hm-2qr2",
-  "modified": "2026-04-08T18:34:06Z",
+  "modified": "2026-04-08T21:33:26Z",
   "published": "2026-04-08T06:31:28Z",
   "aliases": [
     "CVE-2026-5083"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.metacpan.org/docs/guides/random-data-for-security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/08/7"
     }
   ],
   "database_specific": {

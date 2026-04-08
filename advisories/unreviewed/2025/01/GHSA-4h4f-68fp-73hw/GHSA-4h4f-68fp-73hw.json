@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4h4f-68fp-73hw",
-  "modified": "2025-01-11T09:30:30Z",
+  "modified": "2026-04-08T21:32:59Z",
   "published": "2025-01-11T09:30:30Z",
   "aliases": [
     "CVE-2024-12407"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/push-notification-for-post-and-buddypress/trunk/admin/pnfpb_admin_ondemand_notification_settings.php#L711"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3227624%40push-notification-for-post-and-buddypress&new=3227624%40push-notification-for-post-and-buddypress&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hxc-wcg4-238w",
-  "modified": "2025-01-09T12:30:55Z",
+  "modified": "2026-04-08T21:32:59Z",
   "published": "2025-01-09T12:30:55Z",
   "aliases": [
     "CVE-2024-12491"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12491"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3219948%40simply-rets&new=3219948%40simply-rets&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

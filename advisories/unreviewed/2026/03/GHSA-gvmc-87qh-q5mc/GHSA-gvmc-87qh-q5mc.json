@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvmc-87qh-q5mc",
-  "modified": "2026-03-31T06:31:44Z",
+  "modified": "2026-04-08T21:33:13Z",
   "published": "2026-03-31T06:31:44Z",
   "aliases": [
     "CVE-2026-1710"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/3480315/woocommerce-payments/trunk/includes/class-wc-payment-gateway-wcpay.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.cleantalk.org/cve-2026-1710"
     },
     {
       "type": "WEB",

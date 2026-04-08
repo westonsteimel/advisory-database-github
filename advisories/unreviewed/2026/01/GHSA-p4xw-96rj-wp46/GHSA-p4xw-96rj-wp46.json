@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4xw-96rj-wp46",
-  "modified": "2026-01-07T12:31:21Z",
+  "modified": "2026-04-08T21:33:09Z",
   "published": "2026-01-07T12:31:21Z",
   "aliases": [
     "CVE-2025-13801"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/yoco-payment-gateway/tags/3.8.8/src/Helpers/Logs.php#L59"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3434947"
     },
     {
       "type": "WEB",

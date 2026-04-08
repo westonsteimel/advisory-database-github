@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8xm-9c69-h9m6",
-  "modified": "2025-07-25T15:30:44Z",
+  "modified": "2026-04-08T21:33:05Z",
   "published": "2025-07-25T15:30:44Z",
   "aliases": [
     "CVE-2025-6588"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/funnelcockpit/trunk/admin/class-funnelcockpit-admin.php#L433"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3337752"
     },
     {
       "type": "WEB",

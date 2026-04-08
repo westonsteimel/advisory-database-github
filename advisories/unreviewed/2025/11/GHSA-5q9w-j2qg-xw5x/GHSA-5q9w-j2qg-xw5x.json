@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5q9w-j2qg-xw5x",
-  "modified": "2025-11-11T06:30:21Z",
+  "modified": "2026-04-08T21:33:08Z",
   "published": "2025-11-11T06:30:21Z",
   "aliases": [
     "CVE-2025-11999"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/add-multiple-marker/tags/1.2/functions.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3433258"
     },
     {
       "type": "WEB",

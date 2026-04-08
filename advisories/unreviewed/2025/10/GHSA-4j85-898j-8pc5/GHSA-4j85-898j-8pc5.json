@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j85-898j-8pc5",
-  "modified": "2025-10-03T12:33:16Z",
+  "modified": "2026-04-08T21:33:07Z",
   "published": "2025-10-03T12:33:16Z",
   "aliases": [
     "CVE-2025-9858"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/auto-bulb-finder-for-wp-wc/tags/2.8.0/includes/blocks/custom-block.php#L45"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3414958%40auto-bulb-finder-for-wp-wc&new=3414958%40auto-bulb-finder-for-wp-wc&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

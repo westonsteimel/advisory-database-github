@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cc6-h3j2-fgx9",
-  "modified": "2025-01-25T09:30:54Z",
+  "modified": "2026-04-08T21:33:00Z",
   "published": "2025-01-25T09:30:54Z",
   "aliases": [
     "CVE-2024-11825"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/broadstreet/tags/1.50.1/Broadstreet/Utility.php#L199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3230089"
     },
     {
       "type": "WEB",

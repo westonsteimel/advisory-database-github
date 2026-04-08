@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wx9-mc5j-9hjw",
-  "modified": "2026-01-24T09:30:26Z",
+  "modified": "2026-04-08T21:33:10Z",
   "published": "2026-01-24T09:30:26Z",
   "aliases": [
     "CVE-2025-14609"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wise-analytics/trunk/src/Endpoints/ReportsEndpoint.php#L43"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3446670"
     },
     {
       "type": "WEB",

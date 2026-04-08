@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv4p-hv2v-9w74",
-  "modified": "2025-07-25T15:30:43Z",
+  "modified": "2026-04-08T21:33:05Z",
   "published": "2025-07-25T15:30:43Z",
   "aliases": [
     "CVE-2025-6382"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/taeggie-feed/trunk/taeggie_feed.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3336357"
     },
     {
       "type": "WEB",

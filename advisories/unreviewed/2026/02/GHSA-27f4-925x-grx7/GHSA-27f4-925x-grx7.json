@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27f4-925x-grx7",
-  "modified": "2026-02-19T18:31:50Z",
+  "modified": "2026-04-08T21:33:10Z",
   "published": "2026-02-19T18:31:50Z",
   "aliases": [
     "CVE-2026-0926"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/prodigy-commerce/trunk/includes/helpers/class-prodigy-template.php#L55"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3464655"
     },
     {
       "type": "WEB",

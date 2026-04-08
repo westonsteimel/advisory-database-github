@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84m3-gv37-m8q2",
-  "modified": "2025-12-05T06:31:30Z",
+  "modified": "2026-04-08T21:33:08Z",
   "published": "2025-12-05T06:31:30Z",
   "aliases": [
     "CVE-2025-13313"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/crm-memberships/tags/2.5/ntzcrm-memberships.php#L42"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3464130"
     },
     {
       "type": "WEB",

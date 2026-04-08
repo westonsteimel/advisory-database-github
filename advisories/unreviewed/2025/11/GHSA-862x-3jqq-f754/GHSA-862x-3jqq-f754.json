@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-862x-3jqq-f754",
-  "modified": "2025-11-11T06:30:21Z",
+  "modified": "2026-04-08T21:33:08Z",
   "published": "2025-11-11T06:30:21Z",
   "aliases": [
     "CVE-2025-12126"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12126"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3392629%40the-total-book-project&new=3392629%40the-total-book-project"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p977-vf96-vh9m",
-  "modified": "2025-11-18T12:30:17Z",
+  "modified": "2026-04-08T21:33:08Z",
   "published": "2025-11-18T12:30:17Z",
   "aliases": [
     "CVE-2025-12391"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12391"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3468480%40bp-restrict&new=3468480%40bp-restrict&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

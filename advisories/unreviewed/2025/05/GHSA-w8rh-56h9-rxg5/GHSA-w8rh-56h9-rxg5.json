@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8rh-56h9-rxg5",
-  "modified": "2025-05-09T09:33:21Z",
+  "modified": "2026-04-08T21:33:04Z",
   "published": "2025-05-09T09:33:21Z",
   "aliases": [
     "CVE-2025-3455"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/1-click-migration/trunk/inc/backup/class-ocm-backup.php#L403"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3372639/1-click-migration/trunk/inc/backup/class-ocm-backup.php"
     },
     {
       "type": "WEB",

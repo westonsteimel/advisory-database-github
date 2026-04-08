@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phff-vmx4-52wr",
-  "modified": "2025-03-26T03:30:31Z",
+  "modified": "2026-04-08T21:33:03Z",
   "published": "2025-03-26T03:30:31Z",
   "aliases": [
     "CVE-2025-1490"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/smart-maintenance-mode/trunk/smart-maintenance-mode.php#L562"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3271906%40smart-maintenance-mode&new=3271906%40smart-maintenance-mode&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

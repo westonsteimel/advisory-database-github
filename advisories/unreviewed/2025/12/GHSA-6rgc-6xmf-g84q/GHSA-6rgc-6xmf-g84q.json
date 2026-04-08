@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rgc-6xmf-g84q",
-  "modified": "2025-12-12T06:31:12Z",
+  "modified": "2026-04-08T21:33:09Z",
   "published": "2025-12-12T06:31:12Z",
   "aliases": [
     "CVE-2025-12834"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/accept-stripe-payments-using-contact-form-7/tags/3.1/inc/lib/class.cf7sa.lib.php#L696"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3418155"
     },
     {
       "type": "WEB",

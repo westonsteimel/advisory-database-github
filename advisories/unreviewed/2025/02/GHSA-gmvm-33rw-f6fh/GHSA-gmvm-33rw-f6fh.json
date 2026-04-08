@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmvm-33rw-f6fh",
-  "modified": "2025-02-22T15:30:50Z",
+  "modified": "2026-04-08T21:33:02Z",
   "published": "2025-02-22T15:30:50Z",
   "aliases": [
     "CVE-2025-0918"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/3234377"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3270556"
     },
     {
       "type": "WEB",

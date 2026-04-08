@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppq6-cj3p-4xhv",
-  "modified": "2026-01-28T12:30:29Z",
+  "modified": "2026-04-08T21:33:10Z",
   "published": "2026-01-28T12:30:29Z",
   "aliases": [
     "CVE-2026-0844"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-registration/tags/6.7/inc/classes/class.user.php#L305"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/wp-registration/tags/6.8/inc/classes/class.profile.php#L401"
     },
     {
       "type": "WEB",

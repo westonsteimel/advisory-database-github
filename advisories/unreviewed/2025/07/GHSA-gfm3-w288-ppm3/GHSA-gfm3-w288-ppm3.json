@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfm3-w288-ppm3",
-  "modified": "2025-07-01T18:30:36Z",
+  "modified": "2026-04-08T21:33:04Z",
   "published": "2025-07-01T18:30:36Z",
   "aliases": [
     "CVE-2025-50641"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/faqiadegege/IoTVuln/blob/main/tendaAC6_addWifiMacFilter_deviceId_overflow/detail.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/xiaotea/iot-vulnerability-collection/blob/main/README.md"
     }
   ],
   "database_specific": {

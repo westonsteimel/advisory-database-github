@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m66-g6x7-m6cw",
-  "modified": "2025-05-21T21:31:37Z",
+  "modified": "2026-04-08T21:33:04Z",
   "published": "2025-05-21T21:31:37Z",
   "aliases": [
     "CVE-2024-12561"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wecantrack/trunk/WecantrackApp.php#L66"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3320552%40wecantrack&new=3320552%40wecantrack&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

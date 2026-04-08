@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-372f-fc65-m555",
-  "modified": "2025-05-03T03:30:27Z",
+  "modified": "2026-04-08T21:33:04Z",
   "published": "2025-05-03T03:30:27Z",
   "aliases": [
     "CVE-2025-3779"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/personizely/tags/0.10/class.personizely.php#L49"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3286666%40personizely&new=3286666%40personizely&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

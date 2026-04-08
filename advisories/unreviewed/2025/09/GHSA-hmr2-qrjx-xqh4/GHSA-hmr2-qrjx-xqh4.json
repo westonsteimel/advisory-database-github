@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmr2-qrjx-xqh4",
-  "modified": "2025-09-11T09:31:44Z",
+  "modified": "2026-04-08T21:33:06Z",
   "published": "2025-09-11T09:31:44Z",
   "aliases": [
     "CVE-2025-9451"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/smartcat-wpml/trunk/includes/Services/App/Includes/TranslationRequestFinder.php#L30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3368366"
     },
     {
       "type": "WEB",

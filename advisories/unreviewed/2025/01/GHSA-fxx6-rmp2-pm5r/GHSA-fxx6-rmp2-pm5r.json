@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxx6-rmp2-pm5r",
-  "modified": "2025-01-19T06:30:24Z",
+  "modified": "2026-04-08T21:33:00Z",
   "published": "2025-01-19T06:30:24Z",
   "aliases": [
     "CVE-2024-8722"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wpallimport.com/downloads/wp-all-import-annual/?changelog=1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wpallimport.com/wp-all-import-wp-all-export-important-security-updates"
     }
   ],
   "database_specific": {

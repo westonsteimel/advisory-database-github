@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r3g-rc2f-wm5f",
-  "modified": "2025-05-07T03:30:28Z",
+  "modified": "2026-04-08T21:33:04Z",
   "published": "2025-05-07T03:30:28Z",
   "aliases": [
     "CVE-2025-3860"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/cardealerpress/tags/6.7.2412.00/templates/shortcode/sc_inventory_counter.php#L34"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3292757%40cardealerpress&new=3292757%40cardealerpress&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

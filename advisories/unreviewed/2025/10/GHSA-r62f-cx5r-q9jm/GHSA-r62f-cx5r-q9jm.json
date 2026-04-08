@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r62f-cx5r-q9jm",
-  "modified": "2025-10-29T06:31:13Z",
+  "modified": "2026-04-08T21:33:08Z",
   "published": "2025-10-29T06:31:13Z",
   "aliases": [
     "CVE-2025-11705"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/3379118/gotmls"
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.cleantalk.org/cve-2025-11705"
     },
     {
       "type": "WEB",

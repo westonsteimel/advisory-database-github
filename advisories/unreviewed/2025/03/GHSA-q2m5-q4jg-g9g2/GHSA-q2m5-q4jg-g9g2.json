@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2m5-q4jg-g9g2",
-  "modified": "2025-03-28T21:30:45Z",
+  "modified": "2026-04-08T21:33:03Z",
   "published": "2025-03-15T06:30:33Z",
   "aliases": [
     "CVE-2025-1668"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wpschoolpress/tags/2.2.16/lib/wpsp-ajaxworks.php#L22"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/wpschoolpress/tags/2.2.17/lib/wpsp-ajaxworks.php#L22"
     },
     {
       "type": "WEB",

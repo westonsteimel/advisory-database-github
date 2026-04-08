@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-794w-vj4w-6rqq",
-  "modified": "2026-01-14T06:30:24Z",
+  "modified": "2026-04-08T21:33:10Z",
   "published": "2026-01-14T06:30:24Z",
   "aliases": [
     "CVE-2025-15266"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3440963%40geeky-bot&new=3440963%40geeky-bot&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

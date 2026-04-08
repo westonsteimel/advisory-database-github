@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x63h-6rm3-fqx6",
-  "modified": "2025-10-15T09:30:18Z",
+  "modified": "2026-04-08T21:33:07Z",
   "published": "2025-10-15T09:30:18Z",
   "aliases": [
     "CVE-2025-10682"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/tariffuxx/tags/1.4/classes/Tariffuxx_twl.php#L164"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3465105"
     },
     {
       "type": "WEB",

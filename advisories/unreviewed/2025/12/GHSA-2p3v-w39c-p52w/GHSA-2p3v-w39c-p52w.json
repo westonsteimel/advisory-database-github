@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p3v-w39c-p52w",
-  "modified": "2025-12-20T06:30:12Z",
+  "modified": "2026-04-08T21:33:09Z",
   "published": "2025-12-20T06:30:12Z",
   "aliases": [
     "CVE-2025-12898"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12898"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3422453%40pretty-google-calendar&new=3422453%40pretty-google-calendar&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

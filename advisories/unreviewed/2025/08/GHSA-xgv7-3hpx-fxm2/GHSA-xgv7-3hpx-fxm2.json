@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgv7-3hpx-fxm2",
-  "modified": "2025-08-29T06:30:27Z",
+  "modified": "2026-04-08T21:33:06Z",
   "published": "2025-08-29T06:30:27Z",
   "aliases": [
     "CVE-2025-8290"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8290"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3361841%40list-sub-pages&new=3361841%40list-sub-pages&sfp_email=&sfph_mail=#file5"
     },
     {
       "type": "WEB",

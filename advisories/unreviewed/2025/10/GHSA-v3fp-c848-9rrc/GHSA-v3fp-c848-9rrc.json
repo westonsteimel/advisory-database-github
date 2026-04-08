@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3fp-c848-9rrc",
-  "modified": "2025-10-22T09:30:19Z",
+  "modified": "2026-04-08T21:33:07Z",
   "published": "2025-10-22T09:30:19Z",
   "aliases": [
     "CVE-2025-10047"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.svn.wordpress.org/email-tracker/trunk/src/admin/email-list/class-table.php%3A439"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3416646%40email-tracker&new=3416646%40email-tracker&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

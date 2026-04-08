@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r844-ff73-mxf9",
-  "modified": "2025-07-23T03:32:05Z",
+  "modified": "2026-04-08T21:33:05Z",
   "published": "2025-07-23T03:32:05Z",
   "aliases": [
     "CVE-2025-5753"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/commercial-real-estate-valuation-calculator/trunk/valuation-calculator.php#L386"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3336105"
     },
     {
       "type": "WEB",
