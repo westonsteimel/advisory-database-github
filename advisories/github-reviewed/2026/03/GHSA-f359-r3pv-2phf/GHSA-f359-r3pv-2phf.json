@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f359-r3pv-2phf",
-  "modified": "2026-03-27T21:38:40Z",
+  "modified": "2026-04-08T23:15:59Z",
   "published": "2026-03-26T18:10:48Z",
   "aliases": [
     "CVE-2026-33766"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "14.3"
+              "last_affected": "26.0"
             }
           ]
         }
