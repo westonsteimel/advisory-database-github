@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmmm-f939-6g9c",
-  "modified": "2026-04-08T00:16:45Z",
+  "modified": "2026-04-08T15:34:30Z",
   "published": "2026-04-08T00:16:45Z",
   "aliases": [
     "CVE-2026-39407"
@@ -41,6 +41,10 @@
       "url": "https://github.com/honojs/hono/security/advisories/GHSA-wmmm-f939-6g9c"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39407"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/honojs/hono/commit/9aff14bd727f8b0435c963363fd803260e7b8e3c"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-08T00:16:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-08T15:16:14Z"
   }
 }
