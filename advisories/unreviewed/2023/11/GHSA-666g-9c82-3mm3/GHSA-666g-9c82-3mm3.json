@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-666g-9c82-3mm3",
-  "modified": "2023-12-01T18:30:25Z",
+  "modified": "2026-04-08T18:32:27Z",
   "published": "2023-11-22T18:30:57Z",
   "aliases": [
     "CVE-2023-6164"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-74",
       "CWE-79"
     ],
     "severity": "LOW",

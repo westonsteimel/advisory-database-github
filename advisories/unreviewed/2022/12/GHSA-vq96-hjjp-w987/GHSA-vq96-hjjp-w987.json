@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq96-hjjp-w987",
-  "modified": "2022-12-30T18:30:44Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2022-12-23T18:30:40Z",
   "aliases": [
     "CVE-2022-4698"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/43c9dcec-f769-4c55-93d0-c2aa45a4fa16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/43c9dcec-f769-4c55-93d0-c2aa45a4fa16?source=cve"
     }
   ],
   "database_specific": {

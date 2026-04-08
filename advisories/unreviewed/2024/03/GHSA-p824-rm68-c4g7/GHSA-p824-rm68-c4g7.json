@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p824-rm68-c4g7",
-  "modified": "2024-03-05T03:30:30Z",
+  "modified": "2026-04-08T18:32:41Z",
   "published": "2024-03-05T03:30:30Z",
   "aliases": [
     "CVE-2024-0698"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/easyappointments/trunk/public/class-easyappointments-public.php#L141"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3043919"
     },
     {
       "type": "WEB",

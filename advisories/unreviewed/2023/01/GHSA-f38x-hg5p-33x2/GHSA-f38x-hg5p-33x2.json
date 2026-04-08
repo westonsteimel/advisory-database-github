@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f38x-hg5p-33x2",
-  "modified": "2023-01-10T18:30:27Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2023-01-03T15:30:16Z",
   "aliases": [
     "CVE-2022-4663"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/3abbc407-f660-4b1f-9d48-436320e5fdd7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/3abbc407-f660-4b1f-9d48-436320e5fdd7?source=cve"
     }
   ],
   "database_specific": {

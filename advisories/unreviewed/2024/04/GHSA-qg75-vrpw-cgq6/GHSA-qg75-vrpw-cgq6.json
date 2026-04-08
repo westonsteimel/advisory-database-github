@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qg75-vrpw-cgq6",
-  "modified": "2024-04-11T03:35:00Z",
+  "modified": "2026-04-08T18:32:58Z",
   "published": "2024-04-11T03:35:00Z",
   "aliases": [
     "CVE-2023-6811"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36w4-8297-5mwr",
-  "modified": "2023-11-22T18:30:56Z",
+  "modified": "2026-04-08T18:32:26Z",
   "published": "2023-11-22T18:30:56Z",
   "aliases": [
     "CVE-2023-5662"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-sponsors/tags/3.5.0/includes/class-wp-sponsors-shortcodes.php#L267"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=3018504%40wp-sponsors%2Ftrunk&old=2531962%40wp-sponsors%2Ftrunk&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

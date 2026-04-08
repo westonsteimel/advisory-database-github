@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-683h-9pw3-vc53",
-  "modified": "2024-04-04T05:31:02Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2023-07-06T19:24:05Z",
   "aliases": [
     "CVE-2022-4697"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/3d54f585-0116-4517-84f1-271e89a05539"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/3d54f585-0116-4517-84f1-271e89a05539?source=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frcq-7vxc-3px2",
-  "modified": "2023-02-06T15:30:24Z",
+  "modified": "2026-04-08T18:32:01Z",
   "published": "2023-01-28T00:30:19Z",
   "aliases": [
     "CVE-2023-0557"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/62eb136f-3cb0-40dc-a154-015a7fa1077b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/62eb136f-3cb0-40dc-a154-015a7fa1077b?source=cve"
     }
   ],
   "database_specific": {

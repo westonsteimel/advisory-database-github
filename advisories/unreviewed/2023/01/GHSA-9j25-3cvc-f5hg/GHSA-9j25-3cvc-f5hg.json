@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j25-3cvc-f5hg",
-  "modified": "2023-01-11T21:30:41Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2023-01-05T18:30:30Z",
   "aliases": [
     "CVE-2023-0086"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2846332%40jetwidgets-for-elementor&new=2846332%40jetwidgets-for-elementor&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/8de3d3c7-bde2-4455-8d60-20307f0a53ee"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/8de3d3c7-bde2-4455-8d60-20307f0a53ee?source=cve"
     }
   ],
   "database_specific": {

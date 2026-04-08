@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mf7-99rr-74gr",
-  "modified": "2025-01-11T00:32:04Z",
+  "modified": "2026-04-08T18:32:59Z",
   "published": "2024-04-25T09:32:09Z",
   "aliases": [
     "CVE-2024-3733"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-922"
     ],
     "severity": "MODERATE",

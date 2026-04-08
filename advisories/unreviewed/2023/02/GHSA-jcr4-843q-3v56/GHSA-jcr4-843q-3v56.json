@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcr4-843q-3v56",
-  "modified": "2023-03-06T21:30:18Z",
+  "modified": "2026-04-08T18:32:02Z",
   "published": "2023-02-28T15:30:26Z",
   "aliases": [
     "CVE-2023-1028"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/6b978749-7ea5-45f4-9f69-66a19c0e39ca"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/6b978749-7ea5-45f4-9f69-66a19c0e39ca?source=cve"
     }
   ],
   "database_specific": {

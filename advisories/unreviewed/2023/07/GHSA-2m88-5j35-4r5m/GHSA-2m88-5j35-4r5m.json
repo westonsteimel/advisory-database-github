@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m88-5j35-4r5m",
-  "modified": "2024-04-04T05:34:07Z",
+  "modified": "2026-04-08T18:32:03Z",
   "published": "2023-07-06T19:24:11Z",
   "aliases": [
     "CVE-2020-36669"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/9ae8de00-ba4c-48d2-a566-13dac0bc4312"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/9ae8de00-ba4c-48d2-a566-13dac0bc4312?source=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pprf-mh8g-67wh",
-  "modified": "2024-04-04T04:41:41Z",
+  "modified": "2026-04-08T18:32:10Z",
   "published": "2023-06-09T06:30:31Z",
   "aliases": [
     "CVE-2023-1917"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/2899207/powerpress"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/blog/2023/04/blubrry-addresses-authenticated-stored-xss-vulnerability-in-powerpress-wordpress-plugin"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r9p-3jq5-46qv",
-  "modified": "2022-12-01T21:30:21Z",
+  "modified": "2026-04-08T18:31:58Z",
   "published": "2022-11-29T21:30:25Z",
   "aliases": [
     "CVE-2022-3897"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.tipsandtricks-hq.com/wordpress-affiliate-platform-plugin-simple-affiliate-program-for-wordpress-blogsite-1474"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/7b49af95-2310-4f71-921b-ee66588dd6d5?source=cve"
     },
     {
       "type": "WEB",

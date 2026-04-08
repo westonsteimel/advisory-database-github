@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcgg-hh8m-6p7m",
-  "modified": "2022-12-19T21:30:28Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2022-12-15T21:30:29Z",
   "aliases": [
     "CVE-2022-3427"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/0a6c5e9a-754f-41c8-b27b-caa133b5070f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/0a6c5e9a-754f-41c8-b27b-caa133b5070f?source=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcqq-5h75-3j53",
-  "modified": "2023-03-09T15:30:50Z",
+  "modified": "2026-04-08T18:32:02Z",
   "published": "2023-02-28T15:30:25Z",
   "aliases": [
     "CVE-2023-1022"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/702f9d3b-5d33-4215-ac76-9aae3162d775"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/702f9d3b-5d33-4215-ac76-9aae3162d775?source=cve"
     }
   ],
   "database_specific": {

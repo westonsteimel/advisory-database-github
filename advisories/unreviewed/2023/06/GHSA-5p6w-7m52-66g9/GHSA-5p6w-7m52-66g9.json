@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5p6w-7m52-66g9",
-  "modified": "2024-04-04T04:41:30Z",
+  "modified": "2026-04-08T18:32:10Z",
   "published": "2023-06-09T06:30:31Z",
   "aliases": [
     "CVE-2023-0993"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://wordpress.org/plugins/wp-simple-firewall"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/blog/2023/04/multiple-vulnerabilities-patched-in-shield-security"
     },
     {
       "type": "WEB",

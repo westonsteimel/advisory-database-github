@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3x8-m359-fj94",
-  "modified": "2023-02-16T18:30:27Z",
+  "modified": "2026-04-08T18:32:02Z",
   "published": "2023-02-10T00:30:19Z",
   "aliases": [
     "CVE-2022-3568"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/4a2ca2f0-1d4a-4614-86ba-a46e765f4a9f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/4a2ca2f0-1d4a-4614-86ba-a46e765f4a9f?source=cve"
     }
   ],
   "database_specific": {

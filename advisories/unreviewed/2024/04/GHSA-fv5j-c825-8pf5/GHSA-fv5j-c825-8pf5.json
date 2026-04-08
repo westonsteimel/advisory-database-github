@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv5j-c825-8pf5",
-  "modified": "2025-06-05T21:30:36Z",
+  "modified": "2026-04-08T18:32:59Z",
   "published": "2024-04-30T09:30:45Z",
   "aliases": [
     "CVE-2024-1895"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/event-monster/tags/1.3.3/shortcode.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3102670"
     },
     {
       "type": "WEB",

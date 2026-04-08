@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55x8-c43w-jvpm",
-  "modified": "2022-12-02T00:30:25Z",
+  "modified": "2026-04-08T18:31:58Z",
   "published": "2022-11-29T21:30:26Z",
   "aliases": [
     "CVE-2022-4033"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2801761%40quiz-master-next&new=2801761%40quiz-master-next&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/9f5cc779-c7de-42e6-a812-5c0539067b8c?source=cve"
     },
     {
       "type": "WEB",

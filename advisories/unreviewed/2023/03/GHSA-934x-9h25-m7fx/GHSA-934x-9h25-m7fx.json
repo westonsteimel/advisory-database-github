@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-934x-9h25-m7fx",
-  "modified": "2023-03-17T15:30:25Z",
+  "modified": "2026-04-08T18:32:03Z",
   "published": "2023-03-07T18:30:39Z",
   "aliases": [
     "CVE-2020-36670"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/01940eeb-b4a6-450d-b646-84f415ca92c9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/01940eeb-b4a6-450d-b646-84f415ca92c9?source=cve"
     }
   ],
   "database_specific": {

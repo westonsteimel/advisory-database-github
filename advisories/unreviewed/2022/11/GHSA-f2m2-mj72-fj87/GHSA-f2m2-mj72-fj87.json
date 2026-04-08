@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2m2-mj72-fj87",
-  "modified": "2022-12-01T21:30:20Z",
+  "modified": "2026-04-08T18:31:58Z",
   "published": "2022-11-29T21:30:25Z",
   "aliases": [
     "CVE-2022-3747"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://muffingroup.com/betheme/features/be-custom"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/83c0e096-f054-4367-a85f-582c0771e3fe?source=cve"
     },
     {
       "type": "WEB",

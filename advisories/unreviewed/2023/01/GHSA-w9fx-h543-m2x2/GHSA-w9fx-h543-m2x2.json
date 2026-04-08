@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9fx-h543-m2x2",
-  "modified": "2023-02-01T15:30:24Z",
+  "modified": "2026-04-08T18:32:00Z",
   "published": "2023-01-23T18:30:19Z",
   "aliases": [
     "CVE-2023-0447"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/486b6a75-d101-4f3a-8436-6c23dd0ff200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/486b6a75-d101-4f3a-8436-6c23dd0ff200?source=cve"
     }
   ],
   "database_specific": {

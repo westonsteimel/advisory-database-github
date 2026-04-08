@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-552w-fg8f-29x6",
-  "modified": "2023-01-13T09:30:25Z",
+  "modified": "2026-04-08T18:32:00Z",
   "published": "2023-01-10T18:30:27Z",
   "aliases": [
     "CVE-2022-4707"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/55db7d81-7ffb-49da-b64e-23e892bddc57"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/55db7d81-7ffb-49da-b64e-23e892bddc57?source=cve"
     }
   ],
   "database_specific": {

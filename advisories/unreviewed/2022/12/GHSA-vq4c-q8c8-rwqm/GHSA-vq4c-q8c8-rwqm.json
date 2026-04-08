@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq4c-q8c8-rwqm",
-  "modified": "2022-12-05T21:30:42Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2022-12-02T21:30:40Z",
   "aliases": [
     "CVE-2022-4220"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2826623%40chained-quiz&new=2826623%40chained-quiz&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/966a3a33-3d22-4671-8893-7a64ff838f39?source=cve"
     },
     {
       "type": "WEB",

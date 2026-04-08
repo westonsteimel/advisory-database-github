@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwp2-26xm-vq22",
-  "modified": "2024-04-04T05:33:52Z",
+  "modified": "2026-04-08T18:32:02Z",
   "published": "2023-07-06T19:24:11Z",
   "aliases": [
     "CVE-2023-0968"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.wordfence.com/blog/2023/03/multiple-reflected-cross-site-scripting-vulnerabilities-in-three-wordpress-plugins-patched"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/6341bdcc-c99f-40c3-81c4-ad90ff19f802"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/6341bdcc-c99f-40c3-81c4-ad90ff19f802?source=cve"
     }
   ],
   "database_specific": {

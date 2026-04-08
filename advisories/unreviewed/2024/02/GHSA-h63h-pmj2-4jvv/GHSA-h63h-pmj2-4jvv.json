@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h63h-pmj2-4jvv",
-  "modified": "2024-02-28T09:30:39Z",
+  "modified": "2026-04-08T18:32:36Z",
   "published": "2024-02-28T09:30:39Z",
   "aliases": [
     "CVE-2024-0433"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0433"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3046923%40gestpay-for-woocommerce&new=3046923%40gestpay-for-woocommerce&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

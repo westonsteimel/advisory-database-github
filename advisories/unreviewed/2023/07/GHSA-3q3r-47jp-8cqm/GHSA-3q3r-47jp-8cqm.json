@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3q3r-47jp-8cqm",
-  "modified": "2024-04-04T05:30:58Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2023-07-06T19:24:05Z",
   "aliases": [
     "CVE-2022-4619"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/3feb84c9-fc98-4f59-a124-b6434e5b8a44"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/3feb84c9-fc98-4f59-a124-b6434e5b8a44?source=cve"
     }
   ],
   "database_specific": {

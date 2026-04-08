@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgvp-2vg6-v9h6",
-  "modified": "2023-03-14T21:30:21Z",
+  "modified": "2026-04-08T18:32:03Z",
   "published": "2023-03-07T15:30:38Z",
   "aliases": [
     "CVE-2022-4932"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/0e346146-1c00-4e03-a6c7-372566d7ffc9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/0e346146-1c00-4e03-a6c7-372566d7ffc9?source=cve"
     }
   ],
   "database_specific": {

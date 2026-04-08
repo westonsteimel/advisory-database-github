@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mcc-m2xj-q6q8",
-  "modified": "2022-11-18T06:30:35Z",
+  "modified": "2026-04-08T18:31:58Z",
   "published": "2022-11-16T19:00:30Z",
   "aliases": [
     "CVE-2022-4021"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/2818142#file34"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/1718f2eb-6235-498f-8c1e-402c1caf7d02?source=cve"
     },
     {
       "type": "WEB",

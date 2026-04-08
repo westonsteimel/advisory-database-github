@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-362w-hwf4-9hcx",
-  "modified": "2024-02-29T03:33:15Z",
+  "modified": "2026-04-08T18:32:38Z",
   "published": "2024-02-29T03:33:15Z",
   "aliases": [
     "CVE-2024-0621"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://advisory.abay.sh/cve-2024-0621"
+    },
+    {
+      "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/3032350"
     },
     {
@@ -33,7 +37,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

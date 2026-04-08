@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmqf-xv94-hx62",
-  "modified": "2025-01-21T21:30:49Z",
+  "modified": "2026-04-08T18:32:59Z",
   "published": "2024-04-19T03:31:04Z",
   "aliases": [
     "CVE-2024-3818"

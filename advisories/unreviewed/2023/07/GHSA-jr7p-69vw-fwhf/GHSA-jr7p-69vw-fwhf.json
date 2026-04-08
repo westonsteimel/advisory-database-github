@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jr7p-69vw-fwhf",
-  "modified": "2024-04-04T05:34:05Z",
+  "modified": "2026-04-08T18:32:02Z",
   "published": "2023-07-06T19:24:11Z",
   "aliases": [
     "CVE-2020-36667"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/59532447-1d74-4d34-85f5-d89b65a001d8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/59532447-1d74-4d34-85f5-d89b65a001d8?source=cve"
     }
   ],
   "database_specific": {

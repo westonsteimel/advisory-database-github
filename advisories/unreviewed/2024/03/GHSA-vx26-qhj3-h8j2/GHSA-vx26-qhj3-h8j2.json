@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx26-qhj3-h8j2",
-  "modified": "2024-03-20T15:32:49Z",
+  "modified": "2026-04-08T18:32:47Z",
   "published": "2024-03-20T15:32:49Z",
   "aliases": [
     "CVE-2024-1844"
@@ -29,11 +29,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3054016%40wp-auto-republish&new=3054016%40wp-auto-republish&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/63ecb518-50d6-49ad-92e4-c5a7494ced82?source=cve"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-862"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

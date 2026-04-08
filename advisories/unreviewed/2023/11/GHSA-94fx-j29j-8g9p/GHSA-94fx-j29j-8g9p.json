@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94fx-j29j-8g9p",
-  "modified": "2023-11-14T18:30:26Z",
+  "modified": "2026-04-08T18:32:24Z",
   "published": "2023-11-14T18:30:26Z",
   "aliases": [
     "CVE-2023-5658"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-mapit/tags/2.7.1/wp_mapit/classes/class.wp_mapit_map.php#L235"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/wp-mapit/trunk/wp_mapit/classes/class-wp-mapit-multipin-map.php?rev=3005523#L184"
     },
     {
       "type": "WEB",

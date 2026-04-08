@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8vq-qmrg-7g2v",
-  "modified": "2022-12-20T18:30:20Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2022-12-15T21:30:26Z",
   "aliases": [
     "CVE-2022-4519"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/8ee21796-5340-4f84-b1c4-a95137a27223"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/8ee21796-5340-4f84-b1c4-a95137a27223?source=cve"
     }
   ],
   "database_specific": {

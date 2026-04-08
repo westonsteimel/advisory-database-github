@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fc6-7wpw-jrm9",
-  "modified": "2023-07-20T18:33:42Z",
+  "modified": "2026-04-08T18:31:58Z",
   "published": "2022-09-07T00:01:52Z",
   "aliases": [
     "CVE-2022-2943"
@@ -29,11 +29,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/6d643d07-7533-430b-a1d8-8e66a2a2c5e6?source=cve"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2943"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-22",
       "CWE-610",
       "CWE-73"

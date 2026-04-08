@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pjh-r243-252g",
-  "modified": "2024-04-04T04:41:31Z",
+  "modified": "2026-04-08T18:32:10Z",
   "published": "2023-06-09T06:30:31Z",
   "aliases": [
     "CVE-2023-1403"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://themes.trac.wordpress.org/browser/weaver-xtreme/5.0.7/includes/lib-content.php#L1081"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/blog/2023/04/hiding-in-plain-sight-cross-site-scripting-vulnerabilities-patched-in-weaver-products"
     },
     {
       "type": "WEB",

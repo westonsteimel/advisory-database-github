@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29r3-gxrv-gr8r",
-  "modified": "2024-04-04T06:01:38Z",
+  "modified": "2026-04-08T18:32:15Z",
   "published": "2023-07-12T06:30:33Z",
   "aliases": [
     "CVE-2023-3158"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/mail-control/trunk/includes/admin.php#L42"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2943913%40mail-control&new=2943913%40mail-control&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

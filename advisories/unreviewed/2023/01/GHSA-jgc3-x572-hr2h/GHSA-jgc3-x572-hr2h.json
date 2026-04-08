@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgc3-x572-hr2h",
-  "modified": "2023-01-12T03:30:15Z",
+  "modified": "2026-04-08T18:32:00Z",
   "published": "2023-01-05T21:30:16Z",
   "aliases": [
     "CVE-2023-0088"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/75b8f71d-9f75-4b42-ac5f-c6ffb476aae4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/75b8f71d-9f75-4b42-ac5f-c6ffb476aae4?source=cve"
     }
   ],
   "database_specific": {

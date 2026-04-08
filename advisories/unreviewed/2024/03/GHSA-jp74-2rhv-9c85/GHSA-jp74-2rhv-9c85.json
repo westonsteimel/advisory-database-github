@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp74-2rhv-9c85",
-  "modified": "2024-03-05T03:30:31Z",
+  "modified": "2026-04-08T18:32:41Z",
   "published": "2024-03-05T03:30:31Z",
   "aliases": [
     "CVE-2024-1478"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3044964%40hkdev-maintenance-mode&new=3044964%40hkdev-maintenance-mode&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
       "url": "https://wordpress.org/plugins/hkdev-maintenance-mode"
     },
     {
@@ -29,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

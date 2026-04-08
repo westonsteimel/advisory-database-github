@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmfr-f9pg-xc4h",
-  "modified": "2022-12-01T21:30:21Z",
+  "modified": "2026-04-08T18:31:58Z",
   "published": "2022-11-29T21:30:25Z",
   "aliases": [
     "CVE-2022-4030"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2804020%40simplepress&new=2804020%40simplepress&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/43bcf3ab-4201-4a61-82c5-2dc60b684989?source=cve"
     },
     {
       "type": "WEB",

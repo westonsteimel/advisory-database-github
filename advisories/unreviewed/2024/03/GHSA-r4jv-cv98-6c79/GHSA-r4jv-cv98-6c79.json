@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4jv-cv98-6c79",
-  "modified": "2024-03-13T18:31:35Z",
+  "modified": "2026-04-08T18:32:47Z",
   "published": "2024-03-13T18:31:35Z",
   "aliases": [
     "CVE-2024-2172"
@@ -25,6 +25,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3054179%40miniorange-malware-protection&new=3054179%40miniorange-malware-protection&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3054255%40web-application-firewall&new=3054255%40web-application-firewall&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
       "url": "https://wordpress.org/plugins/miniorange-malware-protection"
     },
     {
@@ -33,7 +41,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-304"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

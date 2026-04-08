@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxh5-gxxc-xcc4",
-  "modified": "2022-12-02T00:30:25Z",
+  "modified": "2026-04-08T18:31:58Z",
   "published": "2022-11-28T18:30:15Z",
   "aliases": [
     "CVE-2022-4169"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=2814605%40theme-translation-for-polylang%2Ftrunk&old=2812254%40theme-translation-for-polylang%2Ftrunk&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/9f6a358a-333c-4eb7-9149-348bf3713943?source=cve"
     },
     {
       "type": "WEB",

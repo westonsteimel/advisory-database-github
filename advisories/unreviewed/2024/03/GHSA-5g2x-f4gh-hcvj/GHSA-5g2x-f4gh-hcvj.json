@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g2x-f4gh-hcvj",
-  "modified": "2024-03-20T15:32:48Z",
+  "modified": "2026-04-08T18:32:47Z",
   "published": "2024-03-20T15:32:48Z",
   "aliases": [
     "CVE-2024-1473"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3058925/colorlib-coming-soon-maintenance/trunk/colorlib-coming-soon-and-maintenance-mode.php"
+    },
+    {
+      "type": "WEB",
       "url": "https://wordpress.org/plugins/colorlib-coming-soon-maintenance"
     },
     {
@@ -29,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

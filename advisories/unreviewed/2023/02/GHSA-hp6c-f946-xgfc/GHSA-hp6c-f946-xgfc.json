@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp6c-f946-xgfc",
-  "modified": "2023-02-10T03:30:18Z",
+  "modified": "2026-04-08T18:32:01Z",
   "published": "2023-02-08T03:30:25Z",
   "aliases": [
     "CVE-2023-0684"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/29358ea9-21b7-4294-8fc9-0d38e689cf53"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/29358ea9-21b7-4294-8fc9-0d38e689cf53?source=cve"
     }
   ],
   "database_specific": {

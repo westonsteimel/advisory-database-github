@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2pq5-28h7-2x78",
-  "modified": "2022-12-20T18:30:19Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2022-12-20T18:30:19Z",
   "aliases": [
     "CVE-2022-4555"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/7b498c5a-9fd1-43b8-b456-f6cec65d5077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/7b498c5a-9fd1-43b8-b456-f6cec65d5077?source=cve"
     }
   ],
   "database_specific": {

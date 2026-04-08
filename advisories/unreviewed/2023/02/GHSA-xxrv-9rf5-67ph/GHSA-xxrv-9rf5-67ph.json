@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxrv-9rf5-67ph",
-  "modified": "2023-02-09T18:30:28Z",
+  "modified": "2026-04-08T18:32:01Z",
   "published": "2023-02-08T00:30:34Z",
   "aliases": [
     "CVE-2023-0713"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/2764b360-228d-48c1-8a29-d3764e532799"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/2764b360-228d-48c1-8a29-d3764e532799?source=cve"
     }
   ],
   "database_specific": {

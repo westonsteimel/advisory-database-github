@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4r7-hv6x-5c72",
-  "modified": "2024-04-04T05:49:02Z",
+  "modified": "2026-04-08T18:32:06Z",
   "published": "2023-07-06T21:15:07Z",
   "aliases": [
     "CVE-2023-2406"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/paypal-payment-button-by-vcita/trunk/system/parse_vcita_callback.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/2924423/paypal-payment-button-by-vcita"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2924420%40event-registration-calendar-by-vcita&new=2924420%40event-registration-calendar-by-vcita&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2924423%40paypal-payment-button-by-vcita&new=2924423%40paypal-payment-button-by-vcita&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

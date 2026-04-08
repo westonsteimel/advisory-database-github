@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86xj-57mh-7xc3",
-  "modified": "2022-12-01T21:30:21Z",
+  "modified": "2026-04-08T18:31:58Z",
   "published": "2022-11-29T21:30:25Z",
   "aliases": [
     "CVE-2022-3991"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/photospace/trunk/photospace.php#L87"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/51212d87-8723-4ba7-8fa4-78912a56385f?source=cve"
     },
     {
       "type": "WEB",

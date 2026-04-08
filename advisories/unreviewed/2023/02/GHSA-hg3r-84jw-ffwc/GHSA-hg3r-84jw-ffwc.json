@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg3r-84jw-ffwc",
-  "modified": "2023-03-06T06:30:18Z",
+  "modified": "2026-04-08T18:32:02Z",
   "published": "2023-02-24T15:30:17Z",
   "aliases": [
     "CVE-2023-0585"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/3db97180-9308-4891-9de9-acefe31d088f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/3db97180-9308-4891-9de9-acefe31d088f?source=cve"
     }
   ],
   "database_specific": {

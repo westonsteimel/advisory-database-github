@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrgr-v88r-75jx",
-  "modified": "2025-01-16T21:30:55Z",
+  "modified": "2026-04-08T18:32:41Z",
   "published": "2024-02-29T09:30:34Z",
   "aliases": [
     "CVE-2024-1982"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-862",
       "CWE-89"
     ],
     "severity": "MODERATE",

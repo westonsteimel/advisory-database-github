@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrr2-rr4f-w9p3",
-  "modified": "2024-04-04T04:31:16Z",
+  "modified": "2026-04-08T18:32:06Z",
   "published": "2023-06-03T03:30:15Z",
   "aliases": [
     "CVE-2023-0583"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/vk-blocks/trunk/inc/vk-blocks/App/RestAPI/BlockMeta/class-vk-blocks-entrypoint.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/2921566/vk-blocks/tags/1.57.1.0/inc/vk-blocks/App/RestAPI/BlockMeta/class-vk-blocks-entrypoint.php"
     },
     {
       "type": "WEB",

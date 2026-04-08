@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76x6-fwvj-q76m",
-  "modified": "2022-12-30T21:30:16Z",
+  "modified": "2026-04-08T18:31:59Z",
   "published": "2022-12-22T21:30:26Z",
   "aliases": [
     "CVE-2022-3794"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/84b616fa-ff64-49e8-8c4a-7d7bfdf758be"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/84b616fa-ff64-49e8-8c4a-7d7bfdf758be?source=cve"
     }
   ],
   "database_specific": {

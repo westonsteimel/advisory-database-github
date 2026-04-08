@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcpg-cpx3-43rf",
-  "modified": "2022-11-17T06:30:19Z",
+  "modified": "2026-04-08T18:31:58Z",
   "published": "2022-11-15T19:00:52Z",
   "aliases": [
     "CVE-2022-3240"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/follow-me/trunk/follow-me.php#L261"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/25fab7b3-59ce-44ca-83fa-bd25b7f31af0?source=cve"
     },
     {
       "type": "WEB",

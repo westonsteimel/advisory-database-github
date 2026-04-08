@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8727-cvxh-wg93",
-  "modified": "2024-04-09T21:31:57Z",
+  "modified": "2026-04-08T18:32:53Z",
   "published": "2024-04-09T21:31:57Z",
   "aliases": [
     "CVE-2024-0899"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

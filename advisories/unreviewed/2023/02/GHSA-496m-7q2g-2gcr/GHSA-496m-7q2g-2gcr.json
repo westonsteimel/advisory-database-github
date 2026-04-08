@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-496m-7q2g-2gcr",
-  "modified": "2023-02-09T18:30:28Z",
+  "modified": "2026-04-08T18:32:01Z",
   "published": "2023-02-08T00:30:34Z",
   "aliases": [
     "CVE-2023-0712"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/0be428ae-40ae-4cc0-82ad-d121b6d2d27e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/0be428ae-40ae-4cc0-82ad-d121b6d2d27e?source=cve"
     }
   ],
   "database_specific": {

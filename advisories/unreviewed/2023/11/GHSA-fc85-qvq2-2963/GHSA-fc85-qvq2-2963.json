@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc85-qvq2-2963",
-  "modified": "2023-11-14T21:30:54Z",
+  "modified": "2026-04-08T18:32:24Z",
   "published": "2023-11-14T21:30:54Z",
   "aliases": [
     "CVE-2023-5577"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-bitly/trunk/includes/class-wp-bitly-shortlink.php?rev=2767772#L238"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3018826/wp-bitly#file22"
     },
     {
       "type": "WEB",

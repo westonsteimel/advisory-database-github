@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgcj-j4f7-w2g2",
-  "modified": "2023-03-04T03:30:19Z",
+  "modified": "2026-04-08T18:32:02Z",
   "published": "2023-02-24T15:30:17Z",
   "aliases": [
     "CVE-2023-0586"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.wordfence.com/blog/2023/02/all-in-one-seo-pack-vulnerabilities-impacting-3-million-sites-patched"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/1c13f00e-3048-44cf-8979-2b0b0c508f3a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/1c13f00e-3048-44cf-8979-2b0b0c508f3a?source=cve"
     }
   ],
   "database_specific": {

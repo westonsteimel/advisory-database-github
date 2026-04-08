@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmgq-6r9w-rhhg",
-  "modified": "2023-03-10T06:30:20Z",
+  "modified": "2026-04-08T18:32:03Z",
   "published": "2023-03-02T21:30:28Z",
   "aliases": [
     "CVE-2023-0084"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.wordfence.com/blog/2023/02/high-severity-xss-vulnerability-in-metform-elementor-contact-form-builder"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/05f7d9fe-e95f-4ddf-9bce-2aeac3c2e946"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/05f7d9fe-e95f-4ddf-9bce-2aeac3c2e946?source=cve"
     }
   ],
   "database_specific": {
