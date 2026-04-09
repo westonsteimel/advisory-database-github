@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chqc-8p9q-pq6q",
-  "modified": "2026-04-09T14:31:27Z",
+  "modified": "2026-04-09T19:06:10Z",
   "published": "2026-04-08T20:02:25Z",
   "aliases": [
     "CVE-2026-39983"
@@ -44,6 +44,10 @@
       "url": "https://github.com/patrickjuchli/basic-ftp/security/advisories/GHSA-chqc-8p9q-pq6q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39983"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/patrickjuchli/basic-ftp/commit/2ecc8e2c500c5234115f06fd1dbde1aa03d70f4b"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-08T20:02:25Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-09T18:17:02Z"
   }
 }
