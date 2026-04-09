@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-782c-hpc8-pfgv",
-  "modified": "2022-04-23T00:40:22Z",
+  "modified": "2026-04-09T18:31:21Z",
   "published": "2022-04-23T00:40:22Z",
   "aliases": [
     "CVE-2012-5562"
   ],
   "details": "rhn-proxy: may transmit credentials over clear-text when accessing RHN Satellite",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-319"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,

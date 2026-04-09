@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjqj-7q2q-jx9c",
-  "modified": "2026-01-15T15:31:21Z",
+  "modified": "2026-04-09T18:31:22Z",
   "published": "2026-01-15T15:31:21Z",
   "aliases": [
     "CVE-2026-0992"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2429975"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libxml2/-/issues/1019"
     }
   ],
   "database_specific": {

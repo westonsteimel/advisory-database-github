@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcv7-hm7p-jvh2",
-  "modified": "2026-04-08T09:31:34Z",
+  "modified": "2026-04-09T18:31:25Z",
   "published": "2026-04-08T09:31:34Z",
   "aliases": [
     "CVE-2026-39664"
   ],
   "details": "Missing Authorization vulnerability in leadrebel Leadrebel leadrebel allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Leadrebel: from n/a through <= 1.0.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T09:16:37Z"
