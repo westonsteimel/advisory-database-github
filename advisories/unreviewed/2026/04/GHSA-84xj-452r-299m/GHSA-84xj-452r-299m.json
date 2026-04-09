@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84xj-452r-299m",
-  "modified": "2026-04-07T18:31:38Z",
+  "modified": "2026-04-09T15:35:06Z",
   "published": "2026-04-07T18:31:38Z",
   "aliases": [
     "CVE-2026-31272"
   ],
   "details": "MRCMS 3.1.2 contains an access control vulnerability. The save() method in src/main/java/org/marker/mushroom/controller/UserController.java lacks proper authorization validation, enabling direct addition of super administrator accounts without authentication.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-07T18:16:41Z"
