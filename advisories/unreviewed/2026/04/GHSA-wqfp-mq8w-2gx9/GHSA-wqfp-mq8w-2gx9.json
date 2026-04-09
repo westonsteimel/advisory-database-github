@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqfp-mq8w-2gx9",
-  "modified": "2026-04-08T18:34:07Z",
+  "modified": "2026-04-09T21:31:28Z",
   "published": "2026-04-08T18:34:07Z",
   "aliases": [
     "CVE-2026-30075"
   ],
   "details": "OpenAirInterface Version 2.2.0 has a Buffer Overflow vulnerability in processing UplinkNASTransport containing Authentication Response containing a NAS PDU with oversize response (For example 100 byte). The response is decoded by AMF and passed to the AUSF component for verification. AUSF crashes on receiving this oversize response. This can prohibit users from further registration and verification and can cause Denial of Services (DoS).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T17:21:18Z"

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8mc5-53m5-3qj2",
+  "modified": "2026-04-09T21:31:29Z",
+  "published": "2026-04-09T21:31:29Z",
+  "aliases": [
+    "CVE-2026-32990"
+  ],
+  "details": "Improper Input Validation vulnerability in Apache Tomcat due to an incomplete fix of CVE-2025-66614.\n\nThis issue affects Apache Tomcat: from 11.0.15 through 11.0.19, from 10.1.50 through 10.1.52, from 9.0.113 through 9.0.115.\n\nUsers are recommended to upgrade to version 11.0.20, 10.1.53 or 9.0.116, which fix the issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32990"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/1nl9zqft0ksqlhlkd3j4obyjz1ghoyn7"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-09T20:16:24Z"
+  }
+}
