@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv5g-f82m-qrvv",
-  "modified": "2026-04-08T15:04:39Z",
+  "modified": "2026-04-09T14:29:00Z",
   "published": "2026-04-08T15:04:39Z",
   "aliases": [
     "CVE-2026-39412"
@@ -44,6 +44,10 @@
       "url": "https://github.com/harttle/liquidjs/security/advisories/GHSA-rv5g-f82m-qrvv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39412"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/harttle/liquidjs/pull/869"
     },
@@ -67,6 +71,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-08T15:04:39Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-08T20:16:25Z"
   }
 }

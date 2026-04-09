@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmg9-6m6j-jqqx",
-  "modified": "2026-04-08T15:00:29Z",
+  "modified": "2026-04-09T14:28:18Z",
   "published": "2026-04-08T15:00:29Z",
   "aliases": [
     "CVE-2026-34166"
@@ -44,6 +44,10 @@
       "url": "https://github.com/harttle/liquidjs/security/advisories/GHSA-mmg9-6m6j-jqqx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34166"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/harttle/liquidjs/commit/abc058be0f33d6372cd2216f4945183167abeb25"
     },
@@ -63,6 +67,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-08T15:00:29Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-08T19:25:21Z"
   }
 }

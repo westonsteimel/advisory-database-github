@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8wv-vfpc-hw2w",
-  "modified": "2026-04-08T15:04:13Z",
+  "modified": "2026-04-09T14:28:46Z",
   "published": "2026-04-08T15:04:13Z",
   "aliases": [
     "CVE-2026-39844"
@@ -44,6 +44,10 @@
       "url": "https://github.com/zauberzeug/nicegui/security/advisories/GHSA-w8wv-vfpc-hw2w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39844"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/zauberzeug/nicegui/commit/d38a702e3af2da5b0708f689be8d71413fc77056"
     },
@@ -63,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-08T15:04:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-08T21:16:59Z"
   }
 }

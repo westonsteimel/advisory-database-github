@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p423-j2cm-9vmq",
-  "modified": "2026-04-08T19:23:08Z",
+  "modified": "2026-04-09T14:29:58Z",
   "published": "2026-04-08T19:23:08Z",
   "aliases": [
     "CVE-2026-39892"
@@ -41,8 +41,16 @@
       "url": "https://github.com/pyca/cryptography/security/advisories/GHSA-p423-j2cm-9vmq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39892"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/pyca/cryptography"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/08/12"
     }
   ],
   "database_specific": {
@@ -52,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-08T19:23:08Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-08T21:17:01Z"
   }
 }
