@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wgr-89rj-399p",
-  "modified": "2026-04-09T20:23:58Z",
+  "modified": "2026-04-10T14:40:06Z",
   "published": "2026-04-09T20:23:58Z",
   "aliases": [
     "CVE-2026-34988"
@@ -82,8 +82,16 @@
       "url": "https://github.com/bytecodealliance/wasmtime/security/advisories/GHSA-6wgr-89rj-399p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34988"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/bytecodealliance/wasmtime"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0088.html"
     }
   ],
   "database_specific": {
@@ -93,6 +101,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-09T20:23:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-09T19:16:25Z"
   }
 }

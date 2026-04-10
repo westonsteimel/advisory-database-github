@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-394w-hwhg-8vgm",
-  "modified": "2026-04-09T20:24:12Z",
+  "modified": "2026-04-10T14:40:30Z",
   "published": "2026-04-09T20:24:12Z",
   "aliases": [
     "CVE-2026-35195"
@@ -101,8 +101,16 @@
       "url": "https://github.com/bytecodealliance/wasmtime/security/advisories/GHSA-394w-hwhg-8vgm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35195"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/bytecodealliance/wasmtime"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0091.html"
     }
   ],
   "database_specific": {
@@ -112,6 +120,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-09T20:24:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-09T19:16:25Z"
   }
 }
