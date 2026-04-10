@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jhxm-h53p-jm7w",
-  "modified": "2026-04-09T20:23:26Z",
+  "modified": "2026-04-10T14:41:20Z",
   "published": "2026-04-09T20:23:26Z",
   "aliases": [
     "CVE-2026-34971"
@@ -82,8 +82,16 @@
       "url": "https://github.com/bytecodealliance/wasmtime/security/advisories/GHSA-jhxm-h53p-jm7w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34971"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/bytecodealliance/wasmtime"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0096.html"
     }
   ],
   "database_specific": {
@@ -94,6 +102,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-09T20:23:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-09T19:16:24Z"
   }
 }
