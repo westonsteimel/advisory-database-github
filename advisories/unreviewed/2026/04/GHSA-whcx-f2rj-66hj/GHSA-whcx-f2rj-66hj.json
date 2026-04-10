@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whcx-f2rj-66hj",
-  "modified": "2026-04-01T03:31:40Z",
+  "modified": "2026-04-10T03:31:09Z",
   "published": "2026-04-01T03:31:40Z",
   "aliases": [
     "CVE-2026-3774"
