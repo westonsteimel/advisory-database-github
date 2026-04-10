@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96q5-xm3p-7m84",
-  "modified": "2026-04-10T15:31:11Z",
+  "modified": "2026-04-10T19:36:07Z",
   "published": "2026-04-10T15:31:11Z",
   "aliases": [
     "CVE-2026-35594"
@@ -44,6 +44,10 @@
       "url": "https://github.com/go-vikunja/vikunja/security/advisories/GHSA-96q5-xm3p-7m84"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35594"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/go-vikunja/vikunja/pull/2581"
     },
@@ -67,6 +71,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-10T15:31:11Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-10T16:16:32Z"
   }
 }
