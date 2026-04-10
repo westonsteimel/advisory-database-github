@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8mc-c5f2-mqg7",
-  "modified": "2026-04-10T00:30:30Z",
+  "modified": "2026-04-10T20:19:52Z",
   "published": "2026-04-10T00:30:30Z",
-  "aliases": [
-    "CVE-2026-35635"
-  ],
-  "details": "OpenClaw before 2026.3.22 contains a webhook path route replacement vulnerability in the Synology Chat extension that allows attackers to collapse multi-account configurations onto shared webhook paths. Attackers can exploit inherited or duplicate webhook paths to bypass per-account DM access control policies and replace route ownership across accounts.",
+  "withdrawn": "2026-04-10T20:19:52Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: OpenClaw Bypasses DM Policy Separation via Synology Chat Webhook Path Collision",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-rqp8-q22p-5j9q This link is maintained to preserve external references.\n\n### Original Description\nOpenClaw before 2026.3.22 contains a webhook path route replacement vulnerability in the Synology Chat extension that allows attackers to collapse multi-account configurations onto shared webhook paths. Attackers can exploit inherited or duplicate webhook paths to bypass per-account DM access control policies and replace route ownership across accounts.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -17,7 +17,27 @@
       "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "openclaw"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2026.3.22"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "WEB",
@@ -45,8 +65,8 @@
       "CWE-706"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-10T20:19:52Z",
     "nvd_published_at": "2026-04-09T22:16:32Z"
   }
 }
