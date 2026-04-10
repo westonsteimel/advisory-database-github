@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h6j-mhcp-9j9h",
-  "modified": "2026-04-09T15:35:06Z",
+  "modified": "2026-04-10T19:54:53Z",
   "published": "2026-04-07T21:32:39Z",
   "aliases": [
     "CVE-2025-56015"
   ],
+  "summary": "GenieACS has an unauthenticated access vulnerability via the NBI API endpoint",
   "details": "In GenieACS 1.2.13, an unauthenticated access vulnerability exists in the NBI API endpoint.",
   "severity": [
     {
@@ -13,7 +14,17 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "genieacs"
+      },
+      "versions": [
+        "1.2.13"
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,7 +35,7 @@
       "url": "https://github.com/e1st/CVE-2025-56015"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/genieacs/genieacs"
     }
   ],
@@ -33,8 +44,8 @@
       "CWE-284"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-10T19:54:53Z",
     "nvd_published_at": "2026-04-07T20:16:22Z"
   }
 }
