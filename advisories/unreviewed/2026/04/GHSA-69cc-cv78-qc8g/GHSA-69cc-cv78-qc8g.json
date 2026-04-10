@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69cc-cv78-qc8g",
-  "modified": "2026-04-10T00:30:28Z",
+  "modified": "2026-04-10T21:31:14Z",
   "published": "2026-04-09T21:31:29Z",
   "aliases": [
     "CVE-2026-29129"
   ],
   "details": "Configured cipher preference order not preserved vulnerability in Apache Tomcat.\n\nThis issue affects Apache Tomcat: from 11.0.16 through 11.0.18, from 10.1.51 through 10.1.52, from 9.0.114 through 9.0.115.\n\nUsers are recommended to upgrade to version 11.0.20, 10.1.53 or 9.0.116, which fix the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-327"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-09T20:16:24Z"

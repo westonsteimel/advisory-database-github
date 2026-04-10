@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69r9-qgr7-g2wj",
-  "modified": "2026-04-09T21:31:30Z",
+  "modified": "2026-04-10T21:31:14Z",
   "published": "2026-04-09T21:31:30Z",
   "aliases": [
     "CVE-2026-34486"
   ],
   "details": "Missing Encryption of Sensitive Data vulnerability in Apache Tomcat due to the fix for CVE-2026-29146 allowing the bypass of the EncryptInterceptor.\n\nThis issue affects Apache Tomcat: 11.0.20, 10.1.53, 9.0.116.\n\nUsers are recommended to upgrade to version 11.0.21, 10.1.54 or 9.0.117, which fix the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-311"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-09T20:16:25Z"
