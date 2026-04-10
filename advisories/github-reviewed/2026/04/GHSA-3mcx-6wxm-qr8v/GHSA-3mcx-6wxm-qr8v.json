@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mcx-6wxm-qr8v",
-  "modified": "2026-04-10T19:47:31Z",
+  "modified": "2026-04-10T19:48:08Z",
   "published": "2026-04-10T19:47:31Z",
   "aliases": [
     "CVE-2026-40177"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
