@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-g636-hw74-5gw3",
+  "modified": "2026-04-10T15:31:58Z",
+  "published": "2026-04-10T15:31:58Z",
+  "aliases": [
+    "CVE-2026-31262"
+  ],
+  "details": "Cross Site Scripting vulnerability in Altenar Sportsbook Software Platform (SB2) v.2.0 allows a remote attacker to obtain sensitive information and execute arbitrary code via the URL parameter",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31262"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nikolas-ch/CVEs/blob/main/Altenar_SportsBook_Platform_SB2/ORtoXSS/ORtoXSS.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nikolas-ch/CVEs/tree/main/Altenar_SportsBook_Platform_SB2/ORtoXSS"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-10T15:16:23Z"
+  }
+}
