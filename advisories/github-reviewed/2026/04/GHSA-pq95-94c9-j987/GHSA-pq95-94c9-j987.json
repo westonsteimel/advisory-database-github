@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq95-94c9-j987",
-  "modified": "2026-04-09T15:35:06Z",
+  "modified": "2026-04-10T14:10:56Z",
   "published": "2026-04-07T18:31:37Z",
   "aliases": [
     "CVE-2025-70844"
   ],
+  "summary": "yaffa vulnerable to Cross Site Scripting",
   "details": "yaffa v2.0.0 is vulnerable to Cross Site Scripting (XSS). An attacker can inject malicious JavaScript into the \"Add Account Group\" function on the account-group page, allowing execution of arbitrary script in the context of users who view the affected page.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "kantorge/yaffa"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,17 +45,17 @@
       "url": "https://github.com/J4cky1028/vulnerability-research/tree/main/CVE-2025-70844"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/kantorge/yaffa"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-94"
+      "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-10T14:10:56Z",
     "nvd_published_at": "2026-04-07T17:16:26Z"
   }
 }
