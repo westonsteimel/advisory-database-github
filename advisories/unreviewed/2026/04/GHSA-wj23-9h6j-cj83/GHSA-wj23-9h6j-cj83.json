@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj23-9h6j-cj83",
-  "modified": "2026-04-09T18:31:28Z",
+  "modified": "2026-04-10T00:30:28Z",
   "published": "2026-04-09T18:31:27Z",
   "aliases": [
     "CVE-2025-70797"
   ],
   "details": "Cross Site Scripting vulnerability in Limesurvey v.6.15.20+251021 allows a remote attacker to execute arbitrary code via the Box[title] and box[url] parameters.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-09T18:16:42Z"

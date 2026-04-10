@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69cc-cv78-qc8g",
-  "modified": "2026-04-09T21:31:29Z",
+  "modified": "2026-04-10T00:30:28Z",
   "published": "2026-04-09T21:31:29Z",
   "aliases": [
     "CVE-2026-29129"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/r4h1t6f8xhxsxfm6c2z5cprolsosho3f"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/09/22"
     }
   ],
   "database_specific": {
