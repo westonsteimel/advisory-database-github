@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32fg-c88m-mcrv",
-  "modified": "2026-03-06T06:30:32Z",
+  "modified": "2026-04-12T18:30:27Z",
   "published": "2026-03-05T03:31:26Z",
   "aliases": [
     "CVE-2025-40931"
@@ -25,7 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=930659"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.ow2.org/lemonldap-ng/lemonldap-ng/-/work_items/1633"
+    },
+    {
+      "type": "WEB",
       "url": "https://metacpan.org/dist/Apache-Session/source/lib/Apache/Session/Generate/MD5.pm#L27"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/pod/Apache::Session::Generate::Random"
     },
     {
       "type": "WEB",
@@ -33,7 +45,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://salsa.debian.org/perl-team/modules/packages/libapache-session-perl/-/commit/bdabd71c2f91b18526e31a9dc52b4c17b3d246b7#898a4b8b00022df1b8689910b67707f3e738d180"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.metacpan.org/docs/guides/random-data-for-security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2019/06/15/1"
     },
     {
       "type": "WEB",
