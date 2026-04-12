@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqqw-37x4-9rwj",
-  "modified": "2026-04-11T21:30:19Z",
+  "modified": "2026-04-12T03:30:24Z",
   "published": "2026-04-06T18:33:08Z",
   "aliases": [
     "CVE-2026-5704"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/04/11/10"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/11/11"
     }
   ],
   "database_specific": {
