@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwc5-5wfj-q75c",
-  "modified": "2025-11-14T18:31:26Z",
+  "modified": "2026-04-13T15:30:51Z",
   "published": "2025-10-14T15:31:26Z",
   "aliases": [
     "CVE-2025-11713"
