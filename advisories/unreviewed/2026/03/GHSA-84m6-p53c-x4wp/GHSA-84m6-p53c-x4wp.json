@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84m6-p53c-x4wp",
-  "modified": "2026-03-25T15:31:29Z",
+  "modified": "2026-04-13T12:31:15Z",
   "published": "2026-03-25T15:31:29Z",
   "aliases": [
     "CVE-2026-1519"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://kb.isc.org/docs/cve-2026-1519"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/04/msg00008.html"
     }
   ],
   "database_specific": {
