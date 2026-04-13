@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j86x-fwp2-qh7v",
-  "modified": "2026-04-13T15:31:42Z",
+  "modified": "2026-04-13T18:30:40Z",
   "published": "2026-04-13T15:31:42Z",
   "aliases": [
     "CVE-2025-66236"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/g8fyy1tkmxkkfk7tx2v6h8mvwzpyykbo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/13/6"
     }
   ],
   "database_specific": {

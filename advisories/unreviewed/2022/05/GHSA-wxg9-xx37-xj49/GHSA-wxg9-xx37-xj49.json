@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxg9-xx37-xj49",
-  "modified": "2025-05-05T18:30:45Z",
+  "modified": "2026-04-13T18:30:34Z",
   "published": "2022-05-24T17:26:11Z",
   "aliases": [
     "CVE-2020-9715"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://helpx.adobe.com/security/products/acrobat/apsb20-48.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-9715"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4gj-pp28-43q4",
-  "modified": "2026-04-11T15:30:24Z",
+  "modified": "2026-04-13T18:30:38Z",
   "published": "2026-04-11T15:30:24Z",
   "aliases": [
     "CVE-2026-23900"
   ],
   "details": "Various stored XSS vulnerabilities in the maps- and icon rendering logic in Phoca Maps component 5.0.0-6.0.2 have been discovered.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-11T14:16:03Z"

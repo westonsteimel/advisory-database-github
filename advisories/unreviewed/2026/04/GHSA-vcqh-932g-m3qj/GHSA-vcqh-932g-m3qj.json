@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcqh-932g-m3qj",
-  "modified": "2026-04-11T09:30:27Z",
+  "modified": "2026-04-13T18:30:38Z",
   "published": "2026-04-11T09:30:27Z",
   "aliases": [
     "CVE-2026-34621"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://helpx.adobe.com/security/products/acrobat/apsb26-43.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-34621"
     }
   ],
   "database_specific": {

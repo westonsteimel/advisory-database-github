@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4hg-6933-x62x",
-  "modified": "2026-04-13T15:31:41Z",
+  "modified": "2026-04-13T18:30:40Z",
   "published": "2026-04-13T15:31:41Z",
   "aliases": [
     "CVE-2026-34476"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/v0k1xyzzbtnpyrwxwyn36pbspr8rhjnr"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/13/4"
     }
   ],
   "database_specific": {

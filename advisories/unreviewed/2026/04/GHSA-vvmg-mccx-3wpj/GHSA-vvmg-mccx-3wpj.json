@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvmg-mccx-3wpj",
-  "modified": "2026-04-08T09:31:31Z",
+  "modified": "2026-04-13T18:30:38Z",
   "published": "2026-04-08T09:31:31Z",
   "aliases": [
     "CVE-2026-39466"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WPMU DEV - Your All-in-One WordPress Platform Broken Link Checker broken-link-checker allows Blind SQL Injection.This issue affects Broken Link Checker: from n/a through <= 2.4.7.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T09:16:21Z"

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cx9r-fvxf-cxvg",
+  "modified": "2026-04-13T18:30:41Z",
+  "published": "2026-04-13T18:30:41Z",
+  "aliases": [
+    "CVE-2026-36938"
+  ],
+  "details": "Sourcecodester Online Resort Management System v1.0 is vulnerable to SQL injection in /orms/admin/rooms/view_room.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36938"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/huliangjia/bug_report/blob/main/Sourcecodester/online-resort-management-system/SQL-3.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-13T16:16:30Z"
+  }
+}
