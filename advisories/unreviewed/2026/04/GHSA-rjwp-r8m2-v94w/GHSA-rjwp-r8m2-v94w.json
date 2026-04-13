@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjwp-r8m2-v94w",
-  "modified": "2026-04-08T09:31:31Z",
+  "modified": "2026-04-13T21:30:35Z",
   "published": "2026-04-08T09:31:31Z",
   "aliases": [
     "CVE-2026-39488"
   ],
   "details": "Missing Authorization vulnerability in SureCart SureCart surecart allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects SureCart: from n/a through <= 4.0.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T09:16:23Z"

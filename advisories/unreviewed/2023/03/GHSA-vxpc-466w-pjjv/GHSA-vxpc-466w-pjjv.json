@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxpc-466w-pjjv",
-  "modified": "2023-03-10T03:30:16Z",
+  "modified": "2026-04-13T21:30:30Z",
   "published": "2023-03-01T09:30:29Z",
   "aliases": [
     "CVE-2022-27672"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.amd.com/en/corporate/product-security/bulletin/AMD-SB-1045"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-426.html"
     }
   ],
   "database_specific": {

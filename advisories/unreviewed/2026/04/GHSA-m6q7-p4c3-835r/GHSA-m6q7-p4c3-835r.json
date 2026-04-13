@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6q7-p4c3-835r",
-  "modified": "2026-04-09T00:32:00Z",
+  "modified": "2026-04-13T21:30:37Z",
   "published": "2026-04-09T00:32:00Z",
   "aliases": [
     "CVE-2026-5885"
   ],
   "details": "Insufficient validation of untrusted input in WebML in Google Chrome on Windows prior to 147.0.7727.55 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-20"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T22:16:28Z"

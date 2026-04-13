@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g9v-cc93-2w5g",
-  "modified": "2026-04-13T15:31:43Z",
+  "modified": "2026-04-13T21:30:43Z",
   "published": "2026-04-13T15:31:43Z",
   "aliases": [
     "CVE-2026-36942"
   ],
   "details": "Sourcecodester Online Resort Management System v1.0 is vulnerable to SQL injection in the file /orms/admin/activities/manage_activity.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-13T15:17:34Z"

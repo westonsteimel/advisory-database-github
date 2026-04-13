@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjp2-9xx7-v66x",
-  "modified": "2026-04-08T09:31:35Z",
+  "modified": "2026-04-13T21:30:36Z",
   "published": "2026-04-08T09:31:35Z",
   "aliases": [
     "CVE-2026-39711"
   ],
   "details": "Insertion of Sensitive Information Into Sent Data vulnerability in stmcan RT-Theme 18 | Extensions rt18-extensions allows Retrieve Embedded Sensitive Data.This issue affects RT-Theme 18 | Extensions: from n/a through <= 2.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-201"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T09:16:44Z"

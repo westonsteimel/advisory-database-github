@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pg25-7cx5-cvcm",
-  "modified": "2026-04-13T18:30:42Z",
+  "modified": "2026-04-13T21:30:43Z",
   "published": "2026-04-13T18:30:42Z",
   "aliases": [
     "CVE-2026-6100"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/HTWB2Z6KT5QQX4RYEZAFININDHNOSIF3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/13/10"
     }
   ],
   "database_specific": {

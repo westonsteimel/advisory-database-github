@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvcv-8g7r-6893",
-  "modified": "2026-04-09T15:35:08Z",
+  "modified": "2026-04-13T21:30:39Z",
   "published": "2026-04-09T15:35:07Z",
   "aliases": [
     "CVE-2026-4113"
   ],
   "details": "An observable response discrepancy vulnerability in the SonicWall SMA1000 series appliances allows a remote attacker to enumerate SSL VPN user credentials.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-204"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-09T15:16:13Z"
