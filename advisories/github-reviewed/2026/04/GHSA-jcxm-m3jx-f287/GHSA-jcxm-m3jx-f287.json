@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcxm-m3jx-f287",
-  "modified": "2026-04-13T16:35:37Z",
+  "modified": "2026-04-14T16:30:46Z",
   "published": "2026-04-13T16:35:37Z",
   "aliases": [
     "CVE-2026-28291"
@@ -41,12 +41,24 @@
       "url": "https://github.com/steveukx/git-js/security/advisories/GHSA-jcxm-m3jx-f287"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28291"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/steveukx/git-js/commit/1effd8e5012a5da05a9776512fac3e39b11f2d2d"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/steveukx/git-js"
     },
     {
       "type": "WEB",
       "url": "https://github.com/steveukx/git-js/blob/789c13ebabcf18ebe0b3a0c88ebb4037dede42e3/simple-git/src/lib/plugins/block-unsafe-operations-plugin.ts#L26"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/steveukx/git-js/releases/tag/simple-git%403.32.0"
     },
     {
       "type": "WEB",
@@ -60,6 +72,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-13T16:35:37Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-13T18:16:28Z"
   }
 }
