@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmpr-pw8g-6q6c",
-  "modified": "2026-04-14T18:30:43Z",
+  "modified": "2026-04-14T21:31:47Z",
   "published": "2026-04-14T18:30:43Z",
   "aliases": [
     "CVE-2026-5752"
   ],
   "details": "Sandbox Escape Vulnerability in Terrarium allows arbitrary code execution with root privileges on a host process via JavaScript prototype chain traversal.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-14T18:17:39Z"

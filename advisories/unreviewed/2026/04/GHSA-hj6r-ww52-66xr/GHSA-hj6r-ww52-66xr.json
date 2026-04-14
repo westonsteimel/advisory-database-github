@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj6r-ww52-66xr",
-  "modified": "2026-04-14T00:31:11Z",
+  "modified": "2026-04-14T21:31:45Z",
   "published": "2026-04-14T00:31:11Z",
   "aliases": [
     "CVE-2026-22565"
   ],
   "details": "An Improper Input Validation vulnerability could allow a malicious actor with access to the UniFi Play network to cause the device to stop responding.\n \n\nAffected Products:\nUniFi Play PowerAmp (Version 1.0.35 and earlier)\n\nUniFi Play Audio Port  (Version 1.0.24 and earlier)\n \n\nMitigation:\nUpdate UniFi Play PowerAmp to Version 1.0.38 or later\n\nUpdate UniFi Play Audio Port  to Version 1.1.9 or later",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-20"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-13T22:16:28Z"

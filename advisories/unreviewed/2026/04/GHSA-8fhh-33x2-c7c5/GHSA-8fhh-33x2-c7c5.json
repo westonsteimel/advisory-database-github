@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8fhh-33x2-c7c5",
-  "modified": "2026-04-10T18:31:18Z",
+  "modified": "2026-04-14T21:31:44Z",
   "published": "2026-04-10T18:31:18Z",
   "aliases": [
     "CVE-2026-22560"
   ],
   "details": "An open redirect vulnerability in Rocket.Chat versions prior to 8.4.0 allows users to be redirected to arbitrary URLs by manipulating parameters within a SAML endpoint.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-601"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-10T17:17:01Z"

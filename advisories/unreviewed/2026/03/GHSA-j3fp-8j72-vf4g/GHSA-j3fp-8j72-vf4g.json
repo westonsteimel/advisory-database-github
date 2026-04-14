@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3fp-8j72-vf4g",
-  "modified": "2026-03-26T15:30:41Z",
+  "modified": "2026-04-14T21:31:41Z",
   "published": "2026-03-26T15:30:41Z",
   "aliases": [
     "CVE-2026-27663"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-246443.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Apr/6"
     }
   ],
   "database_specific": {
