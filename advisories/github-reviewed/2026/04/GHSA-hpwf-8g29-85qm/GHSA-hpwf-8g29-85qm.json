@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hpwf-8g29-85qm",
+  "modified": "2026-04-14T00:15:09Z",
+  "published": "2026-04-14T00:15:09Z",
+  "aliases": [],
+  "summary": "Nest Affected by DoS via Recursive handleData in JsonSocket (TCP Transport)",
+  "details": "### Impact\nAttacker sends many small, valid JSON messages in one TCP frame\n → handleData() recurses once per message; buffer shrinks each call\n → maxBufferSize is never reached; call stack overflows instead\n → A ~47 KB payload is sufficient to trigger RangeError\n\n### Patches\n\nFixed in `@nestjs/microservices@11.1.19`\n\n### References\n\nDiscovered by https://github.com/hwpark6804-gif",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@nestjs/microservices"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.1.19"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 11.1.18"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/nestjs/nest/security/advisories/GHSA-hpwf-8g29-85qm"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/nestjs/nest"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-770"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-14T00:15:09Z",
+    "nvd_published_at": null
+  }
+}
