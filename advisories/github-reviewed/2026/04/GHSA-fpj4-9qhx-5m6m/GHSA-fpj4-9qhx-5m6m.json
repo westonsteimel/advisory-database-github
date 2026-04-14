@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpj4-9qhx-5m6m",
-  "modified": "2026-04-10T21:07:08Z",
+  "modified": "2026-04-14T21:55:14Z",
   "published": "2026-04-10T21:07:08Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-40305"
+  ],
   "summary": "DNN: Force Friend Request Acceptance",
   "details": "In the friends feature, a user could craft a request that would force the acceptance of a friend request on another user.",
   "severity": [

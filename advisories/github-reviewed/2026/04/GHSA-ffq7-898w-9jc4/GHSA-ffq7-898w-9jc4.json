@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffq7-898w-9jc4",
-  "modified": "2026-04-10T20:42:48Z",
+  "modified": "2026-04-14T21:56:18Z",
   "published": "2026-04-10T20:42:48Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-40321"
+  ],
   "summary": "DotNetNuke.Core has stored cross-site-scripting (XSS) via SVG upload",
   "details": "A user could upload a specially crafted SVG file that could include scripts that can target both authenticated and unauthenticated DNN users. The impact is increased if the scripts are run by a power user.",
   "severity": [
