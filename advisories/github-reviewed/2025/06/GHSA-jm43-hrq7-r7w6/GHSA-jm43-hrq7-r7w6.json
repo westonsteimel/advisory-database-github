@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm43-hrq7-r7w6",
-  "modified": "2025-06-13T20:24:24Z",
+  "modified": "2026-04-14T18:26:09Z",
   "published": "2025-06-13T20:24:24Z",
   "aliases": [
     "CVE-2025-49580"
@@ -83,6 +83,9 @@
           "events": [
             {
               "introduced": "7.4.5"
+            },
+            {
+              "fixed": "16.4.7"
             }
           ]
         }
