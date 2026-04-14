@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-r9hg-f94w-656h",
+  "modified": "2026-04-14T18:30:35Z",
+  "published": "2026-04-14T18:30:35Z",
+  "aliases": [
+    "CVE-2026-38533"
+  ],
+  "details": "An improper authorization vulnerability in the /api/v1/users/{id} endpoint of Snipe-IT v8.4.0 allows authenticated attackers with the users.edit permission to modify sensitive authentication and account-state fields of other non-admin users via supplying a crafted PUT request.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-38533"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/TREXNEGRO/Security-Advisories/tree/main/CVE-2026-38533"
+    },
+    {
+      "type": "WEB",
+      "url": "https://snipeitapp.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-14T16:16:43Z"
+  }
+}

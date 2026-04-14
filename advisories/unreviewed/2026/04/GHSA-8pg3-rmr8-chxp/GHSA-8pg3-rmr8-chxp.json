@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pg3-rmr8-chxp",
-  "modified": "2026-04-08T09:31:33Z",
+  "modified": "2026-04-14T18:30:29Z",
   "published": "2026-04-08T09:31:32Z",
   "aliases": [
     "CVE-2026-39572"
   ],
   "details": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in magepeopleteam Bus Ticket Booking with Seat Reservation bus-ticket-booking-with-seat-reservation allows Retrieve Embedded Sensitive Data.This issue affects Bus Ticket Booking with Seat Reservation: from n/a through < 5.6.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-497"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T09:16:28Z"

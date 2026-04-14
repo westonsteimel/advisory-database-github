@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfmf-hv5j-w87j",
-  "modified": "2026-04-08T09:31:31Z",
+  "modified": "2026-04-14T18:30:28Z",
   "published": "2026-04-08T09:31:31Z",
   "aliases": [
     "CVE-2026-39464"
   ],
   "details": "Server-Side Request Forgery (SSRF) vulnerability in SeedProd Coming Soon Page, Under Construction & Maintenance Mode by SeedProd coming-soon allows Server Side Request Forgery.This issue affects Coming Soon Page, Under Construction & Maintenance Mode by SeedProd: from n/a through <= 6.19.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-918"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T09:16:21Z"
