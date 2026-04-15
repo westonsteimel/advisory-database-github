@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xf68-8hjw-7mpm",
-  "modified": "2026-02-27T21:59:25Z",
+  "modified": "2026-04-15T20:42:17Z",
   "published": "2026-02-26T22:13:13Z",
   "aliases": [
     "CVE-2026-27835"

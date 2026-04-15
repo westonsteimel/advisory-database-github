@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9vm-hv86-f23r",
-  "modified": "2026-04-10T19:20:04Z",
+  "modified": "2026-04-15T20:44:03Z",
   "published": "2026-04-10T19:20:04Z",
   "aliases": [],
   "summary": "justhtml includes multiple security fixes",
@@ -39,6 +39,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/EmilStenstrom/justhtml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/EmilStenstrom/justhtml/compare/v1.14.0...v1.15.0"
     },
     {
       "type": "WEB",
