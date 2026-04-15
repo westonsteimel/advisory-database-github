@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-983w-rhvv-gwmv",
-  "modified": "2026-01-20T16:29:54Z",
+  "modified": "2026-04-15T21:10:06Z",
   "published": "2026-01-20T16:29:53Z",
   "aliases": [
     "CVE-2025-68616"

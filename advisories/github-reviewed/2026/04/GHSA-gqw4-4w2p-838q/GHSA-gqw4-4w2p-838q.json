@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gqw4-4w2p-838q",
-  "modified": "2026-04-14T20:01:42Z",
+  "modified": "2026-04-15T21:08:00Z",
   "published": "2026-04-14T20:01:42Z",
   "aliases": [
     "CVE-2026-40261"
@@ -44,7 +44,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "2.0.0"
+              "introduced": "1.0.0"
             },
             {
               "fixed": "2.2.27"
@@ -60,12 +60,17 @@
       "url": "https://github.com/composer/composer/security/advisories/GHSA-gqw4-4w2p-838q"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/composer/composer/CVE-2026-40261.yaml"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/composer/composer"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-78"
     ],
     "severity": "HIGH",

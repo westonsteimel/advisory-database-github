@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wg36-wvj6-r67p",
-  "modified": "2026-04-14T20:03:08Z",
+  "modified": "2026-04-15T21:08:13Z",
   "published": "2026-04-14T20:03:08Z",
   "aliases": [
     "CVE-2026-40176"
@@ -44,7 +44,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "2.0.0"
+              "introduced": "1.0.0"
             },
             {
               "fixed": "2.2.27"
@@ -60,12 +60,17 @@
       "url": "https://github.com/composer/composer/security/advisories/GHSA-wg36-wvj6-r67p"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/composer/composer/CVE-2026-40176.yaml"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/composer/composer"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-78"
     ],
     "severity": "HIGH",
