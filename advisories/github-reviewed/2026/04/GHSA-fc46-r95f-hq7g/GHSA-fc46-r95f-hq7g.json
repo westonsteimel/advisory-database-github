@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc46-r95f-hq7g",
-  "modified": "2026-04-13T16:35:13Z",
+  "modified": "2026-04-15T20:52:29Z",
   "published": "2026-04-13T16:35:13Z",
   "aliases": [
     "CVE-2026-23891"
@@ -63,6 +63,10 @@
       "url": "https://github.com/decidim/decidim/security/advisories/GHSA-fc46-r95f-hq7g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23891"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/decidim/decidim"
     },
@@ -82,6 +86,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-13T16:35:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-13T17:16:28Z"
   }
 }
