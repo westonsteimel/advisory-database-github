@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffph-g3pc-8r3g",
-  "modified": "2025-11-04T00:32:18Z",
+  "modified": "2026-04-15T00:31:33Z",
   "published": "2025-01-14T18:32:00Z",
   "aliases": [
     "CVE-2024-12088"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12088"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:6470"
     },
     {
       "type": "WEB",

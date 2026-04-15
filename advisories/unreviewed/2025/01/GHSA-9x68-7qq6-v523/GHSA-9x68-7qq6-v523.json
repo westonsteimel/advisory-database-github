@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9x68-7qq6-v523",
-  "modified": "2025-12-22T15:30:20Z",
+  "modified": "2026-04-15T00:31:33Z",
   "published": "2025-01-14T18:32:00Z",
   "aliases": [
     "CVE-2024-12087"
@@ -94,6 +94,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:23154"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:6470"
     }
   ],
   "database_specific": {

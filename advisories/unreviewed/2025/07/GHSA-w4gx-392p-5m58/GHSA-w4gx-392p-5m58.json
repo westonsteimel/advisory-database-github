@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4gx-392p-5m58",
-  "modified": "2026-03-23T18:30:25Z",
+  "modified": "2026-04-15T00:31:33Z",
   "published": "2025-07-10T15:31:28Z",
   "aliases": [
     "CVE-2025-7424"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7424"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:12345"
     },
     {
       "type": "WEB",
