@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h468-7pvh-8vr8",
-  "modified": "2026-04-10T21:32:09Z",
+  "modified": "2026-04-15T21:33:40Z",
   "published": "2026-04-09T21:31:29Z",
   "aliases": [
     "CVE-2026-29146"
@@ -22,7 +22,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-tribes"
       },
       "ranges": [
         {
@@ -41,7 +41,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-tribes"
       },
       "ranges": [
         {
@@ -60,7 +60,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-tribes"
       },
       "ranges": [
         {
@@ -70,11 +70,14 @@
               "introduced": "11.0.0-M1"
             },
             {
-              "fixed": "11.0.19"
+              "fixed": "11.0.20"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 11.0.18"
+      }
     },
     {
       "package": {
@@ -127,7 +130,29 @@
               "introduced": "11.0.0-M1"
             },
             {
-              "fixed": "11.0.19"
+              "fixed": "11.0.20"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 11.0.18"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat-tribes"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.5.38"
+            },
+            {
+              "last_affected": "8.5.100"
             }
           ]
         }
@@ -136,17 +161,17 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        "name": "org.apache.tomcat:tomcat"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "9.0.13"
+              "introduced": "8.5.38"
             },
             {
-              "fixed": "9.0.116"
+              "last_affected": "8.5.100"
             }
           ]
         }
@@ -155,17 +180,17 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        "name": "org.apache.tomcat:tomcat-tribes"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "10.1.50"
+              "introduced": "7.0.100"
             },
             {
-              "fixed": "10.1.53"
+              "last_affected": "7.0.109"
             }
           ]
         }
@@ -174,17 +199,17 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        "name": "org.apache.tomcat:tomcat"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "11.0.0-M1"
+              "introduced": "7.0.100"
             },
             {
-              "fixed": "11.0.19"
+              "last_affected": "7.0.109"
             }
           ]
         }
@@ -197,12 +222,40 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29146"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/0112ed22abfccc3d54e44d91eb08804d0886acd1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/607ebc0fa522bd9e8c05517baa2d179bbd1e659c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/6d955cceca841f2eabf2d6c46b59a8c7e1cd6eaa"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/apache/tomcat"
     },
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/lzt04z2pb3dc5tk85obn80xygw3z1p0w"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.53"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.20"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2026-29146"
     },
     {
       "type": "WEB",
