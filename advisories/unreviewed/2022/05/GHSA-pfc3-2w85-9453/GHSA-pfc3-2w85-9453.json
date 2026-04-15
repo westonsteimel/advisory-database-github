@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfc3-2w85-9453",
-  "modified": "2022-05-24T16:45:54Z",
+  "modified": "2026-04-15T21:30:13Z",
   "published": "2022-05-24T16:45:54Z",
   "aliases": [
     "CVE-2019-12098"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/heimdal/heimdal/releases/tag/heimdal-7.6.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GIXEDVVMPD6ZAJSMI2EZ7FNEIVNWE5PD"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SLXXIF4LOQEAEDAF4UGP2AO6WDNTDFUB"
     },
     {
       "type": "WEB",
@@ -65,7 +73,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-295"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

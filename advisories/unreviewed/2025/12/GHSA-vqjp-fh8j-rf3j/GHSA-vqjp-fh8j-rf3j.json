@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqjp-fh8j-rf3j",
-  "modified": "2025-12-17T18:31:32Z",
+  "modified": "2026-04-15T21:30:13Z",
   "published": "2025-12-05T18:31:12Z",
   "aliases": [
     "CVE-2025-34256"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://docs.deviceon.advantech.com/docs/resource"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pellera.com/blog/advantech-wise-deviceon-cve-2025-34256-vulnerability"
     },
     {
       "type": "WEB",
