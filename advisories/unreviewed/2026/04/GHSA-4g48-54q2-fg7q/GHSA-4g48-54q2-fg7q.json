@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g48-54q2-fg7q",
-  "modified": "2026-04-15T15:31:42Z",
+  "modified": "2026-04-15T18:31:55Z",
   "published": "2026-04-15T15:31:42Z",
   "aliases": [
     "CVE-2026-25219"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/t4dlmqkn0njz4chk3g7mdgzb96y4ttqh"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/15/3"
     }
   ],
   "database_specific": {

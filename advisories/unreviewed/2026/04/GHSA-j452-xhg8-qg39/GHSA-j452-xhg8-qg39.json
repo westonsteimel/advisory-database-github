@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j452-xhg8-qg39",
+  "modified": "2026-04-15T18:31:58Z",
+  "published": "2026-04-15T18:31:58Z",
+  "aliases": [
+    "CVE-2026-5758"
+  ],
+  "details": "JavaScript is vulnerable to prototype pollution in Mafintosh's protocol-buffers-schema Version 3.6.0, where an attacker may alter the application logic, bypass security checks, cause a DoS or achieve remote code execution.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5758"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mafintosh/protocol-buffers-schema/pull/70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://morielharush.github.io/2026/04/12/cve-2026-5758-protocol-buffers-schema-prototype-pollution"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-15T18:17:24Z"
+  }
+}
