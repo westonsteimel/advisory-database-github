@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwcp-26wc-3fxm",
-  "modified": "2024-11-07T21:43:53Z",
+  "modified": "2026-04-16T18:11:17Z",
   "published": "2024-10-04T06:30:45Z",
   "aliases": [
     "CVE-2024-47855"
@@ -37,6 +37,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "net.sf.json-lib:json-lib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.4"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -54,7 +73,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/kordamp/json-lib/blob/35a1f2aa22bac260438c0cf2399549311b5a21aa/pom.xml"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/kordamp/json-lib/compare/v3.0.3...v3.1.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceforge.net/projects/json-lib"
     }
   ],
   "database_specific": {
