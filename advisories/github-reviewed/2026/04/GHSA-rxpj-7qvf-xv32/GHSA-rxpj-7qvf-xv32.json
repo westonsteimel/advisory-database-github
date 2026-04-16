@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxpj-7qvf-xv32",
-  "modified": "2026-04-13T19:21:55Z",
+  "modified": "2026-04-16T21:49:16Z",
   "published": "2026-04-07T09:31:22Z",
   "aliases": [
     "CVE-2026-34197"
@@ -104,6 +104,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/apache/activemq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-34197"
     },
     {
       "type": "WEB",
