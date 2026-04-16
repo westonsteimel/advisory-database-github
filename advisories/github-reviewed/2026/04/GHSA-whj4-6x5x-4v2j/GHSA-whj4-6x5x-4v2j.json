@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whj4-6x5x-4v2j",
-  "modified": "2026-04-13T19:22:35Z",
+  "modified": "2026-04-16T21:56:27Z",
   "published": "2026-04-13T19:22:35Z",
   "aliases": [
     "CVE-2026-40192"
@@ -41,6 +41,10 @@
       "url": "https://github.com/python-pillow/Pillow/security/advisories/GHSA-whj4-6x5x-4v2j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40192"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/python-pillow/Pillow/pull/9521"
     },
@@ -59,11 +63,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-400",
       "CWE-770"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-13T19:22:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-15T23:16:10Z"
   }
 }
