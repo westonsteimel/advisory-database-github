@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8f7-cg9p-w5jx",
-  "modified": "2026-04-15T18:31:52Z",
+  "modified": "2026-04-16T03:31:05Z",
   "published": "2026-04-10T21:31:15Z",
   "aliases": [
     "CVE-2026-39922"
@@ -19,6 +19,10 @@
   ],
   "affected": [],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/GeoNode/geonode/security/advisories/GHSA-hw9r-6m78-w6h3"
+    },
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39922"
