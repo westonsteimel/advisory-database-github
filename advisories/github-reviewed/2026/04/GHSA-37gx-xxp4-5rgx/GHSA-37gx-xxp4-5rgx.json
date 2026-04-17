@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37gx-xxp4-5rgx",
-  "modified": "2026-04-16T20:03:43Z",
+  "modified": "2026-04-17T13:19:57Z",
   "published": "2026-04-14T23:30:27Z",
   "aliases": [
     "CVE-2026-33116"
@@ -93,7 +93,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/dotnet/announcements/issues/12345"
+      "url": "https://github.com/dotnet/announcements/issues/392"
     },
     {
       "type": "PACKAGE",
