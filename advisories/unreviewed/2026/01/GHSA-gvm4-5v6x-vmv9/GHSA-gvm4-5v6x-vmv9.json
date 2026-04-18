@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvm4-5v6x-vmv9",
-  "modified": "2026-02-06T18:30:29Z",
+  "modified": "2026-04-18T09:30:17Z",
   "published": "2026-01-31T12:30:12Z",
   "aliases": [
     "CVE-2026-23031"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7352e1d5932a0e777e39fa4b619801191f57e603"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9c151898cc259a7784be60ba38664f42ede39b31"
     },
     {
       "type": "WEB",

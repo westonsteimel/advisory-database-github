@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q9v-qmg6-ffwc",
-  "modified": "2025-11-07T00:30:26Z",
+  "modified": "2026-04-18T09:30:16Z",
   "published": "2025-04-18T15:31:38Z",
   "aliases": [
     "CVE-2025-39930"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39930"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/146e25625378f7d4463acbd1ffbd975f3332a806"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/16a49e3fda339aa552cde7f2cdbb25b91426cb8a"
     },
     {
       "type": "WEB",

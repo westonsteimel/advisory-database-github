@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm87-vmvc-9c38",
-  "modified": "2026-03-25T12:30:24Z",
+  "modified": "2026-04-18T09:30:18Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-23381"
@@ -29,6 +29,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a12cdaa3375f0bd3c8f4e564be7c143529abfe5b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a5c56e65b685360dd3f2278aeff8c21061feb665"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a9d712ccfeef737c0e700a4b5b98f310e07b6b60"
     },
     {
       "type": "WEB",

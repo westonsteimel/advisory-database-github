@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp8q-76mh-g25x",
-  "modified": "2025-11-04T00:31:26Z",
+  "modified": "2026-04-18T09:30:16Z",
   "published": "2024-09-18T09:30:35Z",
   "aliases": [
     "CVE-2024-46715"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0cc7e0ee31e5c44904e98e2229d591e093282a70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2b961d5786b4b31c367c719a2f918569b444c007"
     },
     {
       "type": "WEB",

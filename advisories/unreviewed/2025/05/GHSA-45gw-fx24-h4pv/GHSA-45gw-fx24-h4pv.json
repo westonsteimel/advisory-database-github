@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45gw-fx24-h4pv",
-  "modified": "2026-02-13T18:31:21Z",
+  "modified": "2026-04-18T09:30:16Z",
   "published": "2025-05-01T15:31:44Z",
   "aliases": [
     "CVE-2025-37778"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6e30c0e10210c714f3d4453dc258d4abcc70364e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b61f04d5d73c53d183019bafe22fb700a739bac5"
     },
     {
       "type": "WEB",

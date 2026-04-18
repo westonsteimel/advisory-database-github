@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpmg-r9cr-q8pj",
-  "modified": "2026-04-03T18:31:23Z",
+  "modified": "2026-04-18T09:30:19Z",
   "published": "2026-04-03T18:31:23Z",
   "aliases": [
     "CVE-2026-31393"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/187e6fe939295be36063a1d91f8bebee04399a8c"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3b646516cba2ebc4b51a72954903326e7c1e443f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5229e7d15771eac2b5886bfb1f976aea0c1eec14"
     },
     {
       "type": "WEB",

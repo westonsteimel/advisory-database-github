@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx6c-45wp-f5pr",
-  "modified": "2026-04-03T18:31:22Z",
+  "modified": "2026-04-18T09:30:19Z",
   "published": "2026-04-03T18:31:22Z",
   "aliases": [
     "CVE-2026-23460"
@@ -32,7 +32,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a753844d2a8136f090123c8fb1ff6c7f6ee7c2b3"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c2ab74c12932e52cfa1e7e4582d42b0c8bec96c7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c85fe6580e86947ca07907ebf4363a73c156fda7"
     },
     {
       "type": "WEB",

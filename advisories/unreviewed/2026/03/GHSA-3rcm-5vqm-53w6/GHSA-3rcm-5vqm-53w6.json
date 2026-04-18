@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rcm-5vqm-53w6",
-  "modified": "2026-03-26T12:30:29Z",
+  "modified": "2026-04-18T09:30:18Z",
   "published": "2026-03-26T12:30:29Z",
   "aliases": [
     "CVE-2026-23397"
@@ -24,6 +24,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3c11b5c2436a3a5b450612ab160e3a525b28cfb5"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4c6aa008b913e808c4f4d3cde36cb1d9bb5967c6"
     },
     {
@@ -33,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/dbdfaae9609629a9569362e3b8f33d0a20fd783c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e9cf17b91e733fec725ebcc0b3098bc5ccd505e0"
     },
     {
       "type": "WEB",

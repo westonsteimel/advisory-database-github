@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvv5-hhxw-j52w",
-  "modified": "2026-03-25T12:30:22Z",
+  "modified": "2026-04-18T09:30:17Z",
   "published": "2026-03-25T12:30:22Z",
   "aliases": [
     "CVE-2026-23296"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23296"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0e274674714427dc578bb99db5b86e312d2b57f8"
     },
     {
       "type": "WEB",

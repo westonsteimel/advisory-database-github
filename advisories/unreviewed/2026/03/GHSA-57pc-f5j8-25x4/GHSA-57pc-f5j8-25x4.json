@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57pc-f5j8-25x4",
-  "modified": "2026-03-25T12:30:24Z",
+  "modified": "2026-04-18T09:30:18Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-23362"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23362"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0904037e713f787d1376e1d349c3bdf6c3105881"
     },
     {
       "type": "WEB",
@@ -33,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c35636e91e392e1540949bbc67932167cb48bc3a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c85b96eaf766d8f066b1139a17a51efa2f6627ef"
     },
     {
       "type": "WEB",

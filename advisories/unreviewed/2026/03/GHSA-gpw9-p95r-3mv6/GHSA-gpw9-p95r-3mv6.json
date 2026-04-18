@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpw9-p95r-3mv6",
-  "modified": "2026-03-25T12:30:22Z",
+  "modified": "2026-04-18T09:30:17Z",
   "published": "2026-03-25T12:30:22Z",
   "aliases": [
     "CVE-2026-23290"
@@ -32,7 +32,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/af7369ae572f53cb701731a4289ec3b3889bc501"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c3f1672eaea68c5cb6e1ec081cdb92045453218f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d5d9086211877361f1bda44a0aec538ddb04042a"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v45r-hfjf-mq4q",
-  "modified": "2026-04-03T18:31:21Z",
+  "modified": "2026-04-18T09:30:19Z",
   "published": "2026-04-03T18:31:21Z",
   "aliases": [
     "CVE-2026-23428"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c742b46a153d3ff95ff0825ab1950c87b9e14470"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d08417981155883068b7260d9500ca306a03edac"
     },
     {
       "type": "WEB",

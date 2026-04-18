@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqjm-rhm6-4854",
-  "modified": "2026-04-03T18:31:21Z",
+  "modified": "2026-04-18T09:30:19Z",
   "published": "2026-04-03T18:31:21Z",
   "aliases": [
     "CVE-2026-23446"
@@ -33,6 +33,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/98e8aed64614b0c199d5f0391fbe1a4331cb5773"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b87f361d41f9a7f1f6c426947ca815651c481376"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cc06ac99fd78839b2d38850785731ef131d9ae26"
     },
     {
       "type": "WEB",
