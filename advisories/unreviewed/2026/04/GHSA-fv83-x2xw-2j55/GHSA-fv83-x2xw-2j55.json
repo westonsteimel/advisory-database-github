@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv83-x2xw-2j55",
-  "modified": "2026-04-13T21:30:35Z",
+  "modified": "2026-04-20T00:30:13Z",
   "published": "2026-04-08T03:32:14Z",
   "aliases": [
     "CVE-2026-33810"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2026-4866"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/19/4"
     }
   ],
   "database_specific": {
