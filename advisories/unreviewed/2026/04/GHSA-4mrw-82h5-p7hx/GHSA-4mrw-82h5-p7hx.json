@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mrw-82h5-p7hx",
-  "modified": "2026-04-21T15:32:22Z",
+  "modified": "2026-04-21T21:31:22Z",
   "published": "2026-04-21T15:32:22Z",
   "aliases": [
     "CVE-2026-31014"
   ],
   "details": "Dovestones Softwares AD Self Update <4.0.0.5 is vulnerable to Cross Site Request Forgery (CSRF). The affected endpoint processes state-changing requests without requiring a CSRF token or equivalent protection. The endpoint accepts application/x-www-form-urlencoded requests, and an originally POST-based request can be converted to a GET request while still successfully updating user details. This allows an attacker to craft a malicious request that, when visited by an authenticated user, can modify user account information without their consent.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-21T15:16:36Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9wg-gp29-4whj",
-  "modified": "2026-04-21T15:32:22Z",
+  "modified": "2026-04-21T21:31:22Z",
   "published": "2026-04-21T15:32:22Z",
   "aliases": [
     "CVE-2026-31013"
   ],
   "details": "Dovestones Softwares ADPhonebook <4.0.1.1 has a reflected cross-site scripting (XSS) vulnerability in the search parameter of the /ADPhonebook?Department=HR endpoint. User-supplied input is reflected in the HTTP response without proper input validation or output encoding, allowing execution of arbitrary JavaScript in the victim's browser.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-21T15:16:36Z"
