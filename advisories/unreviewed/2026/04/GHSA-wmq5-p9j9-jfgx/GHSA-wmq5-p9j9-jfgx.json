@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmq5-p9j9-jfgx",
-  "modified": "2026-04-14T18:30:43Z",
+  "modified": "2026-04-21T15:32:17Z",
   "published": "2026-04-14T18:30:43Z",
   "aliases": [
     "CVE-2026-33829"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33829"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/blackarrowsec/redteam-research/tree/master/CVE-2026-33829"
     },
     {
       "type": "WEB",

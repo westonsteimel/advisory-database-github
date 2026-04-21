@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmpr-pw8g-6q6c",
-  "modified": "2026-04-14T21:31:47Z",
+  "modified": "2026-04-21T15:32:17Z",
   "published": "2026-04-14T18:30:43Z",
   "aliases": [
     "CVE-2026-5752"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://kb.cert.org/vuls/id/414811"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/414811"
     }
   ],
   "database_specific": {
