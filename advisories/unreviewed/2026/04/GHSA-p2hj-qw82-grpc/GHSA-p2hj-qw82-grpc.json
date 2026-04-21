@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2hj-qw82-grpc",
-  "modified": "2026-04-21T15:32:22Z",
+  "modified": "2026-04-21T18:31:56Z",
   "published": "2026-04-21T15:32:22Z",
   "aliases": [
     "CVE-2026-29644"
   ],
   "details": "XiangShan (open-source high-performance RISC-V processor) commit edb1dfaf7d290ae99724594507dc46c2c2125384 (2024-11-28) has improper gating of its distributed CSR write-enable path, allowing illegal CSR write attempts to alter custom PMA (Physical Memory Attribute) CSR state. Though the RISC-V privileged specification requires an illegal-instruction exception for non-existent/illegal CSR accesses, affected XiangShan versions may still propagate such writes to replicated PMA configuration state. Local attackers able to execute code on the core (privilege context depends on system integration) can exploit this to tamper with memory-attribute enforcement, potentially leading to privilege escalation, information disclosure, or denial of service depending on how PMA enforces platform security and isolation boundaries.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-21T15:16:36Z"
