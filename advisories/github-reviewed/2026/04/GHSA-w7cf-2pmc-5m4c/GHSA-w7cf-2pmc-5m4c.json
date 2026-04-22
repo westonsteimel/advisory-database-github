@@ -1,19 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7cf-2pmc-5m4c",
-  "modified": "2026-04-20T18:31:45Z",
+  "modified": "2026-04-22T17:17:28Z",
   "published": "2026-04-18T09:30:20Z",
   "aliases": [
     "CVE-2026-30912"
   ],
+  "summary": "Apache Airflow exposes SQL stack trace despite \"api/expose_stack_traces\" set to false",
   "details": "In case of SQL errors, exception/stack trace of errors was exposed in API even if \"api/expose_stack_traces\" was set to false. That could lead to exposing additional information to potential attacker. Users are recommended to upgrade to Apache Airflow 3.2.0, which fixes the issue.",
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "apache-airflow-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/airflow/pull/63028"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/airflow"
     },
     {
       "type": "WEB",
@@ -36,9 +61,9 @@
     "cwe_ids": [
       "CWE-668"
     ],
-    "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-22T17:17:28Z",
     "nvd_published_at": "2026-04-18T07:16:10Z"
   }
 }
