@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hfh-fch3-5q7p",
-  "modified": "2026-02-23T22:21:47Z",
+  "modified": "2026-04-22T16:24:14Z",
   "published": "2026-02-19T19:40:08Z",
   "aliases": [
     "CVE-2026-27120"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "SwiftURL",
-        "name": "leaf-kit"
+        "name": "github.com/vapor/leaf-kit"
       },
       "ranges": [
         {
