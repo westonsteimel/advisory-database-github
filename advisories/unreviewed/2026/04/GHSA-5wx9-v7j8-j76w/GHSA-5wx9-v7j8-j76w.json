@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wx9-v7j8-j76w",
-  "modified": "2026-04-22T15:31:40Z",
+  "modified": "2026-04-22T21:32:10Z",
   "published": "2026-04-22T15:31:40Z",
   "aliases": [
     "CVE-2026-31192"
   ],
   "details": "Insufficient validation of Chrome extension identifiers in Raindrop.io Bookmark Manager Web App 5.6.76.0 allows attackers to obtain sensitive user data via a crafted request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:36Z"

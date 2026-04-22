@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-562",
       "CWE-825"
     ],
     "severity": "MODERATE",

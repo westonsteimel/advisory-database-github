@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q226-8c4v-p73w",
-  "modified": "2026-03-13T21:31:46Z",
+  "modified": "2026-04-22T21:31:32Z",
   "published": "2026-03-13T21:31:46Z",
   "aliases": [
     "CVE-2026-22191"
@@ -25,6 +25,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/kmkz/Exploits/blob/master/2026/CVE-2026-22191-POC.py"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kmkz/Exploits/blob/master/2026/CVE-2026-22191-SicuroWeb-ATI-chain.txt"
+    },
+    {
+      "type": "WEB",
       "url": "https://wordpress.org/plugins/wpdiscuz"
     },
     {
@@ -33,11 +41,24 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.beghelli.it"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.boffsec-services.com/posts/sicuroweb-cve-2026-22191"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/beghelli-sicuro24-sicuroweb-angularjs-template-injection"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/wpdiscuz-before-server-side-shortcode-injection-via-email-notifications"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1336",
       "CWE-94"
     ],
     "severity": "MODERATE",

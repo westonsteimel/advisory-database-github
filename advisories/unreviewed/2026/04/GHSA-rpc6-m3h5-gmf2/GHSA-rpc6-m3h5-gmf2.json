@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpc6-m3h5-gmf2",
-  "modified": "2026-04-22T18:31:40Z",
+  "modified": "2026-04-22T21:31:55Z",
   "published": "2026-04-21T15:32:22Z",
   "aliases": [
     "CVE-2026-0972"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortra.com/security/advisories/product-security/fi-2026-004"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.fortra.com/security/advisories/product-security/fi-2026-006"
     }
   ],
   "database_specific": {
