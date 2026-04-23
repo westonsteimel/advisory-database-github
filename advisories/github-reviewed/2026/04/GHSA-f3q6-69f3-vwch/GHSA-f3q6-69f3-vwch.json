@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3q6-69f3-vwch",
-  "modified": "2026-04-20T06:31:28Z",
+  "modified": "2026-04-23T14:29:57Z",
   "published": "2026-04-20T06:31:28Z",
   "aliases": [
     "CVE-2026-6608"
   ],
+  "summary": "FastChat has a Content Moderation Bypass via Arena Side-by-Side Views",
   "details": "A vulnerability was detected in lm-sys fastchat up to 0.2.36. Impacted is the function add_text of the component Arena Side-by-Side View Handler. The manipulation results in incorrect control flow. The attack can be launched remotely. The exploit is now public and may be used. The root cause was fixed in commit 34eca62 for gradio_block_arena_named.py, but three other files were missed.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "fschat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.2.36"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,7 +53,7 @@
       "url": "https://gist.github.com/YLChen-007/e45039d23e698222d887ee09735d9d36"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/lm-sys/FastChat"
     },
     {
@@ -53,8 +74,8 @@
       "CWE-670"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-23T14:29:57Z",
     "nvd_published_at": "2026-04-20T06:16:21Z"
   }
 }
