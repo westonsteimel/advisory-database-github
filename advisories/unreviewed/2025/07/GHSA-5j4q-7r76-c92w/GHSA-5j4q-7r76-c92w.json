@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j4q-7r76-c92w",
-  "modified": "2025-11-03T21:34:08Z",
+  "modified": "2026-04-23T00:31:11Z",
   "published": "2025-07-16T21:30:36Z",
   "aliases": [
     "CVE-2025-6982"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://www.kb.cert.org/vuls/id/554637"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/archer-c20/v5/#Firmware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/download/archer-c20/v5/#Firmware"
     },
     {
       "type": "WEB",

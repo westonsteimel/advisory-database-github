@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv79-2fc4-v4hj",
-  "modified": "2025-07-31T06:30:31Z",
+  "modified": "2026-04-23T00:31:11Z",
   "published": "2025-05-27T21:32:17Z",
   "aliases": [
     "CVE-2025-5222"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00015.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://unicode-org.atlassian.net/jira/software/c/projects/ICU/issues/ICU-22957"
     }
   ],
   "database_specific": {
