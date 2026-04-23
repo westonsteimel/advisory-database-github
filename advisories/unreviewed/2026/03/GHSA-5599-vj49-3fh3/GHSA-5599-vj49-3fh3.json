@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5599-vj49-3fh3",
-  "modified": "2026-03-25T12:30:23Z",
+  "modified": "2026-04-23T21:31:17Z",
   "published": "2026-03-25T12:30:23Z",
   "aliases": [
     "CVE-2026-23337"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npinctrl: pinconf-generic: Fix memory leak in pinconf_generic_parse_dt_config()\n\nIn pinconf_generic_parse_dt_config(), if parse_dt_cfg() fails, it returns\ndirectly. This bypasses the cleanup logic and results in a memory leak of\nthe cfg buffer.\n\nFix this by jumping to the out label on failure, ensuring kfree(cfg) is\ncalled before returning.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:31Z"

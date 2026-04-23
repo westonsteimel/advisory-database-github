@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5hq-62qq-fgrw",
-  "modified": "2026-04-18T09:30:19Z",
+  "modified": "2026-04-23T21:31:18Z",
   "published": "2026-04-03T18:31:21Z",
   "aliases": [
     "CVE-2026-23434"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmtd: rawnand: serialize lock/unlock against other NAND operations\n\nnand_lock() and nand_unlock() call into chip->ops.lock_area/unlock_area\nwithout holding the NAND device lock. On controllers that implement\nSET_FEATURES via multiple low-level PIO commands, these can race with\nconcurrent UBI/UBIFS background erase/write operations that hold the\ndevice lock, resulting in cmd_pending conflicts on the NAND controller.\n\nAdd nand_get_device()/nand_release_device() around the lock/unlock\noperations to serialize them against all other NAND controller access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-03T16:16:24Z"

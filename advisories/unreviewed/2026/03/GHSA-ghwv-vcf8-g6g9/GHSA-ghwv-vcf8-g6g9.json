@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghwv-vcf8-g6g9",
-  "modified": "2026-03-25T12:30:22Z",
+  "modified": "2026-04-23T21:31:17Z",
   "published": "2026-03-25T12:30:22Z",
   "aliases": [
     "CVE-2026-23325"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mt76: mt7996: Fix possible oob access in mt7996_mac_write_txwi_80211()\n\nCheck frame length before accessing the mgmt fields in\nmt7996_mac_write_txwi_80211 in order to avoid a possible oob access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:29Z"

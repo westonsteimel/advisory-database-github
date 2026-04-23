@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rpc-j6fw-646r",
-  "modified": "2026-04-10T00:30:29Z",
+  "modified": "2026-04-23T21:31:19Z",
   "published": "2026-04-10T00:30:29Z",
   "aliases": [
     "CVE-2026-33797"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://kb.juniper.net/JSA107850"
+    },
+    {
+      "type": "WEB",
+      "url": "https://supportportal.juniper.net/JSA107850"
     }
   ],
   "database_specific": {

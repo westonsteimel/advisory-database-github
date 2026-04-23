@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh6m-4cqq-86hr",
-  "modified": "2026-04-18T09:30:19Z",
+  "modified": "2026-04-23T21:31:18Z",
   "published": "2026-04-03T18:31:21Z",
   "aliases": [
     "CVE-2026-23443"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPI: processor: Fix previous acpi_processor_errata_piix4() fix\n\nAfter commi f132e089fe89 (\"ACPI: processor: Fix NULL-pointer dereference\nin acpi_processor_errata_piix4()\"), device pointers may be dereferenced\nafter dropping references to the device objects pointed to by them,\nwhich may cause a use-after-free to occur.\n\nMoreover, debug messages about enabling the errata may be printed\nif the errata flags corresponding to them are unset.\n\nAddress all of these issues by moving message printing to the points\nin the code where the errata flags are set.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-03T16:16:28Z"

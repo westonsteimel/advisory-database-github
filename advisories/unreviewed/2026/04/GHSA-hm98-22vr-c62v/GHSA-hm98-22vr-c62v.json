@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm98-22vr-c62v",
-  "modified": "2026-04-16T00:54:04Z",
+  "modified": "2026-04-23T21:31:19Z",
   "published": "2026-04-16T00:54:04Z",
   "aliases": [
     "CVE-2026-1564"
   ],
   "details": "Pega Platform versions 8.1.0 through 25.1.1 are affected by an HTML Injection vulnerability in a user interface component. Requires a high privileged user with a developer role.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

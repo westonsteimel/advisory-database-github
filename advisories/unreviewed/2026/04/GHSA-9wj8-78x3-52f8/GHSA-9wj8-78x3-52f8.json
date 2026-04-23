@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9wj8-78x3-52f8",
-  "modified": "2026-04-03T18:31:21Z",
+  "modified": "2026-04-23T21:31:18Z",
   "published": "2026-04-03T18:31:21Z",
   "aliases": [
     "CVE-2026-23437"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: shaper: protect late read accesses to the hierarchy\n\nWe look up a netdev during prep of Netlink ops (pre- callbacks)\nand take a ref to it. Then later in the body of the callback\nwe take its lock or RCU which are the actual protections.\n\nThis is not proper, a conversion from a ref to a locked netdev\nmust include a liveness check (a check if the netdev hasn't been\nunregistered already). Fix the read cases (those under RCU).\nWrites needs a separate change to protect from creating the\nhierarchy after flush has already run.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-03T16:16:25Z"
