@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppqc-p99x-6f72",
-  "modified": "2025-11-06T18:32:45Z",
+  "modified": "2026-04-29T04:11:32Z",
   "published": "2025-07-21T21:31:42Z",
   "aliases": [
     "CVE-2025-7938"

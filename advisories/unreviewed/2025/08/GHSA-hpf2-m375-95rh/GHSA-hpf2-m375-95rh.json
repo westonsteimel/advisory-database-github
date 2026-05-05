@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpf2-m375-95rh",
-  "modified": "2025-09-11T15:31:16Z",
+  "modified": "2026-04-29T04:11:46Z",
   "published": "2025-08-03T15:30:26Z",
   "aliases": [
     "CVE-2025-8511"

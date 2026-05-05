@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rhv-2p84-6g62",
-  "modified": "2025-07-28T06:30:23Z",
+  "modified": "2026-04-29T04:11:39Z",
   "published": "2025-07-28T06:30:23Z",
   "aliases": [
     "CVE-2025-8260"
@@ -29,6 +29,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://vaelsys.github.io/security-advisory/advisories/VSEC_V4_2025_07_0002.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://vuldb.com/?ctiid.317848"
     },
     {
@@ -38,6 +42,18 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.616922"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/616922"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/317848"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/317848/cti"
     }
   ],
   "database_specific": {
