@@ -1,13 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw7v-45wm-mcf2",
-  "modified": "2026-03-27T22:21:26Z",
+  "modified": "2026-04-30T18:33:03Z",
   "published": "2026-03-27T22:21:26Z",
+  "withdrawn": "2026-04-30T18:33:03Z",
   "aliases": [
     "CVE-2026-29905"
   ],
-  "summary": "Kirby CMS has Persistent DoS via Malformed Image Upload",
-  "details": "## Summary\n\nKirby CMS through version 5.1.4 allows an authenticated user with Editor permissions to cause a persistent Denial of Service (DoS) via a malformed image upload.\n\n## Details\n\nThe vulnerability is caused by improper validation of the return value of PHP's `getimagesize()` function. When a malformed file is uploaded with a valid image extension (e.g., `.jpg`), the function returns `false` instead of an expected array.\n\nThe application fails to handle this condition properly and proceeds with image processing, resulting in a fatal `TypeError`. This leads to persistent application crashes when the affected file is accessed.\n\n## Impact\n\n- Persistent Denial of Service (DoS)\n- Affected pages return HTTP 500 errors\n- Requires manual removal of the malformed file to restore functionality\n- Exploitable by authenticated users with Editor permissions",
+  "summary": "Withdrawn Advisory: Kirby CMS has Persistent DoS via Malformed Image Upload",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is been determined to not be a vulnerability. This link is maintained to preserve external references.\n\n### Original Description\n\n## Summary\n\nKirby CMS through version 5.1.4 allows an authenticated user with Editor permissions to cause a persistent Denial of Service (DoS) via a malformed image upload.\n\n## Details\n\nThe vulnerability is caused by improper validation of the return value of PHP's `getimagesize()` function. When a malformed file is uploaded with a valid image extension (e.g., `.jpg`), the function returns `false` instead of an expected array.\n\nThe application fails to handle this condition properly and proceeds with image processing, resulting in a fatal `TypeError`. This leads to persistent application crashes when the affected file is accessed.\n\n## Impact\n\n- Persistent Denial of Service (DoS)\n- Affected pages return HTTP 500 errors\n- Requires manual removal of the malformed file to restore functionality\n- Exploitable by authenticated users with Editor permissions\n\n\n## Identifiers\n- CVE-2026-29905\n\n## Resources\n\n- https://github.com/github/advisory-database/pull/7503\n- https://github.com/Stalin-143/CVE-2026-29905\n- https://github.com/getkirby/kirby/releases/tag/5.2.0-rc.1\n- https://www.cve.org/CVERecord?id=CVE-2026-29905",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -46,6 +47,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/github/advisory-database/pull/7503"
+    },
+    {
+      "type": "WEB",
       "url": "https://drive.google.com/file/d/1MwvvSYIwnC8kOIzjycGMQZw4d2K2ef8h/view?usp=sharing"
     },
     {
@@ -59,7 +64,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-252"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhv5-qpmh-pc66",
-  "modified": "2026-04-23T15:38:56Z",
+  "modified": "2026-04-29T21:31:23Z",
   "published": "2026-04-23T09:32:56Z",
   "aliases": [
     "CVE-2025-10549"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://r.sec-consult.com/controlio"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Apr/19"
     }
   ],
   "database_specific": {

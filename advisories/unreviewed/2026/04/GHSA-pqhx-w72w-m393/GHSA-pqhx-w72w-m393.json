@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pqhx-w72w-m393",
-  "modified": "2026-04-23T21:31:21Z",
+  "modified": "2026-05-04T06:32:01Z",
   "published": "2026-04-23T18:33:03Z",
   "aliases": [
     "CVE-2026-39087"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/MightyNawaf/5d41d6e8ead16e217f86b016002ecae5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/binwiederhier/ntfy/releases/tag/v2.22.0"
     },
     {
       "type": "WEB",

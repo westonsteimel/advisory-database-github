@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjrf-jfrm-p64x",
-  "modified": "2026-03-18T15:30:39Z",
+  "modified": "2026-05-04T09:31:08Z",
   "published": "2026-02-13T15:30:26Z",
   "aliases": [
     "CVE-2026-23112"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/043b4307a99f902697349128fde93b2ddde4686c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0b9981751be14b59b4473383c731c833738aebdb"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c4w-j52q-j4jq",
-  "modified": "2026-04-15T00:31:34Z",
+  "modified": "2026-04-30T18:30:24Z",
   "published": "2025-07-10T15:31:28Z",
   "aliases": [
     "CVE-2025-7425"
@@ -18,10 +18,6 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7425"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHBA-2025:12345"
     },
     {
       "type": "WEB",
@@ -69,6 +65,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:11503"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-7425"
     },
     {
@@ -82,6 +82,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00035.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:12345"
     },
     {
       "type": "WEB",

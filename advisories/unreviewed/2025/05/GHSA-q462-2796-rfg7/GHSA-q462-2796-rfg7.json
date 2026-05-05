@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q462-2796-rfg7",
-  "modified": "2025-05-21T21:31:37Z",
+  "modified": "2026-04-29T21:31:19Z",
   "published": "2025-05-21T21:31:37Z",
   "aliases": [
     "CVE-2025-4524"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://mangabooth.com/product/wp-manga-theme-madara"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52487"
     },
     {
       "type": "WEB",

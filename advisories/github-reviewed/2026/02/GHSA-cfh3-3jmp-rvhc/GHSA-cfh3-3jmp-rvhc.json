@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfh3-3jmp-rvhc",
-  "modified": "2026-02-11T23:14:48Z",
+  "modified": "2026-04-30T20:14:47Z",
   "published": "2026-02-11T14:22:50Z",
   "aliases": [
     "CVE-2026-25990"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [

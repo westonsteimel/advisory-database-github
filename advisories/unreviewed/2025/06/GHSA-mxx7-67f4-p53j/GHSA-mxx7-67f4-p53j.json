@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxx7-67f4-p53j",
-  "modified": "2025-06-26T21:31:04Z",
+  "modified": "2026-04-29T21:31:19Z",
   "published": "2025-06-26T21:31:04Z",
   "aliases": [
     "CVE-2025-34040"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.cnvd.org.cn/flaw/show/CNVD-2021-01627"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52490"
     }
   ],
   "database_specific": {

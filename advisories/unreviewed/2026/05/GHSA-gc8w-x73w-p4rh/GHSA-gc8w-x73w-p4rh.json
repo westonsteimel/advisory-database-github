@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gc8w-x73w-p4rh",
+  "modified": "2026-05-02T03:31:13Z",
+  "published": "2026-05-02T03:31:13Z",
+  "aliases": [
+    "CVE-2026-7600"
+  ],
+  "details": "A flaw has been found in ArtMin96 yii2-mcp-server 1.0.2. This impacts the function yii_command_help/yii_execute_command of the file src/index.ts of the component MCP Interface. Executing a manipulation can lead to os command injection. The attack can be executed remotely. The exploit has been published and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7600"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ArtMin96/yii2-mcp-server/issues/3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/BruceJqs/public_exp/issues/29"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ArtMin96/yii2-mcp-server"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/805613"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/360557"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/360557/cti"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-77"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-02T01:16:00Z"
+  }
+}

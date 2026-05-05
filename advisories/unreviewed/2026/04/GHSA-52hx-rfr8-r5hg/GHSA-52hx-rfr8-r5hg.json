@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52hx-rfr8-r5hg",
-  "modified": "2026-04-23T18:33:03Z",
+  "modified": "2026-04-29T21:31:23Z",
   "published": "2026-04-23T18:33:03Z",
   "aliases": [
     "CVE-2026-41461"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/socialengine-blind-ssrf-via-core-link-preview"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Apr/11"
     }
   ],
   "database_specific": {

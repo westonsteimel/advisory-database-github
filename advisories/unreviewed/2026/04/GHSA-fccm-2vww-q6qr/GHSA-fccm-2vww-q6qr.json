@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fccm-2vww-q6qr",
-  "modified": "2026-04-23T18:33:03Z",
+  "modified": "2026-04-29T21:31:23Z",
   "published": "2026-04-23T18:33:03Z",
   "aliases": [
     "CVE-2026-41460"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/socialengine-sql-injection-via-activity-index-get-memberall"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Apr/12"
     }
   ],
   "database_specific": {

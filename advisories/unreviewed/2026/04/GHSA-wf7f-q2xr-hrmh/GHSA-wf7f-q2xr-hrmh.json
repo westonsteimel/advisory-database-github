@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf7f-q2xr-hrmh",
-  "modified": "2026-04-09T18:31:28Z",
+  "modified": "2026-05-01T18:31:19Z",
   "published": "2026-04-09T18:31:28Z",
   "aliases": [
     "CVE-2026-39911"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/hashgraph/guardian/pull/5929"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hashgraph/guardian/commit/45fbe2f7e0e8feee30105d42d66ed63fb6177ebe"
     },
     {
       "type": "WEB",

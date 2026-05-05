@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frr2-5qjr-h4hw",
-  "modified": "2026-03-27T21:31:32Z",
+  "modified": "2026-05-04T21:30:23Z",
   "published": "2026-03-23T21:30:51Z",
   "aliases": [
     "CVE-2026-25075"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/strongswan-eap-ttls-avp-parsing-integer-underflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://y637f9qq2x.com/posts/cve-2026-25075"
     }
   ],
   "database_specific": {

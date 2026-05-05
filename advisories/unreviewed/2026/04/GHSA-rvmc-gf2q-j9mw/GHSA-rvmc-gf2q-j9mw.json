@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvmc-gf2q-j9mw",
-  "modified": "2026-04-14T03:31:40Z",
+  "modified": "2026-04-29T21:31:21Z",
   "published": "2026-04-14T03:31:40Z",
   "aliases": [
     "CVE-2026-34262"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://url.sap/sapsecuritypatchday"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Apr/16"
     }
   ],
   "database_specific": {

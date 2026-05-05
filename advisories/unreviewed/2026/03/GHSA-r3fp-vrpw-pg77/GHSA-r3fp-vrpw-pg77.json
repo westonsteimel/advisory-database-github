@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3fp-vrpw-pg77",
-  "modified": "2026-03-19T15:31:22Z",
+  "modified": "2026-05-03T21:32:55Z",
   "published": "2026-03-19T15:31:22Z",
   "aliases": [
     "CVE-2026-4426"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libarchive/libarchive/pull/2897"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:8944"
     },
     {
       "type": "WEB",
