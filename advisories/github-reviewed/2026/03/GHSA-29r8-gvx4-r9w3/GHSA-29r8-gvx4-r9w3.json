@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29r8-gvx4-r9w3",
-  "modified": "2026-03-25T19:53:20Z",
+  "modified": "2026-04-27T16:45:42Z",
   "published": "2026-03-17T09:31:28Z",
   "aliases": [
     "CVE-2026-4208"
@@ -9,6 +9,10 @@
   "summary": "Authentication Bypass in extension \"E-Mail MFA Provider\" (mfa_email)",
   "details": "The extension fails to properly reset the generated MFA code after successful authentication. This leads to a possible MFA bypass for future login attempts by providing an empty string as MFA code to the extensions MFA provider.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"

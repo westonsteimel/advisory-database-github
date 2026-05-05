@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3vf-39hj-gxr4",
-  "modified": "2025-12-18T22:16:29Z",
+  "modified": "2026-04-27T16:19:20Z",
   "published": "2025-12-18T06:30:13Z",
   "aliases": [
     "CVE-2025-68463"
@@ -46,7 +46,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/biopython/biopython/commit/736c96f37b190732ecca9da80ad0cb9d4967214d"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/biopython/biopython"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/biopython/biopython/blob/master/NEWS.rst"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/biopython/1.87"
     }
   ],
   "database_specific": {

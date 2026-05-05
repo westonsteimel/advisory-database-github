@@ -94,7 +94,8 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-200",
-      "CWE-215"
+      "CWE-215",
+      "CWE-522"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,

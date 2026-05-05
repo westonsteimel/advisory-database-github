@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5474-4w2j-mq4c",
-  "modified": "2026-04-01T21:16:49Z",
+  "modified": "2026-04-24T20:59:12Z",
   "published": "2026-04-01T21:16:49Z",
   "aliases": [
     "CVE-2026-34451"
@@ -9,6 +9,10 @@
   "summary": "Claude SDK for TypeScript: Memory Tool Path Validation Allows Sandbox Escape to Sibling Directories",
   "details": "The local filesystem memory tool in the Anthropic TypeScript SDK validated model-supplied paths using a string prefix check that did not append a trailing path separator. A model steered by prompt injection could supply a crafted path that resolved to a sibling directory sharing the memory root's name as a prefix, allowing reads and writes outside the sandboxed memory directory.\n\nUsers on the affected versions are advised to update to the latest version.\n\nClaude SDK for TypeScript thanks [hackerone.com/nicksim](https://hackerone.com/nicksim) for reporting this issue!",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"

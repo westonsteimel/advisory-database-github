@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6g7g-w4f8-9c9x",
-  "modified": "2026-03-30T21:19:19Z",
+  "modified": "2026-04-27T16:35:20Z",
   "published": "2026-03-18T13:00:19Z",
   "aliases": [
     "CVE-2026-32285"
   ],
-  "summary": "Denial of service in github.com/buger/jsonparser",
+  "summary": "github.com/buger/jsonparser has a denial of service vulnerability",
   "details": "The Delete function fails to properly validate offsets when processing malformed JSON input. This can lead to a negative slice index and a runtime panic, allowing a denial of service attack.",
   "severity": [
     {
@@ -78,7 +78,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-125"
+      "CWE-125",
+      "CWE-129"
     ],
     "severity": "HIGH",
     "github_reviewed": true,

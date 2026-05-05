@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p7x-c5rv-9w7v",
-  "modified": "2026-04-22T15:31:42Z",
+  "modified": "2026-04-27T15:30:38Z",
   "published": "2026-04-22T15:31:42Z",
   "aliases": [
     "CVE-2026-31474"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncan: isotp: fix tx.buf use-after-free in isotp_sendmsg()\n\nisotp_sendmsg() uses only cmpxchg() on so->tx.state to serialize access\nto so->tx.buf. isotp_release() waits for ISOTP_IDLE via\nwait_event_interruptible() and then calls kfree(so->tx.buf).\n\nIf a signal interrupts the wait_event_interruptible() inside close()\nwhile tx.state is ISOTP_SENDING, the loop exits early and release\nproceeds to force ISOTP_SHUTDOWN and continues to kfree(so->tx.buf)\nwhile sendmsg may still be reading so->tx.buf for the final CAN frame\nin isotp_fill_dataframe().\n\nThe so->tx.buf can be allocated once when the standard tx.buf length needs\nto be extended. Move the kfree() of this potentially extended tx.buf to\nsk_destruct time when either isotp_sendmsg() and isotp_release() are done.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:44Z"

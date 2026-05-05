@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgcw-5h4f-3529",
-  "modified": "2026-04-22T15:31:41Z",
+  "modified": "2026-04-27T15:30:37Z",
   "published": "2026-04-22T15:31:40Z",
   "aliases": [
     "CVE-2026-31447"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: reject mount if bigalloc with s_first_data_block != 0\n\nbigalloc with s_first_data_block != 0 is not supported, reject mounting\nit.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:38Z"

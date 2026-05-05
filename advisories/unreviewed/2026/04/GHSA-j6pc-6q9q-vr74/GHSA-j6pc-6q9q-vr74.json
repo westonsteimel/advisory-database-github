@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6pc-6q9q-vr74",
-  "modified": "2026-04-03T18:31:22Z",
+  "modified": "2026-04-27T15:30:31Z",
   "published": "2026-04-03T18:31:21Z",
   "aliases": [
     "CVE-2026-23451"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbonding: prevent potential infinite loop in bond_header_parse()\n\nbond_header_parse() can loop if a stack of two bonding devices is setup,\nbecause skb->dev always points to the hierarchy top.\n\nAdd new \"const struct net_device *dev\" parameter to\n(struct header_ops)->parse() method to make sure the recursion\nis bounded, and that the final leaf parse method is called.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-03T16:16:31Z"

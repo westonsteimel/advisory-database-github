@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg4x-3g76-43w7",
-  "modified": "2026-04-18T09:30:18Z",
+  "modified": "2026-04-24T21:31:57Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-23367"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: radiotap: reject radiotap with unknown bits\n\nThe radiotap parser is currently only used with the radiotap\nnamespace (not with vendor namespaces), but if the undefined\nfield 18 is used, the alignment/size is unknown as well. In\nthis case, iterator->_next_ns_data isn't initialized (it's\nonly set for skipping vendor namespaces), and syzbot points\nout that we later compare against this uninitialized value.\n\nFix this by moving the rejection of unknown radiotap fields\ndown to after the in-namespace lookup, so it will really use\niterator->_next_ns_data only for vendor namespaces, even in\ncase undefined fields are present.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:36Z"

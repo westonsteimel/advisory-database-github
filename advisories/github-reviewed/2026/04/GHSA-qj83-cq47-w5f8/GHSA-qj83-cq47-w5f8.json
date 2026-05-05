@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qj83-cq47-w5f8",
-  "modified": "2026-04-13T18:37:14Z",
+  "modified": "2026-04-27T17:00:15Z",
   "published": "2026-04-08T15:51:48Z",
   "aliases": [
     "CVE-2026-39865"
@@ -43,6 +43,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39865"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/axios/axios/commit/0588880ac7ddba7594ef179930493884b7e90bf5"
     },
     {
       "type": "PACKAGE",

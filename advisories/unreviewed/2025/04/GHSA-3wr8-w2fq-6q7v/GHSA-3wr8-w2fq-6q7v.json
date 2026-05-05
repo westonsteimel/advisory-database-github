@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wr8-w2fq-6q7v",
-  "modified": "2025-11-03T18:31:15Z",
+  "modified": "2026-04-27T15:30:28Z",
   "published": "2025-04-16T15:34:46Z",
   "aliases": [
     "CVE-2025-22125"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22125"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/10f4ff4baeb6951cf58282954318827b6852d501"
     },
     {
       "type": "WEB",

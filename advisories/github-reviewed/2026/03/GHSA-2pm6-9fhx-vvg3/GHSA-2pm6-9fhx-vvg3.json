@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2pm6-9fhx-vvg3",
-  "modified": "2026-03-18T16:17:08Z",
+  "modified": "2026-04-27T16:45:24Z",
   "published": "2026-03-18T16:17:08Z",
   "aliases": [
     "CVE-2026-1323"
@@ -9,6 +9,10 @@
   "summary": "The mailqueue TYPO3 extension has Insecure Deserialization in `TransportFailure` class",
   "details": "## Description\n\nThe extension fails to properly define allowed classes used when deserializing transport failure metadata. An attacker may exploit this to execute untrusted serialized code. Note that an active exploit requires write access to the directory configured at `$GLOBALS['TYPO3_CONF_VARS']['MAIL']['transport_spool_filepath']`.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:N/VC:N/VI:L/VA:N/SC:H/SI:H/SA:H"

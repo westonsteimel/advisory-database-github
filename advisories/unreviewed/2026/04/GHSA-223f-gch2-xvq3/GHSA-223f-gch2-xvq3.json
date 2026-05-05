@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-223f-gch2-xvq3",
-  "modified": "2026-04-22T15:31:42Z",
+  "modified": "2026-04-27T15:30:38Z",
   "published": "2026-04-22T15:31:42Z",
   "aliases": [
     "CVE-2026-31476"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: do not expire session on binding failure\n\nWhen a multichannel session binding request fails (e.g. wrong password),\nthe error path unconditionally sets sess->state = SMB2_SESSION_EXPIRED.\nHowever, during binding, sess points to the target session looked up via\nksmbd_session_lookup_slowpath() -- which belongs to another connection's\nuser. This allows a remote attacker to invalidate any active session by\nsimply sending a binding request with a wrong password (DoS).\n\nFix this by skipping session expiration when the failed request was\na binding attempt, since the session does not belong to the current\nconnection. The reference taken by ksmbd_session_lookup_slowpath() is\nstill correctly released via ksmbd_user_session_put().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:44Z"

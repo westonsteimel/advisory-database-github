@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53wm-fw97-q62h",
-  "modified": "2026-04-22T21:32:11Z",
+  "modified": "2026-04-24T21:31:59Z",
   "published": "2026-04-22T21:32:11Z",
   "aliases": [
     "CVE-2026-41459"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/thexerteproject/xerteonlinetoolkits/commit/f063e942b4a9bf77a06829e844c2c70316bc45e8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/bootstrapbool/xerteonlinetoolkits-rce"
     },
     {
       "type": "WEB",

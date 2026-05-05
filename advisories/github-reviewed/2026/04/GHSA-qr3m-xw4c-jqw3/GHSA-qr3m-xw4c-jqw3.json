@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qr3m-xw4c-jqw3",
-  "modified": "2026-04-16T21:09:40Z",
+  "modified": "2026-04-24T20:51:04Z",
   "published": "2026-04-16T21:09:40Z",
   "aliases": [
     "CVE-2026-40324"
@@ -98,12 +98,56 @@
       "url": "https://github.com/ChilliCream/graphql-platform/security/advisories/GHSA-qr3m-xw4c-jqw3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40324"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ChilliCream/graphql-platform/pull/9528"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/pull/9530"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/pull/9531"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/commit/08c0caa42ca33c121bbed49d2db892e5bf6fb541"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/commit/4cbaf67d366f800fc1e484bc5c06dfcf27b45023"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/commit/b185eb276c9ee227bd44616ff113be7f01a66c69"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/commit/b9271e6a500484c002fd528dcd34d1a9b445480f"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/ChilliCream/graphql-platform"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/releases/tag/12.22.7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/releases/tag/13.9.16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/releases/tag/14.3.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChilliCream/graphql-platform/releases/tag/15.1.14"
     }
   ],
   "database_specific": {
@@ -113,6 +157,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-16T21:09:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-18T00:16:36Z"
   }
 }

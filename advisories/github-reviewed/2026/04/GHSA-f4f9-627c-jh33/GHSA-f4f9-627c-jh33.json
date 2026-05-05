@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4f9-627c-jh33",
-  "modified": "2026-04-08T00:08:44Z",
+  "modified": "2026-04-24T21:10:48Z",
   "published": "2026-04-08T00:08:44Z",
   "aliases": [
     "CVE-2026-39369"
@@ -43,6 +43,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39369"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/commit/2375eb5e0a6d3cbcfb05377657d0820a7d470b1d"
     },
     {
       "type": "PACKAGE",

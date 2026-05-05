@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-353c-v8x9-v7c3",
-  "modified": "2026-04-16T20:44:32Z",
+  "modified": "2026-04-24T20:36:27Z",
   "published": "2026-04-16T20:44:32Z",
   "aliases": [
     "CVE-2026-39313"
@@ -44,6 +44,10 @@
       "url": "https://github.com/QuantGeekDev/mcp-framework/security/advisories/GHSA-353c-v8x9-v7c3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39313"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/QuantGeekDev/mcp-framework/commit/f97d2bb76d6359faf10cd1fc54b4911476b62524"
     },
@@ -59,6 +63,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-16T20:44:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-16T22:16:38Z"
   }
 }

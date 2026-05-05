@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfhx-r7ww-5995",
-  "modified": "2026-02-18T16:08:35Z",
+  "modified": "2026-04-25T01:26:39Z",
   "published": "2026-01-15T15:31:19Z",
   "aliases": [
     "CVE-2026-0897"
@@ -47,13 +47,10 @@
               "introduced": "3.13.0"
             },
             {
-              "fixed": "3.13.1"
+              "fixed": "3.13.2"
             }
           ]
         }
-      ],
-      "versions": [
-        "3.13.0"
       ]
     }
   ],

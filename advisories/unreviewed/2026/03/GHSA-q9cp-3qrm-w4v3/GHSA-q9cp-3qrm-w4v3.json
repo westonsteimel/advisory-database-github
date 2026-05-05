@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9cp-3qrm-w4v3",
-  "modified": "2026-03-25T12:30:24Z",
+  "modified": "2026-04-24T21:31:57Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-23387"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npinctrl: cirrus: cs42l43: Fix double-put in cs42l43_pin_probe()\n\ndevm_add_action_or_reset() already invokes the action on failure,\nso the explicit put causes a double-put.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:39Z"

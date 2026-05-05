@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4r7-4685-8m4m",
-  "modified": "2026-04-18T09:30:20Z",
+  "modified": "2026-04-27T15:30:34Z",
   "published": "2026-04-13T15:31:42Z",
   "aliases": [
     "CVE-2026-31417"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/x25: Fix overflow when accumulating packets\n\nAdd a check to ensure that `x25_sock.fraglen` does not overflow.\n\nThe `fraglen` also needs to be resetted when purging `fragment_queue` in\n`x25_clear_queues()`.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-13T14:16:11Z"

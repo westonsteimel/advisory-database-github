@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9x68-238r-w7mq",
-  "modified": "2024-08-12T15:30:52Z",
+  "modified": "2026-04-24T21:31:56Z",
   "published": "2024-08-12T15:30:52Z",
   "aliases": [
     "CVE-2024-7399"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://arcticwolf.com/resources/blog-uk/arctic-wolf-observes-exploitation-of-path-traversal-vulnerability-in-samsung-magicinfo-9-server-cve-2024-7399"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.samsungtv.com/securityUpdates"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-7399"
     }
   ],
   "database_specific": {

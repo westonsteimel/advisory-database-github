@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c3q-x735-j3r5",
-  "modified": "2026-04-17T21:32:59Z",
+  "modified": "2026-04-24T21:10:57Z",
   "published": "2026-04-17T21:32:59Z",
   "aliases": [
     "CVE-2026-40931"
@@ -66,6 +66,10 @@
       "url": "https://github.com/node-modules/compressing/security/advisories/GHSA-4c3q-x735-j3r5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40931"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/node-modules/compressing"
     }
@@ -77,6 +81,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-17T21:32:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-21T22:16:19Z"
   }
 }

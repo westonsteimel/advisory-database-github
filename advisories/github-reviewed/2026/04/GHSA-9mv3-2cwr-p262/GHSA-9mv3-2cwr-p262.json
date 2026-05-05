@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mv3-2cwr-p262",
-  "modified": "2026-04-23T14:55:42Z",
+  "modified": "2026-04-24T19:59:43Z",
   "published": "2026-04-23T14:55:41Z",
   "aliases": [
     "CVE-2026-40372"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
     }
   ],
   "affected": [
@@ -64,7 +64,7 @@
     "cwe_ids": [
       "CWE-347"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-23T14:55:41Z",
     "nvd_published_at": "2026-04-21T20:16:59Z"

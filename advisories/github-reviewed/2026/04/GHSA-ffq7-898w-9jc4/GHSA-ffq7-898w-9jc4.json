@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffq7-898w-9jc4",
-  "modified": "2026-04-14T21:56:18Z",
+  "modified": "2026-04-24T20:50:37Z",
   "published": "2026-04-10T20:42:48Z",
   "aliases": [
     "CVE-2026-40321"
   ],
   "summary": "DotNetNuke.Core has stored cross-site-scripting (XSS) via SVG upload",
-  "details": "A user could upload a specially crafted SVG file that could include scripts that can target both authenticated and unauthenticated DNN users. The impact is increased if the scripts are run by a power user.",
+  "details": "DNN (formerly DotNetNuke) is an open-source web content management platform (CMS) in the Microsoft ecosystem. Prior to version 10.2.2, a user could upload a specially crafted SVG file that could include scripts that can target both authenticated and unauthenticated DNN users. The impact is increased if the scripts are run by a power user. Version 10.2.2 patches the issue.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -41,6 +41,10 @@
       "url": "https://github.com/dnnsoftware/Dnn.Platform/security/advisories/GHSA-ffq7-898w-9jc4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40321"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/dnnsoftware/Dnn.Platform"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-10T20:42:48Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-17T22:16:32Z"
   }
 }

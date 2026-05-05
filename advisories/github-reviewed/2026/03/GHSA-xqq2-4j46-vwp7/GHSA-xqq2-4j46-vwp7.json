@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqq2-4j46-vwp7",
-  "modified": "2026-03-24T19:32:21Z",
+  "modified": "2026-04-27T16:18:18Z",
   "published": "2026-03-24T19:32:21Z",
   "aliases": [
     "CVE-2026-33619"
@@ -44,6 +44,10 @@
       "url": "https://github.com/pinchtab/pinchtab/security/advisories/GHSA-xqq2-4j46-vwp7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33619"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/pinchtab/pinchtab/commit/c824574c3a05073dec2f5e9c219e22ffff8de445"
     },
@@ -63,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-24T19:32:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-26T21:17:06Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcfj-cf7j-vwgj",
-  "modified": "2026-04-06T17:14:05Z",
+  "modified": "2026-04-27T16:26:10Z",
   "published": "2026-04-01T22:02:34Z",
   "aliases": [
     "CVE-2026-34561"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
     }
   ],
   "affected": [
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "31.0.0"
+              "fixed": "0.31.0.0"
             }
           ]
         }
@@ -60,7 +60,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "MODERATE",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-01T22:02:34Z",
     "nvd_published_at": "2026-04-01T22:16:19Z"

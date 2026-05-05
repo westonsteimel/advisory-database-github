@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94jr-7pqp-xhcq",
-  "modified": "2026-04-21T20:28:36Z",
+  "modified": "2026-04-24T21:10:40Z",
   "published": "2026-04-21T20:28:36Z",
   "aliases": [
     "CVE-2026-40938"
@@ -44,6 +44,10 @@
       "url": "https://github.com/tektoncd/pipeline/security/advisories/GHSA-94jr-7pqp-xhcq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40938"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/tektoncd/pipeline"
     },
@@ -59,6 +63,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-21T20:28:36Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-21T21:16:46Z"
   }
 }

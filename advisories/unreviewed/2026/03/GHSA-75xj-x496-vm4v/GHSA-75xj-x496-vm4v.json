@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75xj-x496-vm4v",
-  "modified": "2026-03-25T12:30:23Z",
+  "modified": "2026-04-24T18:30:40Z",
   "published": "2026-03-25T12:30:23Z",
   "aliases": [
     "CVE-2026-23347"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncan: usb: f81604: correctly anchor the urb in the read bulk callback\n\nWhen submitting an urb, that is using the anchor pattern, it needs to be\nanchored before submitting it otherwise it could be leaked if\nusb_kill_anchored_urbs() is called.  This logic is correctly done\nelsewhere in the driver, except in the read bulk callback so do that\nhere also.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:32Z"

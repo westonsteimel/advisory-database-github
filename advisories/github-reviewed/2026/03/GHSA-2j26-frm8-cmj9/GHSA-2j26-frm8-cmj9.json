@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j26-frm8-cmj9",
-  "modified": "2026-04-07T22:12:32Z",
+  "modified": "2026-04-27T17:43:30Z",
   "published": "2026-03-23T21:15:16Z",
   "aliases": [
     "CVE-2026-33176"
   ],
   "summary": "Rails Active Support has a possible DoS vulnerability in its number helpers",
-  "details": "### Impact\nActive Support number helpers accept strings containing scientific notation (e.g. `1e10000`), which when converted to a string could be expanded into extremely large decimal representations. This can cause excessive memory allocation and CPU consumption when the expanded number is formatted, possibly resulting in a DoS vulnerability.\n\n### Releases\nThe fixed releases are available at the normal locations.\n\n### Credit\n\nhttps://hackerone.com/manun",
+  "details": "### Impact\nActive Support number helpers accept strings containing scientific notation (e.g. `1e10000`), which when converted to a string could be expanded into extremely large decimal representations. This can cause excessive memory allocation and CPU consumption when the expanded number is formatted, possibly resulting in a DoS vulnerability.\n\n### Releases\nThe fixed releases are available at the normal locations.\n\n### Credit\nThis issue was responsibly reported by Hackerone researcher [manun](https://hackerone.com/manun).",
   "severity": [
     {
       "type": "CVSS_V4",

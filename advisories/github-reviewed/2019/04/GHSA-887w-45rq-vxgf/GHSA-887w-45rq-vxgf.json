@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-887w-45rq-vxgf",
-  "modified": "2024-10-28T14:20:14Z",
+  "modified": "2026-04-24T16:37:33Z",
   "published": "2019-04-16T15:50:41Z",
   "aliases": [
     "CVE-2019-7164"
   ],
   "summary": "SQLAlchemy vulnerable to SQL Injection via order_by parameter",
-  "details": "SQLAlchemy through 1.2.17 and 1.3.x through 1.3.0b2 allows SQL Injection via the order_by parameter.",
+  "details": "SQLAlchemy before 1.3.0b3 allows SQL Injection via the order_by parameter. The fix (commit 30307c4) was applied only to the main branch and was never backported to the 1.2.x release line; all 1.2.x versions remain vulnerable.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -29,29 +29,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.3.0b1"
-            },
-            {
-              "fixed": "1.3.0b3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "PyPI",
-        "name": "SQLAlchemy"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
               "introduced": "0"
             },
             {
-              "fixed": "1.2.18"
+              "fixed": "1.3.0b3"
             }
           ]
         }

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vqj-w88j-2624",
-  "modified": "2026-04-24T15:32:36Z",
+  "modified": "2026-04-27T15:30:46Z",
   "published": "2026-04-24T15:32:36Z",
   "aliases": [
     "CVE-2026-31638"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nrxrpc: Only put the call ref if one was acquired\n\nrxrpc_input_packet_on_conn() can process a to-client packet after the\ncurrent client call on the channel has already been torn down.  In that\ncase chan->call is NULL, rxrpc_try_get_call() returns NULL and there is\nno reference to drop.\n\nThe client-side implicit-end error path does not account for that and\nunconditionally calls rxrpc_put_call().  This turns a protocol error\npath into a kernel crash instead of rejecting the packet.\n\nOnly drop the call reference if one was actually acquired.  Keep the\nexisting protocol error handling unchanged.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:43Z"

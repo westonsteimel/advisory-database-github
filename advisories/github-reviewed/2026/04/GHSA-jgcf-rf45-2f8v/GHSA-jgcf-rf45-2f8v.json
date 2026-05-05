@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgcf-rf45-2f8v",
-  "modified": "2026-04-16T20:40:37Z",
+  "modified": "2026-04-27T14:20:04Z",
   "published": "2026-04-16T20:40:37Z",
   "aliases": [
     "CVE-2026-24749"
@@ -62,6 +62,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24749"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/assets/CVE-2026-24749.yaml"
     },
     {
       "type": "PACKAGE",

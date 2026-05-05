@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8297-v2rf-2p32",
+  "modified": "2026-04-27T18:32:05Z",
+  "published": "2026-04-27T09:34:39Z",
+  "aliases": [
+    "CVE-2026-41635"
+  ],
+  "details": "Apache MINA's AbstractIoBuffer.resolveClass() contains two branches, one of them (for static classes or primitive types) does not check the class at all, bypassing the classname allowlist and allowing arbitrary code to be executed.\n\n\n\n\nThe fix checks if the class is present in the accepted class filter before calling Class.forName(). \n\n\n\n\n\n\nAffected versions are Apache MINA 2.0.0 <= 2.0.27, 2.1.0 <= 2.1.10, and\n\n\n2.2.0 <= 2.2.5.\n\n\n\n\n\nThe problem is resolved in Apache MINA 2.0.28, 2.1.11, and 2.2.6 by \napplying the classname allowlist earlier.\n\n\n\n\n\nAffected are applications using Apache MINA that call  IoBuffer.getObject().\n\n\n\n\n\nApplications using Apache MINA are advised to upgrade.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41635"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/1l91w1mqsb3lwfd504fs045ylxntt2tm"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/27/4"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-27T09:16:01Z"
+  }
+}

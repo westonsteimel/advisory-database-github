@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mqr-33rv-p3mp",
-  "modified": "2026-04-14T22:31:36Z",
+  "modified": "2026-04-24T20:43:16Z",
   "published": "2026-04-14T22:31:36Z",
   "aliases": [
     "CVE-2026-39842"
@@ -44,8 +44,16 @@
       "url": "https://github.com/openremote/openremote/security/advisories/GHSA-7mqr-33rv-p3mp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39842"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/openremote/openremote"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openremote/openremote/releases/tag/1.22.0"
     }
   ],
   "database_specific": {
@@ -56,6 +64,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-14T22:31:36Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-15T04:17:36Z"
   }
 }

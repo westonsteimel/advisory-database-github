@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r77-j8hp-jvhf",
-  "modified": "2026-04-23T18:33:03Z",
+  "modified": "2026-04-24T21:31:59Z",
   "published": "2026-04-23T18:33:03Z",
   "aliases": [
     "CVE-2025-50229"
   ],
   "details": "Jizhicms v2.5.4 is vulnerable to SQL injection in the product editing module.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-23T16:16:23Z"

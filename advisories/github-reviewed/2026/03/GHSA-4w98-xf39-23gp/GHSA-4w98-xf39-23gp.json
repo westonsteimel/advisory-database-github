@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4w98-xf39-23gp",
-  "modified": "2026-03-20T21:19:11Z",
+  "modified": "2026-04-24T20:27:31Z",
   "published": "2026-03-16T20:49:50Z",
   "aliases": [
     "CVE-2026-32873"
@@ -59,7 +59,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-825"
+      "CWE-825",
+      "CWE-835"
     ],
     "severity": "HIGH",
     "github_reviewed": true,

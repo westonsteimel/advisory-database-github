@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gpm-2v37-f3mp",
-  "modified": "2026-04-17T18:31:52Z",
+  "modified": "2026-04-24T21:31:57Z",
   "published": "2026-04-17T18:31:52Z",
   "aliases": [
     "CVE-2026-40515"

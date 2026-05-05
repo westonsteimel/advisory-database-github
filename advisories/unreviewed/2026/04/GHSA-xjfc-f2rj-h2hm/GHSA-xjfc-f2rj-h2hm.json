@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjfc-f2rj-h2hm",
-  "modified": "2026-04-22T15:31:42Z",
+  "modified": "2026-04-27T15:30:38Z",
   "published": "2026-04-22T15:31:42Z",
   "aliases": [
     "CVE-2026-31471"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm: iptfs: only publish mode_data after clone setup\n\niptfs_clone_state() stores x->mode_data before allocating the reorder\nwindow. If that allocation fails, the code frees the cloned state and\nreturns -ENOMEM, leaving x->mode_data pointing at freed memory.\n\nThe xfrm clone unwind later runs destroy_state() through x->mode_data,\nso the failed clone path tears down IPTFS state that clone_state()\nalready freed.\n\nKeep the cloned IPTFS state private until all allocations succeed so\nfailed clones leave x->mode_data unset. The destroy path already\nhandles a NULL mode_data pointer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:43Z"

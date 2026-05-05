@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3667-r4r3-59jh",
-  "modified": "2026-04-18T09:30:18Z",
+  "modified": "2026-04-24T21:31:57Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-23388"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nSquashfs: check metadata block offset is within range\n\nSyzkaller reports a \"general protection fault in squashfs_copy_data\"\n\nThis is ultimately caused by a corrupted index look-up table, which\nproduces a negative metadata block offset.\n\nThis is subsequently passed to squashfs_copy_data (via\nsquashfs_read_metadata) where the negative offset causes an out of bounds\naccess.\n\nThe fix is to check that the offset is within range in\nsquashfs_read_metadata.  This will trap this and other cases.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:39Z"

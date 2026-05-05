@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5xv-cjm8-337g",
-  "modified": "2026-04-24T15:32:33Z",
+  "modified": "2026-04-27T15:30:42Z",
   "published": "2026-04-24T15:32:33Z",
   "aliases": [
     "CVE-2026-31552"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: wlcore: Return -ENOMEM instead of -EAGAIN if there is not enough headroom\n\nSince upstream commit e75665dd0968 (\"wifi: wlcore: ensure skb headroom\nbefore skb_push\"), wl1271_tx_allocate() and with it\nwl1271_prepare_tx_frame() returns -EAGAIN if pskb_expand_head() fails.\nHowever, in wlcore_tx_work_locked(), a return value of -EAGAIN from\nwl1271_prepare_tx_frame() is interpreted as the aggregation buffer being\nfull. This causes the code to flush the buffer, put the skb back at the\nhead of the queue, and immediately retry the same skb in a tight while\nloop.\n\nBecause wlcore_tx_work_locked() holds wl->mutex, and the retry happens\nimmediately with GFP_ATOMIC, this will result in an infinite loop and a\nCPU soft lockup. Return -ENOMEM instead so the packet is dropped and\nthe loop terminates.\n\nThe problem was found by an experimental code review agent based on\ngemini-3.1-pro while reviewing backports into v6.18.y.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-835"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:29Z"

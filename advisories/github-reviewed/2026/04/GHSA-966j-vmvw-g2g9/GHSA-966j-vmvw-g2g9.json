@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-966j-vmvw-g2g9",
-  "modified": "2026-04-01T21:47:46Z",
+  "modified": "2026-04-24T20:33:18Z",
   "published": "2026-04-01T21:47:46Z",
   "aliases": [
     "CVE-2026-34518"
@@ -9,6 +9,10 @@
   "summary": "AIOHTTP leaks Cookie and Proxy-Authorization headers on cross-origin redirect",
   "details": "### Summary\n\nWhen following redirects to a different origin, aiohttp drops the Authorization header, but retains the Cookie and Proxy-Authorization headers.\n\n### Impact\n\nThe Cookie and Proxy-Authorizations headers could contain sensitive information which may be leaked to an unintended party after following a redirect.\n\n-----\n\nPatch: https://github.com/aio-libs/aiohttp/commit/5351c980dcec7ad385730efdf4e1f4338b24fdb6",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8fq3-c5w3-pj3q",
-  "modified": "2026-04-06T17:16:06Z",
+  "modified": "2026-04-27T16:27:49Z",
   "published": "2026-04-01T22:09:39Z",
   "aliases": [
     "CVE-2026-34572"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
   "affected": [

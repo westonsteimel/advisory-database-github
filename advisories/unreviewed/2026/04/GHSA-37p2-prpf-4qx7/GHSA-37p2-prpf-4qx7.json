@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37p2-prpf-4qx7",
-  "modified": "2026-04-22T15:31:44Z",
+  "modified": "2026-04-27T15:30:40Z",
   "published": "2026-04-22T15:31:44Z",
   "aliases": [
     "CVE-2026-31528"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nperf: Make sure to use pmu_ctx->pmu for groups\n\nOliver reported that x86_pmu_del() ended up doing an out-of-bound memory access\nwhen group_sched_in() fails and needs to roll back.\n\nThis *should* be handled by the transaction callbacks, but he found that when\nthe group leader is a software event, the transaction handlers of the wrong PMU\nare used. Despite the move_group case in perf_event_open() and group_sched_in()\nusing pmu_ctx->pmu.\n\nTurns out, inherit uses event->pmu to clone the events, effectively undoing the\nmove_group case for all inherited contexts. Fix this by also making inherit use\npmu_ctx->pmu, ensuring all inherited counters end up in the same pmu context.\n\nSimilarly, __perf_event_read() should use equally use pmu_ctx->pmu for the\ngroup case.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:53Z"

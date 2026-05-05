@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gj7p-595x-qwf5",
-  "modified": "2026-04-16T21:41:52Z",
+  "modified": "2026-04-24T21:11:02Z",
   "published": "2026-04-15T19:19:43Z",
   "aliases": [
     "CVE-2026-40939"
@@ -79,6 +79,10 @@
       "url": "https://github.com/datasharingframework/dsf/security/advisories/GHSA-gj7p-595x-qwf5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40939"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/datasharingframework/dsf/commit/7d25feafb83d66cb59985ac88568b67d937b1937"
     },
@@ -106,6 +110,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-15T19:19:43Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-21T22:16:19Z"
   }
 }

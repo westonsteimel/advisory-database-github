@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48xp-r2j8-cfx4",
-  "modified": "2026-04-24T15:32:35Z",
+  "modified": "2026-04-29T21:31:24Z",
   "published": "2026-04-24T15:32:35Z",
   "aliases": [
     "CVE-2026-31606"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: f_hid: don't call cdev_init while cdev in use\n\nWhen calling unbind, then bind again, cdev_init reinitialized the cdev,\neven though there may still be references to it. That's the case when\nthe /dev/hidg* device is still opened. This obviously unsafe behavior\nlike oopes.\n\nThis fixes this by using cdev_alloc to put the cdev on the heap. That\nway, we can simply allocate a new one in hidg_bind.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,6 +29,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/81ebd43cc0d6d106ce7b6ccbf7b5e40ca7f5503d"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c6c0d13db5d0f8d465eabc14bd23d2b6a7247a43"
     },
     {
@@ -33,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:39Z"

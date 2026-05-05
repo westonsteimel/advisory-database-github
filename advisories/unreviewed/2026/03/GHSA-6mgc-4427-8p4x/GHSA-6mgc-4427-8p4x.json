@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mgc-4427-8p4x",
-  "modified": "2026-03-19T21:30:21Z",
+  "modified": "2026-04-27T18:32:01Z",
   "published": "2026-03-17T21:31:45Z",
   "aliases": [
     "CVE-2026-32836"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/mackron/dr_libs/issues/298"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mackron/dr_libs/commit/4f5a4cd3b57564d969443c580c75857e039f100a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mackron/dr_libs/commit/663239a3d0460c33bd5b6e5166edcb404e3df676"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mackron/dr_libs/commit/fefced4a64adfb1a68a2d31d882366e56096dee8"
     },
     {
       "type": "WEB",

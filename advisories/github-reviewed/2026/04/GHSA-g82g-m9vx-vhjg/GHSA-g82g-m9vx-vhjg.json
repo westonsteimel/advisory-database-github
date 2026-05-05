@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g82g-m9vx-vhjg",
-  "modified": "2026-04-15T19:46:35Z",
+  "modified": "2026-04-27T15:20:26Z",
   "published": "2026-04-15T19:46:35Z",
   "aliases": [
     "CVE-2026-40479"
@@ -41,6 +41,10 @@
       "url": "https://github.com/kimai/kimai/security/advisories/GHSA-g82g-m9vx-vhjg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40479"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/kimai/kimai/pull/2959"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-15T19:46:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-17T23:16:12Z"
   }
 }

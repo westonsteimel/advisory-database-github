@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m58v-8vcf-j347",
-  "modified": "2026-04-18T09:30:18Z",
+  "modified": "2026-04-24T21:31:57Z",
   "published": "2026-03-25T12:30:24Z",
   "aliases": [
     "CVE-2026-23365"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: kalmia: validate USB endpoints\n\nThe kalmia driver should validate that the device it is probing has the\nproper number and types of USB endpoints it is expecting before it binds\nto it.  If a malicious device were to not have the same urbs the driver\nwill crash later on when it blindly accesses these endpoints.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:35Z"

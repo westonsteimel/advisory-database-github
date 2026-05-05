@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whj4-6x5x-4v2j",
-  "modified": "2026-04-16T21:56:27Z",
+  "modified": "2026-04-27T16:21:39Z",
   "published": "2026-04-13T19:22:35Z",
   "aliases": [
     "CVE-2026-40192"
@@ -9,6 +9,10 @@
   "summary": "FITS GZIP decompression bomb in Pillow",
   "details": "### Impact\nPillow did not limit the amount of GZIP-compressed data read when decoding a FITS image, making it vulnerable to decompression bomb attacks. A specially crafted FITS file could cause unbounded memory consumption, leading to denial of service (OOM crash or severe performance degradation).\n\n### Patches\nThe amount of data read is now limited to the necessary amount.\nFixed in Pillow 12.2.0 (PR #9521).\n\n### Workarounds\nAvoid Pillow >= 10.3.0, < 12.2.0\nOnly open [specific image formats](https://pillow.readthedocs.io/en/stable/releasenotes/8.0.0.html#image-open-add-formats-parameter), excluding FITS.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"

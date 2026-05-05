@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7754-rvmq-f6w2",
-  "modified": "2026-04-24T15:32:33Z",
+  "modified": "2026-04-27T15:30:43Z",
   "published": "2026-04-24T15:32:33Z",
   "aliases": [
     "CVE-2026-31569"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: KVM: Handle the case that EIOINTC's coremap is empty\n\nEIOINTC's coremap in eiointc_update_sw_coremap() can be empty, currently\nwe get a cpuid with -1 in this case, but we actually need 0 because it's\nsimilar as the case that cpuid >= 4.\n\nThis fix an out-of-bounds access to kvm_arch::phyid_map::phys_map[].",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:31Z"

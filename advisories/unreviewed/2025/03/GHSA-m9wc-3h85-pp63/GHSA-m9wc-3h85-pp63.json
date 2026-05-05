@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9wc-3h85-pp63",
-  "modified": "2026-04-24T15:32:17Z",
+  "modified": "2026-04-24T18:30:35Z",
   "published": "2025-03-25T15:31:29Z",
   "aliases": [
     "CVE-2025-29635"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.akamai.com/blog/security-research/2026/apr/cve-2025-29635-mirai-campaign-targets-d-link-devices"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-29635"
     }
   ],
   "database_specific": {

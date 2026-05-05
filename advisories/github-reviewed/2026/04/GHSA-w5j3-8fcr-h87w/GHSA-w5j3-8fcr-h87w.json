@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5j3-8fcr-h87w",
-  "modified": "2026-04-17T21:24:48Z",
+  "modified": "2026-04-24T20:48:31Z",
   "published": "2026-04-17T21:24:48Z",
   "aliases": [
     "CVE-2026-23500"
@@ -41,8 +41,16 @@
       "url": "https://github.com/Dolibarr/dolibarr/security/advisories/GHSA-w5j3-8fcr-h87w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23500"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/Dolibarr/dolibarr"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Dolibarr/dolibarr/releases/tag/23.0.0"
     }
   ],
   "database_specific": {
@@ -52,6 +60,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-17T21:24:48Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-17T21:16:31Z"
   }
 }

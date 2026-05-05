@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m94-46x3-f942",
-  "modified": "2026-04-18T09:30:18Z",
+  "modified": "2026-04-24T21:31:56Z",
   "published": "2026-03-25T12:30:23Z",
   "aliases": [
     "CVE-2026-23359"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Fix stack-out-of-bounds write in devmap\n\nget_upper_ifindexes() iterates over all upper devices and writes their\nindices into an array without checking bounds.\n\nAlso the callers assume that the max number of upper devices is\nMAX_NEST_DEV and allocate excluded_devices[1+MAX_NEST_DEV] on the stack,\nbut that assumption is not correct and the number of upper devices could\nbe larger than MAX_NEST_DEV (e.g., many macvlans), causing a\nstack-out-of-bounds write.\n\nAdd a max parameter to get_upper_ifindexes() to avoid the issue.\nWhen there are too many upper devices, return -EOVERFLOW and abort the\nredirect.\n\nTo reproduce, create more than MAX_NEST_DEV(8) macvlans on a device with\nan XDP program attached using BPF_F_BROADCAST | BPF_F_EXCLUDE_INGRESS.\nThen send a packet to the device to trigger the XDP redirect path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:34Z"

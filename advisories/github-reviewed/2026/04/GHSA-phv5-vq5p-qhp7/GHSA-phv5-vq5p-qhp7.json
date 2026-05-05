@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phv5-vq5p-qhp7",
-  "modified": "2026-04-16T22:57:42Z",
+  "modified": "2026-04-24T20:52:30Z",
   "published": "2026-04-16T15:31:32Z",
   "aliases": [
     "CVE-2026-31987"
@@ -9,6 +9,10 @@
   "summary": "Apache Airflow: JWT token appearing in logs",
   "details": "JWT Tokens used by tasks were exposed in logs. This could allow UI users to act as Dag Authors. \nUsers are advised to upgrade to Airflow version that contains fix.\n\nUsers are recommended to upgrade to version 3.2.0, which fixes this issue.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"

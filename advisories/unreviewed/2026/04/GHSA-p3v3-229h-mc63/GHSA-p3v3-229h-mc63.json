@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3v3-229h-mc63",
-  "modified": "2026-04-24T15:32:32Z",
+  "modified": "2026-04-24T18:31:07Z",
   "published": "2026-04-24T15:32:32Z",
   "aliases": [
     "CVE-2026-38743"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/sk2wj0x48o8qb4p7c47gvnhjbm0mg396"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/24/3"
     }
   ],
   "database_specific": {

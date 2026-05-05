@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h3rr-9wqj-v3c6",
+  "modified": "2026-04-25T18:32:58Z",
+  "published": "2026-04-25T18:32:58Z",
+  "aliases": [
+    "CVE-2026-6984"
+  ],
+  "details": "A security flaw has been discovered in AstrBotDevs AstrBot up to 4.22.1. This affects the function create_template of the file astrbot/dashboard/routes/t2i.py of the component Dashboard API. The manipulation results in improper neutralization of special elements used in a template engine. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6984"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/AstrBotDevs/AstrBot/issues/7330"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/AstrBotDevs/AstrBot"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/796164"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/359527"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/359527/cti"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-791"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-25T16:16:17Z"
+  }
+}

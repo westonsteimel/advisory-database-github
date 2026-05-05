@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88gm-j2wx-58h6",
-  "modified": "2026-04-23T21:52:03Z",
+  "modified": "2026-04-27T16:42:19Z",
   "published": "2026-04-23T21:52:03Z",
   "aliases": [
     "CVE-2026-41321"
@@ -41,6 +41,10 @@
       "url": "https://github.com/withastro/astro/security/advisories/GHSA-88gm-j2wx-58h6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41321"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/withastro/astro/commit/a43eb4b40b4f81530e3c9b5e2959495900320433"
     },
@@ -64,6 +68,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-23T21:52:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-24T18:16:28Z"
   }
 }

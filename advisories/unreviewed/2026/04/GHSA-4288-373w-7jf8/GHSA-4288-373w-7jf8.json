@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4288-373w-7jf8",
-  "modified": "2026-04-24T15:32:33Z",
+  "modified": "2026-04-27T15:30:41Z",
   "published": "2026-04-24T15:32:33Z",
   "aliases": [
     "CVE-2026-31548"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: cfg80211: cancel pmsr_free_wk in cfg80211_pmsr_wdev_down\n\nWhen the nl80211 socket that originated a PMSR request is\nclosed, cfg80211_release_pmsr() sets the request's nl_portid\nto zero and schedules pmsr_free_wk to process the abort\nasynchronously. If the interface is concurrently torn down\nbefore that work runs, cfg80211_pmsr_wdev_down() calls\ncfg80211_pmsr_process_abort() directly. However, the already-\nscheduled pmsr_free_wk work item remains pending and may run\nafter the interface has been removed from the driver. This\ncould cause the driver's abort_pmsr callback to operate on a\ntorn-down interface, leading to undefined behavior and\npotential crashes.\n\nCancel pmsr_free_wk synchronously in cfg80211_pmsr_wdev_down()\nbefore calling cfg80211_pmsr_process_abort(). This ensures any\npending or in-progress work is drained before interface teardown\nproceeds, preventing the work from invoking the driver abort\ncallback after the interface is gone.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:28Z"

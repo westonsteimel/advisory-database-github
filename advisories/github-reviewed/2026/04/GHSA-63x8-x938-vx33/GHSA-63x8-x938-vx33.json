@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-63x8-x938-vx33",
-  "modified": "2026-04-17T22:58:19Z",
+  "modified": "2026-04-24T20:50:48Z",
   "published": "2026-04-14T00:05:19Z",
   "aliases": [
     "CVE-2026-40323"
@@ -88,6 +88,10 @@
       "url": "https://github.com/succinctlabs/sp1/security/advisories/GHSA-63x8-x938-vx33"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40323"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/succinctlabs/sp1"
     },
@@ -104,6 +108,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-14T00:05:19Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-18T00:16:36Z"
   }
 }

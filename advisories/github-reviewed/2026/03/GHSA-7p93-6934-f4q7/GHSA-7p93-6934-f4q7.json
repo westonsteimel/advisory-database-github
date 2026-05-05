@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7p93-6934-f4q7",
-  "modified": "2026-04-06T17:18:18Z",
+  "modified": "2026-04-27T15:23:43Z",
   "published": "2026-03-30T17:00:54Z",
   "aliases": [
     "CVE-2026-33533"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "4.5.1"
+              "fixed": "4.5.3"
             }
           ]
         }

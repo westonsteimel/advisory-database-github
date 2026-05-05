@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm6w-m3j8-898g",
-  "modified": "2026-03-25T18:21:13Z",
+  "modified": "2026-04-25T01:23:10Z",
   "published": "2026-03-19T12:42:20Z",
   "aliases": [
     "CVE-2026-33231"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "3.9.3"
+              "fixed": "3.9.4"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 3.9.3"
+      }
     }
   ],
   "references": [

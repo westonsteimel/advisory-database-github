@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gm78-p64f-gx97",
-  "modified": "2026-04-18T09:30:19Z",
+  "modified": "2026-04-27T15:30:31Z",
   "published": "2026-04-03T18:31:22Z",
   "aliases": [
     "CVE-2026-23455"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_conntrack_h323: check for zero length in DecodeQ931()\n\nIn DecodeQ931(), the UserUserIE code path reads a 16-bit length from\nthe packet, then decrements it by 1 to skip the protocol discriminator\nbyte before passing it to DecodeH323_UserInformation(). If the encoded\nlength is 0, the decrement wraps to -1, which is then passed as a\nlarge value to the decoder, leading to an out-of-bounds read.\n\nAdd a check to ensure len is positive after the decrement.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-03T16:16:32Z"

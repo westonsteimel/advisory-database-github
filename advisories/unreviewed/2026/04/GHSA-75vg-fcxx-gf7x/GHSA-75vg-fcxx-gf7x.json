@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75vg-fcxx-gf7x",
-  "modified": "2026-04-24T15:32:33Z",
+  "modified": "2026-04-27T15:30:42Z",
   "published": "2026-04-24T15:32:33Z",
   "aliases": [
     "CVE-2026-31558"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: KVM: Make kvm_get_vcpu_by_cpuid() more robust\n\nkvm_get_vcpu_by_cpuid() takes a cpuid parameter whose type is int, so\ncpuid can be negative. Let kvm_get_vcpu_by_cpuid() return NULL for this\ncase so as to make it more robust.\n\nThis fix an out-of-bounds access to kvm_arch::phyid_map::phys_map[].",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:30Z"

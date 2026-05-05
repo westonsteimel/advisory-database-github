@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vff-hjqv-m7h8",
-  "modified": "2026-04-06T23:09:55Z",
+  "modified": "2026-04-27T16:19:31Z",
   "published": "2026-04-03T21:36:07Z",
   "aliases": [
     "CVE-2026-33709"
@@ -9,6 +9,10 @@
   "summary": "JupyterHub has an Open Redirect Vulnerability",
   "details": "## Affected Version\n\nJupyterHub <= 5.4.3\n\n## Impact\n\nAn open redirect vulnerability in JupyterHub <=5.4.3 allows attackers to construct links which, when clicked, take users to the JupyterHub login page, after which they are sent to an arbitrary attacker-controlled site outside JupyterHub instead of a JupyterHub page, bypassing JupyterHub's check to prevent this.\n\n## Patches\n\nUpgrade to JupyterHub 5.4.4\n\n## Workarounds\n\nA deployment can apply filters on the Location header in a reverse proxy such as nginx/apache/traefik.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"

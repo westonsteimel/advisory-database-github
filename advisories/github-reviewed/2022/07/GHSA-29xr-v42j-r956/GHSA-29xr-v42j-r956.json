@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29xr-v42j-r956",
-  "modified": "2023-01-23T18:54:10Z",
+  "modified": "2026-04-24T20:56:15Z",
   "published": "2022-07-18T19:15:29Z",
   "aliases": [
     "CVE-2020-7677"

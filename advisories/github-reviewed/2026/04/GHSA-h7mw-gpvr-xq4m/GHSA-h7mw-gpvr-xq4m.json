@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7mw-gpvr-xq4m",
-  "modified": "2026-04-22T17:34:17Z",
+  "modified": "2026-04-27T16:32:31Z",
   "published": "2026-04-22T17:34:17Z",
   "aliases": [
     "CVE-2026-41240"
@@ -41,6 +41,14 @@
       "url": "https://github.com/cure53/DOMPurify/security/advisories/GHSA-h7mw-gpvr-xq4m"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41240"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cure53/DOMPurify/commit/c361baa18dbdcb3344a41110f4c48ad85bf48f80"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/cure53/DOMPurify"
     },
@@ -57,6 +65,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-22T17:34:17Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-23T16:16:26Z"
   }
 }

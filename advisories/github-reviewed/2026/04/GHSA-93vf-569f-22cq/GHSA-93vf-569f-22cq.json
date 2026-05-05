@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93vf-569f-22cq",
-  "modified": "2026-04-14T21:55:07Z",
+  "modified": "2026-04-24T20:48:42Z",
   "published": "2026-04-10T21:08:30Z",
   "aliases": [
     "CVE-2026-40301"
@@ -41,6 +41,10 @@
       "url": "https://github.com/rhukster/dom-sanitizer/security/advisories/GHSA-93vf-569f-22cq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40301"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rhukster/dom-sanitizer/commit/49a98046b708a4c92f754f5b0ef1720bb85142e2"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-10T21:08:30Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-17T21:16:34Z"
   }
 }

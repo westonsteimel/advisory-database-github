@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mchm-7mqx-7299",
-  "modified": "2025-01-16T21:30:57Z",
+  "modified": "2026-04-24T18:30:35Z",
   "published": "2025-01-16T00:31:22Z",
   "aliases": [
     "CVE-2024-57728"
@@ -25,7 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-57728"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.horizon3.ai/attack-research/disclosures/critical-vulnerabilities-in-simplehelp-remote-support-software"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/04/06/storm-1175-focuses-gaze-on-vulnerable-web-facing-assets-in-high-tempo-medusa-ransomware-operations"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-dragonforce"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjm5-v2mx-wqmv",
-  "modified": "2026-04-23T21:31:17Z",
+  "modified": "2026-04-27T15:30:29Z",
   "published": "2026-03-25T12:30:23Z",
   "aliases": [
     "CVE-2026-23330"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/91ff0d8c3464da7f0c43da38c195e60b660128bf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9df613ef6e8e873cdab969a11f74823488977f1f"
     },
     {
       "type": "WEB",

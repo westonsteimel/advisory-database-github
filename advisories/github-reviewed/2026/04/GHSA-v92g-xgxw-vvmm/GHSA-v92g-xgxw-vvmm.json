@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v92g-xgxw-vvmm",
-  "modified": "2026-04-16T21:16:40Z",
+  "modified": "2026-04-24T20:53:32Z",
   "published": "2026-04-16T21:16:40Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-41205"
+  ],
   "summary": "Mako: Path traversal via double-slash URI prefix in TemplateLookup",
   "details": "### Summary\n\n`TemplateLookup.get_template()` is vulnerable to path traversal when a URI starts with `//` (e.g., `//../../../secret.txt`). The root cause is an inconsistency between two slash-stripping implementations:\n\n- `Template.__init__` strips **one** leading `/` using `if`/slice\n- `TemplateLookup.get_template()` strips **all** leading `/` using `re.sub(r\"^\\/+\", \"\")`\n\nWhen a URI like `//../../../../etc/passwd` is passed:\n1. `get_template()` strips all `/` → `../../../../etc/passwd` → file found via `posixpath.join(dir_, u)`\n2. `Template.__init__` strips one `/` → `/../../../../etc/passwd` → `normpath` → `/etc/passwd`\n3. `/etc/passwd`.startswith(`..`) → `False` → **check bypassed**\n\n### Impact\n\nArbitrary file read: any file readable by the process can be returned as rendered template content when an application passes untrusted input directly to `TemplateLookup.get_template()`.\n\nNote: this is exploitable at the library API level. HTTP-based exploitation is mitigated by Python's `BaseHTTPRequestHandler` which normalizes double-slash prefixes since CPython gh-87389. Applications using other HTTP servers that do not normalize paths may be affected.\n\n### Fix\n\nChanged `Template.__init__` to use `lstrip(\"/\")` instead of stripping only a single leading slash, so both code paths handle leading slashes consistently.",
   "severity": [
@@ -42,6 +44,10 @@
       "url": "https://github.com/sqlalchemy/mako/security/advisories/GHSA-v92g-xgxw-vvmm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41205"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/sqlalchemy/mako"
     }
@@ -53,6 +59,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-16T21:16:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-23T19:17:29Z"
   }
 }

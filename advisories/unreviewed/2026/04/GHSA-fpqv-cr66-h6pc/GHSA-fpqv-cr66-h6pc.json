@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpqv-cr66-h6pc",
-  "modified": "2026-04-16T18:31:22Z",
+  "modified": "2026-04-27T09:34:37Z",
   "published": "2026-04-16T18:31:22Z",
   "aliases": [
     "CVE-2026-41080"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/1183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.hartwork.org/posts/expat-2-8-0-released"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2026/04/26/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/26/1"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mx2c-4m76-c7r4",
-  "modified": "2026-04-11T15:30:24Z",
+  "modified": "2026-04-24T21:31:57Z",
   "published": "2026-03-25T12:30:23Z",
   "aliases": [
     "CVE-2026-23360"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme: fix admin queue leak on controller reset\n\nWhen nvme_alloc_admin_tag_set() is called during a controller reset,\na previous admin queue may still exist. Release it properly before\nallocating a new one to avoid orphaning the old queue.\n\nThis fixes a regression introduced by commit 03b3bcd319b3 (\"nvme: fix\nadmin request_queue lifetime\").",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T11:16:34Z"

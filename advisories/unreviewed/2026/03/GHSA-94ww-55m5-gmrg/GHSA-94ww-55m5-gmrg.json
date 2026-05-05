@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94ww-55m5-gmrg",
-  "modified": "2026-03-25T12:30:22Z",
+  "modified": "2026-04-27T15:30:29Z",
   "published": "2026-03-25T12:30:22Z",
   "aliases": [
     "CVE-2026-23313"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/dca4ea596a3b0a1b82bc1d9f3e4d88bd9ad9561f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fa5d5baf67f619c7aa70697a194b5a9edd9f5bb7"
     }
   ],
   "database_specific": {

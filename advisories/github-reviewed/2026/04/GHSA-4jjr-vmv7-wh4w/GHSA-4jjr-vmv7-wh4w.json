@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jjr-vmv7-wh4w",
-  "modified": "2026-04-16T21:25:35Z",
+  "modified": "2026-04-24T20:52:04Z",
   "published": "2026-04-16T21:25:35Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-41175"
+  ],
   "summary": "Statamic: Unsafe method invocation via query value resolution allows data destruction",
   "details": "### Impact\n\nManipulating query parameters on Control Panel and REST API endpoints, or arguments in GraphQL queries, could result in the loss of content, assets, and user accounts.\n\nThe Control Panel requires authentication with minimal permissions in order to exploit. e.g. \"view entries\" permission to delete entries, or \"view users\" permission to delete users, etc.\n\nThe REST and GraphQL API exploits do not require any permissions, however neither are enabled by default. In order to be exploited, they would need to be explicitly enabled with no authentication configured, and the specific resources enabled too.\n\nSites that enable the REST or GraphQL API without authentication should treat patching as critical priority.\n\n### Patches\n\nThis has been fixed in 5.73.20 and 6.13.0.",
   "severity": [
@@ -58,6 +60,10 @@
       "url": "https://github.com/statamic/cms/security/advisories/GHSA-4jjr-vmv7-wh4w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41175"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/statamic/cms"
     }
@@ -69,6 +75,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-16T21:25:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-22T22:16:31Z"
   }
 }

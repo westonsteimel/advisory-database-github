@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86qf-jwhq-f4jq",
-  "modified": "2026-04-22T15:31:42Z",
+  "modified": "2026-04-27T15:30:38Z",
   "published": "2026-04-22T15:31:42Z",
   "aliases": [
     "CVE-2026-31470"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvirt: tdx-guest: Fix handling of host controlled 'quote' buffer length\n\nValidate host controlled value `quote_buf->out_len` that determines how\nmany bytes of the quote are copied out to guest userspace. In TDX\nenvironments with remote attestation, quotes are not considered private,\nand can be forwarded to an attestation server.\n\nCatch scenarios where the host specifies a response length larger than\nthe guest's allocation, or otherwise races modifying the response while\nthe guest consumes it.\n\nThis prevents contents beyond the pages allocated for `quote_buf`\n(up to TSM_REPORT_OUTBLOB_MAX) from being read out to guest userspace,\nand possibly forwarded in attestation requests.\n\nRecall that some deployments want per-container configs-tsm-report\ninterfaces, so the leak may cross container protection boundaries, not\njust local root.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:43Z"
