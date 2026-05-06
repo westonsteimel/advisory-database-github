@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7p2-qcwm-94v4",
-  "modified": "2026-04-28T18:18:44Z",
+  "modified": "2026-05-06T02:36:21Z",
   "published": "2026-03-31T23:59:36Z",
   "aliases": [
     "CVE-2026-41387"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -41,6 +45,10 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-j7p2-qcwm-94v4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41387"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/7abfff756d6c68d17e21d1657bbacbaec86de232"
     },
@@ -51,15 +59,19 @@
     {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.22"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/openclaw-supply-chain-redirection-via-incomplete-host-environment-sanitization"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-183"
     ],
-    "severity": "CRITICAL",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-31T23:59:36Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-28T19:37:41Z"
   }
 }
