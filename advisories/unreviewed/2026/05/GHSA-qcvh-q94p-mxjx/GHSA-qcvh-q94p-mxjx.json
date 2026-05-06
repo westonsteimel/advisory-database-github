@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcvh-q94p-mxjx",
-  "modified": "2026-05-04T18:30:31Z",
+  "modified": "2026-05-06T12:30:24Z",
   "published": "2026-05-04T18:30:31Z",
   "aliases": [
     "CVE-2026-42374"

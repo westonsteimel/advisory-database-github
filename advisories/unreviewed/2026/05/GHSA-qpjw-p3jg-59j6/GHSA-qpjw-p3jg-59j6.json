@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qpjw-p3jg-59j6",
+  "modified": "2026-05-06T12:30:25Z",
+  "published": "2026-05-06T12:30:25Z",
+  "aliases": [
+    "CVE-2026-40010"
+  ],
+  "details": "Missing invocation of Servlet http web request method changeSessionId after session binding can be exploited for a session fixation attack in Apache Wicket.\n\nThis issue affects Apache Wicket: from 8.0.0 through 8.17.0, 9.0.0, from 10.0.0 through 10.8.0.\n\nUsers are recommended to upgrade to version 10.9.0, which fixes the issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40010"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/61wsc0xdtfd5oozojfx7by9w3jwgkmv1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/06/1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-06T10:16:20Z"
+  }
+}

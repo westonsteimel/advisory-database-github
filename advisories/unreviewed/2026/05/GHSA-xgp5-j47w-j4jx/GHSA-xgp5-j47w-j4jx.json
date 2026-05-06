@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xgp5-j47w-j4jx",
+  "modified": "2026-05-06T12:30:29Z",
+  "published": "2026-05-06T12:30:29Z",
+  "aliases": [
+    "CVE-2025-71294"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: fix NULL pointer issue buffer funcs\n\nIf SDMA block not enabled, buffer_funcs will not initialize,\nfix the null pointer issue if buffer_funcs not initialized.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71294"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/276028fd9b60bbcc68796d1124b6b58298f4ca8a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/29fd416e0e08aa6d5a97fd313749d08d83de0826"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3e849a93bff40f0c88a8aafba062b1de0ec2797b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9877a865d62c9c3e0f4cc369dc9ca9f7f24f5ee9"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-06T12:16:28Z"
+  }
+}
