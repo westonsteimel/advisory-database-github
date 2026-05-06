@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gmf-p6r4-q8m6",
-  "modified": "2026-05-06T12:30:28Z",
+  "modified": "2026-05-06T15:32:36Z",
   "published": "2026-05-06T12:30:28Z",
   "aliases": [
     "CVE-2026-43975"
   ],
   "details": "FolderUploadsFileManager in Apache Wicket does not validate or sanitize the uploadFieldId parameter or the clientFileName\n before constructing file paths, allowing an unauthenticated attacker to\n write arbitrary files outside the intended upload directory or read \nfiles from arbitrary locations on the server.\n\nThis issue affects Apache Wicket: from 8.0.0 through 8.17.0, from 9.0.0 through 9.22.0, from 10.0.0 through 10.8.0.\n\nUsers are recommended to upgrade to version 10.9.0, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -31,7 +36,7 @@
     "cwe_ids": [
       "CWE-22"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T10:16:26Z"

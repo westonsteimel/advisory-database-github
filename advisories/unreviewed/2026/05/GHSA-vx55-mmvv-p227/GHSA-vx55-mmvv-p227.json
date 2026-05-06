@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx55-mmvv-p227",
-  "modified": "2026-05-04T18:30:31Z",
+  "modified": "2026-05-06T15:32:33Z",
   "published": "2026-05-04T18:30:31Z",
   "aliases": [
     "CVE-2026-29004"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/busybox-dhcpv6-client-heap-buffer-overflow-via-dns-servers"
+    },
+    {
+      "type": "WEB",
+      "url": "https://y637f9qq2x.com/posts/busybox-dhcpv6-heap-overflow"
     }
   ],
   "database_specific": {

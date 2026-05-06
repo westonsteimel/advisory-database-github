@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8v7-mg93-8rrg",
-  "modified": "2026-05-06T09:31:35Z",
+  "modified": "2026-05-06T15:32:36Z",
   "published": "2026-05-06T09:31:35Z",
   "aliases": [
     "CVE-2026-35254"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-22"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
