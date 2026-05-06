@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9fm-f462-ggrg",
-  "modified": "2026-04-27T17:42:58Z",
+  "modified": "2026-05-06T21:23:02Z",
   "published": "2026-03-25T21:04:50Z",
   "aliases": [
     "CVE-2026-33658"
@@ -9,6 +9,10 @@
   "summary": "Rails Active Storage has a possible DoS vulnerability in proxy mode via multi-range requests",
   "details": "### Impact\nActive Storage's proxy controller does not limit the number of byte ranges in an HTTP Range header. A request with thousands of small ranges causes disproportionate CPU usage compared to a normal request for the same file, possibly resulting in a DoS vulnerability.\n\n### Releases\nThe fixed releases are available at the normal locations.\n\n### Credit\nThis issue was responsibly reported by Hackerone researcher [thwin_htet](https://hackerone.com/thwin_htet).",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:U"
