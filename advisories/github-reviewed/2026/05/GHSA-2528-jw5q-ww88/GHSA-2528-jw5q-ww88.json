@@ -1,12 +1,13 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-hg35-mp25-qf6h",
-  "modified": "2026-05-06T17:56:50Z",
-  "published": "2024-03-02T00:31:33Z",
-  "withdrawn": "2026-05-06T17:56:50Z",
-  "aliases": [],
-  "summary": "Duplicate Advisory: phpseclib: guardrails needed on isPrime and randomPrime",
-  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-2528-jw5q-ww88. This link is maintained to preserve external references.\n\n### Original Description\nAn issue was discovered in phpseclib 1.x before 1.0.23, 2.x before 2.0.47, and 3.x before 3.0.36. An attacker can construct a malformed certificate containing an extremely large prime to cause a denial of service (CPU consumption for an isPrime primality check). NOTE: this issue was introduced when attempting to fix CVE-2023-27560.",
+  "id": "GHSA-2528-jw5q-ww88",
+  "modified": "2026-05-06T17:57:10Z",
+  "published": "2026-05-06T17:57:10Z",
+  "aliases": [
+    "CVE-2024-27354"
+  ],
+  "summary": "phpseclib: guardrails needed on isPrime and randomPrime",
+  "details": "### Impact\nAnyone trying to generate a prime and testing the primality of a number.\n\n### Patches\nhttps://github.com/phpseclib/phpseclib/commit/ad5dbdf2129f5e0fb644637770b7f33de8ca8575\n\n### Workarounds\nUsing the GMP extension would probably help, assuming that one has its own guardrails.\n\n### Resources\nhttps://github.com/phpseclib/phpseclib/commit/ad5dbdf2129f5e0fb644637770b7f33de8ca8575\nhttps://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-599-shi-bing.pdf",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -28,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.0.0"
+              "introduced": "0.1.1"
             },
             {
               "fixed": "1.0.23"
@@ -78,6 +79,10 @@
   ],
   "references": [
     {
+      "type": "WEB",
+      "url": "https://github.com/phpseclib/phpseclib/security/advisories/GHSA-2528-jw5q-ww88"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27354"
     },
@@ -102,10 +107,6 @@
       "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpseclib/phpseclib/CVE-2024-27354.yaml"
     },
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-hg35-mp25-qf6h"
-    },
-    {
       "type": "PACKAGE",
       "url": "https://github.com/phpseclib/phpseclib"
     },
@@ -128,7 +129,7 @@
     ],
     "severity": "HIGH",
     "github_reviewed": true,
-    "github_reviewed_at": "2024-03-04T20:41:54Z",
-    "nvd_published_at": "2024-03-01T23:15:08Z"
+    "github_reviewed_at": "2026-05-06T17:57:10Z",
+    "nvd_published_at": null
   }
 }
