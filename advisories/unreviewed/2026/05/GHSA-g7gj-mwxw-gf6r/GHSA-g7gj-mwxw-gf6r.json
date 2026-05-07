@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7gj-mwxw-gf6r",
-  "modified": "2026-05-06T21:31:39Z",
+  "modified": "2026-05-07T01:05:51Z",
   "published": "2026-05-06T21:31:39Z",
   "aliases": [
     "CVE-2026-7932"
   ],
   "details": "Insufficient policy enforcement in Downloads in Google Chrome prior to 148.0.7778.96 allowed a local attacker to bypass navigation restrictions via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T19:16:41Z"

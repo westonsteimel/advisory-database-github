@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gcc-w636-fgv2",
-  "modified": "2026-02-10T15:30:28Z",
+  "modified": "2026-05-07T01:05:49Z",
   "published": "2026-02-10T15:30:28Z",
   "aliases": [
     "CVE-2025-15570"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/user-attachments/files/21709004/PoC_UAF.zip"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/05/msg00011.html"
     },
     {
       "type": "WEB",
