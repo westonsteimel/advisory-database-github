@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74jp-62v9-rvjf",
-  "modified": "2026-05-06T12:30:28Z",
+  "modified": "2026-05-08T15:31:16Z",
   "published": "2026-05-06T12:30:28Z",
   "aliases": [
     "CVE-2026-43120"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/irdma: Fix double free related to rereg_user_mr\n\nIf IB_MR_REREG_TRANS is set during rereg_user_mr, the\numem will be released and a new one will be allocated\nin irdma_rereg_mr_trans. If any step of irdma_rereg_mr_trans\nfails after the new umem is allocated, it releases the umem,\nbut does not set iwmr->region to NULL. The problem is that\nthis failure is propagated to the user, who will then call\nibv_dereg_mr (as they should). Then, the dereg_mr path will\nsee a non-NULL umem and attempt to call ib_umem_release again.\n\nFix this by setting iwmr->region to NULL after ib_umem_release.\n\nFixed: 5ac388db27c4 (\"RDMA/irdma: Add support to re-register a memory region\")",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T10:16:25Z"

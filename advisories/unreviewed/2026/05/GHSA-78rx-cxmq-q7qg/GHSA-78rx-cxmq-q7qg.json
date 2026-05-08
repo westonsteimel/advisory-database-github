@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78rx-cxmq-q7qg",
-  "modified": "2026-05-06T12:30:31Z",
+  "modified": "2026-05-08T15:31:16Z",
   "published": "2026-05-06T12:30:31Z",
   "aliases": [
     "CVE-2026-43166"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nerofs: fix interlaced plain identification for encoded extents\n\nOnly plain data whose start position and on-disk physical length are\nboth aligned to the block size should be classified as interlaced\nplain extents. Otherwise, it must be treated as shifted plain extents.\n\nThis issue was found by syzbot using a crafted compressed image\ncontaining plain extents with unaligned physical lengths, which can\ncause OOB read in z_erofs_transform_plain().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:34Z"

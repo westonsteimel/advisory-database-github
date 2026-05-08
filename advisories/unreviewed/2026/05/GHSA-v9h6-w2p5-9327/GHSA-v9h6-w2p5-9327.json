@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9h6-w2p5-9327",
-  "modified": "2026-05-01T15:30:37Z",
+  "modified": "2026-05-08T15:31:15Z",
   "published": "2026-05-01T15:30:37Z",
   "aliases": [
     "CVE-2026-43045"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmshv: Fix error handling in mshv_region_pin\n\nThe current error handling has two issues:\n\nFirst, pin_user_pages_fast() can return a short pin count (less than\nrequested but greater than zero) when it cannot pin all requested pages.\nThis is treated as success, leading to partially pinned regions being\nused, which causes memory corruption.\n\nSecond, when an error occurs mid-loop, already pinned pages from the\ncurrent batch are not properly accounted for before calling\nmshv_region_invalidate_pages(), causing a page reference leak.\n\nTreat short pins as errors and fix partial batch accounting before\ncleanup.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T15:16:50Z"

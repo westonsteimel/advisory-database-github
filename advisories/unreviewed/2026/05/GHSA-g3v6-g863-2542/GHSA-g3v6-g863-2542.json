@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3v6-g863-2542",
-  "modified": "2026-05-06T12:30:31Z",
+  "modified": "2026-05-08T15:31:16Z",
   "published": "2026-05-06T12:30:31Z",
   "aliases": [
     "CVE-2026-43172"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: fix 22000 series SMEM parsing\n\nIf the firmware were to report three LMACs (which doesn't\nexist in hardware) then using \"fwrt->smem_cfg.lmac[2]\" is\nan overrun of the array. Reject such and use IWL_FW_CHECK\ninstead of WARN_ON in this function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:35Z"

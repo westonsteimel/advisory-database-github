@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4mh-vmr5-87jc",
-  "modified": "2026-05-06T12:30:35Z",
+  "modified": "2026-05-08T15:31:18Z",
   "published": "2026-05-06T12:30:35Z",
   "aliases": [
     "CVE-2026-43274"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmailbox: mchp-ipc-sbi: fix out-of-bounds access in mchp_ipc_get_cluster_aggr_irq()\n\nThe cluster_cfg array is dynamically allocated to hold per-CPU\nconfiguration structures, with its size based on the number of online\nCPUs. Previously, this array was indexed using hartid, which may be\nnon-contiguous or exceed the bounds of the array, leading to\nout-of-bounds access.\nSwitch to using cpuid as the index, as it is guaranteed to be within\nthe valid range provided by for_each_online_cpu().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:48Z"

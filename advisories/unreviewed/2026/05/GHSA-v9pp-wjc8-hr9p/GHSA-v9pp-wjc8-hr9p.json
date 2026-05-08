@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9pp-wjc8-hr9p",
-  "modified": "2026-05-06T12:30:34Z",
+  "modified": "2026-05-08T15:31:18Z",
   "published": "2026-05-06T12:30:33Z",
   "aliases": [
     "CVE-2026-43230"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/rds: Clear reconnect pending bit\n\nWhen canceling the reconnect worker, care must be taken to reset the\nreconnect-pending bit. If the reconnect worker has not yet been\nscheduled before it is canceled, the reconnect-pending bit will stay\non forever.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:42Z"

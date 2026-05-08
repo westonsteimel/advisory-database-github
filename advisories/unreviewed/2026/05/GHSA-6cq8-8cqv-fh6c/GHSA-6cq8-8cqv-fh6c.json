@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cq8-8cqv-fh6c",
-  "modified": "2026-05-06T12:30:33Z",
+  "modified": "2026-05-08T15:31:17Z",
   "published": "2026-05-06T12:30:33Z",
   "aliases": [
     "CVE-2026-43208"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: do not pass flow_id to set_rps_cpu()\n\nBlamed commit made the assumption that the RPS table for each receive\nqueue would have the same size, and that it would not change.\n\nCompute flow_id in set_rps_cpu(), do not assume we can use the value\ncomputed by get_rps_cpu(). Otherwise we risk out-of-bound access\nand/or crashes.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:40Z"

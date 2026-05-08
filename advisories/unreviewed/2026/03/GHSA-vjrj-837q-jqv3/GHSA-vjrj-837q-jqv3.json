@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjrj-837q-jqv3",
-  "modified": "2026-03-27T18:31:26Z",
+  "modified": "2026-05-08T15:31:14Z",
   "published": "2026-03-27T18:31:26Z",
   "aliases": [
     "CVE-2026-32983"
@@ -19,6 +19,10 @@
   ],
   "affected": [],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/wazuh/wazuh/security/advisories/GHSA-rr83-v9v7-jjhp"
+    },
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32983"

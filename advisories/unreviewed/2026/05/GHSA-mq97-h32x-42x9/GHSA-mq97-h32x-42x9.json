@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq97-h32x-42x9",
-  "modified": "2026-05-06T12:30:34Z",
+  "modified": "2026-05-08T15:31:18Z",
   "published": "2026-05-06T12:30:34Z",
   "aliases": [
     "CVE-2026-43245"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nntfs: ->d_compare() must not block\n\n... so don't use __getname() there.  Switch it (and ntfs_d_hash(), while\nwe are at it) to kmalloc(PATH_MAX, GFP_NOWAIT).  Yes, ntfs_d_hash()\nalmost certainly can do with smaller allocations, but let ntfs folks\ndeal with that - keep the allocation size as-is for now.\n\nStop abusing names_cachep in ntfs, period - various uses of that thing\nin there have nothing to do with pathnames; just use k[mz]alloc() and\nbe done with that.  For now let's keep sizes as-in, but AFAICS none of\nthe users actually want PATH_MAX.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:44Z"

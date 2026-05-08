@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmw8-mxmc-8w2r",
-  "modified": "2026-05-08T12:31:56Z",
+  "modified": "2026-05-08T15:31:20Z",
   "published": "2026-05-08T09:31:30Z",
   "aliases": [
     "CVE-2026-43284"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm: esp: avoid in-place decrypt on shared skb frags\n\nMSG_SPLICE_PAGES can attach pages from a pipe directly to an skb. TCP\nmarks such skbs with SKBFL_SHARED_FRAG after skb_splice_from_iter(),\nso later paths that may modify packet data can first make a private\ncopy. The IPv4/IPv6 datagram append paths did not set this flag when\nsplicing pages into UDP skbs.\n\nThat leaves an ESP-in-UDP packet made from shared pipe pages looking\nlike an ordinary uncloned nonlinear skb. ESP input then takes the no-COW\nfast path for uncloned skbs without a frag_list and decrypts in place\nover data that is not owned privately by the skb.\n\nMark IPv4/IPv6 datagram splice frags with SKBFL_SHARED_FRAG, matching\nTCP. Also make ESP input fall back to skb_cow_data() when the flag is\npresent, so ESP does not decrypt externally backed frags in place.\nPrivate nonlinear skb frags still use the existing fast path.\n\nThis intentionally does not change ESP output. In esp_output_head(),\nthe path that appends the ESP trailer to existing skb tailroom without\ncalling skb_cow_data() is not reachable for nonlinear skbs:\nskb_tailroom() returns zero when skb->data_len is nonzero, while ESP\ntailen is positive. Thus ESP output will either use the separate\ndestination-frag path or fall back to skb_cow_data().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,6 +37,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8253aab4659ca16116b522203c2a6b18dccacea7"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a6cb440f274a22456ef3e86b457344f1678f38f9"
     },
     {
@@ -44,12 +53,22 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fe785bb3a8096dffcc4048a85cd0c83337eeecad"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/V4bel/dirtyfrag"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/05/08/7"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-123"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T08:16:43Z"

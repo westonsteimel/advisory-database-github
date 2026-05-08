@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q57p-jr92-jcv9",
-  "modified": "2026-05-07T15:38:40Z",
+  "modified": "2026-05-08T15:31:19Z",
   "published": "2026-05-07T15:38:40Z",
   "aliases": [
     "CVE-2026-8093"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-40"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-43"
     }
   ],
   "database_specific": {

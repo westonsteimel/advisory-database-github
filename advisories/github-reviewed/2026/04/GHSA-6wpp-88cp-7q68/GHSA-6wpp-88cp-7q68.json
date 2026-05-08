@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wpp-88cp-7q68",
-  "modified": "2026-04-28T22:50:31Z",
+  "modified": "2026-05-08T15:29:45Z",
   "published": "2026-04-28T22:50:31Z",
   "aliases": [
     "CVE-2026-35453"
@@ -132,6 +132,10 @@
       "url": "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-6wpp-88cp-7q68"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35453"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/PHPOffice/PhpSpreadsheet"
     }
@@ -144,6 +148,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-28T22:50:31Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-05T20:16:38Z"
   }
 }

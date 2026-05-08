@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c86-hp8g-chh5",
-  "modified": "2026-05-05T18:33:25Z",
+  "modified": "2026-05-08T15:31:15Z",
   "published": "2026-05-05T18:33:24Z",
   "aliases": [
     "CVE-2026-43060"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_ct: drop pending enqueued packets on removal\n\nPackets sitting in nfqueue might hold a reference to:\n\n- templates that specify the conntrack zone, because a percpu area is\n  used and module removal is possible.\n- conntrack timeout policies and helper, where object removal leave\n  a stale reference.\n\nSince these objects can just go away, drop enqueued packets to avoid\nstale reference to them.\n\nIf there is a need for finer grain removal, this logic can be revisited\nto make selective packet drop upon dependencies.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-05T16:16:15Z"

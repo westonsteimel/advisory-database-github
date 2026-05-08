@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j457-vjxp-xvjj",
-  "modified": "2026-05-06T12:30:33Z",
+  "modified": "2026-05-08T15:31:17Z",
   "published": "2026-05-06T12:30:33Z",
   "aliases": [
     "CVE-2026-43222"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: verisilicon: AV1: Fix tile info buffer size\n\nEach tile info is composed of: row_sb, col_sb, start_pos\nand end_pos (4 bytes each). So the total required memory\nis AV1_MAX_TILES * 16 bytes.\nUse the correct #define to allocate the buffer and avoid\nwriting tile info in non-allocated memory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:41Z"

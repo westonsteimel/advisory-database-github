@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j6h-qqh4-vpw7",
-  "modified": "2026-05-06T12:30:26Z",
+  "modified": "2026-05-08T15:31:15Z",
   "published": "2026-05-06T12:30:26Z",
   "aliases": [
     "CVE-2026-43074"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\neventpoll: defer struct eventpoll free to RCU grace period\n\nIn certain situations, ep_free() in eventpoll.c will kfree the epi->ep\neventpoll struct while it still being used by another concurrent thread.\nDefer the kfree() to an RCU callback to prevent UAF.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T10:16:20Z"

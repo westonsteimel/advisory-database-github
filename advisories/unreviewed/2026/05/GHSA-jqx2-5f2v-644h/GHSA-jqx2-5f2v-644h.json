@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqx2-5f2v-644h",
-  "modified": "2026-05-06T12:30:34Z",
+  "modified": "2026-05-08T15:31:18Z",
   "published": "2026-05-06T12:30:34Z",
   "aliases": [
     "CVE-2026-43253"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu/amd: move wait_on_sem() out of spinlock\n\nWith iommu.strict=1, the existing completion wait path can cause soft\nlockups under stressed environment, as wait_on_sem() busy-waits under the\nspinlock with interrupts disabled.\n\nMove the completion wait in iommu_completion_wait() out of the spinlock.\nwait_on_sem() only polls the hardware-updated cmd_sem and does not require\niommu->lock, so holding the lock during the busy wait unnecessarily\nincreases contention and extends the time with interrupts disabled.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:46Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xqc-j72q-x4c8",
-  "modified": "2026-05-06T12:30:31Z",
+  "modified": "2026-05-08T15:31:16Z",
   "published": "2026-05-06T12:30:31Z",
   "aliases": [
     "CVE-2026-43178"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nprocfs: fix possible double mmput() in do_procmap_query()\n\nWhen user provides incorrectly sized buffer for build ID for PROCMAP_QUERY\nwe return with -ENAMETOOLONG error.  After recent changes this condition\nhappens later, after we unlocked mmap_lock/per-VMA lock and did mmput(),\nso original goto out is now wrong and will double-mmput() mm_struct.  Fix\nby jumping further to clean up only vm_file and name_buf.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:36Z"

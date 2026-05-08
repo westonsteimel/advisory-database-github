@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2xh-q35x-h5f5",
-  "modified": "2026-05-06T12:30:27Z",
+  "modified": "2026-05-08T15:31:15Z",
   "published": "2026-05-06T12:30:27Z",
   "aliases": [
     "CVE-2026-43093"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxsk: tighten UMEM headroom validation to account for tailroom and min frame\n\nThe current headroom validation in xdp_umem_reg() could leave us with\ninsufficient space dedicated to even receive minimum-sized ethernet\nframe. Furthermore if multi-buffer would come to play then\nskb_shared_info stored at the end of XSK frame would be corrupted.\n\nHW typically works with 128-aligned sizes so let us provide this value\nas bare minimum.\n\nMulti-buffer setting is known later in the configuration process so\nbesides accounting for 128 bytes, let us also take care of tailroom space\nupfront.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T10:16:22Z"

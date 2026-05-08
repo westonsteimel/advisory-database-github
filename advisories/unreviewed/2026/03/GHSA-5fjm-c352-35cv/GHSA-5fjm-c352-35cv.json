@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fjm-c352-35cv",
-  "modified": "2026-03-30T15:31:36Z",
+  "modified": "2026-05-08T15:31:14Z",
   "published": "2026-03-23T21:30:52Z",
   "aliases": [
     "CVE-2026-32851"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/mailenable-reflected-xss-via-freebusy-aspx-attendees-parameter"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/mailenable-reflected-xss-via-freebusy-aspx-startdate-parameter"
     }
   ],
   "database_specific": {
