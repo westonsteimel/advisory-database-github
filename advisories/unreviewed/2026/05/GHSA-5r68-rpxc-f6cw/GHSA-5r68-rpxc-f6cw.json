@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r68-rpxc-f6cw",
-  "modified": "2026-05-01T15:30:35Z",
+  "modified": "2026-05-08T21:31:19Z",
   "published": "2026-05-01T15:30:34Z",
   "aliases": [
     "CVE-2026-31755"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: cdns3: gadget: fix NULL pointer dereference in ep_queue\n\nWhen the gadget endpoint is disabled or not yet configured, the ep->desc\npointer can be NULL. This leads to a NULL pointer dereference when\n__cdns3_gadget_ep_queue() is called, causing a kernel crash.\n\nAdd a check to return -ESHUTDOWN if ep->desc is NULL, which is the\nstandard return code for unconfigured endpoints.\n\nThis prevents potential crashes when ep_queue is called on endpoints\nthat are not ready.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T15:16:38Z"

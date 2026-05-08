@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r2v-r8jf-9prp",
-  "modified": "2026-05-08T06:32:38Z",
+  "modified": "2026-05-08T21:31:23Z",
   "published": "2026-05-08T06:32:38Z",
   "aliases": [
     "CVE-2026-8148"
   ],
   "details": "NAVER MYBOX Explorer for Windows before 3.0.11.160 allows a local attacker to escalate privileges to NT AUTHORITY\\SYSTEM via registry manipulation due to improper privilege checks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-266"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T05:16:12Z"

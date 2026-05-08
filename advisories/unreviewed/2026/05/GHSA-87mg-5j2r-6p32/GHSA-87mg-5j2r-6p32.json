@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87mg-5j2r-6p32",
-  "modified": "2026-05-01T15:30:37Z",
+  "modified": "2026-05-08T21:31:20Z",
   "published": "2026-05-01T15:30:37Z",
   "aliases": [
     "CVE-2026-43043"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: af-alg - fix NULL pointer dereference in scatterwalk\n\nThe AF_ALG interface fails to unmark the end of a Scatter/Gather List (SGL)\nwhen chaining a new af_alg_tsgl structure. If a sendmsg() fills an SGL\nexactly to MAX_SGL_ENTS, the last entry is marked as the end. A subsequent\nsendmsg() allocates a new SGL and chains it, but fails to clear the end\nmarker on the previous SGL's last data entry.\n\nThis causes the crypto scatterwalk to hit a premature end, returning NULL\non sg_next() and leading to a kernel panic during dereference.\n\nFix this by explicitly unmarking the end of the previous SGL when\nperforming sg_chain() in af_alg_alloc_tsgl().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T15:16:50Z"

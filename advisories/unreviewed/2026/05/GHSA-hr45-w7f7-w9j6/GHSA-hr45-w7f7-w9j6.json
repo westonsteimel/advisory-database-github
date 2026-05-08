@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hr45-w7f7-w9j6",
-  "modified": "2026-05-08T18:31:34Z",
+  "modified": "2026-05-08T21:31:25Z",
   "published": "2026-05-08T18:31:34Z",
   "aliases": [
     "CVE-2026-29975"
   ],
   "details": "lwjson 1.8.1 contains an improper input validation vulnerability in the streaming JSON parser (lwjson_stream.c). The end-of-string detection logic incorrectly identifies escaped quote characters by only checking the immediately preceding character rather than counting consecutive backslashes, causing valid JSON strings ending with an escaped backslash (like \"\\\\\") to never terminate parsing. A remote attacker can send well-formed JSON to cause applications using lwjson_stream_parse() to hang indefinitely, resulting in denial of service.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-835"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T16:16:10Z"

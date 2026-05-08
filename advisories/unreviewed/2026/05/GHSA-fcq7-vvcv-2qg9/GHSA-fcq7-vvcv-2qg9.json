@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcq7-vvcv-2qg9",
-  "modified": "2026-05-06T12:30:36Z",
+  "modified": "2026-05-08T21:31:21Z",
   "published": "2026-05-06T12:30:36Z",
   "aliases": [
     "CVE-2026-43273"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nceph: supply snapshot context in ceph_zero_partial_object()\n\nThe ceph_zero_partial_object function was missing proper snapshot\ncontext for its OSD write operations, which could lead to data\ninconsistencies in snapshots.\n\nReproducer:\n../src/vstart.sh --new -x --localhost --bluestore\n./bin/ceph auth caps client.fs_a mds 'allow rwps fsname=a' mon 'allow r fsname=a' osd 'allow rw tag cephfs data=a'\nmount -t ceph fs_a@.a=/ /mnt/mycephfs/ -o conf=./ceph.conf\ndd if=/dev/urandom of=/mnt/mycephfs/foo bs=64K count=1\nmkdir /mnt/mycephfs/.snap/snap1\nmd5sum /mnt/mycephfs/.snap/snap1/foo\nfallocate -p -o 0 -l 4096 /mnt/mycephfs/foo\necho 3 > /proc/sys/vm/drop/caches\nmd5sum /mnt/mycephfs/.snap/snap1/foo # get different md5sum!!",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:48Z"

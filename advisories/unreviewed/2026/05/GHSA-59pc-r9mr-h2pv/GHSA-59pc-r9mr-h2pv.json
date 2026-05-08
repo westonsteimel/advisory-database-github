@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-59pc-r9mr-h2pv",
-  "modified": "2026-05-01T15:30:37Z",
+  "modified": "2026-05-08T21:31:20Z",
   "published": "2026-05-01T15:30:37Z",
   "aliases": [
     "CVE-2026-43040"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ipv6: ndisc: fix ndisc_ra_useropt to initialize nduseropt_padX fields to zero to prevent an info-leak\n\nWhen processing Router Advertisements with user options the kernel\nbuilds an RTM_NEWNDUSEROPT netlink message. The nduseroptmsg struct\nhas three padding fields that are never zeroed and can leak kernel data\n\nThe fix is simple, just zeroes the padding fields.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-909"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T15:16:50Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2274-3hgr-wxv6",
-  "modified": "2026-05-08T18:31:25Z",
+  "modified": "2026-05-08T21:31:20Z",
   "published": "2026-04-22T09:31:32Z",
   "aliases": [
     "CVE-2026-31431"
@@ -21,55 +21,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/security/cve/cve-2026-31431#cve-details-mitigation"
+      "url": "https://xint.io/blog/copy-fail-linux-distributions#the-fix-6"
     },
     {
       "type": "WEB",
-      "url": "https://copy.fail"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/19d43105a97be0810edbda875f2cd03f30dc130c"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/3115af9644c342b356f3f07a4dd1c8905cd9a6fc"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/893d22e0135fa394db81df88697fba6032747667"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/8b88d99341f139e23bdeb1027a2a3ae10d341d82"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/961cfa271a918ad4ae452420e7c303149002875b"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/a664bf3d603dc3bdcf9ae47cc21e0daec706d7a5"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/ce42ee423e58dffa5ec03524054c9d8bfd4f6237"
-    },
-    {
-      "type": "WEB",
-      "url": "https://git.kernel.org/stable/c/fafe0fa2995a0f7073c1c358d7d3145bcc9aedd8"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/theori-io/copy-fail-CVE-2026-31431"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lore.kernel.org/linux-cve-announce/2026042214-CVE-2026-31431-3d65@gregkh"
-    },
-    {
-      "type": "WEB",
-      "url": "https://websec.net/blog/cve-2026-31431-linux-algifaead-page-cache-write-to-root-69f38a4ccddd2db1f520f170"
+      "url": "https://www.kb.cert.org/vuls/id/260001"
     },
     {
       "type": "WEB",
@@ -77,7 +33,55 @@
     },
     {
       "type": "WEB",
-      "url": "https://xint.io/blog/copy-fail-linux-distributions#the-fix-6"
+      "url": "https://websec.net/blog/cve-2026-31431-linux-algifaead-page-cache-write-to-root-69f38a4ccddd2db1f520f170"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/linux-cve-announce/2026042214-CVE-2026-31431-3d65@gregkh"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/theori-io/copy-fail-CVE-2026-31431"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fafe0fa2995a0f7073c1c358d7d3145bcc9aedd8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ce42ee423e58dffa5ec03524054c9d8bfd4f6237"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a664bf3d603dc3bdcf9ae47cc21e0daec706d7a5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/961cfa271a918ad4ae452420e7c303149002875b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8b88d99341f139e23bdeb1027a2a3ae10d341d82"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/893d22e0135fa394db81df88697fba6032747667"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3115af9644c342b356f3f07a4dd1c8905cd9a6fc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/19d43105a97be0810edbda875f2cd03f30dc130c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://copy.fail"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/cve-2026-31431#cve-details-mitigation"
     },
     {
       "type": "WEB",

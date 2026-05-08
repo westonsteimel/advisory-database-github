@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9wc3-g8j8-wv5q",
-  "modified": "2026-05-06T12:30:35Z",
+  "modified": "2026-05-08T21:31:21Z",
   "published": "2026-05-06T12:30:35Z",
   "aliases": [
     "CVE-2026-43268"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhfsplus: pretend special inodes as regular files\n\nSince commit af153bb63a33 (\"vfs: catch invalid modes in may_open()\")\nrequires any inode be one of S_IFDIR/S_IFLNK/S_IFREG/S_IFCHR/S_IFBLK/\nS_IFIFO/S_IFSOCK type, use S_IFREG for special inodes.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:47Z"
