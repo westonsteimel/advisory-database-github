@@ -1,12 +1,13 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-jr22-8qgm-4q87",
-  "modified": "2026-05-08T18:24:10Z",
-  "published": "2024-03-02T00:31:33Z",
-  "withdrawn": "2026-05-08T18:24:10Z",
-  "aliases": [],
-  "summary": "Duplicate Advisory: phpseclib does not properly limit the ASN1 OID length",
-  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-f2qx-66wf-wvvx. This link is maintained to preserve external references.\n\n### Original Description\nAn issue was discovered in phpseclib 1.x before 1.0.23, 2.x before 2.0.47, and 3.x before 3.0.36. When processing the ASN.1 object identifier of a certificate, a sub identifier may be provided that leads to a denial of service (CPU consumption for decodeOID).",
+  "id": "GHSA-f2qx-66wf-wvvx",
+  "modified": "2026-05-08T18:24:30Z",
+  "published": "2026-05-08T18:24:30Z",
+  "aliases": [
+    "CVE-2024-27355"
+  ],
+  "summary": "phpseclib guardrails needed on OID length",
+  "details": "### Impact\nAny application using that loads untrusted ASN1 files (eg. X509 certificates, RSA PKCS8 private or public keys, etc).\n\n### Patches\nhttps://github.com/phpseclib/phpseclib/commit/e32531001b4d62c66c3d824ccef54ffad835eb59\n\n### Workarounds\nNo.\n\n### Resources\nhttps://github.com/phpseclib/phpseclib/commit/e32531001b4d62c66c3d824ccef54ffad835eb59\nhttps://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-599-shi-bing.pdf",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -24,25 +25,6 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "3.0.0"
-            },
-            {
-              "fixed": "3.0.36"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "phpseclib/phpseclib"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
               "introduced": "2.0.0"
             },
             {
@@ -50,7 +32,10 @@
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 2.0.46"
+      }
     },
     {
       "package": {
@@ -62,17 +47,46 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.0.0"
+              "introduced": "3.0.0"
+            },
+            {
+              "fixed": "3.0.36"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 3.0.35"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "phpseclib/phpseclib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.1.1"
             },
             {
               "fixed": "1.0.23"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.0.22"
+      }
     }
   ],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/phpseclib/phpseclib/security/advisories/GHSA-f2qx-66wf-wvvx"
+    },
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27355"
@@ -88,10 +102,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpseclib/phpseclib/CVE-2024-27355.yaml"
-    },
-    {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-jr22-8qgm-4q87"
     },
     {
       "type": "PACKAGE",
@@ -116,7 +126,7 @@
     ],
     "severity": "HIGH",
     "github_reviewed": true,
-    "github_reviewed_at": "2024-03-04T20:42:19Z",
-    "nvd_published_at": "2024-03-01T23:15:08Z"
+    "github_reviewed_at": "2026-05-08T18:24:30Z",
+    "nvd_published_at": null
   }
 }
