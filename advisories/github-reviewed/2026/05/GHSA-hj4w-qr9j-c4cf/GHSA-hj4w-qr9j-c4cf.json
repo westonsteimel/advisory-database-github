@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj4w-qr9j-c4cf",
-  "modified": "2026-05-04T09:31:09Z",
+  "modified": "2026-05-08T16:58:36Z",
   "published": "2026-05-04T09:31:09Z",
   "aliases": [
     "CVE-2026-7736"
   ],
+  "summary": "GoBGP has an Integer Underflow Issue",
   "details": "A vulnerability was determined in osrg GoBGP up to 4.3.0. Affected by this vulnerability is the function parseRibEntry of the file pkg/packet/mrt/mrt.go. Executing a manipulation can lead to integer underflow. It is possible to launch the attack remotely. Upgrading to version 4.4.0 addresses this issue. This patch is called 76d911046344a3923cbe573364197aa081944592. It is suggested to upgrade the affected component.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/osrg/gobgp/v4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.4.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,7 +49,7 @@
       "url": "https://github.com/osrg/gobgp/commit/76d911046344a3923cbe573364197aa081944592"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/osrg/gobgp"
     },
     {
@@ -49,10 +70,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-191"
+    ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-08T16:58:36Z",
     "nvd_published_at": "2026-05-04T07:16:01Z"
   }
 }
