@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cmv-3rc4-7279",
-  "modified": "2026-05-07T00:04:26Z",
+  "modified": "2026-05-08T21:47:44Z",
   "published": "2026-05-07T00:04:26Z",
   "aliases": [
     "CVE-2026-44264"
@@ -41,6 +41,10 @@
       "url": "https://github.com/WeblateOrg/weblate/security/advisories/GHSA-5cmv-3rc4-7279"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44264"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/WeblateOrg/weblate/pull/19259"
     },
@@ -51,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/WeblateOrg/weblate"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WeblateOrg/weblate/releases/tag/weblate-5.17.1"
     }
   ],
   "database_specific": {
@@ -61,6 +69,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-07T00:04:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-07T15:16:10Z"
   }
 }
