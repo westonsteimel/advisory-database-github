@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7r4-hc83-hf2q",
-  "modified": "2026-04-30T17:27:10Z",
+  "modified": "2026-05-08T19:26:57Z",
   "published": "2026-04-30T17:27:10Z",
   "aliases": [
     "CVE-2026-40281"
@@ -44,6 +44,14 @@
       "url": "https://github.com/gotenberg/gotenberg/security/advisories/GHSA-q7r4-hc83-hf2q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40281"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gotenberg/gotenberg/commit/405f1069c026bb08f319fb5a44e5c67c33208318"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/gotenberg/gotenberg"
     },
@@ -59,6 +67,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-30T17:27:10Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-06T21:16:01Z"
   }
 }
