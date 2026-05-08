@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grj5-jjm8-h35p",
-  "modified": "2026-05-04T16:29:15Z",
+  "modified": "2026-05-08T01:25:03Z",
   "published": "2026-05-04T16:29:15Z",
   "aliases": [
     "CVE-2026-24118"
@@ -44,6 +44,10 @@
       "url": "https://github.com/patriksimek/vm2/security/advisories/GHSA-grj5-jjm8-h35p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24118"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/patriksimek/vm2/commit/2b5f3e3a060d9088f5e1cdd585d683d491f990a3"
     },
@@ -68,6 +72,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-04T16:29:15Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-04T17:16:21Z"
   }
 }
