@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcjj-chvw-fmw9",
-  "modified": "2026-05-05T20:03:47Z",
+  "modified": "2026-05-08T20:14:44Z",
   "published": "2026-05-05T20:03:46Z",
   "aliases": [
     "CVE-2026-42194"
@@ -48,12 +48,20 @@
       "url": "https://github.com/Admidio/admidio/security/advisories/GHSA-hcjj-chvw-fmw9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42194"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Admidio/admidio/commit/f6b7a966abe4d75e9f707d665d7b4b5570e3185a"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/Admidio/admidio"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Admidio/admidio/releases/tag/v5.0.9"
     }
   ],
   "database_specific": {
@@ -63,6 +71,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T20:03:46Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-07T04:16:34Z"
   }
 }

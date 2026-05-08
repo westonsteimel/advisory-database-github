@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rw74-vc9h-534j",
-  "modified": "2026-04-29T21:54:30Z",
+  "modified": "2026-05-08T20:13:59Z",
   "published": "2026-04-29T21:54:30Z",
   "aliases": [
     "CVE-2026-41663"
@@ -44,8 +44,16 @@
       "url": "https://github.com/Admidio/admidio/security/advisories/GHSA-rw74-vc9h-534j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41663"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/Admidio/admidio"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Admidio/admidio/releases/tag/v5.0.9"
     }
   ],
   "database_specific": {
@@ -55,6 +63,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-29T21:54:30Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-07T04:16:30Z"
   }
 }

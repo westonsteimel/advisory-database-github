@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hfv-c864-qcq9",
-  "modified": "2026-05-04T20:50:55Z",
+  "modified": "2026-05-08T20:14:41Z",
   "published": "2026-05-04T20:50:55Z",
   "aliases": [
     "CVE-2026-41891"
@@ -44,6 +44,10 @@
       "url": "https://github.com/ci4-cms-erp/ci4ms/security/advisories/GHSA-5hfv-c864-qcq9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41891"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ci4-cms-erp/ci4ms/commit/2f38284281ce6b435ea42003951f14109ac2cea7"
     },
@@ -63,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-04T20:50:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-07T04:16:33Z"
   }
 }
