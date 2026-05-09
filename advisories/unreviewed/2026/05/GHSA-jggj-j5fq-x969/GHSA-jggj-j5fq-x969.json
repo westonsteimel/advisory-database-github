@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jggj-j5fq-x969",
-  "modified": "2026-05-05T03:31:41Z",
+  "modified": "2026-05-09T06:31:35Z",
   "published": "2026-05-05T03:31:41Z",
   "aliases": [
     "CVE-2026-44028"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://discourse.nixos.org/t/security-advisory-local-privilege-escalation-in-lix-and-nix/77407"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lix.systems/blog/2026-05-05-lix-unsigned-integer-overflow"
     },
     {
       "type": "WEB",
