@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5h8-x64v-qf5h",
-  "modified": "2026-05-10T21:30:23Z",
+  "modified": "2026-05-11T00:31:12Z",
   "published": "2026-05-10T21:30:23Z",
   "aliases": [
     "CVE-2026-8177"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/cpan-authors/XML-LibXML/issues/146"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cpan-authors/XML-LibXML/pull/149"
     },
     {
       "type": "WEB",
