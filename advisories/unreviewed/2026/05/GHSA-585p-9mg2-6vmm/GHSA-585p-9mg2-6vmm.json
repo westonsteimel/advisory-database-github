@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-585p-9mg2-6vmm",
-  "modified": "2026-05-06T12:30:27Z",
+  "modified": "2026-05-11T18:31:35Z",
   "published": "2026-05-06T12:30:27Z",
   "aliases": [
     "CVE-2026-43104"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vc4: Fix a memory leak in hang state error path\n\nWhen vc4_save_hang_state() encounters an early return condition, it\nreturns without freeing the previously allocated `kernel_state`,\nleaking memory.\n\nAdd the missing kfree() calls by consolidating the early return paths\ninto a single place.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T10:16:23Z"

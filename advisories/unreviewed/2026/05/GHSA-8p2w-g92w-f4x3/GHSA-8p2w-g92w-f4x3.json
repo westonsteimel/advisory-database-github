@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p2w-g92w-f4x3",
-  "modified": "2026-05-11T12:32:31Z",
+  "modified": "2026-05-11T18:31:43Z",
   "published": "2026-05-11T09:30:32Z",
   "aliases": [
     "CVE-2026-43500"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d45179f8795222ce858770dc619abe51f9d24411"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/V4bel/dirtyfrag"
     }
   ],
   "database_specific": {

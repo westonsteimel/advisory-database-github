@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4rhg-h8f2-v4jm",
+  "modified": "2026-05-11T18:31:44Z",
+  "published": "2026-05-11T18:31:44Z",
+  "aliases": [
+    "CVE-2026-7818"
+  ],
+  "details": "Deserialization of untrusted data (CWE-502) in pgAdmin 4 FileBackedSessionManager.\n\nThe session manager performed unsafe deserialization of session-file contents (using Python's standard object-serialization module) before performing any HMAC integrity check. Any file dropped into the sessions directory was deserialized unconditionally. An authenticated user with write access to the sessions directory (whether by misconfiguration or in combination with another path-traversal flaw) could plant a crafted serialized payload to achieve operating-system level remote code execution under the pgAdmin process identity.\n\nFix prepends a 64-byte hex SHA-256 HMAC over the session body, computed with SECRET_KEY, and verifies it via hmac.compare_digest before any deserialization. The check is raised (rather than asserted) on empty SECRET_KEY so it is not stripped under -O.\n\nThis issue affects pgAdmin 4: before 9.15.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:H/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7818"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pgadmin-org/pgadmin4/issues/9901"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-11T16:17:38Z"
+  }
+}

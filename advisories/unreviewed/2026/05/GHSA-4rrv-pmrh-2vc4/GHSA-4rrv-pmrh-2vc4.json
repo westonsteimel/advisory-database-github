@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4rrv-pmrh-2vc4",
+  "modified": "2026-05-11T18:31:47Z",
+  "published": "2026-05-11T18:31:47Z",
+  "aliases": [
+    "CVE-2026-4893"
+  ],
+  "details": "An information disclosure vulnerability in dnsmasq allows remote attackers to bypass source checks via a crafted DNS packet with RFC 7871 client subnet information.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4893"
+    },
+    {
+      "type": "WEB",
+      "url": "https://thekelleys.org.uk/dnsmasq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/471747"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-11T18:16:41Z"
+  }
+}

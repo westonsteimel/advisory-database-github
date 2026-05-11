@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw62-67j2-4wmc",
-  "modified": "2026-05-10T21:30:23Z",
+  "modified": "2026-05-11T18:31:43Z",
   "published": "2026-05-10T21:30:23Z",
   "aliases": [
     "CVE-2026-45191"
   ],
   "details": "Net::CIDR::Lite versions before 0.24 for Perl does not properly consider extraneous zero characters in CIDR mask values, which may allow IP ACL bypass.\n\nMask forms like \"/00\" and \"/01\" pass validation and parse to the same prefix as their unpadded value.\n\nSee also CVE-2026-45190.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -31,7 +36,7 @@
     "cwe_ids": [
       "CWE-1289"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-10T21:16:29Z"

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2qp9-xr4x-2cr9",
+  "modified": "2026-05-11T18:31:47Z",
+  "published": "2026-05-11T18:31:47Z",
+  "aliases": [
+    "CVE-2026-4891"
+  ],
+  "details": "A heap-based out-of-bounds read vulnerability in the DNSSEC validation of dnsmasq allows remote attackers to cause a denial of service via a crafted DNS packet.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4891"
+    },
+    {
+      "type": "WEB",
+      "url": "https://thekelleys.org.uk/dnsmasq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/471747"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-11T18:16:41Z"
+  }
+}
