@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxw2-rwmh-vr8f",
-  "modified": "2026-04-27T16:42:02Z",
+  "modified": "2026-05-11T13:30:10Z",
   "published": "2026-04-16T21:24:22Z",
   "aliases": [
     "CVE-2026-41500"
@@ -41,19 +41,29 @@
       "url": "https://github.com/electerm/electerm/security/advisories/GHSA-wxw2-rwmh-vr8f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41500"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/electerm/electerm/commit/59708b38c8a52f5db59d7d4eff98e31d573128ee"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/electerm/electerm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/electerm/electerm/releases/tag/v3.3.8"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-77"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-16T21:24:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T04:16:17Z"
   }
 }

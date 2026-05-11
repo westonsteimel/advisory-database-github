@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrjr-v56m-ww88",
-  "modified": "2026-05-04T21:54:49Z",
+  "modified": "2026-05-11T13:29:39Z",
   "published": "2026-04-24T16:39:55Z",
   "aliases": [
     "CVE-2026-42241"
@@ -41,6 +41,10 @@
       "url": "https://github.com/G-Research/ParquetSharp/security/advisories/GHSA-rrjr-v56m-ww88"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42241"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/G-Research/ParquetSharp"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-24T16:39:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-07T20:16:44Z"
   }
 }

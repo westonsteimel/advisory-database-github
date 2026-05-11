@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2jf5-6wwv-vhxx",
-  "modified": "2026-05-05T18:13:52Z",
+  "modified": "2026-05-11T13:29:55Z",
   "published": "2026-05-05T18:13:52Z",
   "aliases": [
     "CVE-2026-42047"
@@ -41,8 +41,16 @@
       "url": "https://github.com/inngest/inngest-js/security/advisories/GHSA-2jf5-6wwv-vhxx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42047"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/inngest/inngest-js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/inngest/inngest-js/releases/tag/inngest%403.54.1"
     },
     {
       "type": "WEB",
@@ -81,6 +89,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T18:13:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-07T21:16:29Z"
   }
 }

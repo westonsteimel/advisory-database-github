@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56c3-vfp2-5qqj",
-  "modified": "2026-04-30T18:12:54Z",
+  "modified": "2026-05-11T13:29:47Z",
   "published": "2026-04-30T18:12:54Z",
   "aliases": [
     "CVE-2026-42449"
@@ -41,6 +41,10 @@
       "url": "https://github.com/czlonkowski/n8n-mcp/security/advisories/GHSA-56c3-vfp2-5qqj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42449"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/czlonkowski/n8n-mcp/commit/9639f757853149f0cb16663cc8b6b6468f27a25f"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-30T18:12:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-07T21:16:30Z"
   }
 }
