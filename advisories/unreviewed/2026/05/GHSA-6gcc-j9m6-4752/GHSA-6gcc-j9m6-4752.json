@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6gcc-j9m6-4752",
+  "modified": "2026-05-12T03:31:26Z",
+  "published": "2026-05-12T03:31:26Z",
+  "aliases": [
+    "CVE-2026-45392"
+  ],
+  "details": "Reserved. Details will be published at disclosure.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45392"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.cribl.io/stream/release-notes/release-v4171#security-fixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://trust.cribl.io/notifications"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-12T02:16:13Z"
+  }
+}
