@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcmw-grxf-wjhj",
-  "modified": "2026-05-06T22:08:58Z",
+  "modified": "2026-05-12T13:33:21Z",
   "published": "2026-05-06T22:08:58Z",
   "aliases": [
     "CVE-2026-44334"
@@ -44,6 +44,10 @@
       "url": "https://github.com/MervinPraison/PraisonAI/security/advisories/GHSA-xcmw-grxf-wjhj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44334"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/MervinPraison/PraisonAI"
     },
@@ -59,6 +63,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-06T22:08:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T14:16:46Z"
   }
 }

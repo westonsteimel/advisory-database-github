@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6x5-p4xf-cc4r",
-  "modified": "2026-04-27T17:43:04Z",
+  "modified": "2026-05-12T13:32:44Z",
   "published": "2026-04-17T22:31:45Z",
   "aliases": [
     "CVE-2026-41507"
@@ -41,8 +41,16 @@
       "url": "https://github.com/mauriciopoppe/math-codegen/security/advisories/GHSA-p6x5-p4xf-cc4r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41507"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mauriciopoppe/math-codegen/pull/11"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mauriciopoppe/math-codegen/commit/4bb52d3030683362b3559ee8dd91350555a05f6b"
     },
     {
       "type": "WEB",
@@ -60,6 +68,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-17T22:31:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T14:16:34Z"
   }
 }

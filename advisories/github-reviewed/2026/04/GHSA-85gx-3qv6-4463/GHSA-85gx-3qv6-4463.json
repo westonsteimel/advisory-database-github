@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85gx-3qv6-4463",
-  "modified": "2026-04-27T16:34:02Z",
+  "modified": "2026-05-12T13:31:35Z",
   "published": "2026-04-17T22:20:40Z",
   "aliases": [
     "CVE-2026-41491"
@@ -79,6 +79,10 @@
       "url": "https://github.com/dapr/dapr/security/advisories/GHSA-85gx-3qv6-4463"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41491"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/dapr/dapr/pull/9589"
     },
@@ -95,6 +99,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-17T22:20:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T14:16:33Z"
   }
 }

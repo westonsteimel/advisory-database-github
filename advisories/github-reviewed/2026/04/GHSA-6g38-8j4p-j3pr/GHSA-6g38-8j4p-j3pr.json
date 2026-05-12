@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6g38-8j4p-j3pr",
-  "modified": "2026-04-27T18:13:39Z",
+  "modified": "2026-05-12T13:33:42Z",
   "published": "2026-04-18T01:00:06Z",
   "aliases": [
     "CVE-2026-41574"
@@ -41,6 +41,10 @@
       "url": "https://github.com/nhost/nhost/security/advisories/GHSA-6g38-8j4p-j3pr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41574"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nhost/nhost/pull/4162"
     },
@@ -51,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/nhost/nhost"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nhost/nhost/releases/tag/auth%400.49.1"
     }
   ],
   "database_specific": {
@@ -60,6 +68,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-18T01:00:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T15:16:40Z"
   }
 }

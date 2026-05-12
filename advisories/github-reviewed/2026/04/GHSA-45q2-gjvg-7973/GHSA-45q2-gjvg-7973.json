@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45q2-gjvg-7973",
-  "modified": "2026-04-27T16:19:19Z",
+  "modified": "2026-05-12T13:31:29Z",
   "published": "2026-04-16T22:36:01Z",
   "aliases": [
     "CVE-2026-41423"
@@ -117,8 +117,16 @@
       "url": "https://github.com/angular/angular/security/advisories/GHSA-45q2-gjvg-7973"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41423"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/angular/angular/pull/68194"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/angular/angular/commit/ede7c58a2aa13fdccc8f0b67ce93ba1c11749412"
     },
     {
       "type": "PACKAGE",
@@ -132,6 +140,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-16T22:36:01Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T14:16:33Z"
   }
 }

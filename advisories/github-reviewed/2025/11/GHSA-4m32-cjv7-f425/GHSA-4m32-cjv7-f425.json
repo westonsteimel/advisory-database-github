@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4m32-cjv7-f425",
-  "modified": "2025-11-17T17:48:45Z",
+  "modified": "2026-05-12T13:31:11Z",
   "published": "2025-11-14T21:52:23Z",
   "aliases": [
     "CVE-2025-55449"
@@ -41,6 +41,10 @@
       "url": "https://github.com/AstrBotDevs/AstrBot/security/advisories/GHSA-4m32-cjv7-f425"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55449"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/AstrBotDevs/AstrBot/commit/d03e9fb90a0921a1bd10cf480bdacc9aaa246472"
     },
@@ -59,12 +63,13 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-321",
       "CWE-345",
       "CWE-798"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-14T21:52:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T07:16:28Z"
   }
 }
