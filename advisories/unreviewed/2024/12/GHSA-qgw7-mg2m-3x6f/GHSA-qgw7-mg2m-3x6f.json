@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgw7-mg2m-3x6f",
-  "modified": "2025-11-03T21:32:01Z",
+  "modified": "2026-05-12T15:30:42Z",
   "published": "2024-12-27T15:31:56Z",
   "aliases": [
     "CVE-2024-56672"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56672"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-265688.html"
     },
     {
       "type": "WEB",

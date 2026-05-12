@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mrx-mqmg-gwj9",
-  "modified": "2026-05-12T00:31:13Z",
+  "modified": "2026-05-12T15:31:11Z",
   "published": "2025-09-30T15:30:30Z",
   "aliases": [
     "CVE-2025-9231"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssl/openssl/commit/fc47a2ec078912b3e914fab5734535e76c4820c2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-089022.html"
     },
     {
       "type": "WEB",

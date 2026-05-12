@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2cc-wx97-xp8v",
-  "modified": "2026-04-23T18:32:55Z",
+  "modified": "2026-05-12T15:31:15Z",
   "published": "2026-04-08T00:30:25Z",
   "aliases": [
     "CVE-2026-28387"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssl/openssl/commit/ec03fa050b3346997ed9c5fef3d0e16ad7db8177"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-265688.html"
     },
     {
       "type": "WEB",

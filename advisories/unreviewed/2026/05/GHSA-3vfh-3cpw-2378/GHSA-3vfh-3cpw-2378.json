@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vfh-3cpw-2378",
-  "modified": "2026-05-07T18:30:37Z",
+  "modified": "2026-05-12T15:31:18Z",
   "published": "2026-05-06T21:31:36Z",
   "aliases": [
     "CVE-2026-0300"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-967325.html"
     },
     {
       "type": "WEB",

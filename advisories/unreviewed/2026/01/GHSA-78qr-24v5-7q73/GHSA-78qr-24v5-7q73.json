@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78qr-24v5-7q73",
-  "modified": "2026-01-29T18:31:37Z",
+  "modified": "2026-05-12T15:31:13Z",
   "published": "2026-01-27T18:32:15Z",
   "aliases": [
     "CVE-2025-69418"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssl/openssl/commit/ed40856d7d4ba6cb42779b6770666a65f19cb977"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-265688.html"
     },
     {
       "type": "WEB",

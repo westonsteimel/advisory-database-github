@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32vr-5hxf-x93f",
-  "modified": "2026-04-19T21:31:28Z",
+  "modified": "2026-05-12T15:30:52Z",
   "published": "2025-06-12T15:31:22Z",
   "aliases": [
     "CVE-2025-6021"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxml2/-/issues/926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
     },
     {
       "type": "WEB",

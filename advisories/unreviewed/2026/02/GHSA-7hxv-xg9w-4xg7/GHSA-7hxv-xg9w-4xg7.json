@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hxv-xg9w-4xg7",
-  "modified": "2026-02-10T18:30:37Z",
+  "modified": "2026-05-12T15:31:14Z",
   "published": "2026-02-10T18:30:37Z",
   "aliases": [
     "CVE-2025-55018"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-975644.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9hf-rxjm-gv2f",
-  "modified": "2026-01-27T18:32:16Z",
+  "modified": "2026-05-12T15:31:14Z",
   "published": "2026-01-27T18:32:16Z",
   "aliases": [
     "CVE-2026-22796"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssl/openssl/commit/ef2fb66ec571564d64d1c74a12e388a2a54d05d2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-265688.html"
     },
     {
       "type": "WEB",

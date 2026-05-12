@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx3q-xcpc-36h3",
-  "modified": "2026-01-12T18:30:19Z",
+  "modified": "2026-05-12T15:31:05Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39724"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39724"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
     },
     {
       "type": "WEB",

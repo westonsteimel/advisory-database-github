@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vf8-328m-mxj5",
-  "modified": "2026-05-10T21:30:23Z",
+  "modified": "2026-05-12T15:31:27Z",
   "published": "2026-05-10T21:30:23Z",
   "aliases": [
     "CVE-2026-45190"
   ],
   "details": "Net::CIDR::Lite versions before 0.24 for Perl does not properly validate IP address and CIDR mask inputs, which may allow IP ACL bypass.\n\nInputs containing a trailing newline or non-ASCII digit characters pass the validators but are then re-encoded by the parser to a different address than the input string spelled. find() and bin_find() can match or miss addresses as a result.\n\nExample:\n\n  my $cidr = Net::CIDR::Lite->new();\n  $cidr->add(\"::1\\n/128\");\n  $cidr->find(\"::1a\");  # incorrectly returns true\n\nSee also CVE-2026-45191.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -31,7 +36,7 @@
     "cwe_ids": [
       "CWE-1289"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-10T21:16:29Z"

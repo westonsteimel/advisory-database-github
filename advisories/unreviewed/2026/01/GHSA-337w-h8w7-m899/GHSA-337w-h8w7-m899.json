@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-337w-h8w7-m899",
-  "modified": "2026-05-05T21:31:16Z",
+  "modified": "2026-05-12T15:31:13Z",
   "published": "2026-01-26T21:30:36Z",
   "aliases": [
     "CVE-2025-9820"
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2392528"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
     },
     {
       "type": "WEB",

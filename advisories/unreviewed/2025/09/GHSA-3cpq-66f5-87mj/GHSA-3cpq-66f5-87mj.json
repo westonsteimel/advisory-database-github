@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cpq-66f5-87mj",
-  "modified": "2026-01-16T21:30:26Z",
+  "modified": "2026-05-12T15:31:08Z",
   "published": "2025-09-12T18:31:10Z",
   "aliases": [
     "CVE-2025-39798"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39798"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
     },
     {
       "type": "WEB",

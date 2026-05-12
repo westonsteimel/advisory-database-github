@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq6x-9gv4-v98h",
-  "modified": "2026-02-10T18:30:38Z",
+  "modified": "2026-05-12T15:31:14Z",
   "published": "2026-02-10T18:30:38Z",
   "aliases": [
     "CVE-2025-64157"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64157"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-975644.html"
     },
     {
       "type": "WEB",

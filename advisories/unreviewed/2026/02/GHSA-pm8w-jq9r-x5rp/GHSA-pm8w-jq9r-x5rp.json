@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm8w-jq9r-x5rp",
-  "modified": "2026-05-12T12:32:13Z",
+  "modified": "2026-05-12T15:31:14Z",
   "published": "2026-02-09T15:30:31Z",
   "aliases": [
     "CVE-2025-14831"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/gnutls/gnutls/-/issues/1773"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
     },
     {
       "type": "WEB",

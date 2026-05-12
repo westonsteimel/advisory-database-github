@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mr5-83vp-r7m7",
-  "modified": "2025-12-16T18:31:30Z",
+  "modified": "2026-05-12T15:30:57Z",
   "published": "2025-07-19T09:30:40Z",
   "aliases": [
     "CVE-2025-38350"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38350"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-089022.html"
     },
     {
       "type": "WEB",

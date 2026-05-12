@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgpp-q3px-3xhc",
-  "modified": "2026-04-10T21:31:12Z",
+  "modified": "2026-05-12T15:31:15Z",
   "published": "2026-04-08T00:30:25Z",
   "aliases": [
     "CVE-2026-28390"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssl/openssl/commit/fd2f1a6cf53b9ceeca723a001aa4b825d7c7ee75"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-032379.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-265688.html"
     },
     {
       "type": "WEB",
