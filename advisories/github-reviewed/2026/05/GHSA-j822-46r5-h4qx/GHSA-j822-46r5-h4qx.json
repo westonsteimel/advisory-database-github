@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j822-46r5-h4qx",
-  "modified": "2026-05-07T18:30:40Z",
+  "modified": "2026-05-12T16:20:20Z",
   "published": "2026-05-07T18:30:40Z",
   "aliases": [
     "CVE-2026-36341"
   ],
+  "summary": "Webkul Krayin CRM is Vulnerable to Cross-Site Scripting in the /admin/activities/create endpoint",
   "details": "Cross-Site Scripting (XSS) vulnerability exists in Webkul Krayin CRM v2.1.5. The application fails to sanitize user-supplied input in the comment field during Activity creation on the /admin/activities/create endpoint",
   "severity": [
     {
@@ -13,7 +14,30 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "krayin/laravel-crm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.1.5"
+            },
+            {
+              "fixed": "2.1.6"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.1.5"
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/krayin/laravel-crm/pull/2401"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/krayin/laravel-crm/commit/fc467040de21803cb2b67c2229d2dfcf731d2d3e"
     },
     {
       "type": "WEB",
@@ -36,6 +64,10 @@
       "url": "https://github.com/cybercrewinc/CVE-2026-36341"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/krayin/laravel-crm"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/krayin/laravel-crm/releases/tag/v2.1.6"
     }
@@ -45,8 +77,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-12T16:20:20Z",
     "nvd_published_at": "2026-05-07T16:16:18Z"
   }
 }
