@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw27-v6r3-mmpp",
-  "modified": "2026-05-11T12:32:32Z",
+  "modified": "2026-05-12T18:30:32Z",
   "published": "2026-05-11T12:32:32Z",
   "aliases": [
     "CVE-2026-40636"
