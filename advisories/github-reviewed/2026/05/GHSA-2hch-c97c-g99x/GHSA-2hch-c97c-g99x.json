@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hch-c97c-g99x",
-  "modified": "2026-05-05T22:16:33Z",
+  "modified": "2026-05-13T14:21:00Z",
   "published": "2026-05-05T22:16:33Z",
   "aliases": [
     "CVE-2026-43884"
@@ -42,6 +42,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-2hch-c97c-g99xg"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43884"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/WWBN/AVideo/commit/603e7bf77a835584387327e35560262feb075db3"
     },
     {
@@ -56,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T22:16:33Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-11T22:22:13Z"
   }
 }
