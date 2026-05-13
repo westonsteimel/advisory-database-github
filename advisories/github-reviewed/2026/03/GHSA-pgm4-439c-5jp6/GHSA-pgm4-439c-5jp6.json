@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgm4-439c-5jp6",
-  "modified": "2026-04-27T17:43:20Z",
+  "modified": "2026-05-13T16:14:34Z",
   "published": "2026-03-23T20:45:15Z",
   "aliases": [
     "CVE-2026-33167"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rails/rails/releases/tag/v8.1.2.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2026-33167.yml"
     }
   ],
   "database_specific": {

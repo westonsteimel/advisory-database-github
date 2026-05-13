@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc46-r95f-hq7g",
-  "modified": "2026-04-27T16:19:27Z",
+  "modified": "2026-05-13T16:14:13Z",
   "published": "2026-04-13T16:35:13Z",
   "aliases": [
     "CVE-2026-23891"
@@ -81,6 +81,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/decidim/decidim/releases/tag/v0.31.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/decidim-core/CVE-2026-23891.yml"
     }
   ],
   "database_specific": {
