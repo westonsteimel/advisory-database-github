@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmqx-rmqw-vxp8",
-  "modified": "2026-03-26T15:30:40Z",
+  "modified": "2026-05-13T00:48:10Z",
   "published": "2026-03-26T15:30:39Z",
   "aliases": [
     "CVE-2026-4887"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4887"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:16484"
     },
     {
       "type": "WEB",
