@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h64-c999-c9r6",
-  "modified": "2026-05-08T16:53:18Z",
+  "modified": "2026-05-13T15:24:04Z",
   "published": "2026-05-08T16:53:18Z",
   "aliases": [
     "CVE-2026-44670"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "0.0.0-20260421031503-96dfe0bea474"
+              "fixed": "0.0.0-20260512140701-d7b77d945e0d"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 0.0.0-20260421031503-96dfe0bea474"
+      }
     }
   ],
   "references": [
