@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2jq-g4cq-5ppq",
-  "modified": "2026-04-02T18:44:25Z",
+  "modified": "2026-05-13T15:20:39Z",
   "published": "2026-04-02T18:44:25Z",
   "aliases": [
     "CVE-2026-34785"
@@ -85,6 +85,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2026-34785.yml"
     }
   ],
   "database_specific": {

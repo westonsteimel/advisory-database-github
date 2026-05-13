@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8cg-fq8g-mxfx",
-  "modified": "2026-04-02T19:07:28Z",
+  "modified": "2026-05-13T15:21:07Z",
   "published": "2026-04-02T19:07:28Z",
   "aliases": [
     "CVE-2026-34826"
@@ -85,6 +85,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2026-34826.yml"
     }
   ],
   "database_specific": {
