@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4w6c-gfx3-vghv",
-  "modified": "2026-05-12T18:30:41Z",
+  "modified": "2026-05-13T18:30:46Z",
   "published": "2026-05-12T18:30:41Z",
   "aliases": [
     "CVE-2026-31244"
   ],
   "details": "The mem0 1.0.0 server lacks authentication and authorization controls for its memory deletion API endpoint (DELETE /memories/{memory_id}). The endpoint allows unauthenticated users to delete arbitrary memory records without verifying their identity or permissions. A remote attacker can exploit this by sending unauthenticated DELETE requests to remove any memory entry from the database, leading to unauthorized data loss and potential denial of service.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-306"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-12T18:16:52Z"

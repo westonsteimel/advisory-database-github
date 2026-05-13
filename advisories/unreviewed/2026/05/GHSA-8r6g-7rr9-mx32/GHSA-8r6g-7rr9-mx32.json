@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r6g-7rr9-mx32",
-  "modified": "2026-05-12T18:30:38Z",
+  "modified": "2026-05-13T18:30:41Z",
   "published": "2026-05-12T18:30:38Z",
   "aliases": [
     "CVE-2026-31228"
   ],
   "details": "The Adversarial Robustness Toolbox (ART) thru 1.20.1 contains a remote code execution vulnerability in its Kubeflow component. The robustness evaluation function for PyTorch models uses the unsafe eval() function to dynamically evaluate user-supplied strings for the LossFn and Optimizer parameters without any sanitization or security restrictions. An attacker can exploit this by providing a specially crafted string that contains arbitrary Python code, which will be executed when eval() is called, leading to complete compromise of the system running the ART evaluation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-12T16:16:14Z"
