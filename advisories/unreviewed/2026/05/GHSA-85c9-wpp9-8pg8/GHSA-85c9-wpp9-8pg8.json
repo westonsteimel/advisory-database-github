@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85c9-wpp9-8pg8",
-  "modified": "2026-05-06T12:30:29Z",
+  "modified": "2026-05-13T21:31:56Z",
   "published": "2026-05-06T12:30:29Z",
   "aliases": [
     "CVE-2025-71291"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmisc: bcm_vk: Fix possible null-pointer dereferences in bcm_vk_read()\n\nIn the function bcm_vk_read(), the pointer entry is checked, indicating\nthat it can be NULL. If entry is NULL and rc is set to -EMSGSIZE, the\nfollowing code may cause null-pointer dereferences:\n\n  struct vk_msg_blk tmp_msg = entry->to_h_msg[0];\n  set_msg_id(&tmp_msg, entry->usr_msg_id);\n  tmp_msg.size = entry->to_h_blks - 1;\n\nTo prevent these possible null-pointer dereferences, copy to_h_msg,\nusr_msg_id, and to_h_blks from iter into temporary variables, and return\nthese temporary variables to the application instead of accessing them\nthrough a potentially NULL entry.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:28Z"

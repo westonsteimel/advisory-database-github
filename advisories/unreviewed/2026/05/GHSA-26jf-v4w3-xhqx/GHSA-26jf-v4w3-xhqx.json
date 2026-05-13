@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26jf-v4w3-xhqx",
-  "modified": "2026-05-06T12:30:30Z",
+  "modified": "2026-05-13T21:31:58Z",
   "published": "2026-05-06T12:30:30Z",
   "aliases": [
     "CVE-2026-43146"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: iris: Add buffer to list only after successful allocation\n\nMove `list_add_tail()` to after `dma_alloc_attrs()` succeeds when creating\ninternal buffers. Previously, the buffer was enqueued in `buffers->list`\nbefore the DMA allocation. If the allocation failed, the function returned\n`-ENOMEM` while leaving a partially initialized buffer in the list, which\ncould lead to inconsistent state and potential leaks.\n\nBy adding the buffer to the list only after `dma_alloc_attrs()` succeeds,\nwe ensure the list contains only valid, fully initialized buffers.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:32Z"

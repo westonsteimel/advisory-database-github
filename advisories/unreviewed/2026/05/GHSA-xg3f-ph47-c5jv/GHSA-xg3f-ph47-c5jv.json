@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xg3f-ph47-c5jv",
-  "modified": "2026-05-06T12:30:29Z",
+  "modified": "2026-05-13T21:31:56Z",
   "published": "2026-05-06T12:30:29Z",
   "aliases": [
     "CVE-2025-71290"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmisc: ti_fpc202: fix a potential memory leak in probe function\n\nUse for_each_child_of_node_scoped() to simplify the code and ensure the\ndevice node reference is automatically released when the loop scope\nends.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:28Z"

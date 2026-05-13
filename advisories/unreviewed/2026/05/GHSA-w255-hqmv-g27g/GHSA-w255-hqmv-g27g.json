@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w255-hqmv-g27g",
-  "modified": "2026-05-06T12:30:30Z",
+  "modified": "2026-05-13T21:31:57Z",
   "published": "2026-05-06T12:30:30Z",
   "aliases": [
     "CVE-2026-43141"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nntb: ntb_hw_switchtec: Fix shift-out-of-bounds for 0 mw lut\n\nNumber of MW LUTs depends on NTB configuration and can be set to zero,\nin such scenario rounddown_pow_of_two will cause undefined behaviour and\nshould not be performed.\nThis patch ensures that rounddown_pow_of_two is called on valid value.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:31Z"

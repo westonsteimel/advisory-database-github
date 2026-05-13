@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7j6-jxcq-9qj7",
-  "modified": "2026-05-06T12:30:30Z",
+  "modified": "2026-05-13T21:31:58Z",
   "published": "2026-05-06T12:30:30Z",
   "aliases": [
     "CVE-2026-43151"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRevert \"media: iris: Add sanity check for stop streaming\"\n\nThis reverts commit ad699fa78b59241c9d71a8cafb51525f3dab04d4.\n\nRevert the check that skipped stop_streaming when the instance was in\nIRIS_INST_ERROR, as it caused multiple regressions:\n\n1. Buffers were not returned to vb2 when the instance was already in\n   error state, triggering warnings in the vb2 core because buffer\n   completion was skipped.\n\n2. If a session failed early (e.g. unsupported configuration), the\n   instance transitioned to IRIS_INST_ERROR. When userspace attempted\n   to stop streaming for cleanup, stop_streaming was skipped due to the\n   added check, preventing proper teardown and leaving the firmware\n   in an inconsistent state.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:32Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cq62-68rx-vm58",
-  "modified": "2026-05-06T12:30:30Z",
+  "modified": "2026-05-13T21:31:57Z",
   "published": "2026-05-06T12:30:30Z",
   "aliases": [
     "CVE-2026-43142"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: iris: gen1: Destroy internal buffers after FW releases\n\nAfter the firmware releases internal buffers, the driver was not\ndestroying them. This left stale allocations that were no longer used,\nespecially across resolution changes where new buffers are allocated per\nthe updated requirements. As a result, memory was wasted until session\nclose.\n\nDestroy internal buffers once the release response is received from the\nfirmware.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:31Z"

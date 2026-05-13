@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwj9-ffgq-f34w",
-  "modified": "2026-05-12T15:31:34Z",
+  "modified": "2026-05-13T21:31:59Z",
   "published": "2026-05-11T21:31:39Z",
   "aliases": [
     "CVE-2026-28958"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/127120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/127121"
     }
   ],
   "database_specific": {

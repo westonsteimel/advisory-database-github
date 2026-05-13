@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmh6-3rx4-qrfp",
-  "modified": "2026-05-06T12:30:30Z",
+  "modified": "2026-05-13T21:31:58Z",
   "published": "2026-05-06T12:30:30Z",
   "aliases": [
     "CVE-2026-43144"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: brcmfmac: Fix potential kernel oops when probe fails\n\nWhen probe of the sdio brcmfmac device fails for some reasons (i.e.\nmissing firmware), the sdiodev->bus is set to error instead of NULL, thus\nthe cleanup later in brcmf_sdio_remove() tries to free resources via\ninvalid bus pointer. This happens because sdiodev->bus is set 2 times:\nfirst in brcmf_sdio_probe() and second time in brcmf_sdiod_probe(). Fix\nthis by chaning the brcmf_sdio_probe() function to return the error code\nand set sdio->bus only there.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:31Z"

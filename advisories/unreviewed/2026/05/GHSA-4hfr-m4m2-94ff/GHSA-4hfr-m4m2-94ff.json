@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hfr-m4m2-94ff",
-  "modified": "2026-05-06T12:30:31Z",
+  "modified": "2026-05-13T21:31:58Z",
   "published": "2026-05-06T12:30:31Z",
   "aliases": [
     "CVE-2026-43163"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmd/bitmap: fix GPF in write_page caused by resize race\n\nA General Protection Fault occurs in write_page() during array resize:\nRIP: 0010:write_page+0x22b/0x3c0 [md_mod]\n\nThis is a use-after-free race between bitmap_daemon_work() and\n__bitmap_resize(). The daemon iterates over `bitmap->storage.filemap`\nwithout locking, while the resize path frees that storage via\nmd_bitmap_file_unmap(). `quiesce()` does not stop the md thread,\nallowing concurrent access to freed pages.\n\nFix by holding `mddev->bitmap_info.mutex` during the bitmap update.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:34Z"
