@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33m5-hqp9-97pw",
-  "modified": "2026-05-06T17:54:47Z",
+  "modified": "2026-05-13T16:29:54Z",
   "published": "2026-05-06T17:54:47Z",
   "aliases": [
     "CVE-2026-44012"
@@ -41,6 +41,10 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-33m5-hqp9-97pw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44012"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/commit/e3f3eaab3d85badd713cfc2c24e5f0792ecdb586"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-06T17:54:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-12T21:16:16Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cxw-cc62-q28v",
-  "modified": "2026-05-05T22:19:23Z",
+  "modified": "2026-05-13T16:27:43Z",
   "published": "2026-05-05T22:19:23Z",
   "aliases": [
     "CVE-2026-44220"
@@ -48,6 +48,10 @@
       "url": "https://github.com/Jo-Jo98/ciguard/security/advisories/GHSA-8cxw-cc62-q28v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44220"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/Jo-Jo98/ciguard"
     },
@@ -67,6 +71,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T22:19:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-12T20:16:42Z"
   }
 }

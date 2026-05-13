@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxc7-fm93-6q77",
-  "modified": "2026-05-05T22:22:22Z",
+  "modified": "2026-05-13T16:28:38Z",
   "published": "2026-05-05T22:22:22Z",
   "aliases": [
     "CVE-2026-44221"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ArcadeData/arcadedb/security/advisories/GHSA-fxc7-fm93-6q77"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44221"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ArcadeData/arcadedb/commit/04110c06315da55604ac107f71fe7182f3a3deb8"
     },
@@ -56,6 +60,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T22:22:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-12T20:16:43Z"
   }
 }

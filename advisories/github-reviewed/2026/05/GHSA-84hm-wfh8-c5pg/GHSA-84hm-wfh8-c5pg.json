@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84hm-wfh8-c5pg",
-  "modified": "2026-05-05T22:17:02Z",
+  "modified": "2026-05-13T16:27:28Z",
   "published": "2026-05-05T22:17:02Z",
   "aliases": [
     "CVE-2026-44217"
@@ -44,6 +44,10 @@
       "url": "https://github.com/rexxars/sse-channel/security/advisories/GHSA-84hm-wfh8-c5pg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44217"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rexxars/sse-channel/issues/42"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T22:17:02Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-12T20:16:42Z"
   }
 }

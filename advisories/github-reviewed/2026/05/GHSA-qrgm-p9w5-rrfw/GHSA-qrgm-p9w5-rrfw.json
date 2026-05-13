@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrgm-p9w5-rrfw",
-  "modified": "2026-05-06T17:54:06Z",
+  "modified": "2026-05-13T16:29:16Z",
   "published": "2026-05-06T17:54:06Z",
   "aliases": [
     "CVE-2026-44011"
@@ -64,17 +64,26 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-qrgm-p9w5-rrfw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/craftcms/cms/commit/ab85ca7f5f926994f723f60584054a1f4c4c5de3"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/craftcms/cms"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-470"
+      "CWE-470",
+      "CWE-479"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-06T17:54:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-12T21:16:15Z"
   }
 }

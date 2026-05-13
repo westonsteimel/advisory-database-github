@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpv8-x276-m59f",
-  "modified": "2026-05-05T22:21:41Z",
+  "modified": "2026-05-13T16:27:48Z",
   "published": "2026-05-05T22:21:41Z",
   "aliases": [
     "CVE-2026-44222"
@@ -41,6 +41,10 @@
       "url": "https://github.com/vllm-project/vllm/security/advisories/GHSA-hpv8-x276-m59f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44222"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/vllm-project/vllm/issues/32656"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T22:21:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-12T20:16:43Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq7p-mc74-g65w",
-  "modified": "2026-05-05T21:17:19Z",
+  "modified": "2026-05-13T16:26:55Z",
   "published": "2026-05-05T21:17:19Z",
   "aliases": [
     "CVE-2026-44166"
@@ -60,6 +60,10 @@
       "url": "https://github.com/pocketbase/pocketbase/security/advisories/GHSA-pq7p-mc74-g65w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44166"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/pocketbase/pocketbase"
     }
@@ -71,6 +75,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T21:17:19Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-12T18:17:29Z"
   }
 }
