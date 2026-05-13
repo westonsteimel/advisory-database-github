@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghcv-22jf-vfxm",
-  "modified": "2026-05-05T19:07:09Z",
+  "modified": "2026-05-13T14:19:18Z",
   "published": "2026-05-05T19:07:09Z",
   "aliases": [
     "CVE-2026-43874"
@@ -41,6 +41,10 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-ghcv-22jf-vfxm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43874"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/WWBN/AVideo/commit/9f3006f9a89a34daa67a83c6ad35f450cb91fcce"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T19:07:09Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-11T21:19:02Z"
   }
 }

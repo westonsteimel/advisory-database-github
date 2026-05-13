@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqvv-jvhr-g5jc",
-  "modified": "2026-05-05T18:21:18Z",
+  "modified": "2026-05-13T14:18:22Z",
   "published": "2026-05-05T18:21:17Z",
   "aliases": [
     "CVE-2026-42864"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ManoManoTech/firefighter-incident/security/advisories/GHSA-fqvv-jvhr-g5jc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42864"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ManoManoTech/firefighter-incident/commit/2586679e6f32c12d223668b73e98f4c4de7b771f"
     },
@@ -57,6 +61,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T18:21:17Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-11T19:16:24Z"
   }
 }

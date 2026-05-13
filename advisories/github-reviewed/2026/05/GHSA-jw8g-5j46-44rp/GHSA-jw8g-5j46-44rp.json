@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jw8g-5j46-44rp",
-  "modified": "2026-05-05T19:13:03Z",
+  "modified": "2026-05-13T14:19:40Z",
   "published": "2026-05-05T19:13:03Z",
   "aliases": [
     "CVE-2026-43877"
@@ -41,6 +41,10 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-jw8g-5j46-44rp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43877"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/WWBN/AVideo/commit/9c38468041505e637101c5943c5370c68f48e3ac"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-05T19:13:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-11T22:22:12Z"
   }
 }
