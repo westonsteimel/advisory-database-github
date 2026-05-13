@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc36-c89j-5f4j",
-  "modified": "2026-04-09T20:28:10Z",
+  "modified": "2026-05-13T16:21:47Z",
   "published": "2026-04-09T20:28:10Z",
   "aliases": [
     "CVE-2026-40070"
@@ -78,6 +78,14 @@
     {
       "type": "WEB",
       "url": "https://brc.dev/52"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bsv-sdk/CVE-2026-40070.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bsv-wallet/CVE-2026-40070.yml"
     },
     {
       "type": "PACKAGE",

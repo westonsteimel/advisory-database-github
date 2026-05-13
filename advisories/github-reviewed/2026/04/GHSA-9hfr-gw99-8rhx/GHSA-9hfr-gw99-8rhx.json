@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hfr-gw99-8rhx",
-  "modified": "2026-04-09T20:28:26Z",
+  "modified": "2026-05-13T16:22:10Z",
   "published": "2026-04-09T20:28:26Z",
   "aliases": [
     "CVE-2026-40069"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sgbett/bsv-ruby-sdk/commit/4992e8a265fd914a7eeb0405c69d1ff0122a84cc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bsv-sdk/CVE-2026-40069.yml"
     },
     {
       "type": "PACKAGE",

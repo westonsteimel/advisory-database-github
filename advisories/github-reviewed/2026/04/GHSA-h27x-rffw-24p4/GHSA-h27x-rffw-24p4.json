@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h27x-rffw-24p4",
-  "modified": "2026-04-08T00:05:27Z",
+  "modified": "2026-05-13T16:20:52Z",
   "published": "2026-04-08T00:05:27Z",
   "aliases": [
     "CVE-2026-35611"
@@ -43,6 +43,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35611"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/addressable/CVE-2026-35611.yml"
     },
     {
       "type": "PACKAGE",

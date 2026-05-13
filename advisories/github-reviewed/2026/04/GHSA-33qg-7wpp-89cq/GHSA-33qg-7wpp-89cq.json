@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33qg-7wpp-89cq",
-  "modified": "2026-04-08T00:15:08Z",
+  "modified": "2026-05-13T16:21:11Z",
   "published": "2026-04-08T00:15:08Z",
   "aliases": [
     "CVE-2026-39324"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack-session"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack-session/CVE-2026-39324.yml"
     }
   ],
   "database_specific": {

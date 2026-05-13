@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9pc-8g42-g6vq",
-  "modified": "2025-10-24T20:57:40Z",
+  "modified": "2026-05-13T16:22:16Z",
   "published": "2025-04-08T21:31:40Z",
   "aliases": [
     "CVE-2025-22871"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-783943.html"
     },
     {
       "type": "PACKAGE",
