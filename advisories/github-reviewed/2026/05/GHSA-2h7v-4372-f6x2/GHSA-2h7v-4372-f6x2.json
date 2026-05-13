@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h7v-4372-f6x2",
-  "modified": "2026-05-04T19:50:25Z",
+  "modified": "2026-05-13T13:38:50Z",
   "published": "2026-05-04T19:50:24Z",
   "aliases": [
     "CVE-2026-42069"
@@ -66,6 +66,10 @@
       "url": "https://github.com/getkirby/kirby/security/advisories/GHSA-2h7v-4372-f6x2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42069"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/getkirby/kirby"
     },
@@ -85,6 +89,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-04T19:50:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-09T04:16:22Z"
   }
 }

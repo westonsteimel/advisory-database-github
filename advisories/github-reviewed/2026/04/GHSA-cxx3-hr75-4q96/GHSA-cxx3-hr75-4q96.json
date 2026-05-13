@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxx3-hr75-4q96",
-  "modified": "2026-04-30T20:55:26Z",
+  "modified": "2026-05-13T13:38:44Z",
   "published": "2026-04-30T20:55:26Z",
   "aliases": [
     "CVE-2026-42461"
@@ -41,6 +41,10 @@
       "url": "https://github.com/getarcaneapp/arcane/security/advisories/GHSA-cxx3-hr75-4q96"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42461"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/getarcaneapp/arcane"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-30T20:55:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-09T04:16:26Z"
   }
 }

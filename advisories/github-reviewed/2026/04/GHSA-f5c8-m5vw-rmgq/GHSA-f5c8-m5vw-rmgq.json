@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5c8-m5vw-rmgq",
-  "modified": "2026-05-04T20:42:59Z",
+  "modified": "2026-05-13T13:37:39Z",
   "published": "2026-04-24T16:00:09Z",
   "aliases": [
     "CVE-2026-42202"
@@ -41,6 +41,10 @@
       "url": "https://github.com/almirhodzic/nova-toggle-5/security/advisories/GHSA-f5c8-m5vw-rmgq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42202"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/almirhodzic/nova-toggle-5"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-24T16:00:09Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T22:16:31Z"
   }
 }

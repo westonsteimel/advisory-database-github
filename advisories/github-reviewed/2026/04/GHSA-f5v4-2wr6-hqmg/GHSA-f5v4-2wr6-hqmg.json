@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5v4-2wr6-hqmg",
-  "modified": "2026-05-04T20:36:57Z",
+  "modified": "2026-05-13T13:34:53Z",
   "published": "2026-04-24T15:39:37Z",
   "aliases": [
     "CVE-2026-42189"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Eugeny/russh/security/advisories/GHSA-f5v4-2wr6-hqmg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42189"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Eugeny/russh/commit/6c3c80a9b6d60763d6227d60fa8310e57172a4d1"
     },
@@ -61,6 +65,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-24T15:39:37Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T20:16:31Z"
   }
 }
