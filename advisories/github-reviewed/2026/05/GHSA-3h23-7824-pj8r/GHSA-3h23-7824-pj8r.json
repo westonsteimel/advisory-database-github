@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3h23-7824-pj8r",
-  "modified": "2026-05-04T21:30:19Z",
+  "modified": "2026-05-13T13:42:54Z",
   "published": "2026-05-04T21:30:19Z",
   "aliases": [
     "CVE-2026-42601"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ArchiveBox/ArchiveBox/security/advisories/GHSA-3h23-7824-pj8r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42601"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/ArchiveBox/ArchiveBox"
     }
@@ -52,6 +56,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-04T21:30:19Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-09T20:16:29Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp2f-cqqp-478j",
-  "modified": "2026-05-04T21:16:51Z",
+  "modified": "2026-05-13T13:42:15Z",
   "published": "2026-05-04T21:16:51Z",
   "aliases": [
     "CVE-2026-42605"
@@ -44,12 +44,20 @@
       "url": "https://github.com/AzuraCast/AzuraCast/security/advisories/GHSA-vp2f-cqqp-478j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42605"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/AzuraCast/AzuraCast/commit/18c793b4427eb49e67a2fea99a89f1c9d9dd808d"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/AzuraCast/AzuraCast"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/AzuraCast/AzuraCast/releases/tag/0.23.6"
     }
   ],
   "database_specific": {
@@ -59,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-04T21:16:51Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-09T20:16:30Z"
   }
 }

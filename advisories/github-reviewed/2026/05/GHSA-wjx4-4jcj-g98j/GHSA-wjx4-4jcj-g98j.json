@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjx4-4jcj-g98j",
-  "modified": "2026-05-04T20:18:45Z",
+  "modified": "2026-05-13T13:40:24Z",
   "published": "2026-05-04T20:18:45Z",
   "aliases": [
     "CVE-2026-42308"
@@ -9,6 +9,10 @@
   "summary": "Pillow has an integer overflow when processing fonts",
   "details": "If a font advances for each glyph by an exceeding large amount, when Pillow keeps track of the current position, it may lead to an integer overflow. This has been fixed.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
@@ -41,8 +45,16 @@
       "url": "https://github.com/python-pillow/Pillow/security/advisories/GHSA-wjx4-4jcj-g98j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42308"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/python-pillow/Pillow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python-pillow/Pillow/releases/tag/12.2.0"
     }
   ],
   "database_specific": {
@@ -52,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-04T20:18:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-09T06:16:09Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xchc-cqwg-g76q",
-  "modified": "2026-05-04T20:00:18Z",
+  "modified": "2026-05-13T13:39:05Z",
   "published": "2026-05-04T20:00:18Z",
   "aliases": [
     "CVE-2026-42297"
@@ -41,6 +41,10 @@
       "url": "https://github.com/argoproj/argo-workflows/security/advisories/GHSA-xchc-cqwg-g76q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42297"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/argoproj/argo-workflows/commit/09fff05e0830c14a5e36cc40597ad84881db1ab6"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-04T20:00:18Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-09T04:16:25Z"
   }
 }

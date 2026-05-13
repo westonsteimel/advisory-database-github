@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcgp-9326-pqcp",
-  "modified": "2026-05-04T22:01:52Z",
+  "modified": "2026-05-13T13:41:49Z",
   "published": "2026-05-04T22:01:52Z",
   "aliases": [
     "CVE-2026-42246"
@@ -110,6 +110,10 @@
       "url": "https://github.com/ruby/net-imap/security/advisories/GHSA-vcgp-9326-pqcp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42246"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ruby/net-imap/commit/0ede4c40b1523dfeaf95777b2678e54cc0fd9618"
     },
@@ -165,6 +169,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-04T22:01:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-09T20:16:28Z"
   }
 }
