@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xx2-m8wv-756h",
-  "modified": "2026-05-06T21:19:21Z",
+  "modified": "2026-05-13T16:41:19Z",
   "published": "2026-05-06T21:19:21Z",
   "aliases": [
     "CVE-2026-42844"
@@ -41,6 +41,10 @@
       "url": "https://github.com/getgrav/grav/security/advisories/GHSA-6xx2-m8wv-756h"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42844"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/getgrav/grav-plugin-api/commit/97fc02844a35f743dfe93d34efd92d47eedd5bc5"
     },
@@ -57,6 +61,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-06T21:19:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-12T22:16:34Z"
   }
 }
