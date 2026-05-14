@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cx5-89vm-833x",
-  "modified": "2025-01-10T13:54:15Z",
+  "modified": "2026-05-14T20:44:45Z",
   "published": "2024-12-02T17:15:24Z",
   "aliases": [
     "CVE-2024-52800"
@@ -129,6 +129,72 @@
       "package": {
         "ecosystem": "Maven",
         "name": "org.verapdf:verapdf-library-arlington"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.2"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.26.1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.verapdf:library"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.2"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.26.1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.verapdf:library-jakarta"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.2"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.26.1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.verapdf:library-arlington"
       },
       "ranges": [
         {
