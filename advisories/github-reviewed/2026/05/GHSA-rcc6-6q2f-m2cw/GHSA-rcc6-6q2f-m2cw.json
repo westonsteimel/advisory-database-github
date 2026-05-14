@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcc6-6q2f-m2cw",
-  "modified": "2026-05-08T15:31:20Z",
+  "modified": "2026-05-14T13:05:13Z",
   "published": "2026-05-08T06:32:37Z",
   "aliases": [
     "CVE-2023-42344"
   ],
+  "summary": "Alkacon OpenCms allows remote unauthenticated attackers to obtain sensitive information",
   "details": "Alkacon OpenCms before 10.5.1 allows remote unauthenticated attackers to obtain sensitive information via a cmis-online/query XXE attack on a Chemistry servlet.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.opencms:opencms-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.5.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/projectdiscovery/nuclei-templates/issues/8864"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/alkacon/opencms-core"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-611"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-14T13:05:13Z",
     "nvd_published_at": "2026-05-08T05:16:09Z"
   }
 }

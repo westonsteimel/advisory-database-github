@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2887-f3v6-6rjf",
-  "modified": "2026-05-08T15:31:20Z",
+  "modified": "2026-05-14T13:04:53Z",
   "published": "2026-05-08T06:32:37Z",
   "aliases": [
     "CVE-2023-42345"
   ],
+  "summary": "Alkacon OpenCms is vulnerable to XSS via updateModelGroups.jsp",
   "details": "A Cross Site Scripting vulnerability in Alkacon OpenCms before 16 exists via updateModelGroups.jsp.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.opencms:opencms-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42345"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/alkacon/opencms-core"
     },
     {
       "type": "WEB",
@@ -29,8 +54,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-14T13:04:53Z",
     "nvd_published_at": "2026-05-08T05:16:09Z"
   }
 }
