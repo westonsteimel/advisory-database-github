@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxmp-wr3w-rvqx",
-  "modified": "2026-05-14T13:18:33Z",
+  "modified": "2026-05-14T19:02:41Z",
   "published": "2026-05-14T13:18:33Z",
   "aliases": [
     "CVE-2026-46356"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/fleetdm/fleet"
+        "name": "github.com/fleetdm/fleet/v4"
       },
       "ranges": [
         {
