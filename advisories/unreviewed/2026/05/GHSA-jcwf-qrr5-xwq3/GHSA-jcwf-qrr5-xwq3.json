@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcwf-qrr5-xwq3",
-  "modified": "2026-05-12T21:31:33Z",
+  "modified": "2026-05-14T15:31:52Z",
   "published": "2026-05-12T18:30:39Z",
   "aliases": [
     "CVE-2026-5089"
   ],
   "details": "YAML::Syck versions before 1.38 for Perl  has an out-of-bounds read.\n\nThe base60 (sexagesimal) parsing code in perl_syck.h has a buffer underflow bug in both int#base60 and float#base60 handlers. When processing the leftmost segment of a colon-separated value (e.g., the 1 in 1:30:45), the inner while loop can decrement a pointer past the start of the string buffer:\n\n    while ( colon >= ptr && *colon != ':' )\n    {\n        colon--;\n    }\n    if ( *colon == ':' ) *colon = '\\0';  // colon may be ptr-1 here\n\nWhen no colon is found (final/leftmost segment), colon becomes ptr-1, and the subsequent *colon dereference reads one byte before the allocated buffer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -39,7 +44,7 @@
     "cwe_ids": [
       "CWE-124"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-12T17:16:21Z"

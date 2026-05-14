@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxf8-x6wv-3579",
-  "modified": "2026-05-13T18:30:54Z",
+  "modified": "2026-05-14T15:31:57Z",
   "published": "2026-05-13T18:30:54Z",
   "aliases": [
     "CVE-2026-36738"
   ],
   "details": "U-SPEED AC1200 Gigabit Wi-Fi Router (Model: T18-21K) V1.0 is vulnerable to Incorrect Access Control. The device exposes a UART interface that lacks authentication, authorization, or access control mechanisms. An attacker with physical access to the UART pins can connect to the interface and gain unrestricted access to device functionality.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-13T16:16:40Z"
