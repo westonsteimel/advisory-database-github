@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6x4-qp59-vf35",
-  "modified": "2026-05-12T15:31:41Z",
+  "modified": "2026-05-14T18:32:47Z",
   "published": "2026-05-12T15:31:40Z",
   "aliases": [
     "CVE-2026-4827"
