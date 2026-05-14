@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq52-w6cx-5mg2",
-  "modified": "2026-05-14T03:32:09Z",
+  "modified": "2026-05-14T06:31:32Z",
   "published": "2026-05-14T03:32:09Z",
   "aliases": [
     "CVE-2026-46419"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46419"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Yubico/java-webauthn-server/releases/tag/2.8.2"
     },
     {
       "type": "WEB",
