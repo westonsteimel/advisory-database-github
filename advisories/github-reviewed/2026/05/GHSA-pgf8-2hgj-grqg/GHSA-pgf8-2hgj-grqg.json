@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgf8-2hgj-grqg",
-  "modified": "2026-05-07T00:05:20Z",
+  "modified": "2026-05-14T20:32:07Z",
   "published": "2026-05-07T00:05:20Z",
   "aliases": [
     "CVE-2026-44479"
@@ -44,6 +44,10 @@
       "url": "https://github.com/vercel/vercel/security/advisories/GHSA-pgf8-2hgj-grqg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44479"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/vercel/vercel"
     }
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-07T00:05:20Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-13T16:16:58Z"
   }
 }
