@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8j7-hp7c-738f",
-  "modified": "2026-05-07T02:34:32Z",
+  "modified": "2026-05-14T20:54:00Z",
   "published": "2026-05-07T02:34:32Z",
   "aliases": [
     "CVE-2026-44514"
@@ -60,6 +60,10 @@
       "url": "https://github.com/kubetail-org/kubetail/security/advisories/GHSA-v8j7-hp7c-738f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44514"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/kubetail-org/kubetail"
     }
@@ -71,6 +75,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-07T02:34:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-14T17:16:23Z"
   }
 }

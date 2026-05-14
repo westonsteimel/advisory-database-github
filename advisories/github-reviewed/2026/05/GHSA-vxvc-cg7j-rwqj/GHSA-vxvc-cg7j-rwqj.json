@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxvc-cg7j-rwqj",
-  "modified": "2026-05-07T03:34:13Z",
+  "modified": "2026-05-14T20:54:36Z",
   "published": "2026-05-07T03:34:13Z",
   "aliases": [
     "CVE-2026-44544"
@@ -44,6 +44,10 @@
       "url": "https://github.com/gittuf/gittuf/security/advisories/GHSA-vxvc-cg7j-rwqj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44544"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/gittuf/gittuf/commit/dd76efa505f9137a4a9a625c5ac67b333365a1b8"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-07T03:34:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-14T18:16:50Z"
   }
 }
