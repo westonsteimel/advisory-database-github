@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffhc-5mcf-pf4q",
-  "modified": "2026-05-11T15:57:12Z",
+  "modified": "2026-05-14T20:38:58Z",
   "published": "2026-05-11T15:57:12Z",
   "aliases": [
     "CVE-2026-44581"
@@ -60,6 +60,10 @@
       "url": "https://github.com/vercel/next.js/security/advisories/GHSA-ffhc-5mcf-pf4q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44581"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/vercel/next.js"
     },
@@ -79,6 +83,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-11T15:57:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-13T18:16:18Z"
   }
 }

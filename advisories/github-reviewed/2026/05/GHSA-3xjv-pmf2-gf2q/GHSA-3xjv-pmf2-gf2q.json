@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xjv-pmf2-gf2q",
-  "modified": "2026-05-06T21:34:39Z",
+  "modified": "2026-05-14T20:39:56Z",
   "published": "2026-05-06T21:34:39Z",
   "aliases": [
     "CVE-2026-42549"
@@ -41,6 +41,10 @@
       "url": "https://github.com/flightphp/core/security/advisories/GHSA-3xjv-pmf2-gf2q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42549"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/flightphp/core"
     }
@@ -52,6 +56,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-06T21:34:39Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-13T20:16:21Z"
   }
 }
