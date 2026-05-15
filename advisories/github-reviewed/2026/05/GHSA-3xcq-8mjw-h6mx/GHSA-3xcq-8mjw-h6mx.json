@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xcq-8mjw-h6mx",
-  "modified": "2026-05-13T20:02:36Z",
+  "modified": "2026-05-15T23:44:24Z",
   "published": "2026-05-13T20:02:36Z",
   "aliases": [
     "CVE-2026-22599"
@@ -60,6 +60,10 @@
       "url": "https://github.com/strapi/strapi/security/advisories/GHSA-3xcq-8mjw-h6mx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22599"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/strapi/strapi"
     },
@@ -79,6 +83,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-13T20:02:36Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-14T19:16:29Z"
   }
 }

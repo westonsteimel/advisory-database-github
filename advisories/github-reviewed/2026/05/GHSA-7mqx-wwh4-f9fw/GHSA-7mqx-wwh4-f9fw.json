@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mqx-wwh4-f9fw",
-  "modified": "2026-05-13T20:02:15Z",
+  "modified": "2026-05-15T23:44:20Z",
   "published": "2026-05-13T20:02:15Z",
   "aliases": [
     "CVE-2025-64526"
@@ -44,6 +44,10 @@
       "url": "https://github.com/strapi/strapi/security/advisories/GHSA-7mqx-wwh4-f9fw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64526"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/strapi/strapi/pull/24818"
     },
@@ -67,6 +71,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-13T20:02:15Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-14T19:16:29Z"
   }
 }

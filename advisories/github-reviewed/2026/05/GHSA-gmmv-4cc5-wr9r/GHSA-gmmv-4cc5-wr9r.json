@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmmv-4cc5-wr9r",
-  "modified": "2026-05-13T15:33:52Z",
+  "modified": "2026-05-15T23:45:43Z",
   "published": "2026-05-13T15:33:52Z",
   "aliases": [
     "CVE-2026-45371"
@@ -41,6 +41,10 @@
       "url": "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-gmmv-4cc5-wr9r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45371"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/siyuan-note/siyuan"
     }
@@ -53,6 +57,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-13T15:33:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-14T19:16:38Z"
   }
 }

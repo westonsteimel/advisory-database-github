@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxmp-wr3w-rvqx",
-  "modified": "2026-05-14T19:02:41Z",
+  "modified": "2026-05-15T23:45:48Z",
   "published": "2026-05-14T13:18:33Z",
   "aliases": [
     "CVE-2026-46356"
@@ -41,6 +41,10 @@
       "url": "https://github.com/fleetdm/fleet/security/advisories/GHSA-mxmp-wr3w-rvqx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46356"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/fleetdm/fleet"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-14T13:18:33Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-14T20:17:09Z"
   }
 }
