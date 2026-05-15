@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxjh-5564-f256",
-  "modified": "2026-03-27T06:31:44Z",
+  "modified": "2026-05-15T21:31:30Z",
   "published": "2026-03-27T06:31:44Z",
   "aliases": [
     "CVE-2026-4948"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2452086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/05/msg00029.html"
     }
   ],
   "database_specific": {

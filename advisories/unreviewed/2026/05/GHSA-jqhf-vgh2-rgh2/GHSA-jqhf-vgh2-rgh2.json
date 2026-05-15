@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqhf-vgh2-rgh2",
-  "modified": "2026-05-15T15:30:45Z",
+  "modified": "2026-05-15T21:31:31Z",
   "published": "2026-05-15T15:30:45Z",
   "aliases": [
     "CVE-2025-67437"
   ],
   "details": "Medical Management System a81df1ce700a9662cb136b27af47f4cbde64156b is vulnerable to Insecure Permissions, which allows arbitrary user password reset.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-15T15:16:49Z"
