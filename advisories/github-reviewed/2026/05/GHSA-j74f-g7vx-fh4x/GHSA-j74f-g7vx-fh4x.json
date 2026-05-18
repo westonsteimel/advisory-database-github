@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j74f-g7vx-fh4x",
-  "modified": "2026-05-11T18:31:44Z",
+  "modified": "2026-05-18T14:31:21Z",
   "published": "2026-05-11T18:31:44Z",
   "aliases": [
     "CVE-2026-7816"
   ],
+  "summary": "pgAdmin 4: OS command injection vulnerability in Import/Export query export",
   "details": "OS command injection (CWE-78) vulnerability in pgAdmin 4 Import/Export query export.\n\nUser-supplied input was interpolated directly into a psql \\copy metacommand template without sanitization. An authenticated user could inject \") TO PROGRAM 'cmd'\" to break out of the \\copy (...) context and achieve arbitrary command execution on the pgAdmin server, or \") TO '/path'\" for arbitrary file write. Additional fields (format, on_error, log_verbosity) were also raw-interpolated and exploitable.\n\nFix adds a parens-balance parser modeled on psql's strtokx tokenizer, allow-lists format/on_error/log_verbosity, rejects null bytes in the query, and tightens type and gating checks.\n\nThis issue affects pgAdmin 4: before 9.15.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pgadmin4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/pgadmin-org/pgadmin4/issues/9899"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pgadmin-org/pgadmin4/commit/13badc62c"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/pgadmin-org/pgadmin4"
     }
   ],
   "database_specific": {
@@ -33,8 +62,8 @@
       "CWE-89"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-18T14:31:21Z",
     "nvd_published_at": "2026-05-11T16:17:38Z"
   }
 }
