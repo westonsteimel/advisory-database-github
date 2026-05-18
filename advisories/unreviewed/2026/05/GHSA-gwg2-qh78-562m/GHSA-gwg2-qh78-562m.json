@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwg2-qh78-562m",
-  "modified": "2026-05-15T09:31:31Z",
+  "modified": "2026-05-18T18:31:24Z",
   "published": "2026-05-15T09:31:31Z",
   "aliases": [
     "CVE-2026-41702"
