@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqr6-4xmc-qjr5",
-  "modified": "2023-03-10T18:30:22Z",
+  "modified": "2026-05-18T15:30:31Z",
   "published": "2023-03-02T09:30:15Z",
   "aliases": [
     "CVE-2021-45479"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45479"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0119"
     },
     {
       "type": "WEB",

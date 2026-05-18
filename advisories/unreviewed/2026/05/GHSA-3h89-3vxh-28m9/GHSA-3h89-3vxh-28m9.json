@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3h89-3vxh-28m9",
-  "modified": "2026-05-10T12:30:19Z",
+  "modified": "2026-05-18T15:30:32Z",
   "published": "2026-05-10T12:30:19Z",
   "aliases": [
     "CVE-2026-8244"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/0xb1lal/758bbc5e4d82efea248e675da934ac69"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hawktrace.com/blog/caniaserp"
     },
     {
       "type": "WEB",

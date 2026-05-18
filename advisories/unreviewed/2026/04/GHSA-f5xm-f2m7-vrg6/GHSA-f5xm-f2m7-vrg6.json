@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5xm-f2m7-vrg6",
-  "modified": "2026-04-27T15:30:46Z",
+  "modified": "2026-05-18T15:30:31Z",
   "published": "2026-04-24T15:32:36Z",
   "aliases": [
     "CVE-2026-31635"
@@ -30,10 +30,16 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e2f1a80d8b1ed6a5ae585a399c2b46500bdcc305"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/v12-security/pocs/tree/main/dirtydecrypt"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-130"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

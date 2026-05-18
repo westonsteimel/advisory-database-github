@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xxx-43w2-xvh3",
-  "modified": "2026-05-10T09:31:33Z",
+  "modified": "2026-05-18T15:30:33Z",
   "published": "2026-05-10T09:31:33Z",
   "aliases": [
     "CVE-2026-8243"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8243"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hawktrace.com/blog/caniaserp"
     },
     {
       "type": "WEB",

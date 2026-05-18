@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfm7-36qc-84v9",
-  "modified": "2026-05-08T15:31:24Z",
+  "modified": "2026-05-18T15:30:32Z",
   "published": "2026-05-08T15:31:24Z",
   "aliases": [
     "CVE-2026-43342"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: f_rndis: Protect RNDIS options with mutex\n\nThe class/subclass/protocol options are suspectible to race conditions\nas they can be accessed concurrently through configfs.\n\nUse existing mutex to protect these options. This issue was identified\nduring code inspection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T14:16:44Z"

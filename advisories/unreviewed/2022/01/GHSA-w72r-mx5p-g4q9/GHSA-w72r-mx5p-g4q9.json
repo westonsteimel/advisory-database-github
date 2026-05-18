@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w72r-mx5p-g4q9",
-  "modified": "2023-09-03T18:30:19Z",
+  "modified": "2026-05-18T15:30:31Z",
   "published": "2022-01-28T00:02:13Z",
   "aliases": [
     "CVE-2021-44795"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-22-0093"
     },
     {
       "type": "WEB",

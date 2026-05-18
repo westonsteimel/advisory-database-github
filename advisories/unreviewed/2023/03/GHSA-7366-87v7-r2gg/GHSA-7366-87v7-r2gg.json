@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7366-87v7-r2gg",
-  "modified": "2023-03-09T15:30:50Z",
+  "modified": "2026-05-18T15:30:31Z",
   "published": "2023-03-02T09:30:15Z",
   "aliases": [
     "CVE-2021-45477"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0119"
     },
     {
       "type": "WEB",
