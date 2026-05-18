@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-35c5-rhm2-6w7w",
+  "modified": "2026-05-18T09:31:47Z",
+  "published": "2026-05-18T09:31:47Z",
+  "aliases": [
+    "CVE-2026-6495"
+  ],
+  "details": "The Ajax Load More  WordPress plugin before 7.8.4 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6495"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/c52f28c5-547d-48ae-89dd-edcdaeadcec5"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-18T07:16:12Z"
+  }
+}

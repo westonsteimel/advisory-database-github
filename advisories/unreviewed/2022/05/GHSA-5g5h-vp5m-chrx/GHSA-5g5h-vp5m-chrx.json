@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g5h-vp5m-chrx",
-  "modified": "2024-09-16T21:30:32Z",
+  "modified": "2026-05-18T09:31:46Z",
   "published": "2022-05-24T19:16:18Z",
   "aliases": [
     "CVE-2021-3825"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://pentest.blog/liderahenk-0day-all-your-pardus-clients-belongs-to-me"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-21-0795"
     },
     {
       "type": "WEB",

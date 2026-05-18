@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83vh-mv8c-q8vm",
-  "modified": "2024-09-17T00:31:00Z",
+  "modified": "2026-05-18T09:31:46Z",
   "published": "2022-05-24T19:15:01Z",
   "aliases": [
     "CVE-2021-3806"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://pentest.blog/pardus-21-linux-distro-remote-code-execution-0day-2021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-21-0754"
     },
     {
       "type": "WEB",
