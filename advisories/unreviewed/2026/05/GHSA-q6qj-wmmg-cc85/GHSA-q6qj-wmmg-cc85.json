@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q6qj-wmmg-cc85",
-  "modified": "2026-05-15T03:30:37Z",
+  "modified": "2026-05-18T03:31:49Z",
   "published": "2026-05-15T03:30:37Z",
   "aliases": [
     "CVE-2026-7373"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.rapid7.com/insight/metasploit-pro-release-notes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.rapid7.com/insight/release-notes-5.0.0-2026051301/#:~:text=Pro%3A%20We%20fixed,vulnerability%20to%20Rapid7."
     }
   ],
   "database_specific": {
