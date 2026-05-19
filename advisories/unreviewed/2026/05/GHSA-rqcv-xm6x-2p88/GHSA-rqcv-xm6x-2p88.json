@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqcv-xm6x-2p88",
-  "modified": "2026-05-19T15:31:26Z",
+  "modified": "2026-05-19T21:32:03Z",
   "published": "2026-05-19T12:31:39Z",
   "aliases": [
     "CVE-2026-46586"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/7mgjl81nrpxqtfcg6h5qtrx7wztbl4js"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/19/30"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cfc-95hv-9rqj",
-  "modified": "2026-05-08T15:31:26Z",
+  "modified": "2026-05-19T21:32:01Z",
   "published": "2026-05-08T15:31:26Z",
   "aliases": [
     "CVE-2026-43378"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: server: fix use-after-free in smb2_open()\n\nThe opinfo pointer obtained via rcu_dereference(fp->f_opinfo) is\ndereferenced after rcu_read_unlock(), creating a use-after-free\nwindow.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T15:16:48Z"

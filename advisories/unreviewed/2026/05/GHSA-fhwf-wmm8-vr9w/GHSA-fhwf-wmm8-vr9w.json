@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhwf-wmm8-vr9w",
-  "modified": "2026-05-19T15:31:26Z",
+  "modified": "2026-05-19T21:32:03Z",
   "published": "2026-05-19T12:31:38Z",
   "aliases": [
     "CVE-2026-45187"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/pcmfyxjyk7dg0btxqg9h7cr30yg8mr7k"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/19/28"
     }
   ],
   "database_specific": {

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4r28-v8q3-c59w",
+  "modified": "2026-05-19T21:32:03Z",
+  "published": "2026-05-19T21:32:03Z",
+  "aliases": [
+    "CVE-2026-39250"
+  ],
+  "details": "An authorization vulnerability exists in Innoshop 0.6.0. After logging into the frontend, an attacker can directly access backend application interfaces, leading to further dangerous operations.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39250"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/hkdmh/4af513ea7589212cb1d49bc5d972972e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.innoshop.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-19T21:16:42Z"
+  }
+}

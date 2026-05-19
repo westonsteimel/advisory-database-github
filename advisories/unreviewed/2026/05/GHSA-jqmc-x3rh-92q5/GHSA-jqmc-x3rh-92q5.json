@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqmc-x3rh-92q5",
-  "modified": "2026-05-19T15:31:25Z",
+  "modified": "2026-05-19T21:32:02Z",
   "published": "2026-05-19T12:31:37Z",
   "aliases": [
     "CVE-2026-29207"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/3rcrp8bh3x6ovrj5xnc0fm1f0nrn52r0"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/19/14"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hh7-r867-mmv2",
-  "modified": "2026-05-19T15:31:26Z",
+  "modified": "2026-05-19T21:32:02Z",
   "published": "2026-05-19T12:31:37Z",
   "aliases": [
     "CVE-2026-31906"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/1fblqdo89d3ps8kgtcnkcq8sh7gwkcpn"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/19/22"
     }
   ],
   "database_specific": {

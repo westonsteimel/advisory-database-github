@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gfp-86vp-f9mf",
-  "modified": "2026-05-19T15:31:26Z",
+  "modified": "2026-05-19T21:32:02Z",
   "published": "2026-05-19T12:31:38Z",
   "aliases": [
     "CVE-2026-35086"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/g0s37yhnh2xwfts400crb2w8s337hgjx"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/19/26"
     }
   ],
   "database_specific": {
