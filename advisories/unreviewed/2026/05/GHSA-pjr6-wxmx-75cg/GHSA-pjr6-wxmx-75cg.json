@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjr6-wxmx-75cg",
-  "modified": "2026-05-18T18:31:30Z",
+  "modified": "2026-05-19T00:31:34Z",
   "published": "2026-05-18T18:31:30Z",
   "aliases": [
     "CVE-2026-29964"
   ],
   "details": "HSC MailInspector v5.3.3-7 contains a Cross-Site Scripting (XSS) vulnerability in the /tap/tap.php endpoint due to improper neutralization of user-controlled input using alternate or obfuscated JavaScript syntax. The endpoint reflects unsanitized user input in HTTP responses without adequate output encoding, allowing a remote attacker to execute arbitrary JavaScript code in the context of a victim's browser.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-18T18:17:21Z"
