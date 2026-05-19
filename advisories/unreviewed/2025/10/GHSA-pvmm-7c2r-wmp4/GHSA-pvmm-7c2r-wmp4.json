@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvmm-7c2r-wmp4",
-  "modified": "2026-03-19T18:31:14Z",
+  "modified": "2026-05-19T12:31:37Z",
   "published": "2025-10-15T21:31:40Z",
   "aliases": [
     "CVE-2025-11568"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:23086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:18421"
     },
     {
       "type": "WEB",

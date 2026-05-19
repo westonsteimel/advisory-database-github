@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcqf-w94x-4wg2",
-  "modified": "2026-04-25T00:30:27Z",
+  "modified": "2026-05-19T12:31:37Z",
   "published": "2026-03-26T21:31:27Z",
   "aliases": [
     "CVE-2026-0966"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:18160"
     },
     {
       "type": "WEB",

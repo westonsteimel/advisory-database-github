@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5gfp-86vp-f9mf",
+  "modified": "2026-05-19T12:31:38Z",
+  "published": "2026-05-19T12:31:38Z",
+  "aliases": [
+    "CVE-2026-35086"
+  ],
+  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in email services of Apache OFBiz.\n\nThis issue affects Apache OFBiz: before 24.09.06.\n\nUsers are recommended to upgrade to version 24.09.06, which fixes the issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/g0s37yhnh2xwfts400crb2w8s337hgjx"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-19T10:16:24Z"
+  }
+}

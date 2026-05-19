@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h87f-qhmq-v48m",
+  "modified": "2026-05-19T12:31:38Z",
+  "published": "2026-05-19T12:31:37Z",
+  "aliases": [
+    "CVE-2026-31909"
+  ],
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache OFBiz.\n\nThis issue affects Apache OFBiz: before 24.09.06.\n\nUsers are recommended to upgrade to version 24.09.06, which fixes the issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31909"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/0hpopzz1qrhkzsbt3ncofs6qo0545r2h"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-19T10:16:23Z"
+  }
+}
