@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrqc-vwff-62mj",
-  "modified": "2026-05-19T15:31:32Z",
+  "modified": "2026-05-19T18:32:09Z",
   "published": "2026-05-19T15:31:32Z",
   "aliases": [
     "CVE-2026-8952"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-46"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-50"
     }
   ],
   "database_specific": {

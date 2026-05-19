@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wg2h-wc56-7jcc",
-  "modified": "2026-05-19T15:31:35Z",
+  "modified": "2026-05-19T18:32:10Z",
   "published": "2026-05-19T15:31:35Z",
   "aliases": [
     "CVE-2026-8971"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-46"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-50"
     }
   ],
   "database_specific": {

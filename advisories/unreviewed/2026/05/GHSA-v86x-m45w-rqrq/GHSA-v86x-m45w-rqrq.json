@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v86x-m45w-rqrq",
-  "modified": "2026-05-12T09:31:29Z",
+  "modified": "2026-05-19T18:32:05Z",
   "published": "2026-05-12T09:31:29Z",
   "aliases": [
     "CVE-2026-0802"

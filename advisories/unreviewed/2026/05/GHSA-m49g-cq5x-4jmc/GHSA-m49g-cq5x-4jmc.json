@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m49g-cq5x-4jmc",
-  "modified": "2026-05-19T15:31:32Z",
+  "modified": "2026-05-19T18:32:09Z",
   "published": "2026-05-19T15:31:31Z",
   "aliases": [
     "CVE-2026-8950"
   ],
   "details": "Same-origin policy bypass in the Networking: HTTP component. This vulnerability was fixed in Firefox 151 and Firefox ESR 140.11.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,11 +30,21 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-50"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-51"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-346"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-19T14:16:51Z"

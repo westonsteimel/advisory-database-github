@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-39wp-j2gg-h44j",
-  "modified": "2026-05-12T18:30:37Z",
+  "modified": "2026-05-19T18:32:07Z",
   "published": "2026-05-12T15:31:41Z",
   "aliases": [
     "CVE-2026-8368"
   ],
   "details": "LWP::UserAgent versions before 6.83 for Perl leak Authorization and Proxy-Authorization headers on cross-origin redirects.\n\nOn a 3xx response, the redirect handler strips only Host and Cookie before issuing the follow-up request. Caller-supplied Authorization and Proxy-Authorization headers are sent unchanged to the redirect target, including across scheme, host, or port changes.\n\nA redirect to an attacker controlled host therefore discloses the caller's credentials to that host.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -39,7 +44,7 @@
     "cwe_ids": [
       "CWE-522"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-12T15:16:19Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47hh-w7m9-q45x",
-  "modified": "2026-05-19T15:31:32Z",
+  "modified": "2026-05-19T18:32:09Z",
   "published": "2026-05-19T15:31:32Z",
   "aliases": [
     "CVE-2026-8955"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-50"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-51"
     }
   ],
   "database_specific": {

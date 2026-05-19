@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qg5w-7c3j-rfjc",
+  "modified": "2026-05-19T18:32:11Z",
+  "published": "2026-05-19T18:32:11Z",
+  "aliases": [
+    "CVE-2026-31070"
+  ],
+  "details": "The LalanaChami Pharmacy Management System (commit 5c3d028) allows unauthenticated remote attackers to escalate privileges by self-assigning an administrative role during registration. The /api/user/signup endpoint fails to validate the role parameter in the request body",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/nedlir/22bf6d1a3a07209be3e343744bc81d51"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/LalanaChami/Pharmacy-Mangment-System/blob/5c3d02888631166649856f71d542387114b3010b/backend/routes/user.js#L16"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-19T16:16:20Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fhv-h367-4jc4",
-  "modified": "2026-05-19T15:31:32Z",
+  "modified": "2026-05-19T18:32:09Z",
   "published": "2026-05-19T15:31:31Z",
   "aliases": [
     "CVE-2026-8947"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-50"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-51"
     }
   ],
   "database_specific": {

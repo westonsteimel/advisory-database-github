@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-572x-vhpq-w4gm",
-  "modified": "2026-05-19T15:31:33Z",
+  "modified": "2026-05-19T18:32:09Z",
   "published": "2026-05-19T15:31:33Z",
   "aliases": [
     "CVE-2026-8965"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-46"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-50"
     }
   ],
   "database_specific": {

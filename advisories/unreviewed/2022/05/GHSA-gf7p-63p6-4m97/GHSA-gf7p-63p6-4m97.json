@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gf7p-63p6-4m97",
-  "modified": "2026-05-19T15:31:17Z",
+  "modified": "2026-05-19T18:32:01Z",
   "published": "2022-05-13T01:34:58Z",
   "aliases": [
     "CVE-2018-10626"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSMA-18-219-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-18-219-01"
     },
     {
       "type": "WEB",
