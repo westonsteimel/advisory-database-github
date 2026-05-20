@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrfv-mqp8-q5rw",
-  "modified": "2026-05-20T22:16:51Z",
+  "modified": "2026-05-20T22:21:18Z",
   "published": "2023-10-25T14:22:59Z",
   "aliases": [
     "CVE-2023-46136"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "PyPI",
-        "name": "werkzeug"
+        "name": "Werkzeug"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "PyPI",
-        "name": "werkzeug"
+        "name": "Werkzeug"
       },
       "ranges": [
         {
