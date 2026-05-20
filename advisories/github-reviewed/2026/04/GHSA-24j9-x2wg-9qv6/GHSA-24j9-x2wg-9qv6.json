@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24j9-x2wg-9qv6",
-  "modified": "2026-04-10T21:38:56Z",
+  "modified": "2026-05-20T02:14:27Z",
   "published": "2026-04-09T21:31:30Z",
   "aliases": [
     "CVE-2026-34500"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-coyote-ffm"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-coyote-ffm"
       },
       "ranges": [
         {
@@ -56,121 +56,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "11.0.0-M14"
-            },
-            {
-              "fixed": "11.0.21"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.0.92"
-            },
-            {
-              "fixed": "9.0.117"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "10.1.22"
-            },
-            {
-              "fixed": "10.1.54"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "11.0.0-M14"
-            },
-            {
-              "fixed": "11.0.21"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.0.92"
-            },
-            {
-              "fixed": "9.0.117"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "10.1.22"
-            },
-            {
-              "fixed": "10.1.54"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        "name": "org.apache.tomcat:tomcat-coyote-ffm"
       },
       "ranges": [
         {
@@ -193,12 +79,36 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34500"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/29b56a56ce9e7d044b6162a99af0f38529b3a208"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/c13e60e732ea6d07087293a41ad1866c20848271"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/ff589ab26e8250a2ca4286d986305318c033ff9f"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/apache/tomcat"
     },
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/7rcl4zdxryc8hy3htyfyxkbqpxjtfdl2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.54"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.21"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.117"
     },
     {
       "type": "WEB",
