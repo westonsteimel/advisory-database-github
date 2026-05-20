@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x744-4wpc-v9h2",
-  "modified": "2026-03-31T18:40:32Z",
+  "modified": "2026-05-20T22:31:59Z",
   "published": "2026-03-27T17:43:16Z",
   "aliases": [
     "CVE-2026-34040"
@@ -26,13 +26,13 @@
           "events": [
             {
               "introduced": "0"
+            },
+            {
+              "fixed": "29.3.1"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 29.3.1"
-      }
+      ]
     },
     {
       "package": {
@@ -45,13 +45,13 @@
           "events": [
             {
               "introduced": "0"
+            },
+            {
+              "fixed": "29.3.1"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 29.3.1"
-      }
+      ]
     },
     {
       "package": {
@@ -105,8 +105,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-288",
-      "CWE-863"
+      "CWE-863",
+      "CWE-288"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
