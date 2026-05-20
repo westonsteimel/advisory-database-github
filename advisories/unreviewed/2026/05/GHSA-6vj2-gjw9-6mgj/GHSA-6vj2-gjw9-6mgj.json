@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vj2-gjw9-6mgj",
-  "modified": "2026-05-08T15:31:28Z",
+  "modified": "2026-05-20T21:31:28Z",
   "published": "2026-05-08T15:31:28Z",
   "aliases": [
     "CVE-2026-43426"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: renesas_usbhs: fix use-after-free in ISR during device removal\n\nIn usbhs_remove(), the driver frees resources (including the pipe array)\nwhile the interrupt handler (usbhs_interrupt) is still registered. If an\ninterrupt fires after usbhs_pipe_remove() but before the driver is fully\nunbound, the ISR may access freed memory, causing a use-after-free.\n\nFix this by calling devm_free_irq() before freeing resources. This ensures\nthe interrupt handler is both disabled and synchronized (waits for any\nrunning ISR to complete) before usbhs_pipe_remove() is called.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T15:16:54Z"

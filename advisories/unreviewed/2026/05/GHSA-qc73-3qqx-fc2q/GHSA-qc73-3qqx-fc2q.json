@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc73-3qqx-fc2q",
-  "modified": "2026-05-08T15:31:29Z",
+  "modified": "2026-05-20T21:31:28Z",
   "published": "2026-05-08T15:31:29Z",
   "aliases": [
     "CVE-2026-43463"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nrxrpc, afs: Fix missing error pointer check after rxrpc_kernel_lookup_peer()\n\nrxrpc_kernel_lookup_peer() can also return error pointers in addition to\nNULL, so just checking for NULL is not sufficient.\n\nFix this by:\n\n (1) Changing rxrpc_kernel_lookup_peer() to return -ENOMEM rather than NULL\n     on allocation failure.\n\n (2) Making the callers in afs use IS_ERR() and PTR_ERR() to pass on the\n     error code returned.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T15:16:59Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wjm-5g86-c6p3",
-  "modified": "2026-05-11T15:32:12Z",
+  "modified": "2026-05-20T21:31:29Z",
   "published": "2026-05-11T15:32:12Z",
   "aliases": [
     "CVE-2026-4802"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/cockpit-project/cockpit/blob/e204cd130/pkg/systemd/logsJournal.jsx#L206-L210"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/20/19"
     }
   ],
   "database_specific": {

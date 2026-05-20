@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2fm-fx6j-95j7",
-  "modified": "2026-03-17T12:30:19Z",
+  "modified": "2026-05-20T21:31:27Z",
   "published": "2026-03-17T12:30:19Z",
   "aliases": [
     "CVE-2026-23241"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\naudit: add missing syscalls to read class\n\nThe \"at\" variant of getxattr() and listxattr() are missing from the\naudit read class. Calling getxattrat() or listxattrat() on a file to\nread its extended attributes will bypass audit rules such as:\n\n-w /tmp/test -p rwa -k test_rwa\n\nThe current patch adds missing syscalls to the audit read class.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-17T10:16:00Z"
