@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q34m-jh98-gwm2",
-  "modified": "2025-01-03T12:30:30Z",
+  "modified": "2026-05-20T22:24:15Z",
   "published": "2024-10-25T19:44:43Z",
   "aliases": [
     "CVE-2024-49767"
@@ -29,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.0rc1"
             },
             {
               "fixed": "3.0.6"
@@ -81,6 +81,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pallets/werkzeug/commit/50cfeebcb0727e18cc52ffbeb125f4a66551179b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pallets/werkzeug/commit/cbb446fdcada7685fce936ded01b76c08dbd6eb5"
     },
     {
       "type": "PACKAGE",
