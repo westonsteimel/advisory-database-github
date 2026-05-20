@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxrg-39g8-v6cj",
-  "modified": "2026-04-18T09:30:19Z",
+  "modified": "2026-05-20T15:35:21Z",
   "published": "2026-04-03T18:31:22Z",
   "aliases": [
     "CVE-2026-23463"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoc: fsl: qbman: fix race condition in qman_destroy_fq\n\nWhen QMAN_FQ_FLAG_DYNAMIC_FQID is set, there's a race condition between\nfq_table[fq->idx] state and freeing/allocating from the pool and\nWARN_ON(fq_table[fq->idx]) in qman_create_fq() gets triggered.\n\nIndeed, we can have:\n         Thread A                             Thread B\n    qman_destroy_fq()                    qman_create_fq()\n      qman_release_fqid()\n        qman_shutdown_fq()\n        gen_pool_free()\n           -- At this point, the fqid is available again --\n                                           qman_alloc_fqid()\n           -- so, we can get the just-freed fqid in thread B --\n                                           fq->fqid = fqid;\n                                           fq->idx = fqid * 2;\n                                           WARN_ON(fq_table[fq->idx]);\n                                           fq_table[fq->idx] = fq;\n     fq_table[fq->idx] = NULL;\n\nAnd adding some logs between qman_release_fqid() and\nfq_table[fq->idx] = NULL makes the WARN_ON() trigger a lot more.\n\nTo prevent that, ensure that fq_table[fq->idx] is set to NULL before\ngen_pool_free() is called by using smp_wmb().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-03T16:16:33Z"

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx62-r535-jwqf",
-  "modified": "2023-11-28T12:31:25Z",
+  "modified": "2026-05-20T15:35:20Z",
   "published": "2023-11-28T12:31:25Z",
   "aliases": [
     "CVE-2023-6151"
   ],
-  "details": "Improper Privilege Management vulnerability in ESKOM Computer e-municipality module allows Collect Data as Provided by Users.This issue affects e-municipality module: before v.105.\n\n",
+  "details": "Improper Privilege Management vulnerability in ESKOM Computer e-municipality module allows Collect Data as Provided by Users.This issue affects e-municipality module: before v.105.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6151"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-23-0664"
     },
     {
       "type": "WEB",

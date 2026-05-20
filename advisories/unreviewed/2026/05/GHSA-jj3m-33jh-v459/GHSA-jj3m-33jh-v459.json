@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj3m-33jh-v459",
-  "modified": "2026-05-20T00:31:41Z",
+  "modified": "2026-05-20T15:35:26Z",
   "published": "2026-05-20T00:31:41Z",
   "aliases": [
     "CVE-2025-15645"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15645"
+    },
+    {
+      "type": "WEB",
+      "url": "https://donjon.ledger.com/lsb/021"
     },
     {
       "type": "WEB",

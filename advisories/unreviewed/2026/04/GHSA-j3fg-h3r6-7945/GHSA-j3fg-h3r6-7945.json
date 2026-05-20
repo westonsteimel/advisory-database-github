@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3fg-h3r6-7945",
-  "modified": "2026-04-18T09:30:20Z",
+  "modified": "2026-05-20T15:35:22Z",
   "published": "2026-04-03T18:31:23Z",
   "aliases": [
     "CVE-2026-31399"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvdimm/bus: Fix potential use after free in asynchronous initialization\n\nDingisoul with KASAN reports a use after free if device_add() fails in\nnd_async_device_register().\n\nCommit b6eae0f61db2 (\"libnvdimm: Hold reference on parent while\nscheduling async init\") correctly added a reference on the parent device\nto be held until asynchronous initialization was complete.  However, if\ndevice_add() results in an allocation failure the ref count of the\ndevice drops to 0 prior to the parent pointer being accessed.  Thus\nresulting in use after free.\n\nThe bug bot AI correctly identified the fix.  Save a reference to the\nparent pointer to be used to drop the parent reference regardless of the\noutcome of device_add().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-03T16:16:38Z"

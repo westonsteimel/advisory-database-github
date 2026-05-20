@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3cf-54jv-7mmj",
-  "modified": "2026-05-20T00:31:41Z",
+  "modified": "2026-05-20T15:35:25Z",
   "published": "2026-05-20T00:31:41Z",
   "aliases": [
     "CVE-2023-7345"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7345"
+    },
+    {
+      "type": "WEB",
+      "url": "https://donjon.ledger.com/lsb/020"
     },
     {
       "type": "WEB",
