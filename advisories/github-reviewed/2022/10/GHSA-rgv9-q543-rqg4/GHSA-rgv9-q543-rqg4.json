@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgv9-q543-rqg4",
-  "modified": "2024-12-02T16:17:21Z",
+  "modified": "2026-05-21T00:22:42Z",
   "published": "2022-10-03T00:00:31Z",
   "aliases": [
     "CVE-2022-42004"
@@ -29,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.4.0-rc1"
             },
             {
               "fixed": "2.12.7.1"
@@ -70,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/FasterXML/jackson-databind/commit/063183589218fec19a9293ed2f17ec53ea80ba88"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FasterXML/jackson-databind/commit/0e37a39502439ecbaa1a5b5188387c01bf7f7fa1"
     },
     {
       "type": "WEB",
