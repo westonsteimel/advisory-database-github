@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9w39-mw48-92gc",
-  "modified": "2026-04-27T15:30:28Z",
+  "modified": "2026-05-21T00:30:25Z",
   "published": "2026-03-18T18:31:17Z",
   "aliases": [
     "CVE-2026-23255"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: add proper RCU protection to /proc/net/ptype\n\nYin Fengwei reported an RCU stall in ptype_seq_show() and provided\na patch.\n\nReal issue is that ptype_seq_next() and ptype_seq_show() violate\nRCU rules.\n\nptype_seq_show() runs under rcu_read_lock(), and reads pt->dev\nto get device name without any barrier.\n\nAt the same time, concurrent writers can remove a packet_type structure\n(which is correctly freed after an RCU grace period) and clear pt->dev\nwithout an RCU grace period.\n\nDefine ptype_iter_state to carry a dev pointer along seq_net_private:\n\nstruct ptype_iter_state {\n\tstruct seq_net_private\tp;\n\tstruct net_device\t*dev; // added in this patch\n};\n\nWe need to record the device pointer in ptype_get_idx() and\nptype_seq_next() so that ptype_seq_show() is safe against\nconcurrent pt->dev changes.\n\nWe also need to add full RCU protection in ptype_seq_next().\n(Missing READ_ONCE() when reading list.next values)\n\nMany thanks to Dong Chenchen for providing a repro.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-18T18:16:23Z"

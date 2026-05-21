@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjc4-qqxc-7h36",
-  "modified": "2026-05-20T21:31:33Z",
+  "modified": "2026-05-21T00:30:27Z",
   "published": "2026-05-20T21:31:33Z",
   "aliases": [
     "CVE-2026-47373"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/RRWO/Crypt-SaltedHash-0.10/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/20/21"
     }
   ],
   "database_specific": {
