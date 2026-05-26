@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4pp-8pjf-rmxw",
-  "modified": "2026-05-26T13:30:54Z",
+  "modified": "2026-05-26T15:32:10Z",
   "published": "2026-05-26T13:30:54Z",
   "aliases": [
     "CVE-2026-9496"
@@ -38,7 +38,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1333"
+      "CWE-1333",
+      "CWE-400"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
