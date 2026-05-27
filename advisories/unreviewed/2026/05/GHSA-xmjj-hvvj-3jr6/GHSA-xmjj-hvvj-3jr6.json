@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xmjj-hvvj-3jr6",
+  "modified": "2026-05-27T15:33:25Z",
+  "published": "2026-05-27T15:33:25Z",
+  "aliases": [
+    "CVE-2026-31266"
+  ],
+  "details": "Craft CMS 5.9.5 and earlier contains a Missing Authorization vulnerability in the migrate endpoint (/actions/app/migrate).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/0xrixet/cms-security-poc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/craftcms/cms"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-27T15:16:26Z"
+  }
+}
