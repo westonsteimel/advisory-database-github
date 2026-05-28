@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c8g3-x47w-8q7p",
-  "modified": "2026-05-06T18:32:15Z",
+  "modified": "2026-05-28T20:47:01Z",
   "published": "2026-04-27T21:31:02Z",
-  "aliases": [
-    "CVE-2026-5394"
-  ],
-  "summary": "Pimcore admin users can trigger SQL Injection",
-  "details": "An authenticated administrative user who can import or save DataObject class definitions can inject attacker-controlled composite index metadata and trigger unintended SQL execution in the backend.\n\nThis issue affects pimcore: 12.3.3.",
+  "withdrawn": "2026-05-28T20:47:01Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Pimcore admin users can trigger SQL Injection",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-r2f4-ff2p-xc64. This link is maintained to preserve external references.\n\n### Original Description\nAn authenticated administrative user who can import or save DataObject class definitions can inject attacker-controlled composite index metadata and trigger unintended SQL execution in the backend.\n\nThis issue affects pimcore: 12.3.3.",
   "severity": [
     {
       "type": "CVSS_V4",
