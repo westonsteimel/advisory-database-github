@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf93-45jw-7689",
-  "modified": "2026-06-01T18:31:53Z",
+  "modified": "2026-06-01T21:30:42Z",
   "published": "2026-06-01T18:31:53Z",
   "aliases": [
     "CVE-2026-8643"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/YV63UET5D3OOJY7O4M5XCVYO2YM4NBYJ"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/01/5"
     }
   ],
   "database_specific": {
