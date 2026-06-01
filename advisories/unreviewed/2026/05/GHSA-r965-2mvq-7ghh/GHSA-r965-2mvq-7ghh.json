@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r965-2mvq-7ghh",
-  "modified": "2026-05-27T15:33:23Z",
+  "modified": "2026-06-01T18:31:35Z",
   "published": "2026-05-27T15:33:23Z",
   "aliases": [
     "CVE-2026-46088"
@@ -24,11 +24,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/708f6ec9bcdf58bfd561409110baaf4fd3be4ea3"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/82012fd3e78a14360fbc2f1a7491589896704f97"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8ba0214c3dd32b8ec652947e3f2bc5b8f6e6be9e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a470f7cabc4df72d9bd132f5719a8717292bb440"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bfcbb4994da9e979c4bcfcf24aaaac69e457e48e"
     },
     {
       "type": "WEB",

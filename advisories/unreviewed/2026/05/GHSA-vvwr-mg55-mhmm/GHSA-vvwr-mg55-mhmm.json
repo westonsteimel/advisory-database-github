@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvwr-mg55-mhmm",
-  "modified": "2026-05-28T12:30:34Z",
+  "modified": "2026-06-01T18:31:42Z",
   "published": "2026-05-28T12:30:33Z",
   "aliases": [
     "CVE-2026-46233"
@@ -16,6 +16,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6725c523a35eeca611ff37e7d4a8712fae92aefd"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7b7ebb7222a5524ce58e48cc9c6d688320ea6cfe"
     },
     {
@@ -24,7 +28,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a9f58d5e3261f3deeae69ec1e237f38ef3ff5cbe"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ab3dbd07a809a8eb30c7ddfab9ac886ed30dce8d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/afb5436f6028fd68f408f189230fbaa19c910d72"
     },
     {
       "type": "WEB",

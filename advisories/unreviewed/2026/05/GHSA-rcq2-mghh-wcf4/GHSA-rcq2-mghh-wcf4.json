@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcq2-mghh-wcf4",
-  "modified": "2026-05-27T15:33:20Z",
+  "modified": "2026-06-01T18:31:34Z",
   "published": "2026-05-27T15:33:20Z",
   "aliases": [
     "CVE-2026-45994"
@@ -20,6 +20,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/44ee19422aa82a6847594866de7e5a31e4ef98b3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7b8a574da5d7ea99b943f7a3458a17a1d95e8838"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a672682d39dd34e2b5ba4feb436723bed65125ff"
     },
     {
@@ -29,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d0fb4d1dc43f8d5179917a2daaa82680993d4cdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d50e2019c9d7c433f56d9dff65703eb904aa1fb1"
     },
     {
       "type": "WEB",

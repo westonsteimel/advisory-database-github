@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x78h-gf69-p5j6",
-  "modified": "2026-05-27T12:31:23Z",
+  "modified": "2026-06-01T18:31:33Z",
   "published": "2026-05-27T12:31:23Z",
   "aliases": [
     "CVE-2026-45838"
@@ -13,6 +13,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45838"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0f3d9dd5e1fd52b39e25328307c6a694e994ffe3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/26d3339e465e54107bd85884341d1609c5300d6a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2c88b2d96e1d4d0c7c4589a4593d4cdee6d332d6"
     },
     {
       "type": "WEB",

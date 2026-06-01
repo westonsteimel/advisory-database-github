@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrpw-xx6g-3jg3",
-  "modified": "2026-05-28T12:30:31Z",
+  "modified": "2026-06-01T18:31:39Z",
   "published": "2026-05-28T12:30:31Z",
   "aliases": [
     "CVE-2026-46170"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46170"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/531c537b8fb620beabccfb1594e8d43cbebbb87a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6a3af482188f6db4186d1605f64d911d7330abb3"
     },
     {
       "type": "WEB",

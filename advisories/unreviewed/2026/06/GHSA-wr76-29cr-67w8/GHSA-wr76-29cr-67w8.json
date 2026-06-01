@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr76-29cr-67w8",
-  "modified": "2026-06-01T09:31:14Z",
+  "modified": "2026-06-01T18:31:47Z",
   "published": "2026-06-01T09:31:14Z",
   "aliases": [
     "CVE-2026-42359"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/g8dqykpf1p90tysq8tln4qtkqwb1038s"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-33858"
     }
   ],
   "database_specific": {

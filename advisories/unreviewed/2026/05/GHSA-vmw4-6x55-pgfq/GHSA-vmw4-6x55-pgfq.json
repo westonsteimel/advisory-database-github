@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmw4-6x55-pgfq",
-  "modified": "2026-05-28T12:30:31Z",
+  "modified": "2026-06-01T18:31:38Z",
   "published": "2026-05-28T12:30:31Z",
   "aliases": [
     "CVE-2026-46156"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9e1aed63a5552958ef2a9bfd699a3f990e52a77f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bfde8accc3e3260c0ecbb8cc34361739e1e16f31"
     }
   ],
   "database_specific": {

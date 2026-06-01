@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmcc-hwvc-gq3r",
-  "modified": "2026-05-11T18:31:35Z",
+  "modified": "2026-06-01T18:31:30Z",
   "published": "2026-05-06T12:30:27Z",
   "aliases": [
     "CVE-2026-43103"
@@ -33,11 +33,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/698642a01d53107ce9b3fc08bd801284af478a2b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a10570973619cba9dfa6d723177251b846fae587"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b117056768ab7deb434e7d72065e48d2083a0c2a"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b120e4432f9f56c7103133d6a11245e617695adb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ffc5ed59f6dc87c51e8775f002619310225742e8"
     }
   ],
   "database_specific": {

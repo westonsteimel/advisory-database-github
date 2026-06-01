@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhmf-xjjg-5pxr",
-  "modified": "2026-05-30T12:30:26Z",
+  "modified": "2026-06-01T18:31:42Z",
   "published": "2026-05-28T12:30:34Z",
   "aliases": [
     "CVE-2026-46238"
@@ -25,11 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/384e3050a42be9085d50507b4d5f8266a588d742"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/67bceeb22207f1f5a402973a3a0809e5f2698f38"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6e20700f8c524ac379ba8274ff5d453023b7c006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/86b2b58d7c228d850c8c78e4144e6123e8ed2718"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8c16c68fdbb69778f8d04f650340c3f4d1518f8e"
     },
     {
       "type": "WEB",

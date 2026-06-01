@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rm7q-mppc-gxx3",
-  "modified": "2026-05-27T15:33:23Z",
+  "modified": "2026-06-01T18:31:35Z",
   "published": "2026-05-27T15:33:23Z",
   "aliases": [
     "CVE-2026-46082"
@@ -20,6 +20,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/491139c17f8ad5773303068411f6ac5eed438b51"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/643125b66ffc1147c66616b749475ba9efb15971"
     },
     {
@@ -29,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d99df02ff427f461102230f9c5b90a6c64ee8e23"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ebb63390142c6458fc37758e0892759989cc159f"
     },
     {
       "type": "WEB",
