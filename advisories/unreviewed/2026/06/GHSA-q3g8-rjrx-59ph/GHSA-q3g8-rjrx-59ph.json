@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3g8-rjrx-59ph",
-  "modified": "2026-06-05T00:31:55Z",
+  "modified": "2026-06-06T06:30:29Z",
   "published": "2026-06-05T00:31:55Z",
   "aliases": [
     "CVE-2026-50589"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/ironic/+bug/2154288"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.openstack.org/wiki/OSSN/OSSN-0099"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/06/2"
     }
   ],
   "database_specific": {
