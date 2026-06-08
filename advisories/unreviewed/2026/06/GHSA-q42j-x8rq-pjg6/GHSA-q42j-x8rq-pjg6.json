@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q42j-x8rq-pjg6",
-  "modified": "2026-06-08T12:30:29Z",
+  "modified": "2026-06-08T15:32:56Z",
   "published": "2026-06-08T12:30:29Z",
   "aliases": [
     "CVE-2026-47430"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/sb539nss3b0545wnyt1pbh7zgwjvz2qq"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/06/07/1"
     }
   ],
   "database_specific": {
