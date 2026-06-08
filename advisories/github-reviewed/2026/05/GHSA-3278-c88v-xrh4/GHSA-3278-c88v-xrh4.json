@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3278-c88v-xrh4",
-  "modified": "2026-05-19T19:28:48Z",
+  "modified": "2026-06-08T20:13:51Z",
   "published": "2026-05-19T19:28:48Z",
   "aliases": [],
   "summary": "Kong Ingress Controller for Kubernetes (KIC): Secret-backed plugin configurations leak through non-sensitive diagnostics endpoint",
@@ -32,7 +32,7 @@
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "< 3.5.6"
+        "last_known_affected_version_range": "<= 3.5.6"
       }
     },
     {
