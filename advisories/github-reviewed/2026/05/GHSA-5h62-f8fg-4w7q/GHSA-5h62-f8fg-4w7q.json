@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h62-f8fg-4w7q",
-  "modified": "2026-05-21T21:17:33Z",
+  "modified": "2026-06-09T00:05:36Z",
   "published": "2026-05-15T21:31:32Z",
-  "aliases": [
-    "CVE-2026-46365"
-  ],
-  "summary": "phpMyFAQ: Missing Authorization on Tag Deletion Allows Any Authenticated User to Delete Tags",
-  "details": "phpMyFAQ before 4.1.2 contains a missing authorization vulnerability in the DELETE /admin/api/content/tags/{tagId} endpoint that allows any authenticated user to delete tags. Any logged-in user, including regular frontend users, can delete arbitrary tags by sending a DELETE request with a valid session cookie, resulting in permanent data loss and disruption of FAQ organization.",
+  "withdrawn": "2026-06-09T00:05:36Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: phpMyFAQ: Missing Authorization on Tag Deletion Allows Any Authenticated User to Delete Tags",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-7cx3-2qx2-3g6w. This link is maintained to preserve external references.\n\n### Original Description\nphpMyFAQ before 4.1.2 contains a missing authorization vulnerability in the DELETE /admin/api/content/tags/{tagId} endpoint that allows any authenticated user to delete tags. Any logged-in user, including regular frontend users, can delete arbitrary tags by sending a DELETE request with a valid session cookie, resulting in permanent data loss and disruption of FAQ organization.",
   "severity": [
     {
       "type": "CVSS_V3",

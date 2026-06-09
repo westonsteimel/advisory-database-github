@@ -1,17 +1,20 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj3q-vw2v-3rj3",
-  "modified": "2026-05-21T21:16:25Z",
+  "modified": "2026-06-09T00:03:36Z",
   "published": "2026-05-15T21:31:32Z",
-  "aliases": [
-    "CVE-2026-46360"
-  ],
-  "summary": "phpMyFAQ: SVG Sanitizer Entity Decoding Depth Limit Bypass Leading to Stored XSS",
-  "details": "phpMyFAQ before 4.1.2 contains a stored cross-site scripting vulnerability in SvgSanitizer::decodeAllEntities() that limits recursive entity decoding to 5 iterations, allowing attackers to bypass sanitization. Authenticated users with FAQ_EDIT permission can upload malicious SVG files with deeply nested ampersand encoding around numeric HTML entities to reconstruct javascript: URLs, which execute arbitrary JavaScript when clicked by other users viewing the uploaded SVG.",
+  "withdrawn": "2026-06-09T00:03:36Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: phpMyFAQ: SVG Sanitizer Entity Decoding Depth Limit Bypass Leading to Stored XSS",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-whqh-9pq5-c7r3. This link is maintained to preserve external references.\n\n### Original Description\nphpMyFAQ before 4.1.2 contains a stored cross-site scripting vulnerability in SvgSanitizer::decodeAllEntities() that limits recursive entity decoding to 5 iterations, allowing attackers to bypass sanitization. Authenticated users with FAQ_EDIT permission can upload malicious SVG files with deeply nested ampersand encoding around numeric HTML entities to reconstruct javascript: URLs, which execute arbitrary JavaScript when clicked by other users viewing the uploaded SVG.",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:L/VI:L/VA:N/SC:L/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
   "affected": [
