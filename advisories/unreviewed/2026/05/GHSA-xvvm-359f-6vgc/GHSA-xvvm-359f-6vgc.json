@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvvm-359f-6vgc",
-  "modified": "2026-06-01T18:31:31Z",
+  "modified": "2026-06-19T15:33:10Z",
   "published": "2026-05-08T15:31:24Z",
   "aliases": [
     "CVE-2026-43350"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43350"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1592a6cd6f653f2d24572a6976c7a775b19f4940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/23b54d6cc3ef30a51d984dc74364f24039ae2ecb"
     },
     {
       "type": "WEB",
