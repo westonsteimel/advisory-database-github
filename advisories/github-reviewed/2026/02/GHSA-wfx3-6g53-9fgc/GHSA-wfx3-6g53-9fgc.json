@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfx3-6g53-9fgc",
-  "modified": "2026-02-25T19:13:32Z",
+  "modified": "2026-06-24T13:09:44Z",
   "published": "2026-02-25T19:13:32Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-56368"
+  ],
   "summary": "ImageMagick: Memory Leak in multiple coders that write raw pixel data ",
   "details": "A memory leak vulnerability exists in multiple coders that write raw pixel data where an object is not freed. \n\n```\nDirect leak of 160 byte(s) in 1 object(s) allocated from:\n```",
   "severity": [

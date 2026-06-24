@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmpg-6pww-fg6q",
-  "modified": "2026-04-16T15:54:56Z",
+  "modified": "2026-06-24T13:10:04Z",
   "published": "2026-04-14T23:32:35Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-56370"
+  ],
   "summary": "ImageMagick has out-of-bounds access in ConnectedComponentsImage() via CLI-controlled connected-components:* artifacts",
   "details": "When the `connected-components:*` define specifies an invalid index and out of bound operation will result in an access violation.",
   "severity": [
