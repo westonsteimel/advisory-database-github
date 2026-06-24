@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc6p-4gwj-jcr8",
-  "modified": "2026-05-11T14:08:50Z",
+  "modified": "2026-06-24T03:30:34Z",
   "published": "2026-05-06T12:30:28Z",
   "withdrawn": "2026-05-11T14:08:50Z",
   "aliases": [],
@@ -41,6 +41,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6420"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:28582"
     },
     {
       "type": "WEB",
