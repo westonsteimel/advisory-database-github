@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfvp-r4j5-4q92",
-  "modified": "2026-06-01T18:31:35Z",
+  "modified": "2026-06-25T21:31:21Z",
   "published": "2026-05-27T15:33:24Z",
   "aliases": [
     "CVE-2026-46098"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: caif: clear client service pointer on teardown\n\n`caif_connect()` can tear down an existing client after remote shutdown by\ncalling `caif_disconnect_client()` followed by `caif_free_client()`.\n`caif_free_client()` releases the service layer referenced by\n`adap_layer->dn`, but leaves that pointer stale.\n\nWhen the socket is later destroyed, `caif_sock_destructor()` calls\n`caif_free_client()` again and dereferences the freed service pointer.\n\nClear the client/service links before releasing the service object so\nrepeated teardown becomes harmless.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:31Z"

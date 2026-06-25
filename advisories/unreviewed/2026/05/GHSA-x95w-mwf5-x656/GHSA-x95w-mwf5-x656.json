@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x95w-mwf5-x656",
-  "modified": "2026-05-27T15:33:15Z",
+  "modified": "2026-06-25T21:31:20Z",
   "published": "2026-05-27T15:33:15Z",
   "aliases": [
     "CVE-2026-45896"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmtd: intel-dg: Fix accessing regions before setting nregions\n\nThe regions array is counted by nregions, but it's set only after\naccessing it:\n\n[] UBSAN: array-index-out-of-bounds in drivers/mtd/devices/mtd_intel_dg.c:750:15\n[] index 0 is out of range for type '<unknown> [*]'\n\nFix it by also fixing an undesired behavior: the loop silently ignores\nENOMEM and continues setting the other entries.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-27T14:17:03Z"
