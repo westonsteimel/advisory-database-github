@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h35-hqff-9v3w",
-  "modified": "2026-06-28T09:31:37Z",
+  "modified": "2026-06-29T06:31:48Z",
   "published": "2026-06-24T18:32:41Z",
   "aliases": [
     "CVE-2026-52946"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52946"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/00633c4683828acd5256fa8d5163f440d74bbe71"
     },
     {
       "type": "WEB",
