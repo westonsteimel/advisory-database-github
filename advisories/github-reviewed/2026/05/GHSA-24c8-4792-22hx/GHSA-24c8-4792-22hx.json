@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24c8-4792-22hx",
-  "modified": "2026-05-19T14:35:25Z",
+  "modified": "2026-06-29T15:43:46Z",
   "published": "2026-05-19T14:35:25Z",
   "aliases": [],
   "summary": "Scriban: array.insert_at index parameter DoS bypasses LoopLimit and LimitToString",
@@ -17,6 +17,28 @@
       "package": {
         "ecosystem": "NuGet",
         "name": "scriban"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 7.1.0"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "NuGet",
+        "name": "Scriban.Signed"
       },
       "ranges": [
         {
