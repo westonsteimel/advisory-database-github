@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f56-w4g2-mx64",
-  "modified": "2026-03-01T09:30:19Z",
+  "modified": "2026-06-30T18:46:54Z",
   "published": "2026-02-19T18:31:51Z",
-  "aliases": [
-    "CVE-2026-2705"
-  ],
-  "details": "A vulnerability was detected in Open Babel up to 3.1.1. The impacted element is the function OBAtom::SetFormalCharge in the library include/openbabel/atom.h of the component MOL2 File Handler. The manipulation results in out-of-bounds read. It is possible to launch the attack remotely. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+  "withdrawn": "2026-06-30T18:46:53Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Open Babel has NULL pointer dereference in MOL2 OBAtom::SetFormalCharge",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-4w5w-4fhm-q483. This link is maintained to preserve external references.\n\n## Original Description\nA vulnerability was detected in Open Babel up to 3.1.1. The impacted element is the function OBAtom::SetFormalCharge in the library include/openbabel/atom.h of the component MOL2 File Handler. The manipulation results in out-of-bounds read. It is possible to launch the attack remotely. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -17,7 +17,27 @@
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "openbabel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +76,9 @@
     "cwe_ids": [
       "CWE-119"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-06-30T18:46:53Z",
     "nvd_published_at": "2026-02-19T07:17:49Z"
   }
 }
