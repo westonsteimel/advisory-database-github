@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6v6-v5r9-3ggh",
-  "modified": "2026-06-30T03:36:42Z",
+  "modified": "2026-06-30T15:30:33Z",
   "published": "2026-05-14T15:31:58Z",
   "aliases": [
     "CVE-2026-6478"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-6478"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:33441"
     },
     {
       "type": "WEB",

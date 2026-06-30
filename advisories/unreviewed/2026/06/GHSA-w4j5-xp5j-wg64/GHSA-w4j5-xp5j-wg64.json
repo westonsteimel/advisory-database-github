@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4j5-xp5j-wg64",
-  "modified": "2026-06-29T21:32:14Z",
+  "modified": "2026-06-30T15:30:43Z",
   "published": "2026-06-29T21:32:14Z",
   "aliases": [
     "CVE-2026-43721"
   ],
   "details": "This issue was addressed through improved state management. This issue is fixed in Safari 26.5.2, iOS 26.5.2 and iPadOS 26.5.2, macOS Tahoe 26.5.2. A malicious website may be able to silently hijack clipboard data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-732"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-06-29T20:17:36Z"
