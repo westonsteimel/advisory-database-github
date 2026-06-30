@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qw9-gf7w-42x5",
-  "modified": "2024-01-12T17:35:21Z",
+  "modified": "2026-06-30T21:33:30Z",
   "published": "2024-01-12T17:35:21Z",
   "aliases": [],
   "summary": "Minor fix to previous patch for CVE-2022-35918",
@@ -38,8 +38,16 @@
       "url": "https://github.com/streamlit/streamlit/commit/bd0a8996c4c7ec55b9c6557e7b168b0c13a25b90"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-v4hr-4jpx-56gc"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/streamlit/streamlit"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2022-35918"
     }
   ],
   "database_specific": {
