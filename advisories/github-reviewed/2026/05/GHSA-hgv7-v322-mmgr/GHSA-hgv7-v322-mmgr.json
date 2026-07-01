@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgv7-v322-mmgr",
-  "modified": "2026-05-21T17:59:05Z",
+  "modified": "2026-07-01T16:44:21Z",
   "published": "2026-05-21T17:59:05Z",
   "aliases": [],
   "summary": "@sveltejs/kit: `query.batch` cross-talk",
@@ -40,6 +40,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sveltejs/kit/security/advisories/GHSA-hgv7-v322-mmgr"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sveltejs/kit/commit/dadaefc2e647a0a62f49f3ee8bc7aa46f5e27056"
     },
     {
       "type": "PACKAGE",
