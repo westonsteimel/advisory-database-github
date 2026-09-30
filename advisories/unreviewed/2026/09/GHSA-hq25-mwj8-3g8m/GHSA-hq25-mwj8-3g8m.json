@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hq25-mwj8-3g8m",
-  "modified": "2026-09-29T15:31:15Z",
+  "modified": "2026-09-30T18:32:44Z",
   "published": "2026-09-15T15:32:07Z",
   "aliases": [
     "CVE-2026-92035"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2061245"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-102"
     },
     {
       "type": "WEB",

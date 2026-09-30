@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqjc-v467-8fvf",
-  "modified": "2026-09-30T15:31:25Z",
+  "modified": "2026-09-30T18:33:25Z",
   "published": "2026-09-30T15:31:25Z",
   "aliases": [
     "CVE-2026-76504"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-76504"
     }
   ],
   "database_specific": {
