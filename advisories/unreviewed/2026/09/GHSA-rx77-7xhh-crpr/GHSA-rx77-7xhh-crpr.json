@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx77-7xhh-crpr",
-  "modified": "2026-09-29T09:31:17Z",
+  "modified": "2026-09-30T15:31:13Z",
   "published": "2026-09-29T09:31:17Z",
   "aliases": [
     "CVE-2026-86158"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.telerik.com/fiddler/fiddler-everywhere/documentation/knowledge-base/kb-security-exposed-dangerous-method-or-function-cve-2026-aaaaa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.telerik.com/fiddler/fiddler-everywhere/documentation/knowledge-base/kb-security-missing-authentication-for-critical-function-cve-2026-86158"
     }
   ],
   "database_specific": {
