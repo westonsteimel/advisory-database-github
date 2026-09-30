@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfxw-f7pw-76rc",
-  "modified": "2026-09-30T09:31:11Z",
+  "modified": "2026-09-30T12:35:14Z",
   "published": "2026-09-30T09:31:11Z",
   "aliases": [
     "CVE-2026-102511"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/g692j4fklrbo80stjr5ll8xghrwszthf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/09/30/7"
     }
   ],
   "database_specific": {

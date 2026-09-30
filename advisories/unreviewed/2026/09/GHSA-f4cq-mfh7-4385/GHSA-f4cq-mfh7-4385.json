@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4cq-mfh7-4385",
-  "modified": "2026-09-30T09:31:09Z",
+  "modified": "2026-09-30T12:35:14Z",
   "published": "2026-09-30T09:31:09Z",
   "aliases": [
     "CVE-2026-102508"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/o076mcnsx6wnqpdy780m7s6hddbbnjfw"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/09/30/4"
     }
   ],
   "database_specific": {
