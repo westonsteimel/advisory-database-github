@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fx4-j9h4-c94x",
-  "modified": "2026-10-01T06:31:27Z",
+  "modified": "2026-10-01T12:31:12Z",
   "published": "2026-10-01T06:31:27Z",
   "aliases": [
     "CVE-2026-87970"
   ],
   "details": "The If-So Dynamic Content  WordPress plugin before 1.10.2 does not escape a request-supplied value before reflecting it in an unauthenticated AJAX response that is served as HTML, allowing attackers to execute arbitrary JavaScript in the browser of a visitor who opens a crafted link.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-01T06:17:12Z"

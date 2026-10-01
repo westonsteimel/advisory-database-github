@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvxw-45q7-rcv5",
-  "modified": "2026-10-01T06:31:27Z",
+  "modified": "2026-10-01T12:31:12Z",
   "published": "2026-10-01T06:31:27Z",
   "aliases": [
     "CVE-2026-90974"
   ],
   "details": "The WP Fusion Lite  WordPress plugin before 3.48.0 does not require authentication on a settings handler that runs during admin initialization, allowing unauthenticated users to overwrite the site's CRM integration endpoint and credentials, after which synced user data is delivered to an attacker-chosen host.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-01T06:17:15Z"
