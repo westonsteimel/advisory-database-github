@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqhp-pxqr-f7m6",
-  "modified": "2026-08-28T18:31:23Z",
+  "modified": "2026-10-01T18:32:35Z",
   "published": "2026-08-28T18:31:23Z",
   "aliases": [
     "CVE-2026-79654"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Katello/katello/pull/11847"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:74503"
     },
     {
       "type": "WEB",
