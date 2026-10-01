@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp2h-qx3j-9gxh",
-  "modified": "2026-09-30T15:31:35Z",
+  "modified": "2026-10-01T00:32:49Z",
   "published": "2026-09-30T15:31:35Z",
   "aliases": [
     "CVE-2026-47097"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.aja.com/security-advisories/aja-sa-2026-003"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.aja.com/support/item/10457"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/aja-helo-plus-hardcoded-aes-passphrase-for-diagnostics-export-bundle"
     },
     {
       "type": "WEB",
