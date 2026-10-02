@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vg6q-7wg8-hxrg",
-  "modified": "2026-09-25T12:31:38Z",
+  "modified": "2026-10-02T15:31:12Z",
   "published": "2026-09-25T12:31:38Z",
   "aliases": [
     "CVE-2026-98152"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvmet-rdma: fix queue leak when connect backlog is exceeded\n\nWhen pending disconnecting queues exceed the backlog limit, the\nconnect path only drops the device reference and leaks the newly\nallocated queue and its IB resources.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T11:17:46Z"
