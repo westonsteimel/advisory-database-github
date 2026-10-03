@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf43-5wcw-xwvc",
-  "modified": "2026-09-24T18:31:32Z",
+  "modified": "2026-10-03T12:31:12Z",
   "published": "2026-09-24T18:31:32Z",
   "aliases": [
     "CVE-2026-97434"
@@ -21,6 +21,18 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6518f87771c8833e587bd9881346fa759651c2ae"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bd16f46d0796109d241d6311a7577f9956467c96"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c996faba71fc465ad12c6d177bd1a9ad974f9ee8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d39603e21087e9ef9cd125e5895cdc70b2eb154d"
     },
     {
       "type": "WEB",

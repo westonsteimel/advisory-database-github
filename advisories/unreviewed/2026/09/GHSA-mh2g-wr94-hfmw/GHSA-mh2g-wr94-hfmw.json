@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh2g-wr94-hfmw",
-  "modified": "2026-09-25T12:31:26Z",
+  "modified": "2026-10-03T12:31:18Z",
   "published": "2026-09-25T12:31:26Z",
   "aliases": [
     "CVE-2026-97601"
@@ -16,7 +16,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/16d8e0b560d50cd1a9e6d77a9a154a94c4d6021e"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1c7710af7ad9532b534f1c134c11b04dbe4e0e0f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5063b9354e6e285dae61e530b30458498444a914"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/543994fa03c36a91d967a12c5c99cae74899504c"
     },
     {
       "type": "WEB",
@@ -25,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/98ce5a42cde780ee0e40378607d4428c8fc12ec1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a1760f21c32adce41af5ed5687200865d8feaaeb"
     },
     {
       "type": "WEB",

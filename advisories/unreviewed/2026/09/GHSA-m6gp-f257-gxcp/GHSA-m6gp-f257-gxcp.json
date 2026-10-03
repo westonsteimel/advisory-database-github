@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6gp-f257-gxcp",
-  "modified": "2026-09-25T12:31:28Z",
+  "modified": "2026-10-03T12:31:20Z",
   "published": "2026-09-25T12:31:28Z",
   "aliases": [
     "CVE-2026-97922"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/94bbd65da4ae26592fa1977a74ee94218ab02a26"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a1f1d64a0a9791c842c4646253daf6ac0313eac7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b513a4c60a7aa1f4b4c2a48544ab003cb36f1e94"
     },
     {
       "type": "WEB",

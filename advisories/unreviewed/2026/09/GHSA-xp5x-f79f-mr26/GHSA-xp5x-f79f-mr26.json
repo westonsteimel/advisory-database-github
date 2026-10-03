@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp5x-f79f-mr26",
-  "modified": "2026-09-25T12:31:36Z",
+  "modified": "2026-10-03T12:31:26Z",
   "published": "2026-09-25T12:31:36Z",
   "aliases": [
     "CVE-2026-98088"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98088"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/06a994ad7bbd13714cd45df582389f751531e60c"
     },
     {
       "type": "WEB",
@@ -28,7 +32,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7bcce856c79c1799351e170aec83e018ccf3d044"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e0d26fe176a8db6ccad4ab38c5bab29391c1946b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f531758ef21ba9a7716148cc290e8d9a110f20d9"
     }
   ],
   "database_specific": {

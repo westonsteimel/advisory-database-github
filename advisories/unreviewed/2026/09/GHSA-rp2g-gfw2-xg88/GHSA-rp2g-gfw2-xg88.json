@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp2g-gfw2-xg88",
-  "modified": "2026-09-21T15:31:35Z",
+  "modified": "2026-10-03T12:31:05Z",
   "published": "2026-09-09T18:32:05Z",
   "aliases": [
     "CVE-2026-80925"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b30fe4de285b9bdaf9508740191f69f7cd83b8fa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b38d7a4bc9c17e1d437696da25f9fbc286614d9d"
     }
   ],
   "database_specific": {

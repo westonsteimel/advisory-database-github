@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-596r-rcx5-45wx",
-  "modified": "2026-08-19T18:32:27Z",
+  "modified": "2026-10-03T12:31:03Z",
   "published": "2026-08-15T15:30:33Z",
   "aliases": [
     "CVE-2026-74460"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0b9090717c7e2184e2c427bbcc752f295116ac1d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1c380a332e342b7d58c86c4f556cb0823b16a9b8"
     },
     {
       "type": "WEB",

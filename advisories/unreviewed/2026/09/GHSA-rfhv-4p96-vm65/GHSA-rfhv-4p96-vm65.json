@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfhv-4p96-vm65",
-  "modified": "2026-09-25T12:31:28Z",
+  "modified": "2026-10-03T12:31:20Z",
   "published": "2026-09-25T12:31:28Z",
   "aliases": [
     "CVE-2026-97918"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bfa6bc11aef93a3d9db0ac9564b734849a9d959b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c7ee2d5733574d4694f7c0035e4381f54c1fca27"
     }
   ],
   "database_specific": {

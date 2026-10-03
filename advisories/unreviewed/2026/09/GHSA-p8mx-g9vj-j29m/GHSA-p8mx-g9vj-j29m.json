@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8mx-g9vj-j29m",
-  "modified": "2026-09-25T12:31:27Z",
+  "modified": "2026-10-03T12:31:19Z",
   "published": "2026-09-25T12:31:27Z",
   "aliases": [
     "CVE-2026-97905"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97905"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/06f273d29e5e0fe5c775a65c563fbeed8cd94c7a"
     },
     {
       "type": "WEB",
@@ -29,6 +33,18 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bbc0472d2270bf732142ca71579d6ede636174ed"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ca52482508b3ac9febe74ca4f732647d394727b8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e13370c5b549712f49f80234df249303381c53b4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e807920031ca32b668f9e7a1efbd21858f03d64b"
     }
   ],
   "database_specific": {

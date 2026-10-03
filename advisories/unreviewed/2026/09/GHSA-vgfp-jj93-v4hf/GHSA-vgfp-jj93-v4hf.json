@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgfp-jj93-v4hf",
-  "modified": "2026-09-25T12:31:36Z",
+  "modified": "2026-10-03T12:31:27Z",
   "published": "2026-09-25T12:31:36Z",
   "aliases": [
     "CVE-2026-98098"
@@ -16,6 +16,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/246a4b4aace490664927042e93400a6f940d197f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6188cf0c989dea60f2efe800eaebb7d0bd16e2b2"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/68619f965329d2f7b113a3d5811aa23198f39105"
     },
     {
@@ -25,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b3b76e9f4f2476f1135b2ba7743a821db4a0df4b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b5344e459996afb45e30fdc407b41e6674793b21"
     },
     {
       "type": "WEB",

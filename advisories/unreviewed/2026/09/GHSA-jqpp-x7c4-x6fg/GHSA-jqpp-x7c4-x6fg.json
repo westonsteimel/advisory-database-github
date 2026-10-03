@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqpp-x7c4-x6fg",
-  "modified": "2026-09-25T12:31:27Z",
+  "modified": "2026-10-03T12:31:19Z",
   "published": "2026-09-25T12:31:27Z",
   "aliases": [
     "CVE-2026-97899"
@@ -16,6 +16,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/362c42720259f42abbbafa99a12cd14f74254b7c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3726824aa1418594a7458721f8b8cafd5393a300"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/59e0a04d95e160547065ab3704bd809ddf3f0e1e"
     },
     {
@@ -24,11 +32,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c0c727809229119598b50aba2776d236fbaa7989"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/cbd3dafc2003db679ccd2f6c6a2551db79657049"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d004303557924077a327d71c80f5863b1b9ff1d7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d60532306397233fb860860e9694f4e35abc0e80"
     }
   ],
   "database_specific": {

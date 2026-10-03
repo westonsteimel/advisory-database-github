@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr28-3mcx-gcmr",
-  "modified": "2026-09-25T15:31:41Z",
+  "modified": "2026-10-03T12:31:16Z",
   "published": "2026-09-25T12:31:23Z",
   "aliases": [
     "CVE-2026-97531"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97531"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/20bb54601d2655e83795b73499c89f6b1cb31016"
     },
     {
       "type": "WEB",

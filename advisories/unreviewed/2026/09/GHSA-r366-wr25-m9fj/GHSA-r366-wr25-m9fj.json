@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r366-wr25-m9fj",
-  "modified": "2026-09-25T12:31:33Z",
+  "modified": "2026-10-03T12:31:24Z",
   "published": "2026-09-25T12:31:33Z",
   "aliases": [
     "CVE-2026-98026"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-98026"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/37cb9a81600da8250f24e25edc07253b62353cbe"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c82m-2rvg-fqpm",
-  "modified": "2026-09-17T18:32:14Z",
+  "modified": "2026-10-03T12:31:07Z",
   "published": "2026-09-17T18:32:14Z",
   "aliases": [
     "CVE-2026-93199"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4dc1b3eeba7991905a5b5b8129ebea51be7d87b7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/533faf3d2e67ded0a62b7ba753c0fe993d1dfc26"
     },
     {
       "type": "WEB",

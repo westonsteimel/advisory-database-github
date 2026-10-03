@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxw4-9m57-prf4",
-  "modified": "2026-09-16T15:31:06Z",
+  "modified": "2026-10-03T12:31:07Z",
   "published": "2026-09-16T12:30:44Z",
   "aliases": [
     "CVE-2026-90002"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/177cd8966325f0ffffa3c9381f9e0422019a3973"
     },
     {
       "type": "WEB",
