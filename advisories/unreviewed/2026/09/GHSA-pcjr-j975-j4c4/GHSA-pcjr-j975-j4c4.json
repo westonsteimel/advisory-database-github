@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcjr-j975-j4c4",
-  "modified": "2026-09-14T18:31:21Z",
+  "modified": "2026-10-05T12:31:21Z",
   "published": "2026-09-14T18:31:21Z",
   "aliases": [
     "CVE-2026-90947"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:75575"
     },
     {
       "type": "WEB",
