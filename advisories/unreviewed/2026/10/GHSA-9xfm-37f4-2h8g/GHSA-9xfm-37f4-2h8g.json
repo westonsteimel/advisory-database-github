@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9xfm-37f4-2h8g",
-  "modified": "2026-10-03T12:31:29Z",
+  "modified": "2026-10-05T18:34:15Z",
   "published": "2026-10-03T12:31:29Z",
   "aliases": [
     "CVE-2026-105105"
@@ -34,6 +34,10 @@
     {
       "type": "ADVISORY",
       "url": "https://github.com/advisories/GHSA-3j6g-pxmx-58qg"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-9xfm-37f4-2h8g"
     }
   ],
   "database_specific": {
