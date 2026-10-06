@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmxr-6j5f-838p",
-  "modified": "2026-07-02T20:42:16Z",
+  "modified": "2026-10-06T00:32:48Z",
   "published": "2026-03-18T03:32:09Z",
   "withdrawn": "2026-07-02T20:42:16Z",
   "aliases": [],
@@ -210,6 +210,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:3948"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:76132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:76134"
     },
     {
       "type": "WEB",
