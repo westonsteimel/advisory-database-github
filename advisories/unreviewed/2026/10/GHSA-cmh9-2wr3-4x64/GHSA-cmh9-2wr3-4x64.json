@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmh9-2wr3-4x64",
-  "modified": "2026-10-06T03:31:20Z",
+  "modified": "2026-10-06T06:30:28Z",
   "published": "2026-10-06T03:31:20Z",
   "aliases": [
     "CVE-2026-104380"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/LNATION/Punk-0.55/diff/LNATION/Punk-0.54"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/06/1"
     }
   ],
   "database_specific": {
