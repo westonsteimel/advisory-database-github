@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37q3-7h5g-p75h",
-  "modified": "2026-10-07T18:32:02Z",
+  "modified": "2026-10-07T21:33:23Z",
   "published": "2026-10-06T21:32:04Z",
   "aliases": [
     "CVE-2026-106550"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mozilla/node-convict"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tomasilluminati/security-research/blob/main/CVE-2026-106550/README.md"
     }
   ],
   "database_specific": {
