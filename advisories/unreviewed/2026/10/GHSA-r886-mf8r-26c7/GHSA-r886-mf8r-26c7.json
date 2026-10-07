@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r886-mf8r-26c7",
-  "modified": "2026-10-06T21:31:59Z",
+  "modified": "2026-10-07T09:32:18Z",
   "published": "2026-10-06T21:31:59Z",
   "aliases": [
     "CVE-2026-105242"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/zg6dbqm4ztm7j3c21nfsqj0yxm5yrpdx"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/07/16"
     }
   ],
   "database_specific": {
