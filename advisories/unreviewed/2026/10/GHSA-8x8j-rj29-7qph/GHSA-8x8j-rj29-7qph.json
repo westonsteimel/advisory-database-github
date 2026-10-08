@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x8j-rj29-7qph",
-  "modified": "2026-10-08T09:31:55Z",
+  "modified": "2026-10-08T12:34:26Z",
   "published": "2026-10-08T09:31:55Z",
   "aliases": [
     "CVE-2026-66087"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/pghhb42sbyv5dhx6clcj4hllxnh7c0dn"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/08/3"
     }
   ],
   "database_specific": {
