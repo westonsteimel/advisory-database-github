@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g89m-rq7v-96f2",
-  "modified": "2026-10-08T12:34:26Z",
+  "modified": "2026-10-08T15:32:54Z",
   "published": "2026-10-08T09:31:55Z",
   "aliases": [
     "CVE-2026-71183"
   ],
   "details": "An authorization vulnerability in Apache DolphinScheduler allows authenticated users to obtain information about data sources they are not authorized to access through the /unauth-datasource and /authed-datasource endpoints.\n\n\n\nThese endpoints fail to enforce the required data source access controls and return sensitive connection information, including data source passwords. As a result, an authenticated user without permission to access a data source can retrieve its connection details and credentials.\n\n\n\nSuccessful exploitation exposes sensitive data source information and may enable unauthorized access to the underlying databases using the disclosed credentials.\n\n\n\nThis issue affects Apache DolphinScheduler: before 3.4.3.\n\n\n\nUsers are recommended to upgrade to version 3.4.3, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-863"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-08T09:16:42Z"
