@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c9w-j8c6-h6m2",
-  "modified": "2026-10-09T15:31:29Z",
+  "modified": "2026-10-09T18:31:39Z",
   "published": "2026-10-09T15:31:29Z",
   "aliases": [
     "CVE-2026-103413"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://camel.apache.org/security/CVE-2026-103413.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/09/17"
     }
   ],
   "database_specific": {
