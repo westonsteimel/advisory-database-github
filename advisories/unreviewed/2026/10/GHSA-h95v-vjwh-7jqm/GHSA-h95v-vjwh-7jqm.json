@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h95v-vjwh-7jqm",
-  "modified": "2026-10-11T09:30:24Z",
+  "modified": "2026-10-11T12:31:06Z",
   "published": "2026-10-11T09:30:24Z",
   "aliases": [
     "CVE-2026-104682"
   ],
   "details": "The Envira Gallery  WordPress plugin before 1.16.2 does not correctly check authorization on its gallery-conversion feature, verifying that the requester can edit an arbitrary post they name rather than that they are allowed to create the Envira Gallery  WordPress plugin before 1.16.2's own gallery content, allowing users with contributor-level access to create and publish gallery posts that the Envira Gallery  WordPress plugin before 1.16.2's settings otherwise withhold from them.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-11T07:17:22Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62f8-22fh-vpq2",
-  "modified": "2026-10-11T09:30:25Z",
+  "modified": "2026-10-11T12:31:08Z",
   "published": "2026-10-11T09:30:25Z",
   "aliases": [
     "CVE-2026-88905"
   ],
   "details": "The KeyWord Collector WordPress plugin through 1.4 does not have any authorisation or nonce check when saving its settings, and does not escape them before output, allowing unauthenticated attackers to store malicious JavaScript that executes when an administrator opens the KeyWord Collector WordPress plugin through 1.4's settings page or when a visitor loads a page displaying its output.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-11T07:17:27Z"
