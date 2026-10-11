@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3vj4-c3hx-33mx",
+  "modified": "2026-10-11T09:30:25Z",
+  "published": "2026-10-11T09:30:25Z",
+  "aliases": [
+    "CVE-2026-89287"
+  ],
+  "details": "The ASPL Product Quotation WordPress plugin through 1.1.0 does not sanitize and escape a parameter before using it in SQL statements, allowing unauthenticated attackers to perform SQL injection and read arbitrary data from the database.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/9194818b-75c8-40f0-baba-6dc84d2cfe7d"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-11T07:17:28Z"
+  }
+}

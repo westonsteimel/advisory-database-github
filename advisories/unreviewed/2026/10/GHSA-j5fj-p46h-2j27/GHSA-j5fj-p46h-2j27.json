@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j5fj-p46h-2j27",
+  "modified": "2026-10-11T09:30:24Z",
+  "published": "2026-10-11T09:30:24Z",
+  "aliases": [
+    "CVE-2026-14854"
+  ],
+  "details": "The WooCommerce Bookings WordPress plugin before 3.11.0 does not limit a user-supplied value before using it to allocate memory in one of its unauthenticated AJAX actions, allowing unauthenticated attackers to exhaust server memory and cause a Denial of Service with a single request.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14854"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/7b6aeaed-7600-4cf9-ba43-8a6fefb1a244"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-11T07:17:24Z"
+  }
+}
