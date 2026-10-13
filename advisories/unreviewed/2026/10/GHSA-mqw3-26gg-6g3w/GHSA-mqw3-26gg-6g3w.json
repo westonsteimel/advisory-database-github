@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqw3-26gg-6g3w",
-  "modified": "2026-10-11T15:31:08Z",
+  "modified": "2026-10-13T21:32:15Z",
   "published": "2026-10-11T15:31:08Z",
   "aliases": [
     "CVE-2026-108858"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/predibase/lorax/blob/c0e5798318a6b826572c612ddd4cf44621aa4add/router/src/server.rs#L584-L596"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-108858-predibase-lorax-generate-api-token-logging"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg7x-9rxv-3m3p",
-  "modified": "2026-10-11T15:31:07Z",
+  "modified": "2026-10-13T21:32:15Z",
   "published": "2026-10-11T15:31:07Z",
   "aliases": [
     "CVE-2026-108853"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/UnicomAI/wanwu/releases/tag/v0.6.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-108853-unicomai-wanwu-appspace-cross-owner-delete"
     },
     {
       "type": "WEB",

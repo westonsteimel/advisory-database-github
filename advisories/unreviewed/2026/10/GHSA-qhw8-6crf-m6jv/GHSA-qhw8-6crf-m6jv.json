@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhw8-6crf-m6jv",
-  "modified": "2026-10-11T15:31:02Z",
+  "modified": "2026-10-13T21:32:14Z",
   "published": "2026-10-11T15:31:02Z",
   "aliases": [
     "CVE-2026-108712"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/SuiteCRM/SuiteCRM/blob/v7.15.2/modules/ACLRoles/DetailUserRole.php#L51-L98"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind03/cve-2026-108712-suitecrm-detailuserrole-acl-matrix-disclosure"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmrg-jx35-2qp3",
-  "modified": "2026-10-13T15:32:16Z",
+  "modified": "2026-10-13T21:32:23Z",
   "published": "2026-10-13T15:32:16Z",
   "aliases": [
     "CVE-2026-109748"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2026-106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-109"
     }
   ],
   "database_specific": {
