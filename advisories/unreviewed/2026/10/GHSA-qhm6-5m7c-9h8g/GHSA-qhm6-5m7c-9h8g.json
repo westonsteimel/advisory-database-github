@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qhm6-5m7c-9h8g",
+  "modified": "2026-10-13T21:37:23Z",
+  "published": "2026-10-13T21:37:23Z",
+  "aliases": [
+    "CVE-2026-16753"
+  ],
+  "details": "Incorrect authorization in the library-query execution endpoint in Lowcoder version, up to and including 2.4.10, allows an authenticated administrator or developer in one organization to execute a library query belonging to another organization via a crafted request containing the victim library-query identifier.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16753"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/lowcoder-org/lowcoder"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/382143"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-13T20:17:28Z"
+  }
+}

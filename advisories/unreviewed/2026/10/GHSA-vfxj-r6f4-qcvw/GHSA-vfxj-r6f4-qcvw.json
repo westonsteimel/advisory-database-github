@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vfxj-r6f4-qcvw",
+  "modified": "2026-10-13T21:37:28Z",
+  "published": "2026-10-13T21:37:28Z",
+  "aliases": [
+    "CVE-2026-104587"
+  ],
+  "details": "blob42 gosuki through commit 6e2bf34 contains a Stored Cross-Site Scripting (XSS) vulnerability. The application uses text/template instead of html/template, failing to perform context-aware auto-escaping on the URL and DisplayURL fields of bookmarks in internal/webui/templates/bookmarks.html. An attacker can craft a malicious bookmark URL containing HTML attribute-breaking payloads that execute arbitrary JavaScript in the victim's browser context when rendered in the local web interface.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104587"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/AmalJafarzade/CVE-2026-104587"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/blob42/gosuki"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-10-13T21:17:25Z"
+  }
+}
