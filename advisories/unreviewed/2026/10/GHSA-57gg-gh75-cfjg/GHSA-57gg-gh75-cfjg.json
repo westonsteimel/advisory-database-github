@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57gg-gh75-cfjg",
-  "modified": "2026-10-13T12:32:58Z",
+  "modified": "2026-10-13T15:32:11Z",
   "published": "2026-10-13T12:32:58Z",
   "aliases": [
     "CVE-2026-63316"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63316"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert.pl/posts/2026/10/CVE-2026-63316"
     },
     {
       "type": "WEB",
