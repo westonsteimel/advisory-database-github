@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fh3-97mp-7wmv",
-  "modified": "2026-10-14T18:32:28Z",
+  "modified": "2026-10-14T21:33:42Z",
   "published": "2026-10-14T18:32:28Z",
   "aliases": [
     "CVE-2026-0322"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.paloaltonetworks.com/CVE-2026-0322"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-0322"
     }
   ],
   "database_specific": {
