@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj5g-wfrp-6x6g",
-  "modified": "2026-10-13T18:30:54Z",
+  "modified": "2026-10-14T18:31:52Z",
   "published": "2026-10-13T18:30:54Z",
   "aliases": [
     "CVE-2026-110097"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ikaros-dev/ikaros/releases/tag/v1.2.5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-110097-ikaros-2fa-bypass-temp-token"
     },
     {
       "type": "WEB",

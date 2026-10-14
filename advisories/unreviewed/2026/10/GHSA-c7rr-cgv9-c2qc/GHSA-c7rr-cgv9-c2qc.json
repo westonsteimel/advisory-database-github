@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7rr-cgv9-c2qc",
-  "modified": "2026-10-13T18:30:55Z",
+  "modified": "2026-10-14T18:31:53Z",
   "published": "2026-10-13T18:30:55Z",
   "aliases": [
     "CVE-2026-110119"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/guchengwuyue/yshopmall/blob/d1b20a2d76dfd98985410116db3aca8aca193b26/yshop-mall-boot/yshop-mall/src/main/java/co/yixiang/modules/user/service/impl/YxUserAddressServiceImpl.java#L75-L114"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@1ExmmukzRMWN7B4gQ4W-4Q/cve-2026-110119-110120-yshopmall-member-api-ownership-idor"
     },
     {
       "type": "WEB",

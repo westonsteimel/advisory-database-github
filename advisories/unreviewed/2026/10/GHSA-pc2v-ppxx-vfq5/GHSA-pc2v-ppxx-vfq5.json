@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc2v-ppxx-vfq5",
-  "modified": "2026-10-14T15:32:24Z",
+  "modified": "2026-10-14T18:32:10Z",
   "published": "2026-10-14T15:32:24Z",
   "aliases": [
     "CVE-2026-110604"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/michaelrsweet/mxml/blob/v4.0.6/mxml-file.c#L1860-L1887"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind-pwn/cve-2026-110604-mxml-strtod-locale-stack-overflow"
     },
     {
       "type": "WEB",

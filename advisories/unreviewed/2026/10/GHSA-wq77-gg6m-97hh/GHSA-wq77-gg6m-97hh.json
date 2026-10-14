@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq77-gg6m-97hh",
-  "modified": "2026-10-14T15:32:21Z",
+  "modified": "2026-10-14T18:32:09Z",
   "published": "2026-10-14T15:32:21Z",
   "aliases": [
     "CVE-2016-20099"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/l-smash/l-smash/blob/v2.14.5/importer/vc1_imp.c#L462-L488"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haind-pwn/cve-2016-20099-2026-110599-l-smash-hevc-importer-double-free"
     },
     {
       "type": "WEB",
