@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gx6q-vm8j-vqvw",
-  "modified": "2026-10-14T09:31:33Z",
+  "modified": "2026-10-15T12:30:56Z",
   "published": "2026-10-14T09:31:33Z",
   "aliases": [
     "CVE-2026-94254"
   ],
   "details": "The SellKit  WordPress plugin before 2.8.0 does not validate a client-supplied product price when totals are recalculated during checkout, allowing unauthenticated attackers to place orders for any purchasable product at a price of their own choosing.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-14T07:17:05Z"

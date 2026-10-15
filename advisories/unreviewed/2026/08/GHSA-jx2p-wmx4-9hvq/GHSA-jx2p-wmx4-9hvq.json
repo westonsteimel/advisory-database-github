@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx2p-wmx4-9hvq",
-  "modified": "2026-08-15T06:32:31Z",
+  "modified": "2026-10-15T12:30:42Z",
   "published": "2026-08-15T06:32:31Z",
   "aliases": [
     "CVE-2026-74368"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/5187a92099778501f21af76ed6c8415d128e7298"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/55c6f05b667726d2da5fd011d646fb48ce5b6b9c"
     },
     {
       "type": "WEB",

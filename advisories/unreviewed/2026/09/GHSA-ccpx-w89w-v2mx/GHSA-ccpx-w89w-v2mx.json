@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccpx-w89w-v2mx",
-  "modified": "2026-09-17T18:32:04Z",
+  "modified": "2026-10-15T12:30:50Z",
   "published": "2026-09-17T18:32:04Z",
   "aliases": [
     "CVE-2026-90417"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90417"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2fcd26f4680143e9ec477069530548dbe20fce6f"
     },
     {
       "type": "WEB",

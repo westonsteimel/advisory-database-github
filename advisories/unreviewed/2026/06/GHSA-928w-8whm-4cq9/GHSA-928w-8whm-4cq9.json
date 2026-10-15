@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-928w-8whm-4cq9",
-  "modified": "2026-06-28T09:31:37Z",
+  "modified": "2026-10-15T12:30:36Z",
   "published": "2026-06-24T18:32:41Z",
   "aliases": [
     "CVE-2026-52960"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52960"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/349499a65b6b5fb6f66ba3673598ab558f48c544"
     },
     {
       "type": "WEB",

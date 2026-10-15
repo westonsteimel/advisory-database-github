@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6c3-623p-967p",
-  "modified": "2026-09-17T18:31:50Z",
+  "modified": "2026-10-15T12:30:47Z",
   "published": "2026-09-17T18:31:50Z",
   "aliases": [
     "CVE-2026-90095"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90095"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1ca1df82d9248fc0b5ff17d45607484f18e5d60b"
     },
     {
       "type": "WEB",

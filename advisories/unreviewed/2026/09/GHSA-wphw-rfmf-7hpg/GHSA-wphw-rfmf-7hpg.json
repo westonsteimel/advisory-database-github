@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wphw-rfmf-7hpg",
-  "modified": "2026-09-17T18:32:01Z",
+  "modified": "2026-10-15T12:30:50Z",
   "published": "2026-09-17T18:32:01Z",
   "aliases": [
     "CVE-2026-90336"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/61a2fb25551be0375bc16ef2a70c987dfca26183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ddf51d74ee9f9857c99477329d80408cedebda61"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvc7-qr5g-mx5f",
-  "modified": "2026-08-15T06:32:11Z",
+  "modified": "2026-10-15T12:30:40Z",
   "published": "2026-08-15T06:32:11Z",
   "aliases": [
     "CVE-2026-72091"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72091"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/241cf3b7455bebbe492b9df4912b48e3260061d4"
     },
     {
       "type": "WEB",

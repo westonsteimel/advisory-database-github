@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghq7-v2f8-82jr",
-  "modified": "2026-09-17T18:32:00Z",
+  "modified": "2026-10-15T12:30:49Z",
   "published": "2026-09-17T18:31:59Z",
   "aliases": [
     "CVE-2026-90300"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90300"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1f0f61573ba4cb899105b5cef65be3ca02205f93"
     },
     {
       "type": "WEB",

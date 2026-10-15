@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vg39-x84f-cgrf",
-  "modified": "2026-08-17T06:33:50Z",
+  "modified": "2026-10-15T12:30:42Z",
   "published": "2026-08-15T15:30:35Z",
   "aliases": [
     "CVE-2026-74527"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3bd438a58e910db5dc369aa25dfed1fc95f1b596"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a76243488740a07c81c9adf431685bb7f7c31d8c"
     },
     {
       "type": "WEB",

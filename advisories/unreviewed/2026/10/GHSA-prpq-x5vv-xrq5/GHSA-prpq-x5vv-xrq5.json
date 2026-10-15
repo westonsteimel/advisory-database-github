@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prpq-x5vv-xrq5",
-  "modified": "2026-10-15T09:30:33Z",
+  "modified": "2026-10-15T12:31:01Z",
   "published": "2026-10-15T09:30:33Z",
   "aliases": [
     "CVE-2026-92429"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-345"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

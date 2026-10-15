@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx3f-7rrv-pccf",
-  "modified": "2026-09-17T18:31:51Z",
+  "modified": "2026-10-15T12:30:48Z",
   "published": "2026-09-17T18:31:51Z",
   "aliases": [
     "CVE-2026-90121"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0887d41abf76638942688cb0c0ff8087f52e2b33"
     },
     {
       "type": "WEB",

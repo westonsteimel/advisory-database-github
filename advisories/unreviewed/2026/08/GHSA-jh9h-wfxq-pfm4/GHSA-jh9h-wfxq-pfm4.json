@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh9h-wfxq-pfm4",
-  "modified": "2026-08-17T06:33:29Z",
+  "modified": "2026-10-15T12:30:41Z",
   "published": "2026-08-15T06:32:24Z",
   "aliases": [
     "CVE-2026-72440"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72440"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7a450460687919e79b5f8503bdeb13ecf4cca311"
     },
     {
       "type": "WEB",
