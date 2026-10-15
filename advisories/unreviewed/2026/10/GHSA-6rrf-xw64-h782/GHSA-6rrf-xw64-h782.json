@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rrf-xw64-h782",
-  "modified": "2026-10-15T18:32:43Z",
+  "modified": "2026-10-15T21:36:01Z",
   "published": "2026-10-15T18:32:43Z",
   "aliases": [
     "CVE-2026-110812"
