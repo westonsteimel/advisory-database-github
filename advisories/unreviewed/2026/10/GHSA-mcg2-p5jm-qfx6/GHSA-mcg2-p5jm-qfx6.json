@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcg2-p5jm-qfx6",
-  "modified": "2026-10-14T18:32:18Z",
+  "modified": "2026-10-15T18:32:06Z",
   "published": "2026-10-14T18:32:18Z",
   "aliases": [
     "CVE-2026-110734"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://axeghost.offprint.app/a/3mvs6zo4blo23-three-memory-safety-bugs-in-godots-untrusted-file-parsers"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/10/15/4"
     }
   ],
   "database_specific": {
