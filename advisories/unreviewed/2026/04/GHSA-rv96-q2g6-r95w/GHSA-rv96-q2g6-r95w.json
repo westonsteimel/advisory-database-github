@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv96-q2g6-r95w",
-  "modified": "2026-07-14T15:31:55Z",
+  "modified": "2026-10-15T03:35:43Z",
   "published": "2026-04-24T15:32:37Z",
   "aliases": [
     "CVE-2026-31671"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f54w-pgr9-9wv8",
-  "modified": "2026-06-16T18:32:28Z",
+  "modified": "2026-10-15T03:35:56Z",
   "published": "2026-05-27T15:33:21Z",
   "aliases": [
     "CVE-2026-46023"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46023"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

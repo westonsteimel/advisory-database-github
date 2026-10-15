@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4rh-73g2-jf4j",
-  "modified": "2026-06-01T18:31:28Z",
+  "modified": "2026-10-15T03:35:43Z",
   "published": "2026-04-24T15:32:36Z",
   "aliases": [
     "CVE-2026-31642"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31642"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

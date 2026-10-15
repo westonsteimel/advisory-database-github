@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrv8-79m2-qg24",
-  "modified": "2026-07-14T15:31:53Z",
+  "modified": "2026-10-15T03:35:39Z",
   "published": "2026-04-23T06:30:22Z",
   "aliases": [
     "CVE-2026-41989"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

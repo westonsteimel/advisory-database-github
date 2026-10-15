@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwwm-7gp9-w6fm",
-  "modified": "2026-09-08T09:35:35Z",
+  "modified": "2026-10-15T03:36:21Z",
   "published": "2026-07-25T12:31:34Z",
   "aliases": [
     "CVE-2026-64412"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

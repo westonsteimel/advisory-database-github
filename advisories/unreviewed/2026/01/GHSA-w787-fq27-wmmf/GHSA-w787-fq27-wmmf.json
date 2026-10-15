@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w787-fq27-wmmf",
-  "modified": "2026-07-14T15:31:30Z",
+  "modified": "2026-10-15T03:35:04Z",
   "published": "2026-01-13T18:31:05Z",
   "aliases": [
     "CVE-2025-71064"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp7m-xq2f-r4cg",
-  "modified": "2026-06-30T03:36:52Z",
+  "modified": "2026-10-15T03:36:04Z",
   "published": "2026-05-28T12:30:32Z",
   "aliases": [
     "CVE-2026-46195"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2482606"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

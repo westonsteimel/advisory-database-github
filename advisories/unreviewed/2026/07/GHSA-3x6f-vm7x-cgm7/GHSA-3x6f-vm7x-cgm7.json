@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3x6f-vm7x-cgm7",
-  "modified": "2026-08-27T21:31:18Z",
+  "modified": "2026-10-15T03:36:20Z",
   "published": "2026-07-04T12:30:28Z",
   "aliases": [
     "CVE-2026-53362"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

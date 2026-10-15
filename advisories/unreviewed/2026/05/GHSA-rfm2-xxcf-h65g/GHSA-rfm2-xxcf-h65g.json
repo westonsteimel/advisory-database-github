@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfm2-xxcf-h65g",
-  "modified": "2026-07-14T15:31:57Z",
+  "modified": "2026-10-15T03:35:49Z",
   "published": "2026-05-01T15:30:38Z",
   "aliases": [
     "CVE-2026-43057"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-082556.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

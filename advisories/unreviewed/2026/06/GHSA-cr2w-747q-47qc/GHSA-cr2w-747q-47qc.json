@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr2w-747q-47qc",
-  "modified": "2026-07-23T12:32:21Z",
+  "modified": "2026-10-15T03:36:09Z",
   "published": "2026-06-16T09:32:42Z",
   "aliases": [
     "CVE-2026-46331"
@@ -18,10 +18,6 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46331"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:27288"
     },
     {
       "type": "WEB",
@@ -69,6 +65,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2bec122b9fb91507a758ab5e3e5c4fbe7cb3f61b"
     },
     {
@@ -106,6 +106,10 @@
     {
       "type": "WEB",
       "url": "https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-46331.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:27288"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj8v-m57h-q9mq",
-  "modified": "2026-08-27T15:31:25Z",
+  "modified": "2026-10-15T03:35:54Z",
   "published": "2026-05-27T12:31:23Z",
   "aliases": [
     "CVE-2026-45839"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45839"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

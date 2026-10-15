@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh9m-9mr6-3ghc",
-  "modified": "2026-09-03T15:31:30Z",
+  "modified": "2026-10-15T03:35:14Z",
   "published": "2026-02-13T15:30:26Z",
   "aliases": [
     "CVE-2026-23111"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1444ff890b4653add12f734ffeffc173d42862dd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

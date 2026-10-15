@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69pg-94v9-fcx7",
-  "modified": "2026-08-25T15:32:43Z",
+  "modified": "2026-10-15T03:36:22Z",
   "published": "2026-08-13T03:31:18Z",
   "aliases": [
     "CVE-2026-0301"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0301"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-967325.html"
     },
     {
       "type": "WEB",

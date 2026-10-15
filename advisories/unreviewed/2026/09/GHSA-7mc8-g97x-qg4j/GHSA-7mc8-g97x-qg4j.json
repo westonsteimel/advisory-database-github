@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mc8-g97x-qg4j",
-  "modified": "2026-09-08T18:32:02Z",
+  "modified": "2026-10-15T03:36:23Z",
   "published": "2026-09-08T18:32:02Z",
   "aliases": [
     "CVE-2026-84393"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84393"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-127084.html"
     },
     {
       "type": "WEB",

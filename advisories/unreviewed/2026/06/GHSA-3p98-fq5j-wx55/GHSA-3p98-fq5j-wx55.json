@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p98-fq5j-wx55",
-  "modified": "2026-09-08T09:35:31Z",
+  "modified": "2026-10-15T03:36:10Z",
   "published": "2026-06-24T09:30:49Z",
   "aliases": [
     "CVE-2026-52942"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

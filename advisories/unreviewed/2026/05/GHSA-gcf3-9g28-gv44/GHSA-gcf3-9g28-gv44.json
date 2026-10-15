@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcf3-9g28-gv44",
-  "modified": "2026-10-03T12:31:01Z",
+  "modified": "2026-10-15T03:36:00Z",
   "published": "2026-05-28T12:30:29Z",
   "aliases": [
     "CVE-2026-46113"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

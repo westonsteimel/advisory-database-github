@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v24g-wpq8-cwqx",
-  "modified": "2026-06-30T03:36:23Z",
+  "modified": "2026-10-15T03:35:42Z",
   "published": "2026-04-24T15:32:35Z",
   "aliases": [
     "CVE-2026-31617"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2461448"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

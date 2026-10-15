@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x459-m5f6-mv8q",
-  "modified": "2026-07-14T15:31:30Z",
+  "modified": "2026-10-15T03:35:03Z",
   "published": "2026-01-13T18:31:04Z",
   "aliases": [
     "CVE-2025-68814"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
     },
     {
       "type": "WEB",

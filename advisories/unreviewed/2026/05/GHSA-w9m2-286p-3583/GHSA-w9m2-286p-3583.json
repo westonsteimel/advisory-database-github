@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9m2-286p-3583",
-  "modified": "2026-09-08T09:35:29Z",
+  "modified": "2026-10-15T03:35:55Z",
   "published": "2026-05-27T12:31:23Z",
   "aliases": [
     "CVE-2026-45841"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-019113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-457936.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wg67-7cxp-7wp8",
-  "modified": "2026-08-17T12:31:57Z",
+  "modified": "2026-10-15T03:35:37Z",
   "published": "2026-04-22T15:31:42Z",
   "aliases": [
     "CVE-2026-31488"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/10862e344b4d6434642a48c87d765813fc0b0ba7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

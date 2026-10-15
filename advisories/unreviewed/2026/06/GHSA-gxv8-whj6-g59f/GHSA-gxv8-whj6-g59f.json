@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxv8-whj6-g59f",
-  "modified": "2026-06-04T21:31:22Z",
+  "modified": "2026-10-15T03:36:06Z",
   "published": "2026-06-04T21:31:22Z",
   "aliases": [
     "CVE-2025-71316"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71316"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-765416.html"
     },
     {
       "type": "WEB",

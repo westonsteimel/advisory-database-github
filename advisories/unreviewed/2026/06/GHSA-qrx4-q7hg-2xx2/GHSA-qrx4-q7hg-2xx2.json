@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrx4-q7hg-2xx2",
-  "modified": "2026-06-14T06:30:23Z",
+  "modified": "2026-10-15T03:36:07Z",
   "published": "2026-06-08T18:31:52Z",
   "aliases": [
     "CVE-2026-46307"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46307"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

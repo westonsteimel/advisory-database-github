@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84pr-vgrv-386j",
-  "modified": "2026-06-01T18:31:23Z",
+  "modified": "2026-10-15T03:35:29Z",
   "published": "2026-04-03T18:31:21Z",
   "aliases": [
     "CVE-2026-23444"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23444"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

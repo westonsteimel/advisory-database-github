@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccg2-64fc-r6w8",
-  "modified": "2026-09-08T15:31:54Z",
+  "modified": "2026-10-15T03:36:23Z",
   "published": "2026-09-08T15:31:54Z",
   "aliases": [
     "CVE-2026-33920"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33920"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-911336.html"
     },
     {
       "type": "WEB",

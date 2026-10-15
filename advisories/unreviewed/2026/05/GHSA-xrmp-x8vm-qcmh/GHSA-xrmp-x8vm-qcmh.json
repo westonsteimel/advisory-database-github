@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrmp-x8vm-qcmh",
-  "modified": "2026-06-30T03:36:51Z",
+  "modified": "2026-10-15T03:36:02Z",
   "published": "2026-05-28T12:30:29Z",
   "aliases": [
     "CVE-2026-46125"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/18fed0a209500bfea5c4c08609ec93855e4e500b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",

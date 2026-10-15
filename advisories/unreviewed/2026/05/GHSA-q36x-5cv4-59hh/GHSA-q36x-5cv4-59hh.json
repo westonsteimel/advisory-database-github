@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q36x-5cv4-59hh",
-  "modified": "2026-06-24T18:32:29Z",
+  "modified": "2026-10-15T03:35:58Z",
   "published": "2026-05-27T15:33:22Z",
   "aliases": [
     "CVE-2026-46069"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46069"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-784472.html"
     },
     {
       "type": "WEB",
