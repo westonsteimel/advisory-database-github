@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rfg-55mw-4h28",
-  "modified": "2026-10-13T21:37:30Z",
+  "modified": "2026-10-16T15:38:24Z",
   "published": "2026-10-13T21:37:30Z",
   "aliases": [
     "CVE-2026-49950"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/xorbits-xoscar-unauthenticated-deserialization-rce-via-actor-pool"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/blog/xorbits-xoscar-unauth-cloudpickle-rce"
     }
   ],
   "database_specific": {
