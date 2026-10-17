@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcw2-f6v9-6ffp",
-  "modified": "2026-10-15T21:36:02Z",
+  "modified": "2026-10-17T00:31:18Z",
   "published": "2026-10-15T21:36:02Z",
   "aliases": [
     "CVE-2026-108334"
@@ -21,11 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/Kuadrant/kuadrant-operator/commit/7e667dc216e6ad38feaeadb391da59aa0380057a"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-108334"
     },
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2548768"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-fcw2-f6v9-6ffp"
     }
   ],
   "database_specific": {
