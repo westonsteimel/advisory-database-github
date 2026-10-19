@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw4q-pwhm-35f7",
-  "modified": "2026-10-12T18:31:55Z",
+  "modified": "2026-10-19T12:32:19Z",
   "published": "2026-10-12T18:31:55Z",
   "aliases": [
     "CVE-2026-84286"
   ],
   "details": "ExLlamaV3’s EXL3 loader uses an untrusted, model-supplied index to select a CUDA kernel without first verifying that the index is within bounds. A malicious model can force the code to read and invoke an out‑of‑range function pointer, resulting in a reproducible crash. Under specific conditions involving certain host memory layouts, it may be possible for an attacker to exploit this vulnerability to achieve controlled indirect kernel dispatch during model load.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-12T17:17:35Z"
