@@ -130,6 +130,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-480"
     ],
     "severity": "CRITICAL",

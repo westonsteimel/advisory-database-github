@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgx8-r5g7-5cr9",
-  "modified": "2026-08-19T12:32:16Z",
+  "modified": "2026-10-19T21:34:41Z",
   "published": "2026-06-03T18:33:12Z",
   "aliases": [
     "CVE-2026-46244"
@@ -86,6 +86,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-682",
       "CWE-823"
     ],
     "severity": "CRITICAL",
