@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vjv-6x7m-3wjx",
-  "modified": "2026-10-18T12:30:28Z",
+  "modified": "2026-10-19T21:36:12Z",
   "published": "2026-10-18T12:30:28Z",
   "aliases": [
     "CVE-2026-112018"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://hackmd.io/@haindpwn/cgltf-accessor-unpack-floats-sparse-oob"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@haindpwn/cve-2026-112018-112019-cgltf-accessor-unpack-floats-sparse-oob"
     },
     {
       "type": "WEB",

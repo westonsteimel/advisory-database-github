@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7q2-jh2f-g569",
-  "modified": "2026-10-08T15:33:11Z",
+  "modified": "2026-10-19T21:35:54Z",
   "published": "2026-10-08T15:33:10Z",
   "aliases": [
     "CVE-2026-95125"
   ],
   "details": "libming through 0.4.8 contains a heap buffer overflow in r_readc() in src/blocks/fromswf.c. A crafted SWF file with a malformed or truncated RECT header can cause a denial of service.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-122"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-10-08T15:17:57Z"

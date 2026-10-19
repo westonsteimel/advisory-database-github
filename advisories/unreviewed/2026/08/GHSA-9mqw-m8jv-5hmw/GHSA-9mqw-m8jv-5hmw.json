@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mqw-m8jv-5hmw",
-  "modified": "2026-08-19T18:32:04Z",
+  "modified": "2026-10-19T21:35:41Z",
   "published": "2026-08-05T12:31:33Z",
   "aliases": [
     "CVE-2026-64582"
@@ -53,7 +53,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-416"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
