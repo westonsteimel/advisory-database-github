@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw8v-4xhx-cmhp",
-  "modified": "2026-09-25T15:31:46Z",
+  "modified": "2026-10-20T18:31:29Z",
   "published": "2026-09-25T15:31:45Z",
   "aliases": [
     "CVE-2026-100070"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_nat_sip: rewind offset when NAT shrinks the packet\n\nsashiko says:\n If map_addr() changes the packet length, such as when the public NAT IP\n string is shorter or longer than the internal IP, coff will still point to\n the offset relative to the pre-mangled packet.\n If the packet shrinks, coff could overshoot the correct position,\n potentially causing the next ct_sip_parse_header_uri() call to silently\n skip bytes and miss subsequent Contact headers. Could this lead to a\n failure to NAT those subsequent headers and leak internal network details?",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-09-25T14:17:13Z"
